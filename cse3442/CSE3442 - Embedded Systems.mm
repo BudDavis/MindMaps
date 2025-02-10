@@ -71,7 +71,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="23" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="24" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="1 Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_755706060" CREATED="1734577762828" MODIFIED="1734577833728">
 <edge COLOR="#ff0000"/>
 <node TEXT="1. This Semester" ID="ID_41154193" CREATED="1736614185833" MODIFIED="1736614270888">
@@ -700,7 +700,7 @@
 <node TEXT="interrupt" ID="ID_1481604700" CREATED="1739142515549" MODIFIED="1739142670845"/>
 </node>
 <node TEXT="Student will be able to configure and program the TM4C123GXL UART" ID="ID_848071760" CREATED="1739142677097" MODIFIED="1739142865451"/>
-<node TEXT="Students will understand RS-232 as an interface to periphrials or other computing systems" ID="ID_1205381180" CREATED="1739142901512" MODIFIED="1739143021040"/>
+<node TEXT="Students will understand RS-232 as an interface to peripherals or other computing systems" ID="ID_1205381180" CREATED="1739142901512" MODIFIED="1739146390460"/>
 </node>
 <node TEXT="1 Universal Asynchronous Receiver Transmitter" ID="ID_1542205636" CREATED="1739059122786" MODIFIED="1739059155319">
 <node TEXT="Concept" ID="ID_855041212" CREATED="1739059183213" MODIFIED="1739059188667"/>
@@ -742,6 +742,39 @@
 </node>
 <node TEXT="21 SPI" POSITION="bottom_or_right" ID="ID_242888200" CREATED="1734578204209" MODIFIED="1734578210748">
 <edge COLOR="#007c7c"/>
+</node>
+<node TEXT="22 TRANSIENT INFORMATION(to be deleted after class)" FOLDED="true" POSITION="top_or_left" ID="ID_1095121631" CREATED="1739144512297" MODIFIED="1739144915893">
+<edge COLOR="#0000ff"/>
+<node TEXT="Lab 2 is graded" ID="ID_126480649" CREATED="1739144523731" MODIFIED="1739144533197">
+<node TEXT="definition / declaration and the main()" ID="ID_1647044689" CREATED="1739144551702" MODIFIED="1739144560988"/>
+<node TEXT="code similarity" ID="ID_1123640063" CREATED="1739144566784" MODIFIED="1739144580442"/>
+<node TEXT="code craziness" ID="ID_1673040596" CREATED="1739144583322" MODIFIED="1739144587661"/>
+<node TEXT="volatile" ID="ID_1925493556" CREATED="1739144590781" MODIFIED="1739144593472">
+<node TEXT="calculations happen in registers. (usually) results are stored from the register into variables. the store to a variable can be optimised out by the compiler if a register is available for the duration.  &apos;volatile&apos; forces the results of a calculation to be stored in memory.  &apos;result of a calculation&apos; .  primary importance is when memory can be written to by something other than the currently executing code.  examples: an interrupt routine, another thread of execution, a dma transfer, memory mapped I/O reflecting the changed value of an external peripheral. secondary advantage for this class, it makes it far easier to debug when the data is forced to be written into memory so it can be seen by the IDE." ID="ID_145205863" CREATED="1739144598089" MODIFIED="1739144883476"/>
+</node>
+</node>
+<node TEXT="Lab 3 is this week" ID="ID_1668777585" CREATED="1739144536351" MODIFIED="1739144547842">
+<node TEXT="Policy" FOLDED="true" ID="ID_970176045" CREATED="1739144943347" MODIFIED="1739146126835">
+<node TEXT="Late:  10% per day" ID="ID_972869490" CREATED="1739144960790" MODIFIED="1739144968668">
+<node TEXT="Figured out by Canvas" ID="ID_1854944870" CREATED="1739146148435" MODIFIED="1739146153785"/>
+<node TEXT="University approved absences I will move your due date in canvas" ID="ID_1739592869" CREATED="1739146157200" MODIFIED="1739146169870"/>
+</node>
+<node TEXT="If you don&apos;t finish.." ID="ID_1964452564" CREATED="1739144970908" MODIFIED="1739144977019">
+<node TEXT="Your grade will be partial based upon what you do. Finish half the lab, your grade is capped at 50%" ID="ID_1211083960" CREATED="1739144980498" MODIFIED="1739146049756"/>
+<node TEXT="Friday morning or afternoon can be used for extra time" ID="ID_1175588559" CREATED="1739145005878" MODIFIED="1739145020539"/>
+<node TEXT="saturday / or sunday by arrangement with the instructor." ID="ID_1407391601" CREATED="1739145024491" MODIFIED="1739145046613"/>
+</node>
+<node TEXT="Due" ID="ID_1376577978" CREATED="1739145052802" MODIFIED="1739145059220">
+<node TEXT="72 hours after your section. this changed due to perceived &apos;fairness&apos; between sections.  Each section has a different due date in canvas." ID="ID_1977069188" CREATED="1739145062056" MODIFIED="1739146206382"/>
+<node TEXT="everyone has the ability to utilize the friday time without penalty." ID="ID_1658130440" CREATED="1739145077508" MODIFIED="1739145091296"/>
+</node>
+<node TEXT="Turn in files with no work? 50% deduction or more" ID="ID_51160079" CREATED="1739146058541" MODIFIED="1739146093970"/>
+<node TEXT="Turn in the wrong file?  What is turned into canvas is what is graded. No exceptions." ID="ID_270323932" CREATED="1739146097890" MODIFIED="1739146116781"/>
+<node TEXT="Strive for a professional work product.  C code should be clean, concise, and uniformly indented (the IDE will do this for you)" ID="ID_493707429" CREATED="1739146216797" MODIFIED="1739146248055"/>
+<node TEXT="All code will be fed through MOSS." ID="ID_136407571" CREATED="1739146255925" MODIFIED="1739146265186"/>
+</node>
+</node>
+<node TEXT="Does everyone have a TM4C123GXL ?" ID="ID_964621642" CREATED="1739144926668" MODIFIED="1739144938042"/>
 </node>
 </node>
 </map>
