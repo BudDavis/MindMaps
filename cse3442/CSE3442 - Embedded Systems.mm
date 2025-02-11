@@ -72,7 +72,7 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="24" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="1 Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_755706060" CREATED="1734577762828" MODIFIED="1734577833728">
+<node TEXT="01 Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_755706060" CREATED="1734577762828" MODIFIED="1739288538563">
 <edge COLOR="#ff0000"/>
 <node TEXT="1. This Semester" ID="ID_41154193" CREATED="1736614185833" MODIFIED="1736614270888">
 <node TEXT="Who Am I?" FOLDED="true" ID="ID_1467719532" CREATED="1736614291032" MODIFIED="1736614725957">
@@ -243,7 +243,7 @@
 </node>
 </node>
 </node>
-<node TEXT="2 C programming" FOLDED="true" POSITION="top_or_left" ID="ID_1659689874" CREATED="1734577836296" MODIFIED="1734577845130">
+<node TEXT="02 C programming" FOLDED="true" POSITION="top_or_left" ID="ID_1659689874" CREATED="1734577836296" MODIFIED="1739288569801">
 <edge COLOR="#0000ff"/>
 <node TEXT="1. The C Programming Language" ID="ID_76878515" CREATED="1736908346813" MODIFIED="1736908756735">
 <node TEXT="variables" ID="ID_449248529" CREATED="1736908371939" MODIFIED="1736908813959">
@@ -375,7 +375,7 @@
 <node TEXT="  1 #include &lt;stdio.h&gt;&#xa;  2 #include &lt;stdlib.h&gt;&#xa;  3 int A;&#xa;  4 void func()&#xa;  5 {&#xa;  6     int i;&#xa;  7     printf(&quot;the address of i is %p\n&quot;,&amp;i);&#xa;  8     printf(&quot;the address of A is %p\n&quot;,&amp;A);&#xa;  9 }&#xa; 10 int main(int argc, char *argv[])&#xa; 11 {&#xa; 12     char* a = malloc(100);&#xa; 13     char b[100];&#xa; 14     printf(&quot;the address of main is %p and func is %p\n&quot;,main,func);&#xa; 15     func();&#xa; 16     printf(&quot;the address of a is %p\n&quot;,a);&#xa; 17     printf(&quot;the address of b is %p\n&quot;,b);&#xa; 18     return 0;&#xa; 19 }" ID="ID_1696767714" CREATED="1737401206030" MODIFIED="1737401220692"/>
 </node>
 </node>
-<node TEXT="3 Microcontroller Architectures" FOLDED="true" POSITION="bottom_or_right" ID="ID_76801565" CREATED="1734577847156" MODIFIED="1737396745331">
+<node TEXT="03 Microcontroller Architectures" FOLDED="true" POSITION="bottom_or_right" ID="ID_76801565" CREATED="1734577847156" MODIFIED="1739288611439">
 <edge COLOR="#00ff00"/>
 <node TEXT="Definition of a micro-controller" ID="ID_534010507" CREATED="1737393939816" MODIFIED="1737393948121">
 <node TEXT="Chat GPT answer:  Microcontroller architecture is the design of a microcontroller&apos;s components and how they interact. Microcontrollers are small integrated circuits that control specific functions in embedded systems.&#xa;Components&#xa;&#xa;    Processor: Executes instructions, performs arithmetic, and logical operations.&#xa;    Memory: Stores program code and constants, and temporary data.&#xa;    Input/output (I/O) peripherals: Interface with external devices, such as analog-to-digital converters (ADCs) and digital input/output pins.&#xa;    System bus: Transfers data and communicates between the processor, memory, and peripherals.&#xa;    Hardware modules: Specialized modules for specific functions, such as timers and communication interfaces.&#xa;    Power management: Optimizes energy consumption to extend battery life.&#xa;&#xa;Architectures&#xa;&#xa;    Harvard architecture&#xa;    Separates data and instruction buses, allowing for simultaneous transfers. This architecture is also known as RISC (Reduced Instruction Set Computer) architecture.&#xa;    Von Neumann architecture&#xa;    Uses a single bus for both data and instructions. This architecture is also known as CISC (Complex Instruction Set Computer) architecture." ID="ID_441176430" CREATED="1737396680219" MODIFIED="1737396790515"/>
@@ -416,7 +416,7 @@
 </node>
 </node>
 </node>
-<node TEXT="4 TM4C123GXL" FOLDED="true" POSITION="top_or_left" ID="ID_615225643" CREATED="1734577882719" MODIFIED="1734577906137">
+<node TEXT="04 TM4C123GXL" FOLDED="true" POSITION="top_or_left" ID="ID_615225643" CREATED="1734577882719" MODIFIED="1739288576591">
 <edge COLOR="#ff00ff"/>
 <node TEXT="1. Reference Documents used in this course" FOLDED="true" ID="ID_710866250" CREATED="1737644317862" MODIFIED="1737644655571">
 <node TEXT="tm4c123gh6pm.pdf" ID="ID_1069063130" CREATED="1737644355607" MODIFIED="1737644655568">
@@ -461,7 +461,7 @@
 <node TEXT="0xe0000000 - 0xefffffff Private Peripheral Bus APB Interface" ID="ID_1063174669" CREATED="1737924972268" MODIFIED="1737925452719"/>
 </node>
 </node>
-<node TEXT="5 Basic IO" FOLDED="true" POSITION="bottom_or_right" ID="ID_1233130093" CREATED="1734577908913" MODIFIED="1738261975684">
+<node TEXT="05 Basic IO" FOLDED="true" POSITION="bottom_or_right" ID="ID_1233130093" CREATED="1734577908913" MODIFIED="1739288617770">
 <edge COLOR="#00ffff"/>
 <node TEXT="electronics" ID="ID_967019192" CREATED="1737673411600" MODIFIED="1737673418034">
 <node TEXT="1. Fan In / Fan Out (picture shows one output driving many inputs)" FOLDED="true" ID="ID_732594442" CREATED="1737913719808" MODIFIED="1737915208933">
@@ -670,7 +670,7 @@
 </node>
 </node>
 </node>
-<node TEXT="6 GPIO Processing" FOLDED="true" POSITION="top_or_left" ID="ID_1278766724" CREATED="1734577918331" MODIFIED="1734577928027">
+<node TEXT="06 GPIO Processing" FOLDED="true" POSITION="top_or_left" ID="ID_1278766724" CREATED="1734577918331" MODIFIED="1739288582540">
 <edge COLOR="#7c0000"/>
 <node TEXT="" ID="ID_9822298" CREATED="1738273383503" MODIFIED="1738273397763">
 <hook URI="figure-1-2-io-port-pins-for-the-tm4c123gh6pm.png" SIZE="1.0" NAME="ExternalObject"/>
@@ -681,13 +681,7 @@
 <node TEXT="GPIO Notes" ID="ID_960359148" CREATED="1739142102047" MODIFIED="1739142216624" LINK="gpio_lecture_notes.pdf"/>
 </node>
 </node>
-<node TEXT="7 Assembly Language Calling Conventions" POSITION="bottom_or_right" ID="ID_1314420317" CREATED="1734577934252" MODIFIED="1734577950137">
-<edge COLOR="#00007c"/>
-</node>
-<node TEXT="8 Pipeline Cycle Exact Functions" POSITION="top_or_left" ID="ID_1503416054" CREATED="1734577952111" MODIFIED="1734577964110">
-<edge COLOR="#007c00"/>
-</node>
-<node TEXT="9 UART Theory and Practice" FOLDED="true" POSITION="bottom_or_right" ID="ID_70597723" CREATED="1734577967096" MODIFIED="1734577980536">
+<node TEXT="09 UART Theory and Practice" FOLDED="true" POSITION="bottom_or_right" ID="ID_70597723" CREATED="1734577967096" MODIFIED="1739288623409">
 <edge COLOR="#7c007c"/>
 <node TEXT="0 Learning Objectives" ID="ID_960720065" CREATED="1739142270156" MODIFIED="1739142481332">
 <node TEXT="Student will understand the operation of the UART" ID="ID_1224258243" CREATED="1739142446537" MODIFIED="1739142600805">
@@ -701,17 +695,61 @@
 </node>
 <node TEXT="Student will be able to configure and program the TM4C123GXL UART" ID="ID_848071760" CREATED="1739142677097" MODIFIED="1739142865451"/>
 <node TEXT="Students will understand RS-232 as an interface to peripherals or other computing systems" ID="ID_1205381180" CREATED="1739142901512" MODIFIED="1739146390460"/>
+<node TEXT="Why this is so important in embedded land !!" ID="ID_893863764" CREATED="1739291844035" MODIFIED="1739291858058"/>
 </node>
-<node TEXT="1 Universal Asynchronous Receiver Transmitter" ID="ID_1542205636" CREATED="1739059122786" MODIFIED="1739059155319">
-<node TEXT="Concept" ID="ID_855041212" CREATED="1739059183213" MODIFIED="1739059188667"/>
-<node TEXT="Diagram" ID="ID_1692249660" CREATED="1739059191431" MODIFIED="1739059198873"/>
+<node TEXT="1 Universal Asynchronous Receiver Transmitter" ID="ID_1542205636" CREATED="1739059122786" MODIFIED="1739291814788">
+<node TEXT="Concept" ID="ID_855041212" CREATED="1739059183213" MODIFIED="1739291096580">
+<node TEXT="Baud Rate" ID="ID_379534978" CREATED="1739288397671" MODIFIED="1739288402025">
+<node TEXT="bits per second" ID="ID_224374786" CREATED="1739290522682" MODIFIED="1739290528892"/>
 </node>
-<node TEXT="2 RS232 Application" ID="ID_1019374608" CREATED="1739059149122" MODIFIED="1739059213554"/>
+<node TEXT="Data Transfer" ID="ID_1404811868" CREATED="1739288410963" MODIFIED="1739291096580">
+<node TEXT="" ID="ID_69369320" CREATED="1739290413252" MODIFIED="1739290638528">
+<hook URI="data_frame.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+<node TEXT="Parity Bit at end" ID="ID_1133184351" CREATED="1739290684798" MODIFIED="1739290695557"/>
+<node TEXT="man ascii" ID="ID_1441526722" CREATED="1739290698887" MODIFIED="1739290843546"/>
+<node TEXT="handshake" ID="ID_727376599" CREATED="1739291354642" MODIFIED="1739291365357">
+<node TEXT="RTS ready to Send CTS Clear To Send" ID="ID_57608841" CREATED="1739291365364" MODIFIED="1739291600968"/>
+<node TEXT="DSR  / DTR" ID="ID_743038591" CREATED="1739291604028" MODIFIED="1739291707089"/>
+<node TEXT="Not used for short runs and controlled environments" ID="ID_585081754" CREATED="1739291710917" MODIFIED="1739291738534"/>
+</node>
+</node>
+<node TEXT="Asynchronous" ID="ID_1619598820" CREATED="1739291111555" MODIFIED="1739291118426">
+<node TEXT="data is clocked at fixed rate" ID="ID_1307257244" CREATED="1739291119761" MODIFIED="1739291138537"/>
+</node>
+</node>
+<node TEXT="Diagram" ID="ID_1692249660" CREATED="1739059191431" MODIFIED="1739059198873">
+<node TEXT="4.10.1 in book (sending)" ID="ID_1505906778" CREATED="1739290887741" MODIFIED="1739290895608"/>
+<node TEXT="4.10.2 in book (receiving)" ID="ID_270499886" CREATED="1739290897858" MODIFIED="1739290906305"/>
+</node>
+</node>
+<node TEXT="2 RS232 Application" ID="ID_1019374608" CREATED="1739059149122" MODIFIED="1739059213554">
+<node TEXT="simplex" ID="ID_1383554487" CREATED="1739290916313" MODIFIED="1739290920016">
+<node TEXT="one direction" ID="ID_156600900" CREATED="1739291056913" MODIFIED="1739291061093"/>
+</node>
+<node TEXT="duplex" ID="ID_1714565001" CREATED="1739290923775" MODIFIED="1739290926706">
+<node TEXT="both directions, at the same time" ID="ID_189590555" CREATED="1739291063234" MODIFIED="1739291070715">
+<node TEXT="Needs 2 wires , RxD,TxD" ID="ID_1854999736" CREATED="1739291306067" MODIFIED="1739291336695"/>
+</node>
+</node>
+<node TEXT="multidrop" ID="ID_262069548" CREATED="1739290930104" MODIFIED="1739290935226">
+<node TEXT="one to many" ID="ID_1912867156" CREATED="1739291071359" MODIFIED="1739291075200">
+<node TEXT="" ID="ID_1147362625" CREATED="1739291100615" MODIFIED="1739291100615"/>
+</node>
+</node>
+<node TEXT="RS-232 is more than the data" ID="ID_1591421804" CREATED="1739290944534" MODIFIED="1739291035873">
+<node TEXT="electrical" ID="ID_1286876337" CREATED="1739291038095" MODIFIED="1739291042840"/>
+<node TEXT="signal encoding" ID="ID_811357948" CREATED="1739291045021" MODIFIED="1739291050177"/>
+</node>
+</node>
 <node TEXT="3 Software Interfacing" ID="ID_1863742407" CREATED="1739059220052" MODIFIED="1739060113854">
 <node TEXT="Polling" ID="ID_1036746586" CREATED="1739143056283" MODIFIED="1739143062570"/>
-<node TEXT="Interrupt" ID="ID_1470359119" CREATED="1739143064521" MODIFIED="1739143069075"/>
+<node TEXT="Interrupt" ID="ID_1470359119" CREATED="1739143064521" MODIFIED="1739143069075">
+<node TEXT="(optional) buffering" ID="ID_706095785" CREATED="1739288441818" MODIFIED="1739288455234"/>
+</node>
 </node>
 <node TEXT="4 TM4C124GXL UART" ID="ID_698939284" CREATED="1739060119564" MODIFIED="1739143080470"/>
+<node TEXT="" ID="ID_1613217827" CREATED="1739291831920" MODIFIED="1739291831920"/>
 </node>
 <node TEXT="11 Circuit Construction Techniques" POSITION="bottom_or_right" ID="ID_1329061516" CREATED="1734578001588" MODIFIED="1734578018146">
 <edge COLOR="#7c7c00"/>
@@ -743,18 +781,27 @@
 <node TEXT="21 SPI" POSITION="bottom_or_right" ID="ID_242888200" CREATED="1734578204209" MODIFIED="1734578210748">
 <edge COLOR="#007c7c"/>
 </node>
-<node TEXT="22 TRANSIENT INFORMATION(to be deleted after class)" FOLDED="true" POSITION="top_or_left" ID="ID_1095121631" CREATED="1739144512297" MODIFIED="1739144915893">
+<node TEXT="22 Assembly Language Calling Conventions" POSITION="bottom_or_right" ID="ID_1314420317" CREATED="1734577934252" MODIFIED="1739288494509">
+<edge COLOR="#00007c"/>
+</node>
+<node TEXT="23 Pipeline Cycle Exact Functions" POSITION="top_or_left" ID="ID_1503416054" CREATED="1734577952111" MODIFIED="1739291778110">
+<edge COLOR="#007c00"/>
+</node>
+<node TEXT="99 TRANSIENT INFORMATION(to be deleted after class)" POSITION="top_or_left" ID="ID_1095121631" CREATED="1739144512297" MODIFIED="1739288559617">
 <edge COLOR="#0000ff"/>
+<node TEXT="11 Feb" FOLDED="true" ID="ID_1756936369" CREATED="1739291948032" MODIFIED="1739291975460">
 <node TEXT="Lab 2 is graded" ID="ID_126480649" CREATED="1739144523731" MODIFIED="1739144533197">
 <node TEXT="definition / declaration and the main()" ID="ID_1647044689" CREATED="1739144551702" MODIFIED="1739144560988"/>
-<node TEXT="code similarity" ID="ID_1123640063" CREATED="1739144566784" MODIFIED="1739144580442"/>
+<node TEXT="code similarity" ID="ID_1123640063" CREATED="1739144566784" MODIFIED="1739144580442">
+<node TEXT="Everyone has turned in the lab, but does everyone understand the material.  Can individuals work without excessive help?" ID="ID_462490725" CREATED="1739291894611" MODIFIED="1739291923982"/>
+</node>
 <node TEXT="code craziness" ID="ID_1673040596" CREATED="1739144583322" MODIFIED="1739144587661"/>
 <node TEXT="volatile" ID="ID_1925493556" CREATED="1739144590781" MODIFIED="1739144593472">
 <node TEXT="calculations happen in registers. (usually) results are stored from the register into variables. the store to a variable can be optimised out by the compiler if a register is available for the duration.  &apos;volatile&apos; forces the results of a calculation to be stored in memory.  &apos;result of a calculation&apos; .  primary importance is when memory can be written to by something other than the currently executing code.  examples: an interrupt routine, another thread of execution, a dma transfer, memory mapped I/O reflecting the changed value of an external peripheral. secondary advantage for this class, it makes it far easier to debug when the data is forced to be written into memory so it can be seen by the IDE." ID="ID_145205863" CREATED="1739144598089" MODIFIED="1739144883476"/>
 </node>
 </node>
 <node TEXT="Lab 3 is this week" ID="ID_1668777585" CREATED="1739144536351" MODIFIED="1739144547842">
-<node TEXT="Policy" FOLDED="true" ID="ID_970176045" CREATED="1739144943347" MODIFIED="1739146126835">
+<node TEXT="Policy" ID="ID_970176045" CREATED="1739144943347" MODIFIED="1739146126835">
 <node TEXT="Late:  10% per day" ID="ID_972869490" CREATED="1739144960790" MODIFIED="1739144968668">
 <node TEXT="Figured out by Canvas" ID="ID_1854944870" CREATED="1739146148435" MODIFIED="1739146153785"/>
 <node TEXT="University approved absences I will move your due date in canvas" ID="ID_1739592869" CREATED="1739146157200" MODIFIED="1739146169870"/>
@@ -775,6 +822,13 @@
 </node>
 </node>
 <node TEXT="Does everyone have a TM4C123GXL ?" ID="ID_964621642" CREATED="1739144926668" MODIFIED="1739144938042"/>
+<node TEXT="Midterm" ID="ID_1267691965" CREATED="1739292027472" MODIFIED="1739292189587">
+<node TEXT="Students must provide paper copies of portions of the data sheet for the exam.  (not craziness) It is your responsibility to find the parts that you will need, and to copy them." ID="ID_1412297594" CREATED="1739292033244" MODIFIED="1739292189585" HGAP_QUANTITY="16.25 pt"/>
+<node TEXT="March 6th is the currently scheduled time" ID="ID_51600457" CREATED="1739292106060" MODIFIED="1739292131107"/>
+<node TEXT="A sample test will be posted by Tuesday Feb 25th if not earlier." ID="ID_1930799583" CREATED="1739292141629" MODIFIED="1739292184284"/>
+</node>
+</node>
+<node TEXT="18 Feb" ID="ID_1609883007" CREATED="1739292216343" MODIFIED="1739292220176"/>
 </node>
 </node>
 </map>
