@@ -574,7 +574,7 @@
 </node>
 </node>
 <node TEXT="06.0 Design and Implementation" POSITION="top_or_left" ID="ID_7229223" CREATED="1703960109127" MODIFIED="1705795585940"/>
-<node TEXT="07.0 Software Testing" FOLDED="true" POSITION="bottom_or_right" ID="ID_1745259993" CREATED="1703960127362" MODIFIED="1705795550799">
+<node TEXT="07.0 Software Testing" POSITION="bottom_or_right" ID="ID_1745259993" CREATED="1703960127362" MODIFIED="1705795550799">
 <node TEXT="Definitions" ID="ID_1647273780" CREATED="1720572805829" MODIFIED="1720572816438">
 <node TEXT="Testing" ID="ID_1414981698" CREATED="1721062076223" MODIFIED="1721062152781">
 <node TEXT="Software testing consists of the dynamic verification that a program provides expected behaviors on a finite set of test cases, suitably selected from the usually infinite execution domain. In the above definition, italicized words correspond to key issues in describing the Software Testing knowledge area (KA):" ID="ID_1304314201" CREATED="1721062154328" MODIFIED="1721062157768">
