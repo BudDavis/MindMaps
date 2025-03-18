@@ -574,7 +574,7 @@
 </node>
 </node>
 <node TEXT="06.0 Design and Implementation" POSITION="top_or_left" ID="ID_7229223" CREATED="1703960109127" MODIFIED="1705795585940"/>
-<node TEXT="07.0 Software Testing" POSITION="bottom_or_right" ID="ID_1745259993" CREATED="1703960127362" MODIFIED="1705795550799">
+<node TEXT="07.0 Software Testing" FOLDED="true" POSITION="bottom_or_right" ID="ID_1745259993" CREATED="1703960127362" MODIFIED="1705795550799">
 <node TEXT="Definitions" ID="ID_1647273780" CREATED="1720572805829" MODIFIED="1720572816438">
 <node TEXT="Testing" ID="ID_1414981698" CREATED="1721062076223" MODIFIED="1721062152781">
 <node TEXT="Software testing consists of the dynamic verification that a program provides expected behaviors on a finite set of test cases, suitably selected from the usually infinite execution domain. In the above definition, italicized words correspond to key issues in describing the Software Testing knowledge area (KA):" ID="ID_1304314201" CREATED="1721062154328" MODIFIED="1721062157768">
@@ -667,7 +667,7 @@
 <node TEXT="Write the Test before you write the code" ID="ID_1336835395" CREATED="1721063338931" MODIFIED="1721063350254"/>
 </node>
 </node>
-<node TEXT="08.0 Software Evolution" FOLDED="true" POSITION="top_or_left" ID="ID_1115346714" CREATED="1703960140577" MODIFIED="1705795577335">
+<node TEXT="08.0 Software Evolution" POSITION="top_or_left" ID="ID_1115346714" CREATED="1703960140577" MODIFIED="1705795577335">
 <node TEXT="Evolution Processes" ID="ID_850784950" CREATED="1721159183985" MODIFIED="1721159564119">
 <node TEXT="Impact Analysis" ID="ID_888826372" CREATED="1721659905053" MODIFIED="1721659942058"/>
 <node TEXT="Must have system understanding" ID="ID_237019331" CREATED="1721659975332" MODIFIED="1721659982755">
@@ -769,7 +769,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Introduction" FOLDED="true" ID="ID_55644239" CREATED="1721659300913" MODIFIED="1721659306653">
+<node TEXT="Introduction" ID="ID_55644239" CREATED="1721659300913" MODIFIED="1721659306653">
 <node TEXT="Maintenance / Evolution is changing software after it has been delivered." ID="ID_1302931771" CREATED="1721659310195" MODIFIED="1721659329021"/>
 <node TEXT="Why does software change?" ID="ID_123019938" CREATED="1721659332757" MODIFIED="1721659347110">
 <node TEXT="New Requirements" ID="ID_605551920" CREATED="1721659350164" MODIFIED="1721659354925"/>
