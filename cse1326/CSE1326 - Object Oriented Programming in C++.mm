@@ -1,9 +1,9 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Object Oriented Programming in C++" FOLDED="false" ID="ID_191153586" CREATED="1610381622013" MODIFIED="1747884259373" ICON_SIZE="36 pt" LINK="menuitem:_ExternalImageAddAction" STYLE="oval">
+<node TEXT="Object Oriented Programming in C++" FOLDED="false" ID="ID_191153586" CREATED="1610381622013" MODIFIED="1747960514807" ICON_SIZE="36 pt" LINK="menuitem:_ExternalImageAddAction" STYLE="oval">
 <font SIZE="22"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" associatedTemplateLocation="template:/BuzanMap.mm" show_tags="UNDER_NODES"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" associatedTemplateLocation="template:/BuzanMap.mm" fit_to_viewport="false" show_icons="BESIDE_NODES" show_icon_for_attributes="true" show_note_icons="true" showTagCategories="false" show_notes_in_map="false"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -112,24 +112,35 @@
       3. Select central node,
     </p>
     <p>
-      &#160;&#160;&#160;&#160;click on icon to add picture
+      &#xa0;&#xa0;&#xa0;&#xa0;click on icon to add picture
     </p>
     <p>
       4. Delete menu links Add image..
     </p>
     <p>
-      &#160;&#160;&#160;&#160;with CTRL+K and delete field with link
+      &#xa0;&#xa0;&#xa0;&#xa0;with CTRL+K and delete field with link
     </p>
     <p>
       5. Delete node details with right click on mouse
     </p>
     <p>
-      &#160;&#160;&#160;&#160;on central node - Remove node details
+      &#xa0;&#xa0;&#xa0;&#xa0;on central node - Remove node details
     </p>
   </body>
 </html></richcontent>
-<node TEXT="" POSITION="bottom_or_right" ID="ID_273436263" CREATED="1610381622018" MODIFIED="1747927924008" HGAP_QUANTITY="91.2683 pt" VSHIFT_QUANTITY="-30.73171 pt">
+<node TEXT="" POSITION="bottom_or_right" ID="ID_273436263" CREATED="1610381622018" MODIFIED="1747960511213" HGAP_QUANTITY="91.2683 pt" VSHIFT_QUANTITY="-30.73171 pt">
 <edge COLOR="#007c7c"/>
+<richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      xxxxx
+    </p>
+  </body>
+</html></richcontent>
 <node TEXT="IDEA 1.1" ID="ID_588194298" CREATED="1610381622019" MODIFIED="1610381622019" HGAP_QUANTITY="15.7561 pt" VSHIFT_QUANTITY="-12.29268 pt"/>
 <node TEXT="IDEA 1.2" ID="ID_1104103844" CREATED="1610381622019" MODIFIED="1610381622019"/>
 </node>
