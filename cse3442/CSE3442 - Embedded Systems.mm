@@ -170,24 +170,162 @@
 <node TEXT="Next Semester!" POSITION="bottom_or_right" ID="ID_948809873" CREATED="1748038603153" MODIFIED="1748288492488" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_CENTERED">
 <edge COLOR="#7c007c"/>
 <node TEXT="01 Week 1 (8/18-8/20)" ID="ID_826684588" CREATED="1748038641602" MODIFIED="1748288674791">
-<node TEXT="1 Objectives" ID="ID_1523678332" CREATED="1748289028482" MODIFIED="1748555960645">
-<node TEXT="" ID="ID_1947465232" CREATED="1748289247197" MODIFIED="1748289247197"/>
+<node TEXT="1 Objectives" FOLDED="true" ID="ID_1523678332" CREATED="1748289028482" MODIFIED="1748555960645">
+<node TEXT="1 Understand the basics of C programming; pointers, addresses, scope, linkage." ID="ID_1764064600" CREATED="1748557068163" MODIFIED="1748557102031"/>
+<node TEXT="2 Create a new program using CCS, compile and execute it on the tm4c123gxl." ID="ID_1653186865" CREATED="1748557105408" MODIFIED="1748557181585"/>
+<node TEXT="3 Write a program for the tm4c123gxl that uses a software delay function." ID="ID_114668159" CREATED="1748557148964" MODIFIED="1748557177525"/>
+<node TEXT="4 Use the CCS debugger to execute a program.  Execution controls and examine memory." ID="ID_1191983785" CREATED="1748557261730" MODIFIED="1748557317136"/>
+<node TEXT="5 Identify top level functional blocks of the tm4c123pm6." ID="ID_397518126" CREATED="1748557199954" MODIFIED="1748557259879"/>
 </node>
 <node TEXT="2 Readings" ID="ID_1748369068" CREATED="1748556207026" MODIFIED="1748556213200"/>
 <node TEXT="3 Lab" ID="ID_1442651440" CREATED="1748289040279" MODIFIED="1748556218750"/>
 <node TEXT="4 Contents" ID="ID_459893785" CREATED="1748289048135" MODIFIED="1748556221817">
-<node TEXT="1 C Programming" ID="ID_1940303947" CREATED="1748040440677" MODIFIED="1748555959624"/>
+<node TEXT="1 C programming" FOLDED="true" ID="ID_359886156" CREATED="1734577836296" MODIFIED="1748556810739">
+<node TEXT="1. The C Programming Language" ID="ID_947284179" CREATED="1736908346813" MODIFIED="1736908756735">
+<node TEXT="variables" ID="ID_281465109" CREATED="1736908371939" MODIFIED="1736908813959">
+<node TEXT="Stack" ID="ID_1839459741" CREATED="1736908388365" MODIFIED="1736908391810"/>
+<node TEXT="Heap" ID="ID_591867061" CREATED="1736908394708" MODIFIED="1736908397506"/>
+<node TEXT="Initialization" ID="ID_1362804618" CREATED="1736908402113" MODIFIED="1736908411245"/>
+</node>
+<node TEXT="function calls" ID="ID_813279355" CREATED="1736908419624" MODIFIED="1736908430822">
+<node TEXT="Call by value" ID="ID_1578519738" CREATED="1736908433601" MODIFIED="1736908452008"/>
+<node TEXT="Stack" ID="ID_626084252" CREATED="1736909561047" MODIFIED="1736909565784">
+<node TEXT="Grows Down (lower address)" ID="ID_270600370" CREATED="1736909567673" MODIFIED="1736909583793"/>
+</node>
+<node TEXT="Code has to be stored somewhere" ID="ID_1461880921" CREATED="1736958400542" MODIFIED="1736958412340"/>
+</node>
+<node TEXT="visibility" ID="ID_1399218191" CREATED="1736908803455" MODIFIED="1736908809005">
+<node TEXT="static keyword" ID="ID_1085751401" CREATED="1736908816382" MODIFIED="1736908821550"/>
+<node TEXT="block scope" ID="ID_908764775" CREATED="1736908826655" MODIFIED="1736908829999"/>
+<node TEXT="extern keyword" ID="ID_568218737" CREATED="1736909235896" MODIFIED="1736909242170"/>
+<node TEXT="volatile" ID="ID_103565456" CREATED="1736909244934" MODIFIED="1736909250563"/>
+<node TEXT="defaults" ID="ID_1004977047" CREATED="1736958688499" MODIFIED="1736958695406"/>
+</node>
+<node TEXT="C Pre Processor" ID="ID_1508794688" CREATED="1736908954162" MODIFIED="1736908964229">
+<node TEXT="textual substitution" ID="ID_729647919" CREATED="1736909596227" MODIFIED="1736909602307"/>
+<node TEXT="#pragma once" ID="ID_681826944" CREATED="1736909609527" MODIFIED="1736909615538"/>
+</node>
+<node TEXT="C library" ID="ID_338603704" CREATED="1736908980654" MODIFIED="1736908987090">
+<node TEXT="main()" ID="ID_1239725089" CREATED="1736909630192" MODIFIED="1736909634823"/>
+<node TEXT="I/O" ID="ID_1813933446" CREATED="1736909641095" MODIFIED="1736909643867"/>
+<node TEXT="Strings" ID="ID_1823358431" CREATED="1736909646036" MODIFIED="1736909650588"/>
+<node TEXT="Memory Management" ID="ID_1346887567" CREATED="1736909659558" MODIFIED="1736909664732"/>
+<node TEXT="kernel interface" ID="ID_1125563325" CREATED="1736959120733" MODIFIED="1736959126756"/>
+</node>
+</node>
+<node TEXT="2. Build Process" ID="ID_1028166104" CREATED="1736908862757" MODIFIED="1736909040599">
+<node TEXT="1. Source code" ID="ID_1554836337" CREATED="1736908932287" MODIFIED="1736959037347">
+<node TEXT=".c" ID="ID_102866779" CREATED="1736908937063" MODIFIED="1736959041699">
+<node TEXT="Definitions" ID="ID_1553097643" CREATED="1736959043278" MODIFIED="1736959050290"/>
+<node TEXT="Supports Seperate compilation" ID="ID_450982927" CREATED="1736959092813" MODIFIED="1736959102061"/>
+</node>
+<node TEXT=".h" ID="ID_699084902" CREATED="1736908941651" MODIFIED="1736959037347">
+<node TEXT="Declarations" ID="ID_999396915" CREATED="1736959054275" MODIFIED="1736959058299"/>
+<node TEXT="Multiple Inclusion Issues" FOLDED="true" ID="ID_492178212" CREATED="1736959065171" MODIFIED="1736959073728">
+<node TEXT="" ID="ID_1442362569" CREATED="1736959082132" MODIFIED="1736959082132"/>
+</node>
+</node>
+<node TEXT="Common Coding Conventions" ID="ID_1798570667" CREATED="1736909164087" MODIFIED="1736909170444">
+<node TEXT="UPPER CASE MACROS" ID="ID_290562700" CREATED="1736909172773" MODIFIED="1736909180728"/>
+<node TEXT="assert()" ID="ID_688880471" CREATED="1736909185291" MODIFIED="1736909189421">
+<node TEXT="what do they cost?" ID="ID_1516493232" CREATED="1736958473547" MODIFIED="1736958486275"/>
+</node>
+<node TEXT="forward declarations" ID="ID_419729356" CREATED="1736909200309" MODIFIED="1736909207402"/>
+<node TEXT="comments" ID="ID_740617944" CREATED="1736909286564" MODIFIED="1736909290120"/>
+</node>
+</node>
+<node TEXT="2. Compilation" ID="ID_1135454569" CREATED="1736909012385" MODIFIED="1736910103741">
+<node TEXT="optimisations" ID="ID_1183613159" CREATED="1736909106285" MODIFIED="1736909113061"/>
+<node TEXT="cross compiler" ID="ID_958959748" CREATED="1736958436691" MODIFIED="1736958441156">
+<node TEXT="system headers" ID="ID_839015948" CREATED="1736958443770" MODIFIED="1736958447829"/>
+</node>
+</node>
+<node TEXT="3. Linking" ID="ID_1523653024" CREATED="1736909043468" MODIFIED="1736910111829">
+<node TEXT="Program Space" ID="ID_1955859171" CREATED="1736910049100" MODIFIED="1736910079521"/>
+<node TEXT="Code Space" ID="ID_42834355" CREATED="1736910062767" MODIFIED="1736910068661"/>
+<node TEXT="Optimisations" ID="ID_103316667" CREATED="1736958585489" MODIFIED="1736958591631">
+<node TEXT="LTO" ID="ID_1518818250" CREATED="1736958594403" MODIFIED="1736958597777"/>
+<node TEXT="String Coalescing" ID="ID_1772014874" CREATED="1736958600750" MODIFIED="1736958611268"/>
+<node TEXT="Global Symbols" ID="ID_1552189840" CREATED="1736958618963" MODIFIED="1736958623561"/>
+<node TEXT="Dead Code Elimination" ID="ID_1521829007" CREATED="1736959140345" MODIFIED="1736959146390"/>
+</node>
+</node>
+<node TEXT="4. Run Time Linking" ID="ID_1429248232" CREATED="1736909055684" MODIFIED="1736910117565"/>
+<node TEXT="5. Object Libraries" ID="ID_795632157" CREATED="1736909363361" MODIFIED="1736910126497">
+<node TEXT="Static" ID="ID_59147457" CREATED="1736909379509" MODIFIED="1736909404697"/>
+<node TEXT="Dynamic" ID="ID_1575223293" CREATED="1736909407414" MODIFIED="1736909410406"/>
+</node>
+</node>
+<node TEXT="3. Dig deeper in a C program" FOLDED="true" ID="ID_1353787287" CREATED="1736907808542" MODIFIED="1736909089491">
+<node TEXT="volatile int i;&#xa;volatile int stop=0;&#xa;main()&#xa;{  &#xa;    while(!stop)&#xa;    {&#xa;       i++;&#xa;    }&#xa;    return 0;&#xa;}&#xa;// what can you assume about the system this code is used in?&#xa;// is it considered good style? will it work? (meaning compile and execute)" ID="ID_947290273" CREATED="1736960309084" MODIFIED="1736960313865"/>
+<node TEXT="// one file&#xa;static int i;&#xa;int j;&#xa;void increment(int *i)&#xa;{&#xa;    (*i)++;&#xa;    j++;&#xa;}&#xa;// another file&#xa;#include &lt;stdio.h&gt;&#xa;#include &lt;stdlib.h&gt;&#xa;static int i;&#xa;int j;&#xa;int main(int argc,char* argv[])&#xa;{&#xa;    int *k;&#xa;    j = 1;&#xa;    i = 0;&#xa;    k=malloc(sizeof(int));&#xa;    increment(k);&#xa;    increment(&amp;i);&#xa;    increment(&amp;j);&#xa;    printf(&quot;%d %d %d\n&quot;,i,j,*k);&#xa;    free(k);&#xa;    return 0;&#xa;}&#xa;// discuss namespaces and visibility&#xa;// this code really does nothing of import....&#xa;// what is the difference between main() and the above declaration wrt time and space." ID="ID_199581373" CREATED="1736960322026" MODIFIED="1736960808308"/>
+</node>
+<node TEXT="4. embedded" ID="ID_1987464867" CREATED="1736908197129" MODIFIED="1736958750660">
+<node TEXT="Vendor Toolchain" ID="ID_276780732" CREATED="1736908267345" MODIFIED="1736958768579">
+<node TEXT="Ussually a couple of years old" ID="ID_1541320909" CREATED="1736959173505" MODIFIED="1736959182322">
+<node TEXT="Known behavior/ No Surprises" ID="ID_1867829215" CREATED="1736959218374" MODIFIED="1736959237714"/>
+<node TEXT="Minimal new or exploratory language features" ID="ID_312457532" CREATED="1736959246014" MODIFIED="1736959272741"/>
+</node>
+<node TEXT="Based on gcc or llvm" ID="ID_451435885" CREATED="1736959186054" MODIFIED="1736959192443"/>
+<node TEXT="Value is in headers and utilities provided by the OEM" ID="ID_598275391" CREATED="1736959198020" MODIFIED="1736959210168"/>
+</node>
+<node TEXT="IDE" ID="ID_643620044" CREATED="1736958772396" MODIFIED="1736958776215"/>
+<node TEXT="No OS/ Small OS" ID="ID_375927871" CREATED="1736958784205" MODIFIED="1736958791844"/>
+<node TEXT="Cross Compiled" ID="ID_1264475701" CREATED="1736958800604" MODIFIED="1736958805583">
+<node TEXT="Must download to board" ID="ID_781637744" CREATED="1736958808912" MODIFIED="1736958817773"/>
+<node TEXT="Slow Execution" ID="ID_94259380" CREATED="1736958821147" MODIFIED="1736958826320"/>
+</node>
+<node TEXT="Program Design" ID="ID_609696153" CREATED="1736958835448" MODIFIED="1736958840488">
+<node TEXT="Space and Time Contraints drive design" ID="ID_569063406" CREATED="1736958842477" MODIFIED="1736958854930"/>
+<node TEXT="&quot;procedural style&quot; widely used" ID="ID_181198991" CREATED="1736958869750" MODIFIED="1736958880383"/>
+<node TEXT="Limited source code in product" ID="ID_1160347067" CREATED="1736958884483" MODIFIED="1736958895532">
+<node TEXT="Reduces need for abstractions and complexity and software" ID="ID_416591177" CREATED="1736958899002" MODIFIED="1736958914174"/>
+<node TEXT="Small, Correct, Non Complex" ID="ID_1696783445" CREATED="1736958917849" MODIFIED="1736958927549">
+<node TEXT="GOAL !" ID="ID_1959152138" CREATED="1736958930976" MODIFIED="1736958936414"/>
+<node TEXT="Most abstractions cost performance, so they are omitted" ID="ID_164137285" CREATED="1736958941771" MODIFIED="1736958991550"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="5. Big Picture" ID="ID_1396112355" CREATED="1736960855333" MODIFIED="1736960863552">
+<node TEXT="Working on an embedded target is difficult" ID="ID_1821495094" CREATED="1736960872738" MODIFIED="1736960882485">
+<node TEXT="test equipment essential for debugging" ID="ID_402413233" CREATED="1737400559975" MODIFIED="1737400569326">
+<node TEXT="getting information out of the system is the bottleneck" ID="ID_1667013094" CREATED="1737400574413" MODIFIED="1737400585250"/>
+</node>
+</node>
+<node TEXT="When you can, work on a desktop machine to solve algorithm and logic issues" ID="ID_1379272542" CREATED="1736960885438" MODIFIED="1736960902706">
+<node TEXT="Work at the level where you are most efficient" ID="ID_535601609" CREATED="1737400593771" MODIFIED="1737400609324">
+<node TEXT="controller hardware (on the microcontroller)" ID="ID_512634559" CREATED="1737400612067" MODIFIED="1737400626218"/>
+<node TEXT="Algorithm Development use desktop machine" ID="ID_996551619" CREATED="1737400633303" MODIFIED="1737400645307">
+<node TEXT="Use abstractions" ID="ID_376530969" CREATED="1737400651732" MODIFIED="1737400658324"/>
+<node TEXT="Use common language features" ID="ID_1811051998" CREATED="1737400661927" MODIFIED="1737400671065"/>
+<node TEXT="same (or similar) behavior  on both" ID="ID_771799030" CREATED="1737400673306" MODIFIED="1737400703543"/>
+</node>
+</node>
+</node>
+<node TEXT="Testing and Debugging much simpler on machine with an OS." ID="ID_636287654" CREATED="1736960908418" MODIFIED="1736960924795"/>
+<node TEXT="This is why RPI is so popular for small projects.  It is not cost effective from a BOM perspective, but it makes for &apos;easier&apos; (not better) software." ID="ID_1028041344" CREATED="1736960936140" MODIFIED="1736960970988"/>
+</node>
+<node TEXT="Example Code" ID="ID_1875114814" CREATED="1737400241253" MODIFIED="1737400249010">
+<node TEXT="  1 #include &lt;stdio.h&gt;&#xa;  2 // By Convention, MACROS are UPPER CASE&#xa;  3 #define PRINT_HELLO(A) printf(&quot;%s\n&quot;,A);&#xa;  4 #define SEARCH_FOR_EQ(A,B) \&#xa;  5 ({ \&#xa;  6     int t=-1; \&#xa;  7     for (unsigned i=0;i&lt;sizeof(A);i++) \&#xa;  8     { \&#xa;  9         if (B==A[i]) \&#xa; 10             t=i; \&#xa; 11     } \&#xa; 12     t; \&#xa; 13 }) \&#xa; 14&#xa; 15 int main(int argc, char *argv[])&#xa; 16 {&#xa; 17     int a[]={5,4,3,2,1};&#xa; 18     PRINT_HELLO(&quot;macro example&quot;);&#xa; 19     printf(&quot;%d\n&quot;,SEARCH_FOR_EQ(a,2));&#xa; 20     SEARCH_FOR_EQ(a,1);&#xa; 21     return 0;&#xa; 22 }" ID="ID_1866892376" CREATED="1737400453336" MODIFIED="1737400536512"/>
+<node TEXT="  1 #include &lt;stdio.h&gt;&#xa;  2 #include &lt;stdlib.h&gt;&#xa;  3 int A;&#xa;  4 void func()&#xa;  5 {&#xa;  6     int i;&#xa;  7     printf(&quot;the address of i is %p\n&quot;,&amp;i);&#xa;  8     printf(&quot;the address of A is %p\n&quot;,&amp;A);&#xa;  9 }&#xa; 10 int main(int argc, char *argv[])&#xa; 11 {&#xa; 12     char* a = malloc(100);&#xa; 13     char b[100];&#xa; 14     printf(&quot;the address of main is %p and func is %p\n&quot;,main,func);&#xa; 15     func();&#xa; 16     printf(&quot;the address of a is %p\n&quot;,a);&#xa; 17     printf(&quot;the address of b is %p\n&quot;,b);&#xa; 18     return 0;&#xa; 19 }" ID="ID_1288946480" CREATED="1737401206030" MODIFIED="1737401220692"/>
+</node>
+</node>
 <node TEXT="2 Delay Routines" ID="ID_722505460" CREATED="1748040885869" MODIFIED="1748556143801"/>
 <node TEXT="3 Using CCS" ID="ID_562560687" CREATED="1748040803149" MODIFIED="1748556147225"/>
-<node TEXT="4 The TM4C123GXL" ID="ID_446456208" CREATED="1748040450936" MODIFIED="1748556110650">
-<node TEXT="1 TM4C123gh6pm" ID="ID_1473956302" CREATED="1748556082646" MODIFIED="1748556118267"/>
+<node TEXT="4 The tm4C123GXL" FOLDED="true" ID="ID_446456208" CREATED="1748040450936" MODIFIED="1748557136619">
+<node TEXT="1 tm4C123gh6pm" ID="ID_1473956302" CREATED="1748556082646" MODIFIED="1748557141416"/>
+<node TEXT="" ID="ID_299186585" CREATED="1748558132167" MODIFIED="1748558151501">
+<hook URI="tm4c123gxl.jpg" SIZE="1.0" NAME="ExternalObject"/>
+</node>
 </node>
 </node>
 </node>
 <node TEXT="02 Week 2 (8/15-8/27)" ID="ID_1621675299" CREATED="1748038649339" MODIFIED="1748288677510">
 <node TEXT="1 Objectives" ID="ID_1860897960" CREATED="1748554851857" MODIFIED="1748555970847"/>
 <node TEXT="2 Lab" ID="ID_1816378583" CREATED="1748554862731" MODIFIED="1748554866232"/>
-<node TEXT="3 Contents" ID="ID_1505435801" CREATED="1748554868001" MODIFIED="1748554872174">
+<node TEXT="3 Readings" ID="ID_1920110396" CREATED="1748560773935" MODIFIED="1748560780178"/>
+<node TEXT="4 Contents" ID="ID_1505435801" CREATED="1748554868001" MODIFIED="1748560785035">
 <node TEXT="1 Memory Map" ID="ID_135894633" CREATED="1748040567138" MODIFIED="1748554910759">
 <node TEXT="1 Memory Map" ID="ID_223566472" CREATED="1748040646480" MODIFIED="1748556056419"/>
 <node TEXT="2 AHB / APB" ID="ID_892728108" CREATED="1748040624122" MODIFIED="1748556060602"/>
