@@ -1,7 +1,7 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Embedded Systems I" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1748789244779" CHILD_NODES_LAYOUT="TOPTOBOTTOM_BOTHSIDES_AUTO"><hook NAME="MapStyle" zoom="3.0">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" allow_compact_layout="true" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false" auto_compact_layout="true"/>
+<node TEXT="Embedded Systems I" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1748970386871" CHILD_NODES_LAYOUT="TOPTOBOTTOM_BOTHSIDES_FLOW"><hook NAME="MapStyle" zoom="3.0">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" allow_compact_layout="false" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -71,11 +71,49 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="39" RULE="ON_BRANCH_CREATION"/>
-<hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="HEADINGS"/>
-<node TEXT="1" OBJECT="java.lang.Long|1" FOLDED="true" POSITION="top_or_left" ID="ID_193639258" CREATED="1748788701749" MODIFIED="1748789244779">
-<edge COLOR="#00ff00"/>
-<node TEXT="01 Week 1- Programming  (8/18-8/20)" FOLDED="true" ID="ID_826684588" CREATED="1748038641602" MODIFIED="1748719432484">
+<hook NAME="AutomaticEdgeColor" COUNTER="50" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
+<font SIZE="16"/>
+<node TEXT="000 Info" FOLDED="true" POSITION="bottom_or_right" ID="ID_316523266" CREATED="1748718453241" MODIFIED="1748969601843">
+<edge COLOR="#7c0000"/>
+<node TEXT="2 Exams 15% each" ID="ID_314243961" CREATED="1748718487847" MODIFIED="1748718758351">
+<node TEXT="1/3 of semester" ID="ID_980504252" CREATED="1748719007765" MODIFIED="1748719017176"/>
+<node TEXT="2/3 of semester" ID="ID_1805386411" CREATED="1748719020869" MODIFIED="1748719027962"/>
+</node>
+<node TEXT="Project 25%" ID="ID_1066697939" CREATED="1748718504799" MODIFIED="1748718537364"/>
+<node TEXT="Hands On Final 10%" ID="ID_477599381" CREATED="1748718540403" MODIFIED="1748718749415">
+<node TEXT="Completed last 2 weeks of class / Finals week" ID="ID_928169170" CREATED="1748719082595" MODIFIED="1748787556235"/>
+</node>
+<node TEXT="Final Exam 20%" ID="ID_523396472" CREATED="1748718663851" MODIFIED="1748718721140">
+<node TEXT="Comprehensive" ID="ID_1942298115" CREATED="1748719037372" MODIFIED="1748719041921"/>
+<node TEXT="Focus on last 1/3 of semester" ID="ID_195191691" CREATED="1748719044392" MODIFIED="1748719052173"/>
+</node>
+<node TEXT="Labs 15%" ID="ID_310881027" CREATED="1748718980302" MODIFIED="1748718998398">
+<node TEXT="Not all weighted equally" ID="ID_760502513" CREATED="1748719054328" MODIFIED="1748719061486"/>
+</node>
+<node TEXT="Students must provide paper copies of portions of the data sheet for the exam.  (not craziness) It is your responsibility to find the parts that you will need, and to copy them." ID="ID_1412297594" CREATED="1739292033244" MODIFIED="1748789302400" HGAP_QUANTITY="16.25 pt" VSHIFT_QUANTITY="-21 pt"/>
+<node TEXT="Policy" ID="ID_970176045" CREATED="1739144943347" MODIFIED="1739146126835">
+<node TEXT="Late:  10% per day" ID="ID_972869490" CREATED="1739144960790" MODIFIED="1739144968668">
+<node TEXT="Figured out by Canvas" ID="ID_1854944870" CREATED="1739146148435" MODIFIED="1739146153785"/>
+<node TEXT="University approved absences I will move your due date in canvas" ID="ID_1739592869" CREATED="1739146157200" MODIFIED="1739146169870"/>
+</node>
+<node TEXT="If you don&apos;t finish.." ID="ID_1964452564" CREATED="1739144970908" MODIFIED="1739144977019">
+<node TEXT="Your grade will be partial based upon what you do. Finish half the lab, your grade is capped at 50%" ID="ID_1211083960" CREATED="1739144980498" MODIFIED="1739146049756"/>
+<node TEXT="Friday morning or afternoon can be used for extra time" ID="ID_1175588559" CREATED="1739145005878" MODIFIED="1739145020539"/>
+<node TEXT="saturday / or sunday by arrangement with the instructor." ID="ID_1407391601" CREATED="1739145024491" MODIFIED="1739145046613"/>
+</node>
+<node TEXT="Due" ID="ID_1376577978" CREATED="1739145052802" MODIFIED="1739145059220">
+<node TEXT="72 hours after your section. this changed due to perceived &apos;fairness&apos; between sections.  Each section has a different due date in canvas." ID="ID_1977069188" CREATED="1739145062056" MODIFIED="1739146206382"/>
+<node TEXT="everyone has the ability to utilize the friday time without penalty." ID="ID_1658130440" CREATED="1739145077508" MODIFIED="1739145091296"/>
+</node>
+<node TEXT="Turn in the wrong file?  What is turned into canvas is what is graded. No exceptions." ID="ID_270323932" CREATED="1739146097890" MODIFIED="1739146116781"/>
+<node TEXT="Turn in files with no work? 50% deduction or more" ID="ID_51160079" CREATED="1739146058541" MODIFIED="1739146093970"/>
+<node TEXT="Strive for a professional work product.  C code should be clean, concise, and uniformly indented (the IDE will do this for you)" ID="ID_493707429" CREATED="1739146216797" MODIFIED="1739146248055"/>
+<node TEXT="All code will be fed through MOSS." ID="ID_136407571" CREATED="1739146255925" MODIFIED="1739146265186"/>
+</node>
+</node>
+<node TEXT="01 Week 1- Programming  (8/18-8/20)" FOLDED="true" POSITION="bottom_or_right" ID="ID_826684588" CREATED="1748038641602" MODIFIED="1748969469330">
+<edge COLOR="#00007c"/>
 <node TEXT="1 Objectives" ID="ID_1523678332" CREATED="1748289028482" MODIFIED="1748555960645">
 <node TEXT="1 Understand the basics of C programming; pointers, addresses, scope, linkage." ID="ID_1764064600" CREATED="1748557068163" MODIFIED="1748557102031"/>
 <node TEXT="2 Create a new program using CCS, compile and execute it on the tm4c123gxl." ID="ID_1653186865" CREATED="1748557105408" MODIFIED="1748557181585"/>
@@ -84,6 +122,7 @@
 <node TEXT="5 Identify top level functional blocks of the tm4c123pm6." ID="ID_397518126" CREATED="1748557199954" MODIFIED="1748714051003"/>
 <node TEXT="6 Be able to set the system clock to a desired frequency" ID="ID_1976428864" CREATED="1748718887625" MODIFIED="1748718918252"/>
 <node TEXT="7 Understand the concept of &apos;enabling clocks&apos; for each block on the tm4c" ID="ID_794342184" CREATED="1748718922108" MODIFIED="1748718949168"/>
+<node TEXT="8 Understand &apos;volatile&apos;" ID="ID_963991764" CREATED="1748790009454" MODIFIED="1748790026622"/>
 </node>
 <node TEXT="2 Readings" ID="ID_1748369068" CREATED="1748556207026" MODIFIED="1748556213200"/>
 <node TEXT="3 Lab" ID="ID_1442651440" CREATED="1748289040279" MODIFIED="1748719432484"/>
@@ -233,7 +272,9 @@
 <node TEXT="calculations happen in registers. (usually) results are stored from the register into variables. the store to a variable can be optimised out by the compiler if a register is available for the duration.  &apos;volatile&apos; forces the results of a calculation to be stored in memory.  &apos;result of a calculation&apos; .  primary importance is when memory can be written to by something other than the currently executing code.  examples: an interrupt routine, another thread of execution, a dma transfer, memory mapped I/O reflecting the changed value of an external peripheral. secondary advantage for this class, it makes it far easier to debug when the data is forced to be written into memory so it can be seen by the IDE." ID="ID_145205863" CREATED="1739144598089" MODIFIED="1748789818338" HGAP_QUANTITY="118.25 pt" VSHIFT_QUANTITY="137.99999 pt"/>
 </node>
 </node>
-<node TEXT="02 Week 2 - Memory Map (8/15-8/27)" FOLDED="true" ID="ID_1621675299" CREATED="1748038649339" MODIFIED="1748716928014">
+<node TEXT="02 Week 2 - Memory Map (8/15-8/27)" FOLDED="true" POSITION="top_or_left" ID="ID_1621675299" CREATED="1748038649339" MODIFIED="1748970407177">
+<edge COLOR="#007c00"/>
+<font SIZE="16"/>
 <node TEXT="1 Objectives" ID="ID_1860897960" CREATED="1748554851857" MODIFIED="1748555970847">
 <node TEXT="1 Be able to identify the different partitions of the Memory Map" ID="ID_117854209" CREATED="1748717959153" MODIFIED="1748718002128"/>
 <node TEXT="2 Describe &apos;bit banding&apos;.  Understand the problem(s) that it solves." ID="ID_214239978" CREATED="1748718005172" MODIFIED="1748718070288"/>
@@ -243,7 +284,6 @@
 <node TEXT="6 Understand the differences between the AHB and the APB" ID="ID_431721190" CREATED="1748718229048" MODIFIED="1748718264061"/>
 </node>
 <node TEXT="2 Lab" ID="ID_1816378583" CREATED="1748554862731" MODIFIED="1748554866232"/>
-<node TEXT="3 Readings" ID="ID_1920110396" CREATED="1748560773935" MODIFIED="1748560780178"/>
 <node TEXT="4 Contents" ID="ID_1505435801" CREATED="1748554868001" MODIFIED="1748560785035">
 <node TEXT="1 Memory Map" ID="ID_135894633" CREATED="1748040567138" MODIFIED="1748554910759">
 <node TEXT="1 Memory Map" ID="ID_223566472" CREATED="1748040646480" MODIFIED="1748556056419"/>
@@ -253,8 +293,10 @@
 </node>
 <node TEXT="2 System Clock / Block Enables" ID="ID_1103869197" CREATED="1748040834136" MODIFIED="1748554918008"/>
 </node>
+<node TEXT="3 Readings" LOCALIZED_STYLE_REF="default" POSITION="top_or_left" ID="ID_1920110396" CREATED="1748560773935" MODIFIED="1748790338363" CHILD_NODES_LAYOUT="TOPTOBOTTOM_BOTHSIDES_FLOW"/>
 </node>
-<node TEXT="03 Week 3- GPIO (9/3)" FOLDED="true" ID="ID_298152031" CREATED="1748038653956" MODIFIED="1748789871290">
+<node TEXT="03 Week 3- GPIO (9/3)" FOLDED="true" POSITION="bottom_or_right" ID="ID_298152031" CREATED="1748038653956" MODIFIED="1748969495557">
+<edge COLOR="#7c007c"/>
 <node TEXT="1 Objectives" ID="ID_1716081651" CREATED="1748555992877" MODIFIED="1748555997493"/>
 <node TEXT="2 Lab" ID="ID_1472967203" CREATED="1748556001080" MODIFIED="1748556003908"/>
 <node TEXT="3 Readings" ID="ID_293433486" CREATED="1748717106542" MODIFIED="1748717111411"/>
@@ -267,7 +309,8 @@
 <node TEXT="Interfacing to GPIO" ID="ID_1445264688" CREATED="1748717407476" MODIFIED="1748717414654"/>
 </node>
 </node>
-<node TEXT="04 Week 4 - NVIC / SysTick (9/10-9/12)" FOLDED="true" ID="ID_16309586" CREATED="1748038668017" MODIFIED="1748720665850">
+<node TEXT="04 Week 4 - NVIC / SysTick (9/10-9/12)" FOLDED="true" POSITION="top_or_left" ID="ID_16309586" CREATED="1748038668017" MODIFIED="1748969507150">
+<edge COLOR="#007c7c"/>
 <node TEXT="1 Objectives" ID="ID_331374664" CREATED="1748787752793" MODIFIED="1748787757320"/>
 <node TEXT="2 Lab" ID="ID_992486692" CREATED="1748787759958" MODIFIED="1748787762825"/>
 <node TEXT="3 Readings" ID="ID_193439086" CREATED="1748787764656" MODIFIED="1748787768380"/>
@@ -279,10 +322,8 @@
 </node>
 </node>
 </node>
-</node>
-<node TEXT="2" OBJECT="java.lang.Long|2" FOLDED="true" POSITION="bottom_or_right" ID="ID_936509075" CREATED="1748788712022" MODIFIED="1748789165918" CHILD_NODES_LAYOUT="AUTO_FLOW">
-<edge COLOR="#ff00ff"/>
-<node TEXT="05 Week 5 - UART (9/16-9/18)" FOLDED="true" ID="ID_764395375" CREATED="1748038659162" MODIFIED="1748720691741">
+<node TEXT="05 Week 5 - UART (9/16-9/18)" FOLDED="true" POSITION="bottom_or_right" ID="ID_764395375" CREATED="1748038659162" MODIFIED="1748969571911">
+<edge COLOR="#00ff00"/>
 <node TEXT="1 Objectives" ID="ID_1344670637" CREATED="1748717212629" MODIFIED="1748717216923"/>
 <node TEXT="2 Lab" ID="ID_340638014" CREATED="1748717220036" MODIFIED="1748717223675"/>
 <node TEXT="3 Readings" ID="ID_1808357518" CREATED="1748717225705" MODIFIED="1748717231743"/>
@@ -293,7 +334,8 @@
 <node TEXT="Focus on State Diagrams for Software" ID="ID_167537283" CREATED="1748041812099" MODIFIED="1748041821018"/>
 </node>
 </node>
-<node TEXT="06 Week 6 - Interrupts (9/22-9/24)" FOLDED="true" ID="ID_449610218" CREATED="1748038673583" MODIFIED="1748717018425">
+<node TEXT="06 Week 6 - Interrupts (9/22-9/24)" FOLDED="true" POSITION="top_or_left" ID="ID_449610218" CREATED="1748038673583" MODIFIED="1748969563473">
+<edge COLOR="#0000ff"/>
 <node TEXT="1 Objectives" ID="ID_474304739" CREATED="1748787814312" MODIFIED="1748787818578"/>
 <node TEXT="2 Lab" ID="ID_1619887724" CREATED="1748787820796" MODIFIED="1748787823326"/>
 <node TEXT="3 Readings" ID="ID_979636184" CREATED="1748787825869" MODIFIED="1748787829136"/>
@@ -359,7 +401,8 @@
 </node>
 </node>
 </node>
-<node TEXT="07 Week 7 - General Purpose Timer Module (9/29-10/1)" FOLDED="true" ID="ID_1926501763" CREATED="1748038678402" MODIFIED="1748719295396">
+<node TEXT="07 Week 7 - General Purpose Timer Module (9/29-10/1)" FOLDED="true" POSITION="bottom_or_right" ID="ID_1926501763" CREATED="1748038678402" MODIFIED="1748969553991">
+<edge COLOR="#ff0000"/>
 <node TEXT="1 Objectives" ID="ID_1174515153" CREATED="1748787873647" MODIFIED="1748787878721"/>
 <node TEXT="2 Lab" ID="ID_157966557" CREATED="1748787880644" MODIFIED="1748787889914"/>
 <node TEXT="3 Readings" ID="ID_1507865381" CREATED="1748787892440" MODIFIED="1748787896977"/>
@@ -427,7 +470,8 @@
 </node>
 </node>
 </node>
-<node TEXT="08 Week 8 - Pulse Width Modulation (10/6-10/8)" FOLDED="true" ID="ID_582282277" CREATED="1748038683372" MODIFIED="1748719325568">
+<node TEXT="08 Week 8 - Pulse Width Modulation (10/6-10/8)" FOLDED="true" POSITION="top_or_left" ID="ID_582282277" CREATED="1748038683372" MODIFIED="1748969546700">
+<edge COLOR="#7c7c00"/>
 <node TEXT="1 Objectives" ID="ID_1108656082" CREATED="1748787918864" MODIFIED="1748787923399"/>
 <node TEXT="2 Lab" ID="ID_1785357830" CREATED="1748787925426" MODIFIED="1748787928104"/>
 <node TEXT="3 Readings" ID="ID_1469051734" CREATED="1748787929952" MODIFIED="1748787933296"/>
@@ -443,10 +487,8 @@
 </node>
 </node>
 </node>
-</node>
-<node TEXT="3" OBJECT="java.lang.Long|3" FOLDED="true" POSITION="top_or_left" ID="ID_1248619882" CREATED="1748788744559" MODIFIED="1748788747308">
-<edge COLOR="#00ffff"/>
-<node TEXT="10 Week 10 - Analog (10/20-10/23)" FOLDED="true" ID="ID_1112028314" CREATED="1748038692798" MODIFIED="1748788106712">
+<node TEXT="10 Week 10 - Analog (10/20-10/23)" FOLDED="true" POSITION="bottom_or_right" ID="ID_1112028314" CREATED="1748038692798" MODIFIED="1748969616859">
+<edge COLOR="#ff00ff"/>
 <node TEXT="1 Objectives" ID="ID_1546586376" CREATED="1748787988133" MODIFIED="1748787993423"/>
 <node TEXT="2 Lab" ID="ID_1083290799" CREATED="1748787995315" MODIFIED="1748787997576"/>
 <node TEXT="3 Readings" ID="ID_440151811" CREATED="1748787999447" MODIFIED="1748788002908"/>
@@ -460,7 +502,8 @@
 <node TEXT="DAC" ID="ID_524230133" CREATED="1748041043672" MODIFIED="1748041047849"/>
 </node>
 </node>
-<node TEXT="11 Week 11- SPI (10/27-10/29)" FOLDED="true" ID="ID_1130253100" CREATED="1748038698179" MODIFIED="1748788117681">
+<node TEXT="11 Week 11- SPI (10/27-10/29)" POSITION="top_or_left" ID="ID_1130253100" CREATED="1748038698179" MODIFIED="1748969624773">
+<edge COLOR="#00ffff"/>
 <node TEXT="1 Objectives" ID="ID_1426920585" CREATED="1748788038536" MODIFIED="1748788042481"/>
 <node TEXT="2 Lab" ID="ID_317254408" CREATED="1748788044222" MODIFIED="1748788047553"/>
 <node TEXT="3 Readings" ID="ID_660220410" CREATED="1748788049246" MODIFIED="1748788053879"/>
@@ -471,53 +514,9 @@
 </node>
 </node>
 </node>
-<node TEXT="12 Week 12- Construction Techniques (11/3-11/5)" FOLDED="true" ID="ID_136937756" CREATED="1748038704199" MODIFIED="1748788138237">
-<node TEXT="construction techniques" ID="ID_1946403143" CREATED="1748041494203" MODIFIED="1748042082080"/>
-</node>
-<node TEXT="13 Week 13- Project (11/10-11/12)" FOLDED="true" ID="ID_183551970" CREATED="1748038708443" MODIFIED="1748788154457">
-<node TEXT="project" ID="ID_331467705" CREATED="1748041869721" MODIFIED="1748041944484"/>
-</node>
-<node TEXT="14 Week 14- Project (11/17-11/19)" FOLDED="true" ID="ID_919027493" CREATED="1748038715540" MODIFIED="1748788160195">
-<node TEXT="project" ID="ID_1447412999" CREATED="1748041949784" MODIFIED="1748041960132"/>
-</node>
-</node>
-<node TEXT="Info" FOLDED="true" POSITION="bottom_or_right" ID="ID_316523266" CREATED="1748718453241" MODIFIED="1748789882261">
+<node TEXT="12 Week 12- Construction Techniques (11/3-11/5)" FOLDED="true" POSITION="bottom_or_right" ID="ID_136937756" CREATED="1748038704199" MODIFIED="1748969635278" CHILD_NODES_LAYOUT="TOPTOBOTTOM_BOTHSIDES_CENTERED">
 <edge COLOR="#7c0000"/>
-<node TEXT="2 Exams 15% each" ID="ID_314243961" CREATED="1748718487847" MODIFIED="1748718758351">
-<node TEXT="1/3 of semester" ID="ID_980504252" CREATED="1748719007765" MODIFIED="1748719017176"/>
-<node TEXT="2/3 of semester" ID="ID_1805386411" CREATED="1748719020869" MODIFIED="1748719027962"/>
-</node>
-<node TEXT="Project 25%" ID="ID_1066697939" CREATED="1748718504799" MODIFIED="1748718537364"/>
-<node TEXT="Hands On Final 10%" ID="ID_477599381" CREATED="1748718540403" MODIFIED="1748718749415">
-<node TEXT="Completed last 2 weeks of class / Finals week" ID="ID_928169170" CREATED="1748719082595" MODIFIED="1748787556235"/>
-</node>
-<node TEXT="Final Exam 20%" ID="ID_523396472" CREATED="1748718663851" MODIFIED="1748718721140">
-<node TEXT="Comprehensive" ID="ID_1942298115" CREATED="1748719037372" MODIFIED="1748719041921"/>
-<node TEXT="Focus on last 1/3 of semester" ID="ID_195191691" CREATED="1748719044392" MODIFIED="1748719052173"/>
-</node>
-<node TEXT="Labs 15%" ID="ID_310881027" CREATED="1748718980302" MODIFIED="1748718998398">
-<node TEXT="Not all weighted equally" ID="ID_760502513" CREATED="1748719054328" MODIFIED="1748719061486"/>
-</node>
-<node TEXT="Students must provide paper copies of portions of the data sheet for the exam.  (not craziness) It is your responsibility to find the parts that you will need, and to copy them." ID="ID_1412297594" CREATED="1739292033244" MODIFIED="1748789302400" HGAP_QUANTITY="16.25 pt" VSHIFT_QUANTITY="-21 pt"/>
-<node TEXT="Policy" ID="ID_970176045" CREATED="1739144943347" MODIFIED="1739146126835">
-<node TEXT="Late:  10% per day" ID="ID_972869490" CREATED="1739144960790" MODIFIED="1739144968668">
-<node TEXT="Figured out by Canvas" ID="ID_1854944870" CREATED="1739146148435" MODIFIED="1739146153785"/>
-<node TEXT="University approved absences I will move your due date in canvas" ID="ID_1739592869" CREATED="1739146157200" MODIFIED="1739146169870"/>
-</node>
-<node TEXT="If you don&apos;t finish.." ID="ID_1964452564" CREATED="1739144970908" MODIFIED="1739144977019">
-<node TEXT="Your grade will be partial based upon what you do. Finish half the lab, your grade is capped at 50%" ID="ID_1211083960" CREATED="1739144980498" MODIFIED="1739146049756"/>
-<node TEXT="Friday morning or afternoon can be used for extra time" ID="ID_1175588559" CREATED="1739145005878" MODIFIED="1739145020539"/>
-<node TEXT="saturday / or sunday by arrangement with the instructor." ID="ID_1407391601" CREATED="1739145024491" MODIFIED="1739145046613"/>
-</node>
-<node TEXT="Due" ID="ID_1376577978" CREATED="1739145052802" MODIFIED="1739145059220">
-<node TEXT="72 hours after your section. this changed due to perceived &apos;fairness&apos; between sections.  Each section has a different due date in canvas." ID="ID_1977069188" CREATED="1739145062056" MODIFIED="1739146206382"/>
-<node TEXT="everyone has the ability to utilize the friday time without penalty." ID="ID_1658130440" CREATED="1739145077508" MODIFIED="1739145091296"/>
-</node>
-<node TEXT="Turn in the wrong file?  What is turned into canvas is what is graded. No exceptions." ID="ID_270323932" CREATED="1739146097890" MODIFIED="1739146116781"/>
-<node TEXT="Turn in files with no work? 50% deduction or more" ID="ID_51160079" CREATED="1739146058541" MODIFIED="1739146093970"/>
-<node TEXT="Strive for a professional work product.  C code should be clean, concise, and uniformly indented (the IDE will do this for you)" ID="ID_493707429" CREATED="1739146216797" MODIFIED="1739146248055"/>
-<node TEXT="All code will be fed through MOSS." ID="ID_136407571" CREATED="1739146255925" MODIFIED="1739146265186"/>
-</node>
+<node TEXT="construction techniques" ID="ID_1946403143" CREATED="1748041494203" MODIFIED="1748042082080"/>
 </node>
 </node>
 </map>
