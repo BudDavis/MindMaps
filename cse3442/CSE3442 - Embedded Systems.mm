@@ -76,49 +76,75 @@
 <font SIZE="16"/>
 <node TEXT="000 Info" FOLDED="true" POSITION="bottom_or_right" ID="ID_316523266" CREATED="1748718453241" MODIFIED="1748969601843">
 <edge COLOR="#7c0000"/>
-<node TEXT="2 Exams 15% each" ID="ID_314243961" CREATED="1748718487847" MODIFIED="1748718758351">
-<node TEXT="1/3 of semester" ID="ID_980504252" CREATED="1748719007765" MODIFIED="1748719017176"/>
-<node TEXT="2/3 of semester" ID="ID_1805386411" CREATED="1748719020869" MODIFIED="1748719027962"/>
+<node TEXT="2 Exams 15% each" FOLDED="true" ID="ID_314243961" CREATED="1748718487847" MODIFIED="1748718758351">
+<node TEXT="Exam 1 covers 1st third" ID="ID_980504252" CREATED="1748719007765" MODIFIED="1749152996006"/>
+<node TEXT="Exam 2 covers 2nd third" ID="ID_1805386411" CREATED="1748719020869" MODIFIED="1749152984925"/>
 </node>
 <node TEXT="Project 25%" ID="ID_1066697939" CREATED="1748718504799" MODIFIED="1748718537364"/>
-<node TEXT="Hands On Final 10%" ID="ID_477599381" CREATED="1748718540403" MODIFIED="1748718749415">
+<node TEXT="Hands On Final 10%" FOLDED="true" ID="ID_477599381" CREATED="1748718540403" MODIFIED="1748718749415">
 <node TEXT="Completed last 2 weeks of class / Finals week" ID="ID_928169170" CREATED="1748719082595" MODIFIED="1748787556235"/>
 </node>
-<node TEXT="Final Exam 20%" ID="ID_523396472" CREATED="1748718663851" MODIFIED="1748718721140">
+<node TEXT="Final Exam 20%" FOLDED="true" ID="ID_523396472" CREATED="1748718663851" MODIFIED="1748718721140">
 <node TEXT="Comprehensive" ID="ID_1942298115" CREATED="1748719037372" MODIFIED="1748719041921"/>
 <node TEXT="Focus on last 1/3 of semester" ID="ID_195191691" CREATED="1748719044392" MODIFIED="1748719052173"/>
 </node>
-<node TEXT="Labs 15%" ID="ID_310881027" CREATED="1748718980302" MODIFIED="1748718998398">
-<node TEXT="Not all weighted equally" ID="ID_760502513" CREATED="1748719054328" MODIFIED="1748719061486"/>
+<node TEXT="Labs 15%" FOLDED="true" ID="ID_310881027" CREATED="1748718980302" MODIFIED="1748718998398">
+<node TEXT="Not all weighted equally" FOLDED="true" ID="ID_760502513" CREATED="1748719054328" MODIFIED="1748719061486">
+<node TEXT="P/F Labs must be completed to pass the course" ID="ID_1424720866" CREATED="1749152107965" MODIFIED="1749152119251"/>
+<node TEXT="Graded labs represent significant embedded systems  work" ID="ID_95463914" CREATED="1749152122980" MODIFIED="1749152186344"/>
+<node TEXT="Hands on work is an important part of this course" ID="ID_1570453878" CREATED="1749152195131" MODIFIED="1749152207462"/>
 </node>
-<node TEXT="Policy" ID="ID_970176045" CREATED="1739144943347" MODIFIED="1739146126835">
-<node TEXT="Late:  10% per day" ID="ID_972869490" CREATED="1739144960790" MODIFIED="1739144968668">
+<node TEXT="~8 labs this semester" ID="ID_1380346301" CREATED="1749130594673" MODIFIED="1749130602487"/>
+</node>
+<node TEXT="Policy" FOLDED="true" ID="ID_970176045" CREATED="1739144943347" MODIFIED="1749152542706">
+<node TEXT="Late:  10% per day" FOLDED="true" ID="ID_972869490" CREATED="1739144960790" MODIFIED="1739144968668">
 <node TEXT="Figured out by Canvas" ID="ID_1854944870" CREATED="1739146148435" MODIFIED="1739146153785"/>
-<node TEXT="University approved absences I will move your due date in canvas" ID="ID_1739592869" CREATED="1739146157200" MODIFIED="1739146169870"/>
+<node TEXT="For University approved absences I will move your due date in canvas. Other absences will have a late penalty." ID="ID_1739592869" CREATED="1739146157200" MODIFIED="1749152251331"/>
 </node>
-<node TEXT="If you don&apos;t finish.." ID="ID_1964452564" CREATED="1739144970908" MODIFIED="1739144977019">
-<node TEXT="Your grade will be partial based upon what you do. Finish half the lab, your grade is capped at 50%" ID="ID_1211083960" CREATED="1739144980498" MODIFIED="1739146049756"/>
-<node TEXT="Friday morning or afternoon can be used for extra time" ID="ID_1175588559" CREATED="1739145005878" MODIFIED="1739145020539"/>
-<node TEXT="saturday / or sunday by arrangement with the instructor." ID="ID_1407391601" CREATED="1739145024491" MODIFIED="1739145046613"/>
+<node TEXT="If you don&apos;t finish.." FOLDED="true" ID="ID_1964452564" CREATED="1739144970908" MODIFIED="1739144977019">
+<node TEXT="Your grade will be partial based upon what you do. Finish half the lab, your grade is capped at 50% ..." ID="ID_1211083960" CREATED="1739144980498" MODIFIED="1749152866659"/>
+<node TEXT="Due date can be shifted if a significant portion of the class is struggling to complete it on schedule" ID="ID_788573050" CREATED="1749152266649" MODIFIED="1749152297160"/>
 </node>
-<node TEXT="Due" ID="ID_1376577978" CREATED="1739145052802" MODIFIED="1739145059220">
-<node TEXT="72 hours after your section. this changed due to perceived &apos;fairness&apos; between sections.  Each section has a different due date in canvas." ID="ID_1977069188" CREATED="1739145062056" MODIFIED="1739146206382"/>
-<node TEXT="everyone has the ability to utilize the friday time without penalty." ID="ID_1658130440" CREATED="1739145077508" MODIFIED="1739145091296"/>
+<node TEXT="What is turned into canvas is what is graded. No exceptions." ID="ID_270323932" CREATED="1739146097890" MODIFIED="1749130542842"/>
+<node TEXT="Strive for a professional work product.  C code should be clean, concise, and uniformly indented (the IDE will do this for you)" FOLDED="true" ID="ID_493707429" CREATED="1739146216797" MODIFIED="1749152542701">
+<node TEXT="Coding Standard" ID="ID_1626115545" CREATED="1749152693648" MODIFIED="1749152701222">
+<node TEXT="code indented as CCS does it" ID="ID_270677684" CREATED="1749152702746" MODIFIED="1749152713585"/>
+<node TEXT="macros are always UPPER CASE" ID="ID_565539864" CREATED="1749152716789" MODIFIED="1749152725544"/>
+<node TEXT="use hex when appropriate" ID="ID_649518272" CREATED="1749152736480" MODIFIED="1749152749956"/>
+<node TEXT="use decimal when appropriate" ID="ID_438813845" CREATED="1749152752815" MODIFIED="1749152759981"/>
+<node TEXT="octal is rarely appropriate" ID="ID_1325460890" CREATED="1749152766446" MODIFIED="1749152776687"/>
+<node TEXT="other than &quot;no path to statement&quot;, warnings are not acceptable" ID="ID_1829169452" CREATED="1749152798543" MODIFIED="1749152818263"/>
 </node>
-<node TEXT="Turn in the wrong file?  What is turned into canvas is what is graded. No exceptions." ID="ID_270323932" CREATED="1739146097890" MODIFIED="1739146116781"/>
-<node TEXT="Turn in files with no work? 50% deduction or more" ID="ID_51160079" CREATED="1739146058541" MODIFIED="1739146093970"/>
-<node TEXT="Strive for a professional work product.  C code should be clean, concise, and uniformly indented (the IDE will do this for you)" ID="ID_493707429" CREATED="1739146216797" MODIFIED="1739146248055"/>
-<node TEXT="All code will be fed through MOSS." ID="ID_136407571" CREATED="1739146255925" MODIFIED="1739146265186"/>
+</node>
+<node TEXT="All code will be fed through MOSS." FOLDED="true" ID="ID_136407571" CREATED="1739146255925" MODIFIED="1739146265186">
+<node TEXT="Students &apos;working together&apos; or sharing code will be identified and turned into Student Conduct" ID="ID_344892438" CREATED="1749130482350" MODIFIED="1749130524890"/>
+</node>
 <node TEXT="Students must provide paper copies of portions of the data sheet for the exam.  (not craziness) It is your responsibility to find the parts that you will need, and to copy them." ID="ID_1412297594" CREATED="1739292033244" MODIFIED="1748789302400" HGAP_QUANTITY="16.25 pt" VSHIFT_QUANTITY="-21 pt"/>
+<node TEXT="Issues with grading?" FOLDED="true" ID="ID_147989353" CREATED="1749152549025" MODIFIED="1749153157773">
+<node TEXT="Process must be started no more than 48 hours after the grades have been released OR when the test is gone over in class." ID="ID_1465796352" CREATED="1749152559446" MODIFIED="1749152604337"/>
+<node TEXT="Document your issues with an e-mail.  Include specifics and why you think an error has been made." ID="ID_1739836601" CREATED="1749152607329" MODIFIED="1749153157771"/>
 </node>
-<node TEXT="Students must provide paper copies of portions of the data sheet for the exam.  (not craziness) It is your responsibility to find the parts that you will need, and to copy them." ID="ID_504888580" CREATED="1739292033244" MODIFIED="1748789302400" HGAP_QUANTITY="16.25 pt" VSHIFT_QUANTITY="-21 pt"/>
+</node>
 <node TEXT="Things I Do Not Understand" FOLDED="true" ID="ID_1487736289" CREATED="1749083662592" MODIFIED="1749083673684">
 <node TEXT="Auto button on oscilloscopes" ID="ID_1757093416" CREATED="1749083675263" MODIFIED="1749083685682"/>
 <node TEXT="Extra Credit" ID="ID_694453701" CREATED="1749083687338" MODIFIED="1749083691746"/>
 <node TEXT="Echo 360" ID="ID_1273754450" CREATED="1749083698728" MODIFIED="1749083702823"/>
 </node>
+<node TEXT="Time Management" FOLDED="true" ID="ID_335193774" CREATED="1749130632510" MODIFIED="1749130640739">
+<node TEXT="This is a 4 credit hour class" ID="ID_596334109" CREATED="1749130643429" MODIFIED="1749130649699"/>
+<node TEXT="You should be ready for lab before you show up" ID="ID_890915249" CREATED="1749130653654" MODIFIED="1749130663171"/>
+<node TEXT="Significant out of class time is expected" ID="ID_1868893467" CREATED="1749130665943" MODIFIED="1749130679942"/>
+<node TEXT="Attendance is required for labs. (by definition)" ID="ID_1915567311" CREATED="1749152887923" MODIFIED="1749152907701"/>
+<node TEXT="Attendance is required for lecture, but not verified" ID="ID_713313422" CREATED="1749152908715" MODIFIED="1749152920957"/>
 </node>
-<node TEXT="01 Week 1- Programming  (8/18-8/20)" POSITION="bottom_or_right" ID="ID_826684588" CREATED="1748038641602" MODIFIED="1749084543870">
+<node TEXT="Warning" FOLDED="true" ID="ID_1553622457" CREATED="1749152060340" MODIFIED="1749152063434">
+<node TEXT="This course moves fast." ID="ID_1839637502" CREATED="1749152066512" MODIFIED="1749152080098"/>
+<node TEXT="Everything builds on prior work" ID="ID_431551380" CREATED="1749152081238" MODIFIED="1749152094364"/>
+<node TEXT="Do not fall behind" ID="ID_647876718" CREATED="1749152096095" MODIFIED="1749152102903"/>
+<node TEXT="Last month of the course, 55% of the course grade is turned in.  Be ready for this!" ID="ID_713048842" CREATED="1749153040956" MODIFIED="1749153137023"/>
+</node>
+</node>
+<node TEXT="01 Week 1- Programming  (8/18-8/20)" FOLDED="true" POSITION="bottom_or_right" ID="ID_826684588" CREATED="1748038641602" MODIFIED="1749084543870">
 <edge COLOR="#00007c"/>
 <node TEXT="1 Objectives" FOLDED="true" ID="ID_1523678332" CREATED="1748289028482" MODIFIED="1748555960645">
 <node TEXT="1 Understand the basics of C programming; pointers, addresses, scope, linkage." ID="ID_1764064600" CREATED="1748557068163" MODIFIED="1748557102031"/>
@@ -280,7 +306,7 @@
 <node TEXT="02 Week 2 - Memory Map (8/15-8/27)" FOLDED="true" POSITION="top_or_left" ID="ID_1621675299" CREATED="1748038649339" MODIFIED="1749084516626">
 <edge COLOR="#007c00"/>
 <font SIZE="16"/>
-<node TEXT="1 Objectives" FOLDED="true" ID="ID_1860897960" CREATED="1748554851857" MODIFIED="1748555970847">
+<node TEXT="1 Objectives" ID="ID_1860897960" CREATED="1748554851857" MODIFIED="1748555970847">
 <node TEXT="1 Be able to identify the different partitions of the Memory Map" ID="ID_117854209" CREATED="1748717959153" MODIFIED="1748718002128"/>
 <node TEXT="2 Describe &apos;bit banding&apos;.  Understand the problem(s) that it solves." ID="ID_214239978" CREATED="1748718005172" MODIFIED="1748718070288"/>
 <node TEXT="3 Using the system memory map, calculate the bitbanded address for a given bit in memory" ID="ID_355624814" CREATED="1748718074019" MODIFIED="1748718191176"/>
@@ -301,18 +327,31 @@
 </node>
 <node TEXT="03 Week 3- GPIO (9/3)" FOLDED="true" POSITION="bottom_or_right" ID="ID_298152031" CREATED="1748038653956" MODIFIED="1748969495557">
 <edge COLOR="#7c007c"/>
-<node TEXT="1 Objectives" FOLDED="true" ID="ID_1716081651" CREATED="1748555992877" MODIFIED="1748555997493">
+<node TEXT="1 Objectives" ID="ID_1716081651" CREATED="1748555992877" MODIFIED="1748555997493">
 <node TEXT="01 Program GPIO" ID="ID_511406462" CREATED="1749083880372" MODIFIED="1749083893520"/>
 <node TEXT="02 Program PINMUX" ID="ID_1697712955" CREATED="1749083895272" MODIFIED="1749083910459"/>
 <node TEXT="03 Interface LED&apos;s directly to GPIO" ID="ID_61445033" CREATED="1749083919362" MODIFIED="1749083956609"/>
 <node TEXT="04 Interface LED&apos;s to GPIO with an NPN or PNP transistor" ID="ID_1725074459" CREATED="1749083959426" MODIFIED="1749083978705"/>
 <node TEXT="05 Interface using an inverting circuit" ID="ID_407988978" CREATED="1749083982830" MODIFIED="1749084303201"/>
-<node TEXT="06 Interface to mechanical Switches using internal pull up / pull down resistors" ID="ID_396257446" CREATED="1749084002090" MODIFIED="1749084031632"/>
+<node ID="ID_714357857" CREATED="1749151989205" MODIFIED="1749151989205"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      06 Interface to mechanical switches using internal pull up / pull down resistors
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node TEXT="07 Interface to mechanical switches using external pull up / pull down resistors" ID="ID_968737944" CREATED="1749084035761" MODIFIED="1749084058391"/>
 </node>
 <node TEXT="2 Lab" ID="ID_1472967203" CREATED="1748556001080" MODIFIED="1748556003908"/>
 <node TEXT="3 Readings" ID="ID_293433486" CREATED="1748717106542" MODIFIED="1748717111411"/>
-<node TEXT="4 Contents" FOLDED="true" ID="ID_1050794369" CREATED="1748556007028" MODIFIED="1748717116054">
+<node TEXT="4 Contents" ID="ID_1050794369" CREATED="1748556007028" MODIFIED="1748717116054">
 <node TEXT="Introduction to GPIO" ID="ID_1808533250" CREATED="1748040586589" MODIFIED="1748040594635">
 <node TEXT="1 Block Diagram of GPIO Blocks" ID="ID_1727662303" CREATED="1749084219391" MODIFIED="1749084237285"/>
 <node TEXT="2 GPIO" ID="ID_628029338" CREATED="1748041100810" MODIFIED="1749084272654"/>
