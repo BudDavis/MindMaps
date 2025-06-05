@@ -112,9 +112,9 @@
 <node TEXT="All code will be fed through MOSS." ID="ID_136407571" CREATED="1739146255925" MODIFIED="1739146265186"/>
 </node>
 </node>
-<node TEXT="01 Week 1- Programming  (8/18-8/20)" FOLDED="true" POSITION="bottom_or_right" ID="ID_826684588" CREATED="1748038641602" MODIFIED="1748969469330">
+<node TEXT="01 Week 1- Programming  (8/18-8/20)" POSITION="bottom_or_right" ID="ID_826684588" CREATED="1748038641602" MODIFIED="1748969469330">
 <edge COLOR="#00007c"/>
-<node TEXT="1 Objectives" ID="ID_1523678332" CREATED="1748289028482" MODIFIED="1748555960645">
+<node TEXT="1 Objectives" FOLDED="true" ID="ID_1523678332" CREATED="1748289028482" MODIFIED="1748555960645">
 <node TEXT="1 Understand the basics of C programming; pointers, addresses, scope, linkage." ID="ID_1764064600" CREATED="1748557068163" MODIFIED="1748557102031"/>
 <node TEXT="2 Create a new program using CCS, compile and execute it on the tm4c123gxl." ID="ID_1653186865" CREATED="1748557105408" MODIFIED="1748557181585"/>
 <node TEXT="3 Write a program for the tm4c123gxl that uses a software delay function." ID="ID_114668159" CREATED="1748557148964" MODIFIED="1748557177525"/>
@@ -122,13 +122,13 @@
 <node TEXT="5 Identify top level functional blocks of the tm4c123pm6." ID="ID_397518126" CREATED="1748557199954" MODIFIED="1748714051003"/>
 <node TEXT="6 Be able to set the system clock to a desired frequency" ID="ID_1976428864" CREATED="1748718887625" MODIFIED="1748718918252"/>
 <node TEXT="7 Understand the concept of &apos;enabling clocks&apos; for each block on the tm4c" ID="ID_794342184" CREATED="1748718922108" MODIFIED="1748718949168"/>
-<node TEXT="8 Understand &apos;volatile&apos;" ID="ID_963991764" CREATED="1748790009454" MODIFIED="1748790026622"/>
+<node TEXT="8 Understand &apos;volatile&apos; keyword" ID="ID_963991764" CREATED="1748790009454" MODIFIED="1748971000393"/>
 </node>
 <node TEXT="2 Readings" ID="ID_1748369068" CREATED="1748556207026" MODIFIED="1748556213200"/>
 <node TEXT="3 Lab" ID="ID_1442651440" CREATED="1748289040279" MODIFIED="1748719432484"/>
 <node TEXT="4 Contents" ID="ID_459893785" CREATED="1748289048135" MODIFIED="1748789818341">
 <node TEXT="1 C programming" FOLDED="true" ID="ID_359886156" CREATED="1734577836296" MODIFIED="1748556810739">
-<node TEXT="1. The C Programming Language" ID="ID_947284179" CREATED="1736908346813" MODIFIED="1736908756735">
+<node TEXT="1. The C Programming Language" FOLDED="true" ID="ID_947284179" CREATED="1736908346813" MODIFIED="1736908756735">
 <node TEXT="variables" ID="ID_281465109" CREATED="1736908371939" MODIFIED="1736908813959">
 <node TEXT="Stack" ID="ID_1839459741" CREATED="1736908388365" MODIFIED="1736908391810"/>
 <node TEXT="Heap" ID="ID_591867061" CREATED="1736908394708" MODIFIED="1736908397506"/>
@@ -160,7 +160,7 @@
 <node TEXT="kernel interface" ID="ID_1125563325" CREATED="1736959120733" MODIFIED="1736959126756"/>
 </node>
 </node>
-<node TEXT="2. Build Process" ID="ID_1028166104" CREATED="1736908862757" MODIFIED="1736909040599">
+<node TEXT="2. Build Process" FOLDED="true" ID="ID_1028166104" CREATED="1736908862757" MODIFIED="1736909040599">
 <node TEXT="1. Source code" ID="ID_1554836337" CREATED="1736908932287" MODIFIED="1736959037347">
 <node TEXT=".c" ID="ID_102866779" CREATED="1736908937063" MODIFIED="1736959041699">
 <node TEXT="Definitions" ID="ID_1553097643" CREATED="1736959043278" MODIFIED="1736959050290"/>
@@ -207,7 +207,7 @@
 <node TEXT="volatile int i;&#xa;volatile int stop=0;&#xa;main()&#xa;{  &#xa;    while(!stop)&#xa;    {&#xa;       i++;&#xa;    }&#xa;    return 0;&#xa;}&#xa;// what can you assume about the system this code is used in?&#xa;// is it considered good style? will it work? (meaning compile and execute)" ID="ID_947290273" CREATED="1736960309084" MODIFIED="1736960313865"/>
 <node TEXT="// one file&#xa;static int i;&#xa;int j;&#xa;void increment(int *i)&#xa;{&#xa;    (*i)++;&#xa;    j++;&#xa;}&#xa;// another file&#xa;#include &lt;stdio.h&gt;&#xa;#include &lt;stdlib.h&gt;&#xa;static int i;&#xa;int j;&#xa;int main(int argc,char* argv[])&#xa;{&#xa;    int *k;&#xa;    j = 1;&#xa;    i = 0;&#xa;    k=malloc(sizeof(int));&#xa;    increment(k);&#xa;    increment(&amp;i);&#xa;    increment(&amp;j);&#xa;    printf(&quot;%d %d %d\n&quot;,i,j,*k);&#xa;    free(k);&#xa;    return 0;&#xa;}&#xa;// discuss namespaces and visibility&#xa;// this code really does nothing of import....&#xa;// what is the difference between main() and the above declaration wrt time and space." ID="ID_199581373" CREATED="1736960322026" MODIFIED="1736960808308"/>
 </node>
-<node TEXT="4. embedded" ID="ID_1987464867" CREATED="1736908197129" MODIFIED="1736958750660">
+<node TEXT="4. embedded" FOLDED="true" ID="ID_1987464867" CREATED="1736908197129" MODIFIED="1736958750660">
 <node TEXT="Vendor Toolchain" ID="ID_276780732" CREATED="1736908267345" MODIFIED="1736958768579">
 <node TEXT="Ussually a couple of years old" ID="ID_1541320909" CREATED="1736959173505" MODIFIED="1736959182322">
 <node TEXT="Known behavior/ No Surprises" ID="ID_1867829215" CREATED="1736959218374" MODIFIED="1736959237714"/>
@@ -234,7 +234,7 @@
 </node>
 </node>
 </node>
-<node TEXT="5. Big Picture" ID="ID_1396112355" CREATED="1736960855333" MODIFIED="1736960863552">
+<node TEXT="5. Big Picture" FOLDED="true" ID="ID_1396112355" CREATED="1736960855333" MODIFIED="1736960863552">
 <node TEXT="Working on an embedded target is difficult" ID="ID_1821495094" CREATED="1736960872738" MODIFIED="1736960882485">
 <node TEXT="test equipment essential for debugging" ID="ID_402413233" CREATED="1737400559975" MODIFIED="1737400569326">
 <node TEXT="getting information out of the system is the bottleneck" ID="ID_1667013094" CREATED="1737400574413" MODIFIED="1737400585250"/>
@@ -253,23 +253,21 @@
 <node TEXT="Testing and Debugging much simpler on machine with an OS." ID="ID_636287654" CREATED="1736960908418" MODIFIED="1736960924795"/>
 <node TEXT="This is why RPI is so popular for small projects.  It is not cost effective from a BOM perspective, but it makes for &apos;easier&apos; (not better) software." ID="ID_1028041344" CREATED="1736960936140" MODIFIED="1736960970988"/>
 </node>
-<node TEXT="Example Code" ID="ID_1875114814" CREATED="1737400241253" MODIFIED="1737400249010">
+<node TEXT="Example Code" FOLDED="true" ID="ID_1875114814" CREATED="1737400241253" MODIFIED="1737400249010">
 <node TEXT="  1 #include &lt;stdio.h&gt;&#xa;  2 // By Convention, MACROS are UPPER CASE&#xa;  3 #define PRINT_HELLO(A) printf(&quot;%s\n&quot;,A);&#xa;  4 #define SEARCH_FOR_EQ(A,B) \&#xa;  5 ({ \&#xa;  6     int t=-1; \&#xa;  7     for (unsigned i=0;i&lt;sizeof(A);i++) \&#xa;  8     { \&#xa;  9         if (B==A[i]) \&#xa; 10             t=i; \&#xa; 11     } \&#xa; 12     t; \&#xa; 13 }) \&#xa; 14&#xa; 15 int main(int argc, char *argv[])&#xa; 16 {&#xa; 17     int a[]={5,4,3,2,1};&#xa; 18     PRINT_HELLO(&quot;macro example&quot;);&#xa; 19     printf(&quot;%d\n&quot;,SEARCH_FOR_EQ(a,2));&#xa; 20     SEARCH_FOR_EQ(a,1);&#xa; 21     return 0;&#xa; 22 }" ID="ID_1866892376" CREATED="1737400453336" MODIFIED="1737400536512"/>
 <node TEXT="  1 #include &lt;stdio.h&gt;&#xa;  2 #include &lt;stdlib.h&gt;&#xa;  3 int A;&#xa;  4 void func()&#xa;  5 {&#xa;  6     int i;&#xa;  7     printf(&quot;the address of i is %p\n&quot;,&amp;i);&#xa;  8     printf(&quot;the address of A is %p\n&quot;,&amp;A);&#xa;  9 }&#xa; 10 int main(int argc, char *argv[])&#xa; 11 {&#xa; 12     char* a = malloc(100);&#xa; 13     char b[100];&#xa; 14     printf(&quot;the address of main is %p and func is %p\n&quot;,main,func);&#xa; 15     func();&#xa; 16     printf(&quot;the address of a is %p\n&quot;,a);&#xa; 17     printf(&quot;the address of b is %p\n&quot;,b);&#xa; 18     return 0;&#xa; 19 }" ID="ID_1288946480" CREATED="1737401206030" MODIFIED="1737401220692"/>
 </node>
+<node TEXT="calculations happen in registers. (usually) results are stored from the register into variables. the store to a variable can be optimised out by the compiler if a register is available for the duration.  &apos;volatile&apos; forces the results of a calculation to be stored in memory.  &apos;result of a calculation&apos; .  primary importance is when memory can be written to by something other than the currently executing code.  examples: an interrupt routine, another thread of execution, a dma transfer, memory mapped I/O reflecting the changed value of an external peripheral. secondary advantage for this class, it makes it far easier to debug when the data is forced to be written into memory so it can be seen by the IDE." ID="ID_145205863" CREATED="1739144598089" MODIFIED="1748789818338" HGAP_QUANTITY="118.25 pt" VSHIFT_QUANTITY="137.99999 pt"/>
 </node>
 <node TEXT="2 Delay Routines" ID="ID_722505460" CREATED="1748040885869" MODIFIED="1748556143801"/>
 <node TEXT="3 Using CCS" ID="ID_562560687" CREATED="1748040803149" MODIFIED="1748556147225">
 <node TEXT="Required elements of a program" ID="ID_1836930859" CREATED="1748718385301" MODIFIED="1748718404053"/>
 </node>
-<node TEXT="4 The tm4C123GXL" ID="ID_446456208" CREATED="1748040450936" MODIFIED="1748557136619">
-<node TEXT="file://spms376e.pdf &quot; --page-label=6&quot;" ID="ID_299186585" CREATED="1748558132167" MODIFIED="1748716126055" LINK="spms376e.pdf#page=312">
-<hook URI="tm4c123gxl.jpg" SIZE="1.0" NAME="ExternalObject"/>
-</node>
-<node TEXT="spms376e.pdf#page=312" ID="ID_139108646" CREATED="1748716169990" MODIFIED="1748716171501"/>
+<node TEXT="4 The tm4C123GXL" ID="ID_446456208" CREATED="1748040450936" MODIFIED="1748972180319">
 <node TEXT="c program example" ID="ID_607298758" CREATED="1748716445567" MODIFIED="1748716822463" LINK="x.c"/>
+<node TEXT="Board Picture" ID="ID_1595231963" CREATED="1748972182729" MODIFIED="1748972649013" LINK="spmu296.pdf%23page=4"/>
+<node TEXT="" ID="ID_572722381" CREATED="1748973414393" MODIFIED="1748973564006" LINK="spmu296.pdf%23page11"/>
 </node>
-<node TEXT="calculations happen in registers. (usually) results are stored from the register into variables. the store to a variable can be optimised out by the compiler if a register is available for the duration.  &apos;volatile&apos; forces the results of a calculation to be stored in memory.  &apos;result of a calculation&apos; .  primary importance is when memory can be written to by something other than the currently executing code.  examples: an interrupt routine, another thread of execution, a dma transfer, memory mapped I/O reflecting the changed value of an external peripheral. secondary advantage for this class, it makes it far easier to debug when the data is forced to be written into memory so it can be seen by the IDE." ID="ID_145205863" CREATED="1739144598089" MODIFIED="1748789818338" HGAP_QUANTITY="118.25 pt" VSHIFT_QUANTITY="137.99999 pt"/>
 </node>
 </node>
 <node TEXT="02 Week 2 - Memory Map (8/15-8/27)" FOLDED="true" POSITION="top_or_left" ID="ID_1621675299" CREATED="1748038649339" MODIFIED="1748970407177">
