@@ -144,7 +144,7 @@
 <node TEXT="Last month of the course, 55% of the course grade is turned in.  Be ready for this!" ID="ID_713048842" CREATED="1749153040956" MODIFIED="1749153137023"/>
 </node>
 </node>
-<node TEXT="01 Week 1- Programming  (8/18-8/20)" FOLDED="true" POSITION="bottom_or_right" ID="ID_826684588" CREATED="1748038641602" MODIFIED="1749084543870">
+<node TEXT="01 Week 1- Programming  (8/18-8/20)" POSITION="bottom_or_right" ID="ID_826684588" CREATED="1748038641602" MODIFIED="1749155422551">
 <edge COLOR="#00007c"/>
 <node TEXT="1 Objectives" FOLDED="true" ID="ID_1523678332" CREATED="1748289028482" MODIFIED="1748555960645">
 <node TEXT="1 Understand the basics of C programming; pointers, addresses, scope, linkage." ID="ID_1764064600" CREATED="1748557068163" MODIFIED="1748557102031"/>
@@ -156,53 +156,87 @@
 <node TEXT="7 Understand the concept of &apos;enabling clocks&apos; for each block on the tm4c" ID="ID_794342184" CREATED="1748718922108" MODIFIED="1748718949168"/>
 <node TEXT="8 Understand &apos;volatile&apos; keyword" ID="ID_963991764" CREATED="1748790009454" MODIFIED="1748971000393"/>
 </node>
-<node TEXT="2 Readings" ID="ID_1748369068" CREATED="1748556207026" MODIFIED="1748556213200"/>
-<node TEXT="3 Lab" ID="ID_1442651440" CREATED="1748289040279" MODIFIED="1749084543869"/>
-<node TEXT="4 Contents" FOLDED="true" ID="ID_459893785" CREATED="1748289048135" MODIFIED="1748789818341">
-<node TEXT="1 C programming" FOLDED="true" ID="ID_359886156" CREATED="1734577836296" MODIFIED="1748556810739">
-<node TEXT="1. The C Programming Language" FOLDED="true" ID="ID_947284179" CREATED="1736908346813" MODIFIED="1736908756735">
-<node TEXT="variables" ID="ID_281465109" CREATED="1736908371939" MODIFIED="1736908813959">
+<node TEXT="2 Readings" ID="ID_1748369068" CREATED="1748556207026" MODIFIED="1748556213200">
+<node TEXT="spms376e.pdf" ID="ID_1320023849" CREATED="1749420952578" MODIFIED="1749420974263">
+<node TEXT="1 Architectural Overview" ID="ID_1004629006" CREATED="1749420978557" MODIFIED="1749432935823"/>
+<node TEXT="5.2.5 Clock Control" ID="ID_169756226" CREATED="1749432372611" MODIFIED="1749432397637"/>
+</node>
+<node TEXT="spmu296.pdf" ID="ID_1073806259" CREATED="1749431996294" MODIFIED="1749431996294">
+<node TEXT="Entire Document" ID="ID_1134822699" CREATED="1749432042697" MODIFIED="1749432049897"/>
+</node>
+</node>
+<node TEXT="3 Lab" ID="ID_1442651440" CREATED="1748289040279" MODIFIED="1749155426694"/>
+<node TEXT="4 Contents" ID="ID_459893785" CREATED="1748289048135" MODIFIED="1748789818341">
+<node TEXT="1 Using CCS" ID="ID_562560687" CREATED="1748040803149" MODIFIED="1749156933666">
+<node TEXT="1 Use CCS to create a new project" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_943542100" CREATED="1749236450582" MODIFIED="1749236477403"/>
+<node TEXT="2 Required elements of a program" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" ID="ID_1836930859" CREATED="1748718385301" MODIFIED="1749236468048">
+<node TEXT="main()" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_762246020" CREATED="1749235659204" MODIFIED="1749236403402">
+<node TEXT="headers" ID="ID_858449210" CREATED="1749236157109" MODIFIED="1749236161388">
+<node TEXT="stdint.h" ID="ID_1688560691" CREATED="1749236379164" MODIFIED="1749418411969" LINK="stdint.h"/>
+<node TEXT="tm4c123gh6pm.h" ID="ID_1655387529" CREATED="1749236385169" MODIFIED="1749418320901" LINK="tm4c123gh6pm.h"/>
+</node>
+</node>
+<node TEXT="cmd file" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_1881070431" CREATED="1749235666058" MODIFIED="1749236410579">
+<node TEXT="tells the linker where things go..." ID="ID_1567766846" CREATED="1749236172795" MODIFIED="1749236187206"/>
+</node>
+<node TEXT="startup.cmd" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_1134983667" CREATED="1749236221401" MODIFIED="1749236419164">
+<node TEXT="default interrupt vectors" ID="ID_1257563226" CREATED="1749236309725" MODIFIED="1749236318678"/>
+</node>
+</node>
+<node TEXT="3 Debugger Commands" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1355531089" CREATED="1749236352938" MODIFIED="1749236471091"/>
+</node>
+<node TEXT="2 Delay Routines" ID="ID_722505460" CREATED="1748040885869" MODIFIED="1748556143801">
+<node TEXT="wait function" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_555282171" CREATED="1749156819343" MODIFIED="1749236255694" LINK="wait.c"/>
+<node TEXT="what is the maximum value (usec) ?" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1588122427" CREATED="1749157114739" MODIFIED="1749236272429"/>
+</node>
+<node TEXT="3 C programming" ID="ID_359886156" CREATED="1734577836296" MODIFIED="1749156938750">
+<node TEXT="1 The C Programming Language" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" ID="ID_947284179" CREATED="1736908346813" MODIFIED="1749418560561">
+<node TEXT="variables" LOCALIZED_STYLE_REF="styles.subsubtopic" FOLDED="true" ID="ID_281465109" CREATED="1736908371939" MODIFIED="1749156108132">
 <node TEXT="Stack" ID="ID_1839459741" CREATED="1736908388365" MODIFIED="1736908391810"/>
 <node TEXT="Heap" ID="ID_591867061" CREATED="1736908394708" MODIFIED="1736908397506"/>
 <node TEXT="Initialization" ID="ID_1362804618" CREATED="1736908402113" MODIFIED="1736908411245"/>
 </node>
-<node TEXT="function calls" ID="ID_813279355" CREATED="1736908419624" MODIFIED="1736908430822">
+<node TEXT="function calls" LOCALIZED_STYLE_REF="styles.subsubtopic" FOLDED="true" ID="ID_813279355" CREATED="1736908419624" MODIFIED="1749156117230">
 <node TEXT="Call by value" ID="ID_1578519738" CREATED="1736908433601" MODIFIED="1736908452008"/>
 <node TEXT="Stack" ID="ID_626084252" CREATED="1736909561047" MODIFIED="1736909565784">
 <node TEXT="Grows Down (lower address)" ID="ID_270600370" CREATED="1736909567673" MODIFIED="1736909583793"/>
 </node>
 <node TEXT="Code has to be stored somewhere" ID="ID_1461880921" CREATED="1736958400542" MODIFIED="1736958412340"/>
 </node>
-<node TEXT="visibility" ID="ID_1399218191" CREATED="1736908803455" MODIFIED="1736908809005">
+<node TEXT="visibility" LOCALIZED_STYLE_REF="styles.subsubtopic" FOLDED="true" ID="ID_1399218191" CREATED="1736908803455" MODIFIED="1749156125455">
 <node TEXT="static keyword" ID="ID_1085751401" CREATED="1736908816382" MODIFIED="1736908821550"/>
 <node TEXT="block scope" ID="ID_908764775" CREATED="1736908826655" MODIFIED="1736908829999"/>
 <node TEXT="extern keyword" ID="ID_568218737" CREATED="1736909235896" MODIFIED="1736909242170"/>
-<node TEXT="volatile" ID="ID_103565456" CREATED="1736909244934" MODIFIED="1736909250563"/>
+<node TEXT="volatile" ID="ID_103565456" CREATED="1736909244934" MODIFIED="1736909250563">
+<node TEXT="" ID="ID_156960892" CREATED="1749155786670" MODIFIED="1749155786670">
+<node TEXT="calculations happen in registers. (usually) results are stored from the register into variables. the store to a variable can be optimised out by the compiler if a register is available for the duration.  &apos;volatile&apos; forces the results of a calculation to be stored in memory.  &apos;result of a calculation&apos; .  primary importance is when memory can be written to by something other than the currently executing code.  examples: an interrupt routine, another thread of execution, a dma transfer, memory mapped I/O reflecting the changed value of an external peripheral. secondary advantage for this class, it makes it far easier to debug when the data is forced to be written into memory so it can be seen by the IDE." ID="ID_145205863" CREATED="1739144598089" MODIFIED="1748789818338" HGAP_QUANTITY="118.25 pt" VSHIFT_QUANTITY="137.99999 pt"/>
+</node>
+</node>
 <node TEXT="defaults" ID="ID_1004977047" CREATED="1736958688499" MODIFIED="1736958695406"/>
 </node>
-<node TEXT="C Pre Processor" ID="ID_1508794688" CREATED="1736908954162" MODIFIED="1736908964229">
+<node TEXT="C Pre Processor" LOCALIZED_STYLE_REF="styles.subsubtopic" FOLDED="true" ID="ID_1508794688" CREATED="1736908954162" MODIFIED="1749156133280">
 <node TEXT="textual substitution" ID="ID_729647919" CREATED="1736909596227" MODIFIED="1736909602307"/>
 <node TEXT="#pragma once" ID="ID_681826944" CREATED="1736909609527" MODIFIED="1736909615538"/>
 </node>
-<node TEXT="C library" ID="ID_338603704" CREATED="1736908980654" MODIFIED="1736908987090">
+<node TEXT="C library" LOCALIZED_STYLE_REF="styles.subsubtopic" FOLDED="true" ID="ID_338603704" CREATED="1736908980654" MODIFIED="1749156143161">
 <node TEXT="main()" ID="ID_1239725089" CREATED="1736909630192" MODIFIED="1736909634823"/>
 <node TEXT="I/O" ID="ID_1813933446" CREATED="1736909641095" MODIFIED="1736909643867"/>
 <node TEXT="Strings" ID="ID_1823358431" CREATED="1736909646036" MODIFIED="1736909650588"/>
 <node TEXT="Memory Management" ID="ID_1346887567" CREATED="1736909659558" MODIFIED="1736909664732"/>
 <node TEXT="kernel interface" ID="ID_1125563325" CREATED="1736959120733" MODIFIED="1736959126756"/>
 </node>
+<node TEXT="Bit Operations" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_1361663709" CREATED="1749155907299" MODIFIED="1749156163413"/>
+<node TEXT="Pointers" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_1977313834" CREATED="1749155920067" MODIFIED="1749156173142"/>
 </node>
-<node TEXT="2. Build Process" FOLDED="true" ID="ID_1028166104" CREATED="1736908862757" MODIFIED="1736909040599">
-<node TEXT="1. Source code" ID="ID_1554836337" CREATED="1736908932287" MODIFIED="1736959037347">
+<node TEXT="2 Build Process" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" ID="ID_1028166104" CREATED="1736908862757" MODIFIED="1749418563865">
+<node TEXT="1. Source code" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_1554836337" CREATED="1736908932287" MODIFIED="1749157064227">
 <node TEXT=".c" ID="ID_102866779" CREATED="1736908937063" MODIFIED="1736959041699">
 <node TEXT="Definitions" ID="ID_1553097643" CREATED="1736959043278" MODIFIED="1736959050290"/>
 <node TEXT="Supports Seperate compilation" ID="ID_450982927" CREATED="1736959092813" MODIFIED="1736959102061"/>
 </node>
 <node TEXT=".h" ID="ID_699084902" CREATED="1736908941651" MODIFIED="1736959037347">
 <node TEXT="Declarations" ID="ID_999396915" CREATED="1736959054275" MODIFIED="1736959058299"/>
-<node TEXT="Multiple Inclusion Issues" FOLDED="true" ID="ID_492178212" CREATED="1736959065171" MODIFIED="1736959073728">
-<node TEXT="" ID="ID_1442362569" CREATED="1736959082132" MODIFIED="1736959082132"/>
-</node>
+<node TEXT="Multiple Inclusion Issues" ID="ID_492178212" CREATED="1736959065171" MODIFIED="1736959073728"/>
 </node>
 <node TEXT="Common Coding Conventions" ID="ID_1798570667" CREATED="1736909164087" MODIFIED="1736909170444">
 <node TEXT="UPPER CASE MACROS" ID="ID_290562700" CREATED="1736909172773" MODIFIED="1736909180728"/>
@@ -211,36 +245,37 @@
 </node>
 <node TEXT="forward declarations" ID="ID_419729356" CREATED="1736909200309" MODIFIED="1736909207402"/>
 <node TEXT="comments" ID="ID_740617944" CREATED="1736909286564" MODIFIED="1736909290120"/>
+<node TEXT="types from stddef.h" ID="ID_226342124" CREATED="1749159024273" MODIFIED="1749159033234"/>
 </node>
 </node>
-<node TEXT="2. Compilation" ID="ID_1135454569" CREATED="1736909012385" MODIFIED="1736910103741">
+<node TEXT="2. Compilation" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_1135454569" CREATED="1736909012385" MODIFIED="1749157072453">
 <node TEXT="optimisations" ID="ID_1183613159" CREATED="1736909106285" MODIFIED="1736909113061"/>
 <node TEXT="cross compiler" ID="ID_958959748" CREATED="1736958436691" MODIFIED="1736958441156">
 <node TEXT="system headers" ID="ID_839015948" CREATED="1736958443770" MODIFIED="1736958447829"/>
 </node>
 </node>
-<node TEXT="3. Linking" ID="ID_1523653024" CREATED="1736909043468" MODIFIED="1736910111829">
+<node TEXT="3. Linking" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_1523653024" CREATED="1736909043468" MODIFIED="1749157078950">
 <node TEXT="Program Space" ID="ID_1955859171" CREATED="1736910049100" MODIFIED="1736910079521"/>
 <node TEXT="Code Space" ID="ID_42834355" CREATED="1736910062767" MODIFIED="1736910068661"/>
 <node TEXT="Optimisations" ID="ID_103316667" CREATED="1736958585489" MODIFIED="1736958591631">
-<node TEXT="LTO" ID="ID_1518818250" CREATED="1736958594403" MODIFIED="1736958597777"/>
+<node TEXT="LTO - Link Time Optimization" ID="ID_1518818250" CREATED="1736958594403" MODIFIED="1749158818220"/>
 <node TEXT="String Coalescing" ID="ID_1772014874" CREATED="1736958600750" MODIFIED="1736958611268"/>
 <node TEXT="Global Symbols" ID="ID_1552189840" CREATED="1736958618963" MODIFIED="1736958623561"/>
 <node TEXT="Dead Code Elimination" ID="ID_1521829007" CREATED="1736959140345" MODIFIED="1736959146390"/>
 </node>
 </node>
-<node TEXT="4. Run Time Linking" ID="ID_1429248232" CREATED="1736909055684" MODIFIED="1736910117565"/>
-<node TEXT="5. Object Libraries" ID="ID_795632157" CREATED="1736909363361" MODIFIED="1736910126497">
+<node TEXT="4. Run Time Linking" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_1429248232" CREATED="1736909055684" MODIFIED="1749157085623"/>
+<node TEXT="5. Object Libraries" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_795632157" CREATED="1736909363361" MODIFIED="1749157093632">
 <node TEXT="Static" ID="ID_59147457" CREATED="1736909379509" MODIFIED="1736909404697"/>
 <node TEXT="Dynamic" ID="ID_1575223293" CREATED="1736909407414" MODIFIED="1736909410406"/>
 </node>
 </node>
-<node TEXT="3. Dig deeper in a C program" FOLDED="true" ID="ID_1353787287" CREATED="1736907808542" MODIFIED="1736909089491">
+<node TEXT="3 Dig deeper in a C program" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" ID="ID_1353787287" CREATED="1736907808542" MODIFIED="1749418579628">
 <node TEXT="volatile int i;&#xa;volatile int stop=0;&#xa;main()&#xa;{  &#xa;    while(!stop)&#xa;    {&#xa;       i++;&#xa;    }&#xa;    return 0;&#xa;}&#xa;// what can you assume about the system this code is used in?&#xa;// is it considered good style? will it work? (meaning compile and execute)" ID="ID_947290273" CREATED="1736960309084" MODIFIED="1736960313865"/>
 <node TEXT="// one file&#xa;static int i;&#xa;int j;&#xa;void increment(int *i)&#xa;{&#xa;    (*i)++;&#xa;    j++;&#xa;}&#xa;// another file&#xa;#include &lt;stdio.h&gt;&#xa;#include &lt;stdlib.h&gt;&#xa;static int i;&#xa;int j;&#xa;int main(int argc,char* argv[])&#xa;{&#xa;    int *k;&#xa;    j = 1;&#xa;    i = 0;&#xa;    k=malloc(sizeof(int));&#xa;    increment(k);&#xa;    increment(&amp;i);&#xa;    increment(&amp;j);&#xa;    printf(&quot;%d %d %d\n&quot;,i,j,*k);&#xa;    free(k);&#xa;    return 0;&#xa;}&#xa;// discuss namespaces and visibility&#xa;// this code really does nothing of import....&#xa;// what is the difference between main() and the above declaration wrt time and space." ID="ID_199581373" CREATED="1736960322026" MODIFIED="1736960808308"/>
 </node>
-<node TEXT="4. embedded" FOLDED="true" ID="ID_1987464867" CREATED="1736908197129" MODIFIED="1736958750660">
-<node TEXT="Vendor Toolchain" ID="ID_276780732" CREATED="1736908267345" MODIFIED="1736958768579">
+<node TEXT="4 embedded" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" ID="ID_1987464867" CREATED="1736908197129" MODIFIED="1749418576122">
+<node TEXT="Vendor Toolchain" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_276780732" CREATED="1736908267345" MODIFIED="1749236590446">
 <node TEXT="Ussually a couple of years old" ID="ID_1541320909" CREATED="1736959173505" MODIFIED="1736959182322">
 <node TEXT="Known behavior/ No Surprises" ID="ID_1867829215" CREATED="1736959218374" MODIFIED="1736959237714"/>
 <node TEXT="Minimal new or exploratory language features" ID="ID_312457532" CREATED="1736959246014" MODIFIED="1736959272741"/>
@@ -248,13 +283,13 @@
 <node TEXT="Based on gcc or llvm" ID="ID_451435885" CREATED="1736959186054" MODIFIED="1736959192443"/>
 <node TEXT="Value is in headers and utilities provided by the OEM" ID="ID_598275391" CREATED="1736959198020" MODIFIED="1736959210168"/>
 </node>
-<node TEXT="IDE" ID="ID_643620044" CREATED="1736958772396" MODIFIED="1736958776215"/>
-<node TEXT="No OS/ Small OS" ID="ID_375927871" CREATED="1736958784205" MODIFIED="1736958791844"/>
-<node TEXT="Cross Compiled" ID="ID_1264475701" CREATED="1736958800604" MODIFIED="1736958805583">
+<node TEXT="IDE" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_643620044" CREATED="1736958772396" MODIFIED="1749236597636"/>
+<node TEXT="No OS/ Small OS" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_375927871" CREATED="1736958784205" MODIFIED="1749236605084"/>
+<node TEXT="Cross Compiled" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_1264475701" CREATED="1736958800604" MODIFIED="1749236610830">
 <node TEXT="Must download to board" ID="ID_781637744" CREATED="1736958808912" MODIFIED="1736958817773"/>
 <node TEXT="Slow Execution" ID="ID_94259380" CREATED="1736958821147" MODIFIED="1736958826320"/>
 </node>
-<node TEXT="Program Design" ID="ID_609696153" CREATED="1736958835448" MODIFIED="1736958840488">
+<node TEXT="Program Design" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_609696153" CREATED="1736958835448" MODIFIED="1749236618990">
 <node TEXT="Space and Time Contraints drive design" ID="ID_569063406" CREATED="1736958842477" MODIFIED="1736958854930"/>
 <node TEXT="&quot;procedural style&quot; widely used" ID="ID_181198991" CREATED="1736958869750" MODIFIED="1736958880383"/>
 <node TEXT="Limited source code in product" ID="ID_1160347067" CREATED="1736958884483" MODIFIED="1736958895532">
@@ -266,7 +301,7 @@
 </node>
 </node>
 </node>
-<node TEXT="5. Big Picture" FOLDED="true" ID="ID_1396112355" CREATED="1736960855333" MODIFIED="1736960863552">
+<node TEXT="5 Big Picture" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" ID="ID_1396112355" CREATED="1736960855333" MODIFIED="1749418583066">
 <node TEXT="Working on an embedded target is difficult" ID="ID_1821495094" CREATED="1736960872738" MODIFIED="1736960882485">
 <node TEXT="test equipment essential for debugging" ID="ID_402413233" CREATED="1737400559975" MODIFIED="1737400569326">
 <node TEXT="getting information out of the system is the bottleneck" ID="ID_1667013094" CREATED="1737400574413" MODIFIED="1737400585250"/>
@@ -285,37 +320,48 @@
 <node TEXT="Testing and Debugging much simpler on machine with an OS." ID="ID_636287654" CREATED="1736960908418" MODIFIED="1736960924795"/>
 <node TEXT="This is why RPI is so popular for small projects.  It is not cost effective from a BOM perspective, but it makes for &apos;easier&apos; (not better) software." ID="ID_1028041344" CREATED="1736960936140" MODIFIED="1736960970988"/>
 </node>
-<node TEXT="Example Code" FOLDED="true" ID="ID_1875114814" CREATED="1737400241253" MODIFIED="1737400249010">
+<node TEXT="Example Code" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" ID="ID_1875114814" CREATED="1737400241253" MODIFIED="1749156087242">
 <node TEXT="  1 #include &lt;stdio.h&gt;&#xa;  2 // By Convention, MACROS are UPPER CASE&#xa;  3 #define PRINT_HELLO(A) printf(&quot;%s\n&quot;,A);&#xa;  4 #define SEARCH_FOR_EQ(A,B) \&#xa;  5 ({ \&#xa;  6     int t=-1; \&#xa;  7     for (unsigned i=0;i&lt;sizeof(A);i++) \&#xa;  8     { \&#xa;  9         if (B==A[i]) \&#xa; 10             t=i; \&#xa; 11     } \&#xa; 12     t; \&#xa; 13 }) \&#xa; 14&#xa; 15 int main(int argc, char *argv[])&#xa; 16 {&#xa; 17     int a[]={5,4,3,2,1};&#xa; 18     PRINT_HELLO(&quot;macro example&quot;);&#xa; 19     printf(&quot;%d\n&quot;,SEARCH_FOR_EQ(a,2));&#xa; 20     SEARCH_FOR_EQ(a,1);&#xa; 21     return 0;&#xa; 22 }" ID="ID_1866892376" CREATED="1737400453336" MODIFIED="1737400536512"/>
 <node TEXT="  1 #include &lt;stdio.h&gt;&#xa;  2 #include &lt;stdlib.h&gt;&#xa;  3 int A;&#xa;  4 void func()&#xa;  5 {&#xa;  6     int i;&#xa;  7     printf(&quot;the address of i is %p\n&quot;,&amp;i);&#xa;  8     printf(&quot;the address of A is %p\n&quot;,&amp;A);&#xa;  9 }&#xa; 10 int main(int argc, char *argv[])&#xa; 11 {&#xa; 12     char* a = malloc(100);&#xa; 13     char b[100];&#xa; 14     printf(&quot;the address of main is %p and func is %p\n&quot;,main,func);&#xa; 15     func();&#xa; 16     printf(&quot;the address of a is %p\n&quot;,a);&#xa; 17     printf(&quot;the address of b is %p\n&quot;,b);&#xa; 18     return 0;&#xa; 19 }" ID="ID_1288946480" CREATED="1737401206030" MODIFIED="1737401220692"/>
 </node>
-<node TEXT="calculations happen in registers. (usually) results are stored from the register into variables. the store to a variable can be optimised out by the compiler if a register is available for the duration.  &apos;volatile&apos; forces the results of a calculation to be stored in memory.  &apos;result of a calculation&apos; .  primary importance is when memory can be written to by something other than the currently executing code.  examples: an interrupt routine, another thread of execution, a dma transfer, memory mapped I/O reflecting the changed value of an external peripheral. secondary advantage for this class, it makes it far easier to debug when the data is forced to be written into memory so it can be seen by the IDE." ID="ID_145205863" CREATED="1739144598089" MODIFIED="1748789818338" HGAP_QUANTITY="118.25 pt" VSHIFT_QUANTITY="137.99999 pt"/>
 </node>
-<node TEXT="2 Delay Routines" ID="ID_722505460" CREATED="1748040885869" MODIFIED="1748556143801"/>
-<node TEXT="3 Using CCS" FOLDED="true" ID="ID_562560687" CREATED="1748040803149" MODIFIED="1748556147225">
-<node TEXT="Required elements of a program" ID="ID_1836930859" CREATED="1748718385301" MODIFIED="1748718404053"/>
+<node TEXT="4 tm4C123GXL" ID="ID_446456208" CREATED="1748040450936" MODIFIED="1749238176173">
+<node TEXT="Board Picture" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1595231963" CREATED="1748972182729" MODIFIED="1749435753703" LINK="spmu296.pdf%23page=4">
+<node TEXT="R,G,B LED&apos;s" ID="ID_681550219" CREATED="1749420814958" MODIFIED="1749420821064"/>
+<node TEXT="2 Switches" ID="ID_385813789" CREATED="1749420824636" MODIFIED="1749420830765"/>
+<node TEXT="Reset" ID="ID_1484973514" CREATED="1749420832711" MODIFIED="1749420837502"/>
+<node TEXT="Pinout" ID="ID_1518245086" CREATED="1749420843610" MODIFIED="1749420847271"/>
 </node>
-<node TEXT="4 The tm4C123GXL" FOLDED="true" ID="ID_446456208" CREATED="1748040450936" MODIFIED="1748972180319">
-<node TEXT="c program example" ID="ID_607298758" CREATED="1748716445567" MODIFIED="1748716822463" LINK="x.c"/>
-<node TEXT="Board Picture" ID="ID_1595231963" CREATED="1748972182729" MODIFIED="1748972649013" LINK="spmu296.pdf%23page=4"/>
-<node TEXT="" ID="ID_572722381" CREATED="1748973414393" MODIFIED="1748973564006" LINK="spmu296.pdf%23page11"/>
+<node TEXT="Schematic" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1003357533" CREATED="1749420711287" MODIFIED="1749435761949" LINK="spmu296.pdf%23--page-label=20"/>
 </node>
-<node TEXT="5 System Clock / Block Enables" ID="ID_1103869197" CREATED="1748040834136" MODIFIED="1749083806317"/>
+<node TEXT="5 System Clock / Block Enables" ID="ID_1103869197" CREATED="1748040834136" MODIFIED="1749083806317">
+<node TEXT="// Configure HW to work with 16 MHz XTAL, PLL enabled, sysdivider of 5, creating system clock of 40 MHz&#xa;       SYSCTL_RCC_R = SYSCTL_RCC_XTAL_16MHZ |              SYSCTL_RCC_OSCSRC_MAIN | SYSCTL_RCC_USESYSDIV | (4 &lt;&lt; SYSCTL_RCC_SYSDIV_S);&#xa; " ID="ID_1980536839" CREATED="1749440195012" MODIFIED="1749440745982"/>
+<node TEXT="1 Block Diagram" ID="ID_1419644123" CREATED="1749439750130" MODIFIED="1749440629641" LINK="spms376e.pdf%23page-label=222"/>
+<node TEXT="2 RUN MODE CLOCK CONFIGURATION (SYSTCTL_RCC_R)" ID="ID_778730063" CREATED="1749440547025" MODIFIED="1749440633514" LINK="../spms376e.pdf%23page-label=254"/>
+<node TEXT="4 enable / clock gating for each peripheral block" ID="ID_813980220" CREATED="1749441048685" MODIFIED="1749441082082"/>
 </node>
 </node>
-<node TEXT="02 Week 2 - Memory Map (8/15-8/27)" FOLDED="true" POSITION="top_or_left" ID="ID_1621675299" CREATED="1748038649339" MODIFIED="1749084516626">
+</node>
+<node TEXT="02 Week 2 - Memory Map (8/15-8/27)" POSITION="top_or_left" ID="ID_1621675299" CREATED="1748038649339" MODIFIED="1749084516626">
 <edge COLOR="#007c00"/>
 <font SIZE="16"/>
-<node TEXT="1 Objectives" ID="ID_1860897960" CREATED="1748554851857" MODIFIED="1748555970847">
+<node TEXT="1 Objectives" ID="ID_1860897960" CREATED="1748554851857" MODIFIED="1749441213653">
 <node TEXT="1 Be able to identify the different partitions of the Memory Map" ID="ID_117854209" CREATED="1748717959153" MODIFIED="1748718002128"/>
 <node TEXT="2 Describe &apos;bit banding&apos;.  Understand the problem(s) that it solves." ID="ID_214239978" CREATED="1748718005172" MODIFIED="1748718070288"/>
 <node TEXT="3 Using the system memory map, calculate the bitbanded address for a given bit in memory" ID="ID_355624814" CREATED="1748718074019" MODIFIED="1748718191176"/>
-<node TEXT="4 Using the system memory map, calculate the bitbanded address for a given bit on a periphrial." ID="ID_1036745770" CREATED="1748718123687" MODIFIED="1748718178548"/>
+<node TEXT="4 Using the system memory map, calculate the bitbanded address for a given bit on a periphrial." ID="ID_1036745770" CREATED="1748718123687" MODIFIED="1749441243135"/>
 <node TEXT="5 Use either the AHB or the APB to access a peripheral" ID="ID_1008999260" CREATED="1748718197845" MODIFIED="1748718225627"/>
 <node TEXT="6 Understand the differences between the AHB and the APB" ID="ID_431721190" CREATED="1748718229048" MODIFIED="1748718264061"/>
+<node TEXT="7 Understand Read/Modify/Update and the problems that may occur" ID="ID_765261796" CREATED="1749441217942" MODIFIED="1749441264940"/>
 </node>
 <node TEXT="2 Lab" ID="ID_1816378583" CREATED="1748554862731" MODIFIED="1748554866232"/>
-<node TEXT="3 Readings" LOCALIZED_STYLE_REF="default" POSITION="top_or_left" ID="ID_1920110396" CREATED="1748560773935" MODIFIED="1748790338363" CHILD_NODES_LAYOUT="TOPTOBOTTOM_BOTHSIDES_FLOW"/>
+<node TEXT="3 Readings" LOCALIZED_STYLE_REF="AutomaticLayout.level,2" POSITION="top_or_left" ID="ID_1920110396" CREATED="1748560773935" MODIFIED="1749441179201" CHILD_NODES_LAYOUT="TOPTOBOTTOM_BOTHSIDES_FLOW">
+<node TEXT="" ID="ID_709101497" CREATED="1749441206111" MODIFIED="1749441206111"/>
+<node TEXT="spms376e.pdf" ID="ID_950137455" CREATED="1749420952578" MODIFIED="1749420974263">
+<node TEXT="1 Architectural Overview" ID="ID_446232944" CREATED="1749420978557" MODIFIED="1749432935823"/>
+<node TEXT="5.2.5 Clock Control" ID="ID_242840982" CREATED="1749432372611" MODIFIED="1749432397637"/>
+</node>
+</node>
 <node TEXT="4 Contents" ID="ID_1505435801" CREATED="1748554868001" MODIFIED="1748560785035">
 <node TEXT="1 Memory Map" ID="ID_135894633" CREATED="1748040567138" MODIFIED="1748554910759">
 <node TEXT="1 Memory Map" ID="ID_223566472" CREATED="1748040646480" MODIFIED="1748556056419"/>
