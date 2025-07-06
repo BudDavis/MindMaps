@@ -146,7 +146,21 @@
 </node>
 <node TEXT="03 Types" POSITION="top_or_left" ID="ID_1121057718" CREATED="1751483632723" MODIFIED="1751483640874">
 <edge COLOR="#7c0000"/>
-<node TEXT="01 Objectives" ID="ID_1080385548" CREATED="1751484245090" MODIFIED="1751484297218"/>
+<node TEXT="01 Objectives" ID="ID_1080385548" CREATED="1751484245090" MODIFIED="1751484297218">
+<node TEXT="01 Student will be able to list all of the fundamental types and describe the differences between them." FOLDED="true" ID="ID_185538877" CREATED="1751824788699" MODIFIED="1751828683464">
+<node TEXT="" ID="ID_314521805" CREATED="1751828622132" MODIFIED="1751828631151"/>
+</node>
+<node TEXT="02 Student will be able to use the comparison operators in code" ID="ID_1653732052" CREATED="1751828687132" MODIFIED="1751828724184"/>
+<node TEXT="03 Student will be able to use the logical operators in code." ID="ID_1164724485" CREATED="1751828727900" MODIFIED="1751828745207"/>
+<node TEXT="04 Student will understand why and when to use std::byte" ID="ID_1455801645" CREATED="1751828747532" MODIFIED="1751828773215"/>
+<node TEXT="05 Student will understand and be able to use size_t, void, and sizeof()." ID="ID_192942017" CREATED="1751828775475" MODIFIED="1751828844953"/>
+<node TEXT="06 Students will use the appropriate type of for loop for C++" ID="ID_794775777" CREATED="1751828863108" MODIFIED="1751828895735"/>
+<node TEXT="07 Student will be able to define and initialize C strings" ID="ID_1885172017" CREATED="1751828898667" MODIFIED="1751828936775"/>
+<node TEXT="08 Students will be able to create and used scoped enums." ID="ID_877987248" CREATED="1751828939363" MODIFIED="1751828962431"/>
+<node TEXT="09 Student will be able to define and use POD classes (structs)" ID="ID_847133230" CREATED="1751828963419" MODIFIED="1751828993144"/>
+<node TEXT="10 Student will be able to define and use unions, to include understanding the shortcomings of this approach." ID="ID_1401829537" CREATED="1751828996403" MODIFIED="1751829039031"/>
+<node TEXT="11 Students will be able to define and initialize classes, to include specifying appropriate visibility modifiers." ID="ID_1146871131" CREATED="1751829042235" MODIFIED="1751829092745"/>
+</node>
 <node TEXT="02 Lecture" ID="ID_1225056246" CREATED="1751484250994" MODIFIED="1751484301482"/>
 </node>
 <node TEXT="04 Reference Types" POSITION="top_or_left" ID="ID_92519863" CREATED="1751483644211" MODIFIED="1751485437334">
