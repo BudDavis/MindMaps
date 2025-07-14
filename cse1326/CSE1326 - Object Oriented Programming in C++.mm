@@ -537,7 +537,120 @@
 <node TEXT="05 Object Lifecycle" POSITION="top_or_left" ID="ID_13489677" CREATED="1751483660899" MODIFIED="1751483669320">
 <edge COLOR="#007c00"/>
 <node TEXT="01 Objectives" ID="ID_1322506584" CREATED="1751485090421" MODIFIED="1751485095097"/>
-<node TEXT="02 Lecture" ID="ID_1508229288" CREATED="1751485097189" MODIFIED="1751485101441"/>
+<node TEXT="02 Lecture" ID="ID_1508229288" CREATED="1751485097189" MODIFIED="1751485101441">
+<node TEXT="Object Lifecycle" ID="ID_1360100357" CREATED="1752513307560" MODIFIED="1752513374662"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;pre&gt;
+    </p>
+    <p>
+      (from the textbook)
+    </p>
+    <p>
+      Every object requires storage.
+    </p>
+    <p>
+      You reserve storage for objects in a process called allocation.
+    </p>
+    <p>
+      When you’re done with an object, you release the object’s
+    </p>
+    <p>
+      storage in a process called deallocation.
+    </p>
+    <p>
+      An object’s storage duration begins when the object is allocated and
+    </p>
+    <p>
+      ends when the object is deallocated.
+    </p>
+    <p>
+      The lifetime of an object is a runtime property that is bound by the object’s storage duration.
+    </p>
+    <p>
+      &#xa0;An object’s lifetime begins once its constructor completes, and it ends just before a destructor is invoked.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Each object passes through the following stages:
+    </p>
+    <p>
+      1. The object’s storage duration begins, and storage is allocated.
+    </p>
+    <p>
+      2. The object’s constructor is called.
+    </p>
+    <p>
+      3. The object’s lifetime begins.
+    </p>
+    <p>
+      4. You can use the object in your program.
+    </p>
+    <p>
+      5. The object’s lifetime ends.
+    </p>
+    <p>
+      6. The object’s destructor is called.
+    </p>
+    <p>
+      7. The object’s storage duration ends, and storage is deallocated.
+    </p>
+    <p>
+      &lt;/pre&gt;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="Memory Management" ID="ID_511790965" CREATED="1752513387135" MODIFIED="1752513419440">
+<node TEXT="malloc / free" ID="ID_1035820293" CREATED="1752513421584" MODIFIED="1752513435484"/>
+<node TEXT="gc" ID="ID_1806304551" CREATED="1752513427151" MODIFIED="1752513444567"/>
+</node>
+<node TEXT="Automatic Storage Duration" ID="ID_625872529" CREATED="1752513474253" MODIFIED="1752513485359">
+<node TEXT="local variables" ID="ID_562169438" CREATED="1752513972567" MODIFIED="1752513978432"/>
+<node TEXT="&apos;between the braces" ID="ID_1499457564" CREATED="1752513980087" MODIFIED="1752513987599"/>
+</node>
+<node TEXT="Static Storage Duration" ID="ID_269348297" CREATED="1752513488456" MODIFIED="1752513498727">
+<node TEXT="lives for the life of the program" ID="ID_1629907765" CREATED="1752514038454" MODIFIED="1752514049077"/>
+<node TEXT="static" ID="ID_1138090453" CREATED="1752514049437" MODIFIED="1752514054610"/>
+<node TEXT="extern" ID="ID_1615519216" CREATED="1752514056261" MODIFIED="1752514059922"/>
+</node>
+<node TEXT="local static" ID="ID_1592815524" CREATED="1752514072956" MODIFIED="1752514077860"/>
+<node TEXT="static members of a class" ID="ID_593086827" CREATED="1752514089435" MODIFIED="1752514095993">
+<node TEXT="not associated with an instance of the class" ID="ID_239018859" CREATED="1752514097312" MODIFIED="1752514125851"/>
+<node TEXT=".accesss" ID="ID_1963649787" CREATED="1752514111166" MODIFIED="1752514252585">
+<node TEXT="" ID="ID_1007556294" CREATED="1752514254666" MODIFIED="1752514254666">
+<node TEXT="int RatThing::rat_things_power = 200;" ID="ID_497111858" CREATED="1752514261132" MODIFIED="1752514261132"/>
+</node>
+</node>
+</node>
+<node TEXT="thread_local" ID="ID_505095401" CREATED="1752514330074" MODIFIED="1752514345927"/>
+<node TEXT="dynamic allocation" ID="ID_472342252" CREATED="1752514400002" MODIFIED="1752514410337">
+<node TEXT="single variables / classes" ID="ID_75182461" CREATED="1752514411682" MODIFIED="1752514435667">
+<node TEXT="new and delete" ID="ID_1114043226" CREATED="1752514466882" MODIFIED="1752514472915"/>
+</node>
+<node TEXT="arrays" ID="ID_1224230463" CREATED="1752514438001" MODIFIED="1752514462888">
+<node TEXT="new xxx[100]" ID="ID_1256673701" CREATED="1752514474330" MODIFIED="1752514483654"/>
+<node TEXT="delete []xxx" ID="ID_1834174472" CREATED="1752514485227" MODIFIED="1752514500050"/>
+</node>
+</node>
+<node TEXT="memory leaks" ID="ID_452856109" CREATED="1752514519546" MODIFIED="1752514524308"/>
+<node TEXT="exceptions" ID="ID_185376808" CREATED="1752514605836" MODIFIED="1752514617299"/>
+<node TEXT="copying" ID="ID_853257802" CREATED="1752514635171" MODIFIED="1752514638475">
+<node TEXT="copy constructors" ID="ID_356541674" CREATED="1752514640812" MODIFIED="1752514653586"/>
+<node TEXT="copy assignment" ID="ID_1318465114" CREATED="1752514660099" MODIFIED="1752514668779"/>
+<node TEXT="default copy" ID="ID_613176304" CREATED="1752514673043" MODIFIED="1752514676587"/>
+</node>
+<node TEXT="move semantics" ID="ID_626844329" CREATED="1752514685675" MODIFIED="1752514693461"/>
+</node>
 </node>
 <node TEXT="06 Runtime Polymorphism" FOLDED="true" POSITION="top_or_left" ID="ID_1696236521" CREATED="1751483672130" MODIFIED="1751483681558">
 <edge COLOR="#7c007c"/>
@@ -549,7 +662,7 @@
 <node TEXT="01 Objectives" ID="ID_280580309" CREATED="1751485142163" MODIFIED="1751485146044"/>
 <node TEXT="02 Lecture" ID="ID_740371741" CREATED="1751485147867" MODIFIED="1751485151740"/>
 </node>
-<node TEXT="08 OO Design Approaches" POSITION="top_or_left" ID="ID_1240682785" CREATED="1751483696842" MODIFIED="1751483705793">
+<node TEXT="08 OO Design Approaches" FOLDED="true" POSITION="top_or_left" ID="ID_1240682785" CREATED="1751483696842" MODIFIED="1751483705793">
 <edge COLOR="#7c7c00"/>
 <node TEXT="01 Objectives" ID="ID_1660359577" CREATED="1751485154051" MODIFIED="1751485158308"/>
 <node TEXT="02 Lecture" ID="ID_1363940037" CREATED="1751485160339" MODIFIED="1751485164100"/>
