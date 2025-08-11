@@ -1,7 +1,7 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="CSE3310 Fundamentals of Software Engineering" FOLDED="false" ID="ID_1171700979" CREATED="1703959867184" MODIFIED="1738022869331"><hook NAME="MapStyle" zoom="1.2">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" fit_to_viewport="false" showTagCategories="false"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -75,9 +75,9 @@
 <node TEXT="01.0 Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_509777620" CREATED="1703959928549" MODIFIED="1736705355654">
 <node TEXT="1. Course Introduction" ID="ID_222054717" CREATED="1703960303195" MODIFIED="1736703780384">
 <node TEXT="1. Grading" ID="ID_1869525936" CREATED="1703981666770" MODIFIED="1736704486246">
-<node TEXT="Mistakes in grading" ID="ID_1833857770" CREATED="1703983382436" MODIFIED="1704044202684">
+<node TEXT="Mistakes in grading" ID="ID_1833857770" CREATED="1703983382436" MODIFIED="1754529228083">
 <node TEXT="First contact the person that graded it." ID="ID_252953726" CREATED="1736704245143" MODIFIED="1736704265327"/>
-<node TEXT="then escalate to the instructor" ID="ID_1632655349" CREATED="1736704267519" MODIFIED="1736704282877"/>
+<node TEXT="Then escalate to the instructor" ID="ID_1632655349" CREATED="1736704267519" MODIFIED="1754529234224"/>
 </node>
 <node TEXT="&quot;I don&apos;t like my grade&quot;" ID="ID_324933800" CREATED="1703983395808" MODIFIED="1704480855666"/>
 <node TEXT="COE Grade Greivance Process" ID="ID_373354482" CREATED="1703983412962" MODIFIED="1703983424645"/>
@@ -111,7 +111,9 @@
 <node TEXT="All assignments turned in here" ID="ID_1919510964" CREATED="1703981756286" MODIFIED="1703981773467">
 <node TEXT="Canvas decides" ID="ID_667371412" CREATED="1736704363915" MODIFIED="1736704371626">
 <node TEXT="what is late?" ID="ID_1847804971" CREATED="1736704372943" MODIFIED="1736704381669"/>
-<node TEXT="what will be graded." ID="ID_160712606" CREATED="1736704384441" MODIFIED="1736704391635"/>
+<node TEXT="what will be graded." ID="ID_160712606" CREATED="1736704384441" MODIFIED="1736704391635">
+<node TEXT="what is turned in is what is graded" ID="ID_898483931" CREATED="1754529604743" MODIFIED="1754529615055"/>
+</node>
 </node>
 </node>
 <node TEXT="Be cognizent of deadlines and your grade" ID="ID_743573120" CREATED="1703981780067" MODIFIED="1703981800378"/>
@@ -122,9 +124,10 @@
 <node TEXT="Penalty for non-participation" ID="ID_1771846909" CREATED="1703981972377" MODIFIED="1703981981829">
 <node TEXT="0 on the assignment for the non participating student." ID="ID_1391548998" CREATED="1736704431508" MODIFIED="1736704445644"/>
 </node>
+<node TEXT="Focus on &quot;Software Engineering&quot;, not coding.  Although some Java competency is required." ID="ID_291670624" CREATED="1754529633035" MODIFIED="1754529656961"/>
 </node>
 <node TEXT="6. Attendance" ID="ID_1168693255" CREATED="1703983341202" MODIFIED="1736704525110">
-<node TEXT="Students attendance grade (10% proportional to attendance" ID="ID_681714610" CREATED="1704041415956" MODIFIED="1736704416157"/>
+<node TEXT="Required" ID="ID_681714610" CREATED="1704041415956" MODIFIED="1754529673576"/>
 </node>
 <node TEXT="7. AI" ID="ID_1070977668" CREATED="1736704141382" MODIFIED="1736704530398">
 <node TEXT="Prohibited" ID="ID_1255676044" CREATED="1736704149815" MODIFIED="1736800773112">
@@ -132,11 +135,26 @@
 </node>
 </node>
 <node TEXT="8. Academic Honesty" ID="ID_779218061" CREATED="1736704175889" MODIFIED="1736704537114">
-<node TEXT="All individual assignments checked for plagarism" ID="ID_1553396828" CREATED="1736704184519" MODIFIED="1736704197178"/>
-<node TEXT="Instructors desire penalty is to fail the course" ID="ID_1272829608" CREATED="1736704200378" MODIFIED="1736704212250"/>
+<node TEXT="All individual assignments checked for plagarism" ID="ID_1553396828" CREATED="1736704184519" MODIFIED="1736704197178">
+<node TEXT="MOSS" ID="ID_529037308" CREATED="1754529681507" MODIFIED="1754529684217"/>
+<node TEXT="TurnItIn" ID="ID_1375348694" CREATED="1754529686905" MODIFIED="1754529692793"/>
+</node>
+<node TEXT="Instructors desire penalty is to fail the course" ID="ID_1272829608" CREATED="1736704200378" MODIFIED="1754529704936">
+<font BOLD="false"/>
+</node>
+<node TEXT="Use of AI is considered an academic honesty event" ID="ID_556330576" CREATED="1754529711519" MODIFIED="1754529735927"/>
+</node>
+<node TEXT="9. How This Course Works...." ID="ID_1522916310" CREATED="1754529947620" MODIFIED="1754529969716">
+<node TEXT="Readings before lecture" ID="ID_139875294" CREATED="1754529974852" MODIFIED="1754529986554">
+<node TEXT="Sommerville" ID="ID_1348410699" CREATED="1754530051135" MODIFIED="1754530054618"/>
+<node TEXT="SWEBOK" ID="ID_562478638" CREATED="1754530056618" MODIFIED="1754530060649"/>
+</node>
+<node TEXT="Lecture reinforces lecture" ID="ID_1747296171" CREATED="1754529989007" MODIFIED="1754530000657"/>
+<node TEXT="Exams cover both Reading and Lecture" ID="ID_1837683920" CREATED="1754530003060" MODIFIED="1754530016827"/>
+<node TEXT="Project gives an opportunity for hands on application" ID="ID_172022103" CREATED="1754530022214" MODIFIED="1754530050475"/>
 </node>
 </node>
-<node TEXT="2. SWEBOK Reading" FOLDED="true" ID="ID_859991737" CREATED="1703960322456" MODIFIED="1736703799634">
+<node TEXT="2. SWEBOK Reading" ID="ID_859991737" CREATED="1703960322456" MODIFIED="1736703799634">
 <node TEXT="WHAT IS SOFTWARE ENGINEERING? ISO/IEC/IEEE Systems and Software Engineering Vocabulary (SEVOCAB) defines software engineering as “the application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of software; that is, the application of engineering to software).&quot;" ID="ID_164164562" CREATED="1704128736585" MODIFIED="1704207887122"/>
 <node TEXT="Engineering Problem Solving Process" ID="ID_624021079" CREATED="1704135762452" MODIFIED="1704906160987">
 <node TEXT="Define the problem" ID="ID_752821216" CREATED="1704906172558" MODIFIED="1704906692449"/>
@@ -147,7 +165,7 @@
 </node>
 <node TEXT="Engineering Design - the process of devising a system, component, or process to meet desired needs. It is a decision-making process (often iterative), in which the basic sciences, mathematics, and the engineering sciences are applied to convert resources optimally to meet these stated needs. [9, p4]" ID="ID_187347347" CREATED="1704906906754" MODIFIED="1704906947199"/>
 </node>
-<node TEXT="3. Sommerville Reading" FOLDED="true" ID="ID_1759144721" CREATED="1703960282508" MODIFIED="1736800758762">
+<node TEXT="3. Sommerville Reading" ID="ID_1759144721" CREATED="1703960282508" MODIFIED="1736800758762">
 <node TEXT="Ch 1.1 Professional software development " ID="ID_247774750" CREATED="1703961244092" MODIFIED="1736806684492">
 <node TEXT="Software Process Activities AKA &quot;Fundamental Activities&quot;" ID="ID_1028866560" CREATED="1703982724690" MODIFIED="1704130888617">
 <node TEXT="Specification" ID="ID_1493740255" CREATED="1703982746041" MODIFIED="1703982754720"/>
@@ -194,6 +212,7 @@
 <node TEXT="4. Origin of Software Engineering" ID="ID_892068201" CREATED="1703982468765" MODIFIED="1736704629558">
 <node TEXT="Project Failure(s)" ID="ID_1778668188" CREATED="1704044166184" MODIFIED="1704044178053"/>
 <node TEXT="NATO Conference " ID="ID_438268785" CREATED="1704131491764" MODIFIED="1704131508238" LINK="http://homepages.cs.ncl.ac.uk/brian.randell/NATO/index.html"/>
+<node TEXT="Initial focus on Cost and Schedule and Quality" ID="ID_1703939778" CREATED="1754529884176" MODIFIED="1754529897660"/>
 </node>
 <node TEXT="5. Path to Employment in Software Engineering" ID="ID_285516430" CREATED="1703983069713" MODIFIED="1736704637241">
 <node TEXT="Bootcamp (6 months)" ID="ID_1317639217" CREATED="1703983095102" MODIFIED="1704240917232"/>
@@ -207,18 +226,19 @@
 <node TEXT="Business Data Processing" ID="ID_487913694" CREATED="1703984284676" MODIFIED="1703984306458">
 <node TEXT="Information Systems" ID="ID_1254552332" CREATED="1704042233520" MODIFIED="1704042241622"/>
 <node TEXT="Information Technology" ID="ID_471857988" CREATED="1704042246645" MODIFIED="1704042256285"/>
+<node TEXT="CyberSecurity" ID="ID_1350798411" CREATED="1754529825851" MODIFIED="1754529831246"/>
 </node>
 </node>
 </node>
 <node TEXT="5. Fundamental Questions" ID="ID_590213450" CREATED="1736704658468" MODIFIED="1736704669493">
 <node TEXT="Is Software Engineering, Engineering?" ID="ID_105370762" CREATED="1736704671920" MODIFIED="1736704721520"/>
 <node TEXT="If it is not, what is it?" ID="ID_309863817" CREATED="1736704693065" MODIFIED="1736704701925"/>
-<node TEXT="Does it need exist?" ID="ID_432244648" CREATED="1736704724457" MODIFIED="1736704732281"/>
+<node TEXT="Is there a need for Software Engineering?" ID="ID_432244648" CREATED="1736704724457" MODIFIED="1754529880265"/>
 </node>
 </node>
 <node TEXT="02.0 Software Process" FOLDED="true" POSITION="top_or_left" ID="ID_554114201" CREATED="1703960050539" MODIFIED="1738022869330">
 <node TEXT="Sommerville Reading" ID="ID_1899427298" CREATED="1703983228910" MODIFIED="1737583874748">
-<node TEXT="Software Process Models" ID="ID_1752038062" CREATED="1705780007317" MODIFIED="1705780017644">
+<node TEXT="Software Process Models (MACRO PROCESS)" ID="ID_1752038062" CREATED="1705780007317" MODIFIED="1754530110400">
 <node TEXT="Waterfall" ID="ID_1755555716" CREATED="1705794534846" MODIFIED="1705794540605">
 <node TEXT="Understandable" ID="ID_1337646284" CREATED="1705794794992" MODIFIED="1705853099688"/>
 <node TEXT="Poor Visibility" ID="ID_775046381" CREATED="1705853114727" MODIFIED="1705853130812"/>
@@ -238,7 +258,7 @@
 <node TEXT="Tied to Vendors Roadmap" ID="ID_1960834265" CREATED="1705853338659" MODIFIED="1705853352456"/>
 </node>
 </node>
-<node TEXT="Software Process" ID="ID_930546530" CREATED="1705780027887" MODIFIED="1705780059456">
+<node TEXT="Software Process (MICRO PROCESS)" ID="ID_930546530" CREATED="1705780027887" MODIFIED="1754530121617">
 <node TEXT="Inputs" ID="ID_336289861" CREATED="1705795047683" MODIFIED="1705795053796"/>
 <node TEXT="Outputs" ID="ID_973292394" CREATED="1705795062269" MODIFIED="1705795066492"/>
 <node TEXT="Activity" ID="ID_202418386" CREATED="1705795075002" MODIFIED="1705795081514"/>
@@ -286,13 +306,11 @@
 <node TEXT="The efficiency of a software process, activity,&#xa;or task is the ratio of resources actually consumed&#xa;to resources expected or desired to be consumed" ID="ID_818244345" CREATED="1705888383289" MODIFIED="1705888389255"/>
 <node TEXT="Effectiveness is the ratio of actual output to&#xa;expected output produced by a software process,&#xa;activity, or task;" ID="ID_708221979" CREATED="1705888394993" MODIFIED="1705888415086"/>
 </node>
-<node TEXT="Additional Topics" FOLDED="true" ID="ID_647686605" CREATED="1703983256994" MODIFIED="1705853769630">
-<node TEXT="MilStd498" ID="ID_1004918698" CREATED="1705779886140" MODIFIED="1705779896523"/>
+<node TEXT="Additional Topics" ID="ID_647686605" CREATED="1703983256994" MODIFIED="1705853769630">
 <node TEXT="Watts Humphrey" ID="ID_1763593741" CREATED="1705853718088" MODIFIED="1705853789057">
 <node TEXT="Managing the Software Process" ID="ID_1970522380" CREATED="1705853799941" MODIFIED="1705853818036"/>
 <node TEXT="A Discipline for Software Engineering" ID="ID_1337202430" CREATED="1705853824111" MODIFIED="1705853838421"/>
 </node>
-<node TEXT="DOD-2167A" ID="ID_1179517925" CREATED="1705853850002" MODIFIED="1705853908000"/>
 <node TEXT="IEEE Standards" ID="ID_808086592" CREATED="1705853995993" MODIFIED="1705854001466">
 <node TEXT="Tailoring of Standards" ID="ID_1090899692" CREATED="1705854008634" MODIFIED="1705854015974"/>
 </node>
@@ -401,10 +419,14 @@
 <node TEXT="Standard Format" ID="ID_662951663" CREATED="1706553562784" MODIFIED="1706553573197"/>
 <node TEXT="Use language consistently" ID="ID_39955109" CREATED="1706553575872" MODIFIED="1706553585747">
 <node TEXT="shall" ID="ID_735508801" CREATED="1706553598785" MODIFIED="1706553600684">
-<node TEXT="" ID="ID_566041138" CREATED="1706553600687" MODIFIED="1706553600687"/>
+<node TEXT="mandatory" ID="ID_566041138" CREATED="1706553600687" MODIFIED="1754530346769"/>
 </node>
-<node TEXT="will" ID="ID_921682744" CREATED="1706553604726" MODIFIED="1706553607672"/>
-<node TEXT="should" ID="ID_259490312" CREATED="1706553608163" MODIFIED="1706553626868"/>
+<node TEXT="will" ID="ID_921682744" CREATED="1706553604726" MODIFIED="1706553607672">
+<node TEXT="statement of intent / non-functional" ID="ID_1071882793" CREATED="1754530347298" MODIFIED="1754530368243"/>
+</node>
+<node TEXT="should" ID="ID_259490312" CREATED="1706553608163" MODIFIED="1706553626868">
+<node TEXT="nice word that implies nothing" ID="ID_1515057413" CREATED="1754530369115" MODIFIED="1754530381620"/>
+</node>
 </node>
 <node TEXT="Use text highlighting" ID="ID_785516521" CREATED="1706553585924" MODIFIED="1706553598466"/>
 <node TEXT="Avoid &apos;jargon&apos;.  Describe and Explain" ID="ID_818243273" CREATED="1706553628288" MODIFIED="1706553653691"/>
@@ -460,6 +482,18 @@
 </node>
 <node TEXT="Handling Tables of Requirements" ID="ID_259865964" CREATED="1706627411792" MODIFIED="1706627429916"/>
 <node TEXT="Grouping Requirements" ID="ID_1533782150" CREATED="1706641603595" MODIFIED="1706641617016"/>
+<node TEXT="Leveling of Requirements" ID="ID_430560446" CREATED="1754530286589" MODIFIED="1754530294239">
+<node TEXT="User Requirements" ID="ID_202486269" CREATED="1754530566924" MODIFIED="1754530572523"/>
+<node TEXT="System Requirements" ID="ID_612303409" CREATED="1754530574217" MODIFIED="1754530579588"/>
+</node>
+<node TEXT="The User Interface" ID="ID_1202212632" CREATED="1754530433893" MODIFIED="1754530445392">
+<node TEXT="Every piece of information presented to or accepted from a user (where a user is a person or another system) is a requirement" ID="ID_1253154274" CREATED="1754530446750" MODIFIED="1754530478344"/>
+<node TEXT="&quot;mock up&quot;  user interfaces as part of the requirements process." ID="ID_1571944321" CREATED="1754530481039" MODIFIED="1754530503077">
+<node TEXT="Unique ID&apos;s for each" ID="ID_1520425794" CREATED="1754530505426" MODIFIED="1754530515691"/>
+<node TEXT="cross reference with a requirement" ID="ID_1642051996" CREATED="1754530517439" MODIFIED="1754530533193"/>
+<node TEXT="generally, would consider these to be &apos;user requirements&apos;" ID="ID_233370331" CREATED="1754530535908" MODIFIED="1754530549384"/>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="04.0 Software Modeling" FOLDED="true" POSITION="top_or_left" ID="ID_1291018404" CREATED="1703960080688" MODIFIED="1705795502891">
@@ -509,6 +543,7 @@
 <node TEXT="System represented by a set of models that can be automatically converted to code" ID="ID_825600554" CREATED="1707759552850" MODIFIED="1707759571699"/>
 <node TEXT="Tools Required" ID="ID_406409932" CREATED="1707759594004" MODIFIED="1707759603607"/>
 <node TEXT="Large, long running hardware / software systems" ID="ID_1328192470" CREATED="1707759605786" MODIFIED="1707759617003"/>
+<node TEXT="MBSE Model Based System Engineering" ID="ID_1171291913" CREATED="1754530621650" MODIFIED="1754530634350"/>
 </node>
 <node TEXT="SWEBOK" ID="ID_1460725985" CREATED="1707273023552" MODIFIED="1707273027311">
 <node TEXT="Characteristics of Models" ID="ID_1911197281" CREATED="1707759696006" MODIFIED="1707759702199">
@@ -519,15 +554,18 @@
 </node>
 </node>
 <node TEXT="05.0 Architecture" FOLDED="true" POSITION="bottom_or_right" ID="ID_407988059" CREATED="1703960095427" MODIFIED="1720023244542">
-<node TEXT="Design Decisions" ID="ID_1659096117" CREATED="1719846607222" MODIFIED="1720023178240">
-<node TEXT="Architecture is where non functional requirements are realized" ID="ID_286458410" CREATED="1720025298009" MODIFIED="1720025316910"/>
-</node>
-<node TEXT="Introduction" ID="ID_76657719" CREATED="1720023162548" MODIFIED="1720023244541">
+<node TEXT="Sommerville" ID="ID_1772273115" CREATED="1754530693987" MODIFIED="1754530702068">
+<node TEXT="1. Introduction" ID="ID_76657719" CREATED="1720023162548" MODIFIED="1754530722639">
 <node TEXT="Definition" ID="ID_111027798" CREATED="1720025132794" MODIFIED="1720025142226">
 <node TEXT="How the system is divided into components and how those components communicate" ID="ID_1245525615" CREATED="1720025143252" MODIFIED="1720025180136"/>
 </node>
 </node>
-<node TEXT="Architectural Views" ID="ID_1117237533" CREATED="1720023188176" MODIFIED="1720023198181">
+<node TEXT="2. Design Decisions" ID="ID_1659096117" CREATED="1719846607222" MODIFIED="1754530727273">
+<node TEXT="Architecture is where non functional requirements are realized" ID="ID_286458410" CREATED="1720025298009" MODIFIED="1720025316910"/>
+<node TEXT="Decisions about the product and how it is built that are not covered by requirements" ID="ID_1734010461" CREATED="1754530821806" MODIFIED="1754530842269"/>
+</node>
+<node TEXT="3. Documenting an Architecture" ID="ID_231843481" CREATED="1754530864797" MODIFIED="1754530875663">
+<node TEXT="Architectural Views" ID="ID_1117237533" CREATED="1720023188176" MODIFIED="1754530889187">
 <node TEXT="4+1" ID="ID_1074823336" CREATED="1720025184090" MODIFIED="1720025190696">
 <node TEXT="Logical" ID="ID_662561486" CREATED="1720025191235" MODIFIED="1720025220043">
 <node TEXT="key abstractions" ID="ID_1823695748" CREATED="1720025749407" MODIFIED="1720025784507"/>
@@ -544,7 +582,8 @@
 <node TEXT="+1 == related use cases or scenarios" ID="ID_94105885" CREATED="1720025263149" MODIFIED="1720025292700"/>
 </node>
 </node>
-<node TEXT="Architectural Patterns" ID="ID_1252960972" CREATED="1720023249487" MODIFIED="1720023266894">
+</node>
+<node TEXT="4. Architectural Patterns" ID="ID_1252960972" CREATED="1720023249487" MODIFIED="1754530741571">
 <node TEXT="Layered" ID="ID_945579877" CREATED="1720023272275" MODIFIED="1720023282474"/>
 <node TEXT="Repository" ID="ID_606711208" CREATED="1720023285802" MODIFIED="1720023290826"/>
 <node TEXT="Model View Controller" ID="ID_753801286" CREATED="1720023327450" MODIFIED="1720023334905"/>
@@ -555,7 +594,7 @@
 </node>
 <node TEXT="Pipe And Filter" ID="ID_975092804" CREATED="1720023356025" MODIFIED="1720023365427"/>
 </node>
-<node TEXT="Application architectures" ID="ID_616810421" CREATED="1720023433279" MODIFIED="1720023473699">
+<node TEXT="5. Application architectures" ID="ID_616810421" CREATED="1720023433279" MODIFIED="1754530754939">
 <node TEXT="Used for" ID="ID_1962501196" CREATED="1720023477434" MODIFIED="1720023492069">
 <node TEXT="Starting point for architectural design" ID="ID_1468774681" CREATED="1720023433469" MODIFIED="1720023456127"/>
 <node TEXT="Design checklist" ID="ID_1575703044" CREATED="1720023503008" MODIFIED="1720023510879"/>
@@ -572,6 +611,8 @@
 <node TEXT="&quot;describe the structure and organization of particular types of software systems&quot;" ID="ID_1292332031" CREATED="1720023942295" MODIFIED="1720024096886"/>
 </node>
 </node>
+</node>
+<node TEXT="SWEBOK" ID="ID_1738635526" CREATED="1754530704673" MODIFIED="1754530707828"/>
 </node>
 <node TEXT="06.0 Design and Implementation" POSITION="top_or_left" ID="ID_7229223" CREATED="1703960109127" MODIFIED="1705795585940"/>
 <node TEXT="07.0 Software Testing" FOLDED="true" POSITION="bottom_or_right" ID="ID_1745259993" CREATED="1703960127362" MODIFIED="1705795550799">
