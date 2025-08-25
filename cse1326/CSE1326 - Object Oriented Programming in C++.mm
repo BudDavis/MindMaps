@@ -75,7 +75,7 @@
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="01 Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_873130339" CREATED="1751483600281" MODIFIED="1751644672410">
 <edge COLOR="#ff00ff"/>
-<node TEXT="01 Objectives" FOLDED="true" ID="ID_1506017022" CREATED="1751483877215" MODIFIED="1751484277618">
+<node TEXT="01 Objectives" ID="ID_1506017022" CREATED="1751483877215" MODIFIED="1751484277618">
 <node TEXT="01 Understand the compilation process and the type of errors emitted from each stage." ID="ID_725997858" CREATED="1751484514630" MODIFIED="1751484549807"/>
 <node TEXT="02 Student will be able to create and compile a simple C++ program from the command line (bash)" ID="ID_1911251631" CREATED="1751483886543" MODIFIED="1751484554777"/>
 <node TEXT="03 Students will be able to create and compile a simple C++ program using the VSCode IDE." ID="ID_265257244" CREATED="1751483929358" MODIFIED="1751484561628"/>
@@ -146,7 +146,7 @@
 </node>
 <node TEXT="03 Types" FOLDED="true" POSITION="top_or_left" ID="ID_1121057718" CREATED="1751483632723" MODIFIED="1751483640874">
 <edge COLOR="#7c0000"/>
-<node TEXT="01 Objectives" FOLDED="true" ID="ID_1080385548" CREATED="1751484245090" MODIFIED="1751484297218">
+<node TEXT="01 Objectives" ID="ID_1080385548" CREATED="1751484245090" MODIFIED="1751484297218">
 <node TEXT="01 Student will be able to list all of the fundamental types and describe the differences between them." ID="ID_185538877" CREATED="1751824788699" MODIFIED="1751828683464"/>
 <node TEXT="02 Student will be able to use the comparison operators in code" ID="ID_1653732052" CREATED="1751828687132" MODIFIED="1751828724184"/>
 <node TEXT="03 Student will be able to use the logical operators in code." ID="ID_1164724485" CREATED="1751828727900" MODIFIED="1751828745207"/>
@@ -159,7 +159,7 @@
 <node TEXT="10 Students will be able to define and use unions, to include understanding the underlying mechanism" ID="ID_1401829537" CREATED="1751828996403" MODIFIED="1751829600349"/>
 <node TEXT="11 Students will be able to define and initialize classes, to include specifying appropriate visibility modifiers." ID="ID_1146871131" CREATED="1751829042235" MODIFIED="1751829092745"/>
 </node>
-<node TEXT="02 Lecture" FOLDED="true" ID="ID_1225056246" CREATED="1751484250994" MODIFIED="1752008595517">
+<node TEXT="02 Lecture" ID="ID_1225056246" CREATED="1751484250994" MODIFIED="1752008595517">
 <node TEXT="Fundamental Types" ID="ID_405844597" CREATED="1751830490228" MODIFIED="1751831625348"><richcontent TYPE="NOTE">
 <html>
   <head>

@@ -166,7 +166,7 @@
 <node TEXT="Engineering Design - the process of devising a system, component, or process to meet desired needs. It is a decision-making process (often iterative), in which the basic sciences, mathematics, and the engineering sciences are applied to convert resources optimally to meet these stated needs. [9, p4]" ID="ID_187347347" CREATED="1704906906754" MODIFIED="1704906947199"/>
 </node>
 <node TEXT="3. Sommerville Reading" ID="ID_1759144721" CREATED="1703960282508" MODIFIED="1736800758762">
-<node TEXT="Ch 1.1 Professional software development " ID="ID_247774750" CREATED="1703961244092" MODIFIED="1736806684492">
+<node TEXT="Ch 1.1 Professional software development " FOLDED="true" ID="ID_247774750" CREATED="1703961244092" MODIFIED="1736806684492">
 <node TEXT="Software Process Activities AKA &quot;Fundamental Activities&quot;" ID="ID_1028866560" CREATED="1703982724690" MODIFIED="1704130888617">
 <node TEXT="Specification" ID="ID_1493740255" CREATED="1703982746041" MODIFIED="1703982754720"/>
 <node TEXT="Development" ID="ID_1060058870" CREATED="1703982758004" MODIFIED="1703982768506"/>
