@@ -1,7 +1,7 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Object Oriented Programming in C++" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1751485598175" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW"><hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="false" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="false" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false" show_notes_in_map="true"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -73,18 +73,18 @@
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="25" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<node TEXT="01 Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_873130339" CREATED="1751483600281" MODIFIED="1751644672410">
+<node TEXT="01 Introduction" POSITION="bottom_or_right" ID="ID_873130339" CREATED="1751483600281" MODIFIED="1751644672410">
 <edge COLOR="#ff00ff"/>
-<node TEXT="01 Objectives" ID="ID_1506017022" CREATED="1751483877215" MODIFIED="1751484277618">
+<node TEXT="01 Objectives" ID="ID_1506017022" CREATED="1751483877215" MODIFIED="1755737387867">
 <node TEXT="01 Understand the compilation process and the type of errors emitted from each stage." ID="ID_725997858" CREATED="1751484514630" MODIFIED="1751484549807"/>
 <node TEXT="02 Student will be able to create and compile a simple C++ program from the command line (bash)" ID="ID_1911251631" CREATED="1751483886543" MODIFIED="1751484554777"/>
 <node TEXT="03 Students will be able to create and compile a simple C++ program using the VSCode IDE." ID="ID_265257244" CREATED="1751483929358" MODIFIED="1751484561628"/>
-<node TEXT="04 Student will be able to create and use a simple makefile to compile a simple C++ program." ID="ID_217589001" CREATED="1751483961366" MODIFIED="1751484566877"/>
+<node TEXT="04 Student will be able to create and use a simple makefile to compile a simple C++ program." ID="ID_217589001" CREATED="1751483961366" MODIFIED="1755737387866"/>
 <node TEXT="05 Student will understand and use the basic commands of the gdb debugger (single step, breakpoint, display and change memory)" ID="ID_1037177676" CREATED="1751484030117" MODIFIED="1751484570887"/>
 <node TEXT="06 Students will be able to create a private github repository and add collaborators" ID="ID_33175148" CREATED="1751484355600" MODIFIED="1751484574959"/>
 <node TEXT="07 Students will be able to use github for simple source control activities.  (add, commit, push, pull, clone." ID="ID_447166497" CREATED="1751484396999" MODIFIED="1751484579303"/>
 </node>
-<node TEXT="02 Lecture" ID="ID_537497064" CREATED="1751484315096" MODIFIED="1751644675829">
+<node TEXT="02 Lecture" FOLDED="true" ID="ID_537497064" CREATED="1751484315096" MODIFIED="1751644675829">
 <node TEXT="01 Valid  Program" ID="ID_899763014" CREATED="1751484613356" MODIFIED="1751484790971">
 <node TEXT="01 main" ID="ID_303604521" CREATED="1751484709107" MODIFIED="1751484742137"/>
 <node TEXT="02 headers" ID="ID_1931172698" CREATED="1751484733050" MODIFIED="1751484746235"/>
@@ -144,7 +144,7 @@
 </node>
 </node>
 </node>
-<node TEXT="03 Types" FOLDED="true" POSITION="top_or_left" ID="ID_1121057718" CREATED="1751483632723" MODIFIED="1751483640874">
+<node TEXT="03 Types" POSITION="top_or_left" ID="ID_1121057718" CREATED="1751483632723" MODIFIED="1751483640874">
 <edge COLOR="#7c0000"/>
 <node TEXT="01 Objectives" ID="ID_1080385548" CREATED="1751484245090" MODIFIED="1751484297218">
 <node TEXT="01 Student will be able to list all of the fundamental types and describe the differences between them." ID="ID_185538877" CREATED="1751824788699" MODIFIED="1751828683464"/>
@@ -160,7 +160,7 @@
 <node TEXT="11 Students will be able to define and initialize classes, to include specifying appropriate visibility modifiers." ID="ID_1146871131" CREATED="1751829042235" MODIFIED="1751829092745"/>
 </node>
 <node TEXT="02 Lecture" ID="ID_1225056246" CREATED="1751484250994" MODIFIED="1752008595517">
-<node TEXT="Fundamental Types" ID="ID_405844597" CREATED="1751830490228" MODIFIED="1751831625348"><richcontent TYPE="NOTE">
+<node TEXT="Fundamental Types" FOLDED="true" ID="ID_405844597" CREATED="1751830490228" MODIFIED="1751831625348"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -268,8 +268,8 @@
 <node TEXT="1 or 0" ID="ID_1502974021" CREATED="1751831685092" MODIFIED="1751831691969"/>
 </node>
 </node>
-<node TEXT="operators" ID="ID_126544184" CREATED="1751830519546" MODIFIED="1751831027822">
-<node TEXT="comparison" ID="ID_394188424" CREATED="1752007767178" MODIFIED="1752007821467"><richcontent TYPE="NOTE">
+<node TEXT="operators" ID="ID_126544184" CREATED="1751830519546" MODIFIED="1755738061157">
+<node TEXT="comparison" ID="ID_394188424" CREATED="1752007767178" MODIFIED="1755738061347"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -372,9 +372,9 @@
 <node TEXT="if using char*, need to cas to &apos;char*&apos;" ID="ID_196087181" CREATED="1752008643002" MODIFIED="1752008667617"/>
 <node TEXT="man ascii" ID="ID_1031605430" CREATED="1752008668897" MODIFIED="1752008672738"/>
 </node>
-<node TEXT="User Defined Types" ID="ID_287809503" CREATED="1751830615942" MODIFIED="1751830621322">
-<node TEXT="Enumerations" ID="ID_443003384" CREATED="1751830627574" MODIFIED="1751830633710">
-<node TEXT="scoped enumerations" ID="ID_1190394976" CREATED="1751830634750" MODIFIED="1752008831676"><richcontent TYPE="NOTE">
+<node TEXT="User Defined Types" ID="ID_287809503" CREATED="1751830615942" MODIFIED="1756168159258">
+<node TEXT="Enumerations" ID="ID_443003384" CREATED="1751830627574" MODIFIED="1756167607416">
+<node TEXT="scoped enumerations" ID="ID_1190394976" CREATED="1751830634750" MODIFIED="1756167623349" HGAP_QUANTITY="15.5 pt"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -413,40 +413,61 @@
 <node TEXT="Pod == Plain Old Data" ID="ID_888859777" CREATED="1752008834978" MODIFIED="1752008848187"/>
 <node TEXT="Can copy it around as bytes" ID="ID_1936858867" CREATED="1752008854394" MODIFIED="1752008870326"/>
 </node>
-<node TEXT="Unions" ID="ID_269435291" CREATED="1751830686956" MODIFIED="1752008953772"><richcontent TYPE="NOTE">
+<node TEXT="Unions" ID="ID_269435291" CREATED="1751830686956" MODIFIED="1756170291500"><richcontent TYPE="NOTE">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      union variant {
+      &#xa0;&#xa0;1 #include &lt;stdio.h&gt;
     </p>
     <p>
-      &#xa0;&#xa0;char a;
+      &#xa0;&#xa0;2
     </p>
     <p>
-      &#xa0;&#xa0;unsigned char b;
+      &#xa0;&#xa0;3 union variant {
     </p>
     <p>
-      &#xa0;&#xa0;int c;
+      &#xa0;&#xa0;4&#xa0;&#xa0;&#xa0;char a;
     </p>
     <p>
-      ;}
+      &#xa0;&#xa0;5&#xa0;&#xa0;&#xa0;unsigned char b;
     </p>
     <p>
-      
+      &#xa0;&#xa0;6&#xa0;&#xa0;&#xa0;int c;
     </p>
     <p>
-      u t;
+      &#xa0;&#xa0;7 };
     </p>
     <p>
-      t.a = 'a';
+      &#xa0;&#xa0;8
+    </p>
+    <p>
+      &#xa0;&#xa0;9 int main()
+    </p>
+    <p>
+      &#xa0;10 {
+    </p>
+    <p>
+      &#xa0;11&#xa0;&#xa0;&#xa0;&#xa0;variant u;
+    </p>
+    <p>
+      &#xa0;12&#xa0;&#xa0;&#xa0;&#xa0;u.a = 'a';
+    </p>
+    <p>
+      &#xa0;13&#xa0;&#xa0;&#xa0;&#xa0;printf(&quot;%d \n&quot;,u.b);
+    </p>
+    <p>
+      &#xa0;14&#xa0;&#xa0;&#xa0;&#xa0;return 0;
+    </p>
+    <p>
+      &#xa0;15 }
     </p>
   </body>
 </html></richcontent>
 </node>
-<node TEXT="Classes" ID="ID_1523840678" CREATED="1751830700259" MODIFIED="1751830704478">
+<node TEXT="Classes" ID="ID_1523840678" CREATED="1751830700259" MODIFIED="1756168159258">
 <node TEXT="Use class or struct" ID="ID_1429482847" CREATED="1752008967990" MODIFIED="1752008979666">
 <node TEXT="depends on default visibility, use class and they are private by default" ID="ID_194187976" CREATED="1752008981214" MODIFIED="1752009075831"/>
 </node>

@@ -1,9 +1,9 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<attribute_registry SHOW_ATTRIBUTES="hide"/>
 <bookmarks>
     <bookmark nodeId="ID_696401721" name="Root" opensAsRoot="true"/>
 </bookmarks>
+<attribute_registry SHOW_ATTRIBUTES="hide"/>
 <node TEXT="Embedded Systems I" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1750187433379" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW"><hook NAME="MapStyle" zoom="1.5970861">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" allow_compact_layout="false" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
@@ -335,8 +335,7 @@
 <node TEXT="Schematic" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1003357533" CREATED="1749420711287" MODIFIED="1749435761949" LINK="spmu296.pdf%23--page-label=20"/>
 </node>
 <node TEXT="5 System Clock / Block Enables" ID="ID_1103869197" CREATED="1748040834136" MODIFIED="1749083806317">
-<node TEXT="// Configure HW to work with 16 MHz XTAL, PLL enabled, sysdivider of 5, creating system clock of 40 MHz&#xa;       SYSCTL_RCC_R = SYSCTL_RCC_XTAL_16MHZ |              SYSCTL_RCC_OSCSRC_MAIN | SYSCTL_RCC_USESYSDIV | (4 &lt;&lt; SYSCTL_RCC_SYSDIV_S);&#xa; " ID="ID_1980536839" CREATED="1749440195012" MODIFIED="1749440745982"/>
-<node TEXT="1 Block Diagram" ID="ID_1419644123" CREATED="1749439750130" MODIFIED="1749440629641" LINK="spms376e.pdf%23page-label=222">
+<node TEXT="1 Block Diagram (p48)" ID="ID_1419644123" CREATED="1749439750130" MODIFIED="1756151982177" LINK="spms376e.pdf%23page-label=222">
 <node TEXT="CPU (p71)" ID="ID_671626364" CREATED="1756132376932" MODIFIED="1756132400638">
 <node TEXT="Harvard Architecture" ID="ID_282279851" CREATED="1756132400718" MODIFIED="1756132408915"/>
 <node TEXT="Busses" ID="ID_404969011" CREATED="1756132410065" MODIFIED="1756132475210">
@@ -354,7 +353,9 @@
 <node TEXT="show header file and search" ID="ID_1164227389" CREATED="1756134048746" MODIFIED="1756134063501"/>
 </node>
 </node>
-<node TEXT="2 RUN MODE CLOCK CONFIGURATION (SYSTCTL_RCC_R)" ID="ID_778730063" CREATED="1749440547025" MODIFIED="1749440633514" LINK="../spms376e.pdf%23page-label=254"/>
+<node TEXT="2 RUN MODE CLOCK CONFIGURATION (SYSTCTL_RCC_R) p254" FOLDED="true" ID="ID_778730063" CREATED="1749440547025" MODIFIED="1756157488006" LINK="../spms376e.pdf%23page-label=254">
+<node TEXT="// Configure HW to work with 16 MHz XTAL, PLL enabled, sysdivider of 5, creating system clock of 40 MHz&#xa;       SYSCTL_RCC_R = SYSCTL_RCC_XTAL_16MHZ |              SYSCTL_RCC_OSCSRC_MAIN | SYSCTL_RCC_USESYSDIV | (4 &lt;&lt; SYSCTL_RCC_SYSDIV_S);&#xa; " POSITION="bottom_or_right" ID="ID_1980536839" CREATED="1749440195012" MODIFIED="1749440745982"/>
+</node>
 <node TEXT="4 enable / clock gating for each peripheral block (p232)" ID="ID_813980220" CREATED="1749441048685" MODIFIED="1756133793964"/>
 </node>
 </node>

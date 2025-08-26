@@ -1,6 +1,6 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="CSE3310 Fundamentals of Software Engineering" FOLDED="false" ID="ID_1171700979" CREATED="1703959867184" MODIFIED="1738022869331"><hook NAME="MapStyle" zoom="1.2">
+<node TEXT="CSE3310 Fundamentals of Software Engineering" FOLDED="false" ID="ID_1171700979" CREATED="1703959867184" MODIFIED="1738022869331"><hook NAME="MapStyle" zoom="1.5">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -72,7 +72,7 @@
 </map_styles>
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="HEADINGS"/>
-<node TEXT="01.0 Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_509777620" CREATED="1703959928549" MODIFIED="1736705355654">
+<node TEXT="01.0 Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_509777620" CREATED="1703959928549" MODIFIED="1755715136273">
 <node TEXT="1. Course Introduction" ID="ID_222054717" CREATED="1703960303195" MODIFIED="1736703780384">
 <node TEXT="1. Grading" ID="ID_1869525936" CREATED="1703981666770" MODIFIED="1736704486246">
 <node TEXT="Mistakes in grading" ID="ID_1833857770" CREATED="1703983382436" MODIFIED="1754529228083">
@@ -165,7 +165,7 @@
 </node>
 <node TEXT="Engineering Design - the process of devising a system, component, or process to meet desired needs. It is a decision-making process (often iterative), in which the basic sciences, mathematics, and the engineering sciences are applied to convert resources optimally to meet these stated needs. [9, p4]" ID="ID_187347347" CREATED="1704906906754" MODIFIED="1704906947199"/>
 </node>
-<node TEXT="3. Sommerville Reading" ID="ID_1759144721" CREATED="1703960282508" MODIFIED="1736800758762">
+<node TEXT="3. Sommerville Reading" ID="ID_1759144721" CREATED="1703960282508" MODIFIED="1755715136272">
 <node TEXT="Ch 1.1 Professional software development " FOLDED="true" ID="ID_247774750" CREATED="1703961244092" MODIFIED="1736806684492">
 <node TEXT="Software Process Activities AKA &quot;Fundamental Activities&quot;" ID="ID_1028866560" CREATED="1703982724690" MODIFIED="1704130888617">
 <node TEXT="Specification" ID="ID_1493740255" CREATED="1703982746041" MODIFIED="1703982754720"/>
@@ -236,7 +236,7 @@
 <node TEXT="Is there a need for Software Engineering?" ID="ID_432244648" CREATED="1736704724457" MODIFIED="1754529880265"/>
 </node>
 </node>
-<node TEXT="02.0 Software Process" FOLDED="true" POSITION="top_or_left" ID="ID_554114201" CREATED="1703960050539" MODIFIED="1738022869330">
+<node TEXT="02.0 Software Process" POSITION="top_or_left" ID="ID_554114201" CREATED="1703960050539" MODIFIED="1738022869330">
 <node TEXT="Sommerville Reading" ID="ID_1899427298" CREATED="1703983228910" MODIFIED="1737583874748">
 <node TEXT="Software Process Models (MACRO PROCESS)" ID="ID_1752038062" CREATED="1705780007317" MODIFIED="1754530110400">
 <node TEXT="Waterfall" ID="ID_1755555716" CREATED="1705794534846" MODIFIED="1705794540605">
@@ -264,8 +264,8 @@
 <node TEXT="Activity" ID="ID_202418386" CREATED="1705795075002" MODIFIED="1705795081514"/>
 <node TEXT="Required Skills" ID="ID_483414030" CREATED="1705795089575" MODIFIED="1705795102490"/>
 </node>
-<node TEXT="Process Activities" ID="ID_75155289" CREATED="1705780076161" MODIFIED="1705780092706">
-<node TEXT="Each Fundamental Activity composed of sub-activities" ID="ID_685023809" CREATED="1705854062759" MODIFIED="1705854121951"/>
+<node TEXT="Process Activities" ID="ID_75155289" CREATED="1705780076161" MODIFIED="1756148162948">
+<node TEXT="Each Fundamental Activity composed of sub-activities" ID="ID_685023809" CREATED="1705854062759" MODIFIED="1756148162944" HGAP_QUANTITY="41.75 pt" VSHIFT_QUANTITY="-6.75 pt"/>
 </node>
 <node TEXT="Process Improvement" ID="ID_228254912" CREATED="1705780113887" MODIFIED="1705780123335">
 <node TEXT="Measure / Analyze / Change" ID="ID_1948680122" CREATED="1705855475130" MODIFIED="1705855494016"/>
