@@ -1,6 +1,6 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="CSE3310 Fundamentals of Software Engineering" FOLDED="false" ID="ID_1171700979" CREATED="1703959867184" MODIFIED="1738022869331"><hook NAME="MapStyle" zoom="1.5">
+<node TEXT="CSE3310 Fundamentals of Software Engineering" FOLDED="false" ID="ID_1171700979" CREATED="1703959867184" MODIFIED="1738022869331"><hook NAME="MapStyle" zoom="3.0">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -351,7 +351,7 @@
 <node TEXT="Iterative and Interleaved" ID="ID_1626723241" CREATED="1706552306302" MODIFIED="1706552325948"/>
 <node TEXT="Spiral Model" ID="ID_381839542" CREATED="1706552329494" MODIFIED="1738022880795"/>
 </node>
-<node TEXT="Requirements Elicitation" ID="ID_1266323102" CREATED="1706460915292" MODIFIED="1706460955825">
+<node TEXT="1 Requirements Elicitation" ID="ID_1266323102" CREATED="1706460915292" MODIFIED="1756927187540">
 <node TEXT="Why is it difficult?" ID="ID_678564530" CREATED="1706552348629" MODIFIED="1706552386551">
 <node TEXT="Stakeholders don&apos;t know what they want" ID="ID_1008070219" CREATED="1706552356479" MODIFIED="1706552404583"/>
 <node TEXT="Stakeholders have a unique vocabulary" ID="ID_1207427726" CREATED="1706552386553" MODIFIED="1706552421541"/>
@@ -381,7 +381,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Requirements Validation" ID="ID_951698064" CREATED="1706460963862" MODIFIED="1706460974020">
+<node TEXT="3 Requirements Validation" FOLDED="true" ID="ID_951698064" CREATED="1706460963862" MODIFIED="1756927196749">
 <node TEXT="Checks" ID="ID_1519850236" CREATED="1706629689049" MODIFIED="1706629693095">
 <node TEXT="Validity" ID="ID_1564839495" CREATED="1706629693103" MODIFIED="1706629698090"/>
 <node TEXT="Consistency" ID="ID_1042751830" CREATED="1706629702935" MODIFIED="1706629710196"/>
@@ -395,7 +395,7 @@
 <node TEXT="Test Case Generation" ID="ID_1477478326" CREATED="1706630604629" MODIFIED="1706630615394"/>
 </node>
 </node>
-<node TEXT="Requirements Change" ID="ID_1584221986" CREATED="1706460977609" MODIFIED="1706460986589">
+<node TEXT="4 Requirements Change" FOLDED="true" ID="ID_1584221986" CREATED="1706460977609" MODIFIED="1756930716014">
 <node TEXT="Management" ID="ID_321246385" CREATED="1706631459595" MODIFIED="1706631466244">
 <node TEXT="Requirements Identification" ID="ID_494829153" CREATED="1706631466751" MODIFIED="1706631478135"/>
 <node TEXT="Change Management Process" ID="ID_387273188" CREATED="1706631481694" MODIFIED="1706631492736">
@@ -411,7 +411,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Requirements Specifications" ID="ID_1538690923" CREATED="1706552831643" MODIFIED="1706552874211">
+<node TEXT="2 Requirements Specifications" FOLDED="true" ID="ID_1538690923" CREATED="1706552831643" MODIFIED="1756927192860">
 <node TEXT="Natural Language" ID="ID_1291691887" CREATED="1706552943175" MODIFIED="1706552948202">
 <node TEXT="Expressive, intuitive, and universal" ID="ID_1609040331" CREATED="1706552949110" MODIFIED="1706553515986"/>
 <node TEXT="Imprecise and subject to Interpretation" ID="ID_1580821820" CREATED="1706553470743" MODIFIED="1706553548800"/>
@@ -468,7 +468,7 @@
 </node>
 <node TEXT="SWEBOK Reading" ID="ID_1280072247" CREATED="1703983305378" MODIFIED="1703983311403">
 <node TEXT="Introductory Comments" ID="ID_696091765" CREATED="1706719302186" MODIFIED="1706719311033">
-<node TEXT="&quot;It is widely acknowledged amongst researchers&#xa;and industry practitioners that software projects&#xa;are critically vulnerable when the requirementsrelated activities are poorly performed&quot;" ID="ID_1654151018" CREATED="1706719313023" MODIFIED="1706719355761"/>
+<node TEXT="&quot;It is widely acknowledged amongst researchers&#xa;and industry practitioners that software projects&#xa;are critically vulnerable when the requirements related activities are poorly performed&quot;" ID="ID_1654151018" CREATED="1706719313023" MODIFIED="1756930719018"/>
 <node TEXT="&quot;Software requirements express the needs and&#xa;constraints placed on a software product that&#xa;contribute to the solution of some real-world&#xa;problem&quot;" ID="ID_253195579" CREATED="1706719376486" MODIFIED="1706719380073"/>
 <node TEXT="Functional requirements describe the functions&#xa;that the software is to execute; for example, formatting some text or modulating a signal. They&#xa;are sometimes known as capabilities or features.&#xa;A functional requirement can also be described&#xa;as one for which a finite set of test steps can be&#xa;written to validate its behavior." ID="ID_1750201434" CREATED="1706719452053" MODIFIED="1706719454599"/>
 <node TEXT="Nonfunctional requirements are the ones that&#xa;act to constrain the solution. Nonfunctional&#xa;requirements are sometimes known as constraints&#xa;or quality requirements. They can be further classified according to whether they are performance&#xa;requirements, maintainability requirements,&#xa;safety requirements, reliability requirements,&#xa;security requirements, interoperability requirements or one of many other types of software&#xa;requirements" ID="ID_629745341" CREATED="1706719457183" MODIFIED="1706719474476"/>

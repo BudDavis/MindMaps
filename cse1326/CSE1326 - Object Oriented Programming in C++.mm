@@ -1,7 +1,7 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Object Oriented Programming in C++" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1751485598175" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW"><hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="false" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false" show_notes_in_map="true"/>
+<node TEXT="Object Oriented Programming in C++" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1751485598175" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW"><hook NAME="MapStyle" zoom="0.14632668">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="false" show_notes_in_map="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -73,7 +73,7 @@
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="25" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<node TEXT="01 Introduction" POSITION="bottom_or_right" ID="ID_873130339" CREATED="1751483600281" MODIFIED="1751644672410">
+<node TEXT="01 Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_873130339" CREATED="1751483600281" MODIFIED="1751644672410">
 <edge COLOR="#ff00ff"/>
 <node TEXT="01 Objectives" ID="ID_1506017022" CREATED="1751483877215" MODIFIED="1755737387867">
 <node TEXT="01 Understand the compilation process and the type of errors emitted from each stage." ID="ID_725997858" CREATED="1751484514630" MODIFIED="1751484549807"/>
@@ -144,7 +144,7 @@
 </node>
 </node>
 </node>
-<node TEXT="03 Types" POSITION="top_or_left" ID="ID_1121057718" CREATED="1751483632723" MODIFIED="1751483640874">
+<node TEXT="03 Types" FOLDED="true" POSITION="top_or_left" ID="ID_1121057718" CREATED="1751483632723" MODIFIED="1751483640874">
 <edge COLOR="#7c0000"/>
 <node TEXT="01 Objectives" ID="ID_1080385548" CREATED="1751484245090" MODIFIED="1751484297218">
 <node TEXT="01 Student will be able to list all of the fundamental types and describe the differences between them." ID="ID_185538877" CREATED="1751824788699" MODIFIED="1751828683464"/>
@@ -486,7 +486,7 @@
 </node>
 </node>
 </node>
-<node TEXT="04 Reference Types" FOLDED="true" POSITION="top_or_left" ID="ID_92519863" CREATED="1751483644211" MODIFIED="1751993744758">
+<node TEXT="04 Reference Types" POSITION="top_or_left" ID="ID_92519863" CREATED="1751483644211" MODIFIED="1751993744758">
 <edge COLOR="#00007c"/>
 <node TEXT="01 Objectives" ID="ID_495924139" CREATED="1751485076654" MODIFIED="1751485082321">
 <node TEXT="understand pointers and references" ID="ID_1120403403" CREATED="1752512229799" MODIFIED="1752512248265"/>
@@ -496,7 +496,7 @@
 <node TEXT="how auto works and when to use it" ID="ID_1566958832" CREATED="1752512311648" MODIFIED="1752512323661"/>
 <node TEXT="different way of initialing data in classes" ID="ID_779558238" CREATED="1752512325266" MODIFIED="1752512342817"/>
 </node>
-<node TEXT="02 Lecture" FOLDED="true" ID="ID_1624682033" CREATED="1751485084813" MODIFIED="1751993744756">
+<node TEXT="02 Lecture" ID="ID_1624682033" CREATED="1751485084813" MODIFIED="1751993744756">
 <node TEXT="pointers" ID="ID_1543411162" CREATED="1752183015921" MODIFIED="1752183231893"><richcontent TYPE="NOTE">
 <html>
   <head>
