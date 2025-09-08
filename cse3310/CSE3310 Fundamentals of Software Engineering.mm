@@ -1,6 +1,6 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="CSE3310 Fundamentals of Software Engineering" FOLDED="false" ID="ID_1171700979" CREATED="1703959867184" MODIFIED="1738022869331"><hook NAME="MapStyle" zoom="3.0">
+<node TEXT="CSE3310 Fundamentals of Software Engineering" FOLDED="false" ID="ID_1171700979" CREATED="1703959867184" MODIFIED="1757355158658"><hook NAME="MapStyle" zoom="3.0">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -323,7 +323,7 @@
 </node>
 </node>
 </node>
-<node TEXT="03.0 Software requirements" POSITION="bottom_or_right" ID="ID_1483684652" CREATED="1703960064963" MODIFIED="1705795480065">
+<node TEXT="03.0 Software requirements" POSITION="bottom_or_right" ID="ID_1483684652" CREATED="1703960064963" MODIFIED="1757355158655" HGAP_QUANTITY="-130.75 pt" VSHIFT_QUANTITY="-20.25 pt">
 <node TEXT="Sommerville Reading" ID="ID_267303377" CREATED="1703983292658" MODIFIED="1703983300081">
 <node TEXT="Requirements" ID="ID_1424634565" CREATED="1706460800770" MODIFIED="1706551501089">
 <node TEXT="User Requirements" ID="ID_1795477741" CREATED="1706551509781" MODIFIED="1706551519326">
@@ -411,7 +411,7 @@
 </node>
 </node>
 </node>
-<node TEXT="2 Requirements Specifications" FOLDED="true" ID="ID_1538690923" CREATED="1706552831643" MODIFIED="1756927192860">
+<node TEXT="2 Requirements Specifications" ID="ID_1538690923" CREATED="1706552831643" MODIFIED="1756927192860">
 <node TEXT="Natural Language" ID="ID_1291691887" CREATED="1706552943175" MODIFIED="1706552948202">
 <node TEXT="Expressive, intuitive, and universal" ID="ID_1609040331" CREATED="1706552949110" MODIFIED="1706553515986"/>
 <node TEXT="Imprecise and subject to Interpretation" ID="ID_1580821820" CREATED="1706553470743" MODIFIED="1706553548800"/>

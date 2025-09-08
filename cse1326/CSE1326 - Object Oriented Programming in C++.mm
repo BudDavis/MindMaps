@@ -1,6 +1,6 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Object Oriented Programming in C++" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1751485598175" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW"><hook NAME="MapStyle" zoom="0.14632668">
+<node TEXT="Object Oriented Programming in C++" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1751485598175" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW"><hook NAME="MapStyle" zoom="2.0">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="false" show_notes_in_map="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -144,7 +144,7 @@
 </node>
 </node>
 </node>
-<node TEXT="03 Types" FOLDED="true" POSITION="top_or_left" ID="ID_1121057718" CREATED="1751483632723" MODIFIED="1751483640874">
+<node TEXT="03 Types" POSITION="top_or_left" ID="ID_1121057718" CREATED="1751483632723" MODIFIED="1751483640874">
 <edge COLOR="#7c0000"/>
 <node TEXT="01 Objectives" ID="ID_1080385548" CREATED="1751484245090" MODIFIED="1751484297218">
 <node TEXT="01 Student will be able to list all of the fundamental types and describe the differences between them." ID="ID_185538877" CREATED="1751824788699" MODIFIED="1751828683464"/>
@@ -555,7 +555,7 @@
 </node>
 </node>
 </node>
-<node TEXT="05 Object Lifecycle" FOLDED="true" POSITION="top_or_left" ID="ID_13489677" CREATED="1751483660899" MODIFIED="1751483669320">
+<node TEXT="05 Object Lifecycle" POSITION="top_or_left" ID="ID_13489677" CREATED="1751483660899" MODIFIED="1751483669320">
 <edge COLOR="#007c00"/>
 <node TEXT="01 Objectives" ID="ID_1322506584" CREATED="1751485090421" MODIFIED="1751485095097"/>
 <node TEXT="02 Lecture" ID="ID_1508229288" CREATED="1751485097189" MODIFIED="1751485101441">
@@ -647,7 +647,7 @@
 <node TEXT="local static" ID="ID_1592815524" CREATED="1752514072956" MODIFIED="1752514077860"/>
 <node TEXT="static members of a class" ID="ID_593086827" CREATED="1752514089435" MODIFIED="1752514095993">
 <node TEXT="not associated with an instance of the class" ID="ID_239018859" CREATED="1752514097312" MODIFIED="1752514125851"/>
-<node TEXT=".accesss" ID="ID_1963649787" CREATED="1752514111166" MODIFIED="1752514252585">
+<node TEXT="accesss" FOLDED="true" ID="ID_1963649787" CREATED="1752514111166" MODIFIED="1757282856266">
 <node TEXT="" ID="ID_1007556294" CREATED="1752514254666" MODIFIED="1752514254666">
 <node TEXT="int RatThing::rat_things_power = 200;" ID="ID_497111858" CREATED="1752514261132" MODIFIED="1752514261132"/>
 </node>
@@ -673,7 +673,7 @@
 <node TEXT="move semantics" ID="ID_626844329" CREATED="1752514685675" MODIFIED="1752514693461"/>
 </node>
 </node>
-<node TEXT="06 Runtime Polymorphism" FOLDED="true" POSITION="top_or_left" ID="ID_1696236521" CREATED="1751483672130" MODIFIED="1751483681558">
+<node TEXT="06 Runtime Polymorphism" POSITION="top_or_left" ID="ID_1696236521" CREATED="1751483672130" MODIFIED="1751483681558">
 <edge COLOR="#7c007c"/>
 <node TEXT="01 Objectives" ID="ID_210449734" CREATED="1751485129797" MODIFIED="1751485134189"/>
 <node TEXT="02 Lecture" ID="ID_1688661178" CREATED="1751485136459" MODIFIED="1751485140028"/>
