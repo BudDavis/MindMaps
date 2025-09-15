@@ -323,9 +323,9 @@
 </node>
 </node>
 </node>
-<node TEXT="03.0 Software requirements" POSITION="bottom_or_right" ID="ID_1483684652" CREATED="1703960064963" MODIFIED="1757355158655" HGAP_QUANTITY="-130.75 pt" VSHIFT_QUANTITY="-20.25 pt">
+<node TEXT="03.0 Software requirements" FOLDED="true" POSITION="bottom_or_right" ID="ID_1483684652" CREATED="1703960064963" MODIFIED="1757887940219">
 <node TEXT="Sommerville Reading" ID="ID_267303377" CREATED="1703983292658" MODIFIED="1703983300081">
-<node TEXT="Requirements" ID="ID_1424634565" CREATED="1706460800770" MODIFIED="1706551501089">
+<node TEXT="Requirements" FOLDED="true" ID="ID_1424634565" CREATED="1706460800770" MODIFIED="1706551501089">
 <node TEXT="User Requirements" ID="ID_1795477741" CREATED="1706551509781" MODIFIED="1706551519326">
 <node TEXT="Natural Language plus diagrams, broad statements." ID="ID_1236966029" CREATED="1706551928462" MODIFIED="1706551960933"/>
 </node>
@@ -347,11 +347,11 @@
 <node TEXT="Requirements Engineering is &quot;the process of finding out, analyzing, documenting, and checking these services and constraints is called Requirements Engineering&quot;" ID="ID_1484021470" CREATED="1706551685346" MODIFIED="1706551927306"/>
 </node>
 </node>
-<node TEXT="Requirements Engineering Processes" ID="ID_1538201719" CREATED="1706460895478" MODIFIED="1738022880796">
+<node TEXT="Requirements Engineering Processes" FOLDED="true" ID="ID_1538201719" CREATED="1706460895478" MODIFIED="1738022880796">
 <node TEXT="Iterative and Interleaved" ID="ID_1626723241" CREATED="1706552306302" MODIFIED="1706552325948"/>
 <node TEXT="Spiral Model" ID="ID_381839542" CREATED="1706552329494" MODIFIED="1738022880795"/>
 </node>
-<node TEXT="1 Requirements Elicitation" ID="ID_1266323102" CREATED="1706460915292" MODIFIED="1756927187540">
+<node TEXT="1 Requirements Elicitation" FOLDED="true" ID="ID_1266323102" CREATED="1706460915292" MODIFIED="1756927187540">
 <node TEXT="Why is it difficult?" ID="ID_678564530" CREATED="1706552348629" MODIFIED="1706552386551">
 <node TEXT="Stakeholders don&apos;t know what they want" ID="ID_1008070219" CREATED="1706552356479" MODIFIED="1706552404583"/>
 <node TEXT="Stakeholders have a unique vocabulary" ID="ID_1207427726" CREATED="1706552386553" MODIFIED="1706552421541"/>
@@ -411,8 +411,8 @@
 </node>
 </node>
 </node>
-<node TEXT="2 Requirements Specifications" ID="ID_1538690923" CREATED="1706552831643" MODIFIED="1756927192860">
-<node TEXT="Natural Language" ID="ID_1291691887" CREATED="1706552943175" MODIFIED="1706552948202">
+<node TEXT="2 Requirements Specifications" FOLDED="true" ID="ID_1538690923" CREATED="1706552831643" MODIFIED="1756927192860">
+<node TEXT="Natural Language" FOLDED="true" ID="ID_1291691887" CREATED="1706552943175" MODIFIED="1706552948202">
 <node TEXT="Expressive, intuitive, and universal" ID="ID_1609040331" CREATED="1706552949110" MODIFIED="1706553515986"/>
 <node TEXT="Imprecise and subject to Interpretation" ID="ID_1580821820" CREATED="1706553470743" MODIFIED="1706553548800"/>
 <node TEXT="Improve it!" ID="ID_80325358" CREATED="1706553551513" MODIFIED="1706553709838">
@@ -433,7 +433,7 @@
 <node TEXT="Include rationale" ID="ID_420285204" CREATED="1706553658591" MODIFIED="1706553693540"/>
 </node>
 </node>
-<node TEXT="Structured" ID="ID_931852565" CREATED="1706552958092" MODIFIED="1706554817519">
+<node TEXT="Structured" FOLDED="true" ID="ID_931852565" CREATED="1706552958092" MODIFIED="1706554817519">
 <node TEXT="Standard Template" ID="ID_128248503" CREATED="1706554796982" MODIFIED="1706554807509">
 <node TEXT="Description of the Function" ID="ID_716724774" CREATED="1706554827540" MODIFIED="1706554840589"/>
 <node TEXT="Description of the inputs, to include origin" ID="ID_1811649301" CREATED="1706554841014" MODIFIED="1706554851052"/>
@@ -446,28 +446,28 @@
 <node TEXT="Good Organization" ID="ID_1140897009" CREATED="1706554955252" MODIFIED="1706554963287"/>
 <node TEXT="Reduced Variability between requirements" ID="ID_1638093884" CREATED="1706554964451" MODIFIED="1706554979742"/>
 </node>
-<node TEXT="Use Cases" ID="ID_1863592191" CREATED="1706552975249" MODIFIED="1706552979215">
+<node TEXT="Use Cases" FOLDED="true" ID="ID_1863592191" CREATED="1706552975249" MODIFIED="1706552979215">
 <node TEXT="Stick Figures" ID="ID_20544757" CREATED="1706627370418" MODIFIED="1706627384896"/>
 <node TEXT="Tabular" ID="ID_1024522467" CREATED="1706627390289" MODIFIED="1706627394858"/>
 </node>
-<node TEXT="Graphical Notations" ID="ID_1948713039" CREATED="1706553010608" MODIFIED="1706553019389">
+<node TEXT="Graphical Notations" FOLDED="true" ID="ID_1948713039" CREATED="1706553010608" MODIFIED="1706553019389">
 <node TEXT="Used with text" ID="ID_144546816" CREATED="1706555012465" MODIFIED="1706555056230"/>
 <node TEXT="UML Diagrams" ID="ID_712979267" CREATED="1706555056628" MODIFIED="1706555066054"/>
 </node>
-<node TEXT="Mathematical Specifications" ID="ID_424005097" CREATED="1706553020171" MODIFIED="1706553027433">
+<node TEXT="Mathematical Specifications" FOLDED="true" ID="ID_424005097" CREATED="1706553020171" MODIFIED="1706553027433">
 <node TEXT="Hard for all stakeholders to understand" ID="ID_512733650" CREATED="1706554756478" MODIFIED="1706554767370"/>
 <node TEXT="Expensive" ID="ID_1636627831" CREATED="1706554767749" MODIFIED="1706554772832"/>
 <node TEXT="Unambiguous" ID="ID_1315770441" CREATED="1706554773036" MODIFIED="1706554781162"/>
 <node TEXT="Precise" ID="ID_1336091039" CREATED="1706554781480" MODIFIED="1706554786314"/>
 </node>
-<node TEXT="Standards for A requirements Document" ID="ID_949521740" CREATED="1706641624674" MODIFIED="1706641679626">
+<node TEXT="Standards for A requirements Document" FOLDED="true" ID="ID_949521740" CREATED="1706641624674" MODIFIED="1706641679626">
 <node TEXT="IEEE1998" ID="ID_1746949859" CREATED="1706641679632" MODIFIED="1706641685560"/>
 <node TEXT="Alternatives to a &apos;document&apos;" ID="ID_1590266560" CREATED="1706641707305" MODIFIED="1706641718757"/>
 </node>
 </node>
 </node>
-<node TEXT="SWEBOK Reading" ID="ID_1280072247" CREATED="1703983305378" MODIFIED="1703983311403">
-<node TEXT="Introductory Comments" ID="ID_696091765" CREATED="1706719302186" MODIFIED="1706719311033">
+<node TEXT="SWEBOK Reading" FOLDED="true" ID="ID_1280072247" CREATED="1703983305378" MODIFIED="1703983311403">
+<node TEXT="Introductory Comments" FOLDED="true" ID="ID_696091765" CREATED="1706719302186" MODIFIED="1706719311033">
 <node TEXT="&quot;It is widely acknowledged amongst researchers&#xa;and industry practitioners that software projects&#xa;are critically vulnerable when the requirements related activities are poorly performed&quot;" ID="ID_1654151018" CREATED="1706719313023" MODIFIED="1756930719018"/>
 <node TEXT="&quot;Software requirements express the needs and&#xa;constraints placed on a software product that&#xa;contribute to the solution of some real-world&#xa;problem&quot;" ID="ID_253195579" CREATED="1706719376486" MODIFIED="1706719380073"/>
 <node TEXT="Functional requirements describe the functions&#xa;that the software is to execute; for example, formatting some text or modulating a signal. They&#xa;are sometimes known as capabilities or features.&#xa;A functional requirement can also be described&#xa;as one for which a finite set of test steps can be&#xa;written to validate its behavior." ID="ID_1750201434" CREATED="1706719452053" MODIFIED="1706719454599"/>
@@ -475,18 +475,18 @@
 <node TEXT="Some requirements represent emergent properties of software—that is, requirements that cannot be addressed by a single component but that&#xa;depend on how all the software components&#xa;interoperate. The throughput requirement for a&#xa;call center would, for example, depend on how&#xa;the telephone system, information system, and&#xa;the operators all interacted under actual operating conditions. Emergent properties are crucially&#xa;dependent on the system architecture." ID="ID_822149999" CREATED="1706719475994" MODIFIED="1706719505039"/>
 </node>
 </node>
-<node TEXT="Additional Topics" ID="ID_236754746" CREATED="1703983320167" MODIFIED="1703983326137">
-<node TEXT="Trace-a-bility" ID="ID_859866786" CREATED="1706553740283" MODIFIED="1706553752914">
+<node TEXT="Additional Topics" FOLDED="true" ID="ID_236754746" CREATED="1703983320167" MODIFIED="1703983326137">
+<node TEXT="Trace-a-bility" FOLDED="true" ID="ID_859866786" CREATED="1706553740283" MODIFIED="1706553752914">
 <node TEXT="Unique Identifier" ID="ID_336415695" CREATED="1706553752917" MODIFIED="1706553765869"/>
 <node TEXT="Requirements to Implementation" ID="ID_1313573537" CREATED="1706627436189" MODIFIED="1706627448755"/>
 </node>
 <node TEXT="Handling Tables of Requirements" ID="ID_259865964" CREATED="1706627411792" MODIFIED="1706627429916"/>
 <node TEXT="Grouping Requirements" ID="ID_1533782150" CREATED="1706641603595" MODIFIED="1706641617016"/>
-<node TEXT="Leveling of Requirements" ID="ID_430560446" CREATED="1754530286589" MODIFIED="1754530294239">
+<node TEXT="Leveling of Requirements" FOLDED="true" ID="ID_430560446" CREATED="1754530286589" MODIFIED="1754530294239">
 <node TEXT="User Requirements" ID="ID_202486269" CREATED="1754530566924" MODIFIED="1754530572523"/>
 <node TEXT="System Requirements" ID="ID_612303409" CREATED="1754530574217" MODIFIED="1754530579588"/>
 </node>
-<node TEXT="The User Interface" ID="ID_1202212632" CREATED="1754530433893" MODIFIED="1754530445392">
+<node TEXT="The User Interface" FOLDED="true" ID="ID_1202212632" CREATED="1754530433893" MODIFIED="1754530445392">
 <node TEXT="Every piece of information presented to or accepted from a user (where a user is a person or another system) is a requirement" ID="ID_1253154274" CREATED="1754530446750" MODIFIED="1754530478344"/>
 <node TEXT="&quot;mock up&quot;  user interfaces as part of the requirements process." ID="ID_1571944321" CREATED="1754530481039" MODIFIED="1754530503077">
 <node TEXT="Unique ID&apos;s for each" ID="ID_1520425794" CREATED="1754530505426" MODIFIED="1754530515691"/>
