@@ -1,6 +1,6 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="CSE3310 Fundamentals of Software Engineering" FOLDED="false" ID="ID_1171700979" CREATED="1703959867184" MODIFIED="1757355158658"><hook NAME="MapStyle" zoom="3.0">
+<node TEXT="CSE3310 Fundamentals of Software Engineering" FOLDED="false" ID="ID_1171700979" CREATED="1703959867184" MODIFIED="1757355158658"><hook NAME="MapStyle" zoom="1.5">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -553,7 +553,7 @@
 </node>
 </node>
 </node>
-<node TEXT="05.0 Architecture" FOLDED="true" POSITION="bottom_or_right" ID="ID_407988059" CREATED="1703960095427" MODIFIED="1720023244542">
+<node TEXT="05.0 Architecture" POSITION="bottom_or_right" ID="ID_407988059" CREATED="1703960095427" MODIFIED="1720023244542">
 <node TEXT="Sommerville" ID="ID_1772273115" CREATED="1754530693987" MODIFIED="1754530702068">
 <node TEXT="1. Introduction" ID="ID_76657719" CREATED="1720023162548" MODIFIED="1754530722639">
 <node TEXT="Definition" ID="ID_111027798" CREATED="1720025132794" MODIFIED="1720025142226">
