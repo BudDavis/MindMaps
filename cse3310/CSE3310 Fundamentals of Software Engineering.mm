@@ -496,7 +496,7 @@
 </node>
 </node>
 </node>
-<node TEXT="04.0 Software Modeling" POSITION="top_or_left" ID="ID_1291018404" CREATED="1703960080688" MODIFIED="1705795502891">
+<node TEXT="04.0 Software Modeling" FOLDED="true" POSITION="top_or_left" ID="ID_1291018404" CREATED="1703960080688" MODIFIED="1705795502891">
 <node TEXT="Introduction" FOLDED="true" ID="ID_984664653" CREATED="1707272878210" MODIFIED="1707272911541">
 <node TEXT="System Modeling is the process of developing abstract models of a system." ID="ID_443301688" CREATED="1707273062037" MODIFIED="1707273132032"/>
 <node TEXT="Each model" ID="ID_596968595" CREATED="1707273135076" MODIFIED="1707273140267">
@@ -553,7 +553,7 @@
 </node>
 </node>
 </node>
-<node TEXT="05.0 Architecture" POSITION="bottom_or_right" ID="ID_407988059" CREATED="1703960095427" MODIFIED="1720023244542">
+<node TEXT="05.0 Architecture" FOLDED="true" POSITION="bottom_or_right" ID="ID_407988059" CREATED="1703960095427" MODIFIED="1720023244542">
 <node TEXT="Sommerville" ID="ID_1772273115" CREATED="1754530693987" MODIFIED="1754530702068">
 <node TEXT="1. Introduction" ID="ID_76657719" CREATED="1720023162548" MODIFIED="1754530722639">
 <node TEXT="Definition" ID="ID_111027798" CREATED="1720025132794" MODIFIED="1720025142226">
@@ -615,7 +615,7 @@
 <node TEXT="SWEBOK" ID="ID_1738635526" CREATED="1754530704673" MODIFIED="1754530707828"/>
 </node>
 <node TEXT="06.0 Design and Implementation" POSITION="top_or_left" ID="ID_7229223" CREATED="1703960109127" MODIFIED="1705795585940"/>
-<node TEXT="07.0 Software Testing" FOLDED="true" POSITION="bottom_or_right" ID="ID_1745259993" CREATED="1703960127362" MODIFIED="1705795550799">
+<node TEXT="07.0 Software Testing" POSITION="bottom_or_right" ID="ID_1745259993" CREATED="1703960127362" MODIFIED="1705795550799">
 <node TEXT="Definitions" ID="ID_1647273780" CREATED="1720572805829" MODIFIED="1720572816438">
 <node TEXT="Testing" ID="ID_1414981698" CREATED="1721062076223" MODIFIED="1721062152781">
 <node TEXT="Software testing consists of the dynamic verification that a program provides expected behaviors on a finite set of test cases, suitably selected from the usually infinite execution domain. In the above definition, italicized words correspond to key issues in describing the Software Testing knowledge area (KA):" ID="ID_1304314201" CREATED="1721062154328" MODIFIED="1721062157768">

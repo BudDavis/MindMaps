@@ -1,9 +1,9 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<attribute_registry SHOW_ATTRIBUTES="hide"/>
 <bookmarks>
     <bookmark nodeId="ID_696401721" name="Root" opensAsRoot="true"/>
 </bookmarks>
+<attribute_registry SHOW_ATTRIBUTES="hide"/>
 <node TEXT="Embedded Systems I" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1750187433379" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW"><hook NAME="MapStyle" zoom="1.5970861">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" allow_compact_layout="false" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
@@ -670,9 +670,6 @@
 </node>
 <node TEXT=" Interrupts in general" ID="ID_304619224" CREATED="1748040985992" MODIFIED="1748041156069">
 <node TEXT="assembly ISR&apos;s" ID="ID_1040906306" CREATED="1748041592169" MODIFIED="1748041598661"/>
-</node>
-<node TEXT="gpio interrupts" ID="ID_1504903549" CREATED="1748041136790" MODIFIED="1748041144110"/>
-<node TEXT="UART Interrupts" ID="ID_958197253" CREATED="1748041158643" MODIFIED="1748041164765"/>
 <node TEXT="11 Interrupts" ID="ID_75112618" CREATED="1740623962957" MODIFIED="1748038454820">
 <node TEXT="p124 (data sheet) Description .  p263 Volvano" ID="ID_964639091" CREATED="1740623974592" MODIFIED="1740625800494">
 <node TEXT="78 Interrupts" ID="ID_1785410584" CREATED="1740624233581" MODIFIED="1740624275222"/>
@@ -733,6 +730,9 @@
 <node TEXT="put the function pointer in the table" ID="ID_327543479" CREATED="1759706972654" MODIFIED="1759706982917"/>
 </node>
 </node>
+</node>
+<node TEXT="gpio interrupts" ID="ID_1504903549" CREATED="1748041136790" MODIFIED="1748041144110"/>
+<node TEXT="UART Interrupts" ID="ID_958197253" CREATED="1748041158643" MODIFIED="1748041164765"/>
 </node>
 </node>
 <node TEXT="07 General Purpose Timer Module" FOLDED="true" POSITION="bottom_or_right" ID="ID_1926501763" CREATED="1748038678402" MODIFIED="1749828155639">

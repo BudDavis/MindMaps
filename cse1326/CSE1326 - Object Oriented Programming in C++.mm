@@ -560,7 +560,7 @@
 </node>
 <node TEXT="05 Object Lifecycle" FOLDED="true" POSITION="top_or_left" ID="ID_13489677" CREATED="1751483660899" MODIFIED="1751483669320">
 <edge COLOR="#007c00"/>
-<node TEXT="01 Objectives" ID="ID_1322506584" CREATED="1751485090421" MODIFIED="1751485095097">
+<node TEXT="01 Objectives" FOLDED="true" ID="ID_1322506584" CREATED="1751485090421" MODIFIED="1751485095097">
 <node TEXT="1 exceptions" ID="ID_1207965602" CREATED="1758487549016" MODIFIED="1758487643953"/>
 <node TEXT="2 write a copy constructor that does a shallow copy" ID="ID_273763319" CREATED="1758487554084" MODIFIED="1758487649439"/>
 <node TEXT="3 write a copy constructor that does a deep copy" ID="ID_1949825444" CREATED="1758487570623" MODIFIED="1758487654561"/>
@@ -779,6 +779,7 @@
 <node TEXT="01 logical" ID="ID_464777578" CREATED="1759761460205" MODIFIED="1759763573177">
 <node TEXT="bitwise" ID="ID_1633430771" CREATED="1759761504958" MODIFIED="1759761508876">
 <node TEXT="and,or,xor, complement, shift left, shift right" ID="ID_1908194089" CREATED="1759761532124" MODIFIED="1759761596865"/>
+<node TEXT="essential for CSE3442" ID="ID_1522816802" CREATED="1759781906284" MODIFIED="1759781913552"/>
 </node>
 <node TEXT="and, or, not" ID="ID_1260042712" CREATED="1759761598596" MODIFIED="1759761609357"/>
 </node>
@@ -802,17 +803,64 @@
 </node>
 </node>
 </node>
-<node TEXT="03 assignment" ID="ID_1904979510" CREATED="1759763260083" MODIFIED="1759763590043"/>
-<node TEXT="04 increment / decrement" ID="ID_683605123" CREATED="1759763275087" MODIFIED="1759763595813"/>
-<node TEXT="05 comparison" ID="ID_286995338" CREATED="1759763292904" MODIFIED="1759763599450"/>
-<node TEXT="06 member access" ID="ID_168917076" CREATED="1759763301983" MODIFIED="1759763604928"/>
-<node TEXT="07 ternary conditional" ID="ID_1847887948" CREATED="1759763331428" MODIFIED="1759763609280"/>
-<node TEXT="08 comma operator" ID="ID_406985129" CREATED="1759763353818" MODIFIED="1759763617506"/>
-<node TEXT="09 operator overloading" ID="ID_761172865" CREATED="1759763529957" MODIFIED="1759763621608"/>
+<node TEXT="03 assignment" ID="ID_1904979510" CREATED="1759763260083" MODIFIED="1759763590043">
+<node TEXT=" &#xa;x = y               Simple assignment&#xa;x += y             Addition assignment&#xa;x -= y              Subtraction assignment&#xa;x *= y             Multiplication assignment&#xa;x /= y              Division assignment&#xa;x %= y            Modulo assignment&#xa;x &amp;= y             Bitwise AND assignmen &#xa;x |= y              Bitwise OR assignment &#xa;x ^= y              Bitwise XOR assignment&#xa;x &lt;&lt;= y            Bitwise left-shift assignment&#xa;x &gt;&gt;= y            Bitwise right-shift assignment" ID="ID_1751151793" CREATED="1759781754304" MODIFIED="1759781891704"/>
+</node>
+<node TEXT="04 increment / decrement" ID="ID_683605123" CREATED="1759763275087" MODIFIED="1759763595813">
+<node TEXT="++x         Prefix increment&#xa;x++         Postfix increment&#xa;--x           Prefix decrement&#xa;x--           Postfix decrement" ID="ID_1048701108" CREATED="1759781695920" MODIFIED="1759781742822"/>
+</node>
+<node TEXT="05 comparison" ID="ID_286995338" CREATED="1759763292904" MODIFIED="1759763599450">
+<node TEXT=" &#xa;x == y  Equal-to operator                                   100 == 100&#xa;x != y  Not-equal-to operator                             100 != 101&#xa;x &lt; y   Less-than operator                                       10 &lt; 20&#xa;x &gt; y    Greater-than operator                               -10 &gt; -20&#xa;x &lt;= y   Less-than-or-equal-to operator             10 &lt;= 10&#xa;x &gt;= y   Greater-than-or-equal-to operator       20 &gt;= 10" ID="ID_1088997911" CREATED="1759781540890" MODIFIED="1759781658231"/>
+</node>
+<node TEXT="06 member access" ID="ID_168917076" CREATED="1759763301983" MODIFIED="1759763604928">
+<node TEXT="subscript []&#xa;indirection *&#xa; address-of &amp;&#xa;member-of-object .&#xa;member-of-pointer -&gt;" ID="ID_696560570" CREATED="1759781468998" MODIFIED="1759781514069"/>
+</node>
+<node TEXT="07 ternary conditional" ID="ID_1847887948" CREATED="1759763331428" MODIFIED="1759763609280">
+<node TEXT="x?y:z&#xa;x is the conditional&#xa;if true returns y, if false returns z" ID="ID_572500545" CREATED="1759781323910" MODIFIED="1759781427705"/>
+</node>
+<node TEXT="08 comma operator" ID="ID_406985129" CREATED="1759763353818" MODIFIED="1759763617506">
+<node TEXT="additional expressions added with a comma" ID="ID_1734834945" CREATED="1759781222695" MODIFIED="1759781244689"/>
+<node TEXT="value of the expression is the far right one" ID="ID_1605705922" CREATED="1759781247136" MODIFIED="1759781261365"/>
+<node TEXT="generally, not a good idea" ID="ID_1359087701" CREATED="1759781262948" MODIFIED="1759781270125"/>
+</node>
+<node TEXT="09 operator overloading" ID="ID_761172865" CREATED="1759763529957" MODIFIED="1759763621608">
+<node TEXT="general" ID="ID_27337157" CREATED="1759782958843" MODIFIED="1759782962066">
+<node TEXT="operator+, operator-, etc." ID="ID_940853894" CREATED="1759782782353" MODIFIED="1759782793969"/>
+<node TEXT="sometimes it make sense, sometimes it makes complicated" ID="ID_1982698995" CREATED="1759782798420" MODIFIED="1759782809047"/>
+</node>
+<node TEXT="heap management" ID="ID_1805112603" CREATED="1759782963710" MODIFIED="1759782972268">
+<node TEXT="#include &lt;new&gt;" ID="ID_549188495" CREATED="1759782978829" MODIFIED="1759783104322">
+<node TEXT="void* operator new(size_t);&#xa;void operator delete(void*);&#xa;void* operator new[](size_t);&#xa;void operator delete[](void*);" ID="ID_1781598481" CREATED="1759782943491" MODIFIED="1759782954881"/>
+<node TEXT="delete can be tricky" ID="ID_1161566732" CREATED="1759783114764" MODIFIED="1759783121853"/>
+</node>
+<node TEXT="manage your own heap / free store" ID="ID_1012852414" CREATED="1759783000963" MODIFIED="1759783012779">
+<node TEXT="why" ID="ID_1359301435" CREATED="1759783016769" MODIFIED="1759783019665">
+<node TEXT="no / minimal OS support" ID="ID_1600545825" CREATED="1759783020993" MODIFIED="1759783034006"/>
+<node TEXT="you can always do better than the system implementation." ID="ID_1983494974" CREATED="1759783036557" MODIFIED="1759783048853"/>
+<node TEXT="or can you?" ID="ID_1207393388" CREATED="1759783051774" MODIFIED="1759783055565"/>
+</node>
+<node TEXT="" ID="ID_521462374" CREATED="1759783084652" MODIFIED="1759783084652"/>
+</node>
+</node>
+<node TEXT="operator precedence" ID="ID_646882864" CREATED="1759783180307" MODIFIED="1759783189817">
+<node TEXT="a::bScope resolutionLeft to right&#xa;a++&#xa;a--&#xa;fn()&#xa;a[b]&#xa;a-&gt;b&#xa;a.b&#xa;Type(a)&#xa;Type{ a }Postfix increment&#xa;Postfix decrement&#xa;Function call&#xa;Subscript&#xa;Member of pointer&#xa;Member of object&#xa;Functional cast&#xa;Functional castLeft to rightOperatorDescriptionAssociativity&#xa;++a&#xa;--a&#xa;+a&#xa;-a&#xa;!a&#xa;~a&#xa;(Type)a&#xa;*a&#xa;&amp;a&#xa;sizeof(Type)&#xa;new Type&#xa;new Type[]&#xa;delete a&#xa;delete[] aPrefix increment&#xa;Prefix decrement&#xa;Unary plus&#xa;Unary minus&#xa;Logical NOT&#xa;Bitwise complement&#xa;C-style cast&#xa;Dereference&#xa;Address of&#xa;Size of&#xa;Dynamic allocation&#xa;Dynamic allocation (array)&#xa;Dynamic deallocation&#xa;Dynamic deallocation (array)Right to left&#xa;.*&#xa;-&gt;*Pointer-to-member-of-pointer&#xa;Pointer-to-member-of-objectLeft to right&#xa;a * b&#xa;a / b&#xa;a % bMultiplication&#xa;Division&#xa;Modulo divisionLeft to right&#xa;a + b&#xa;a - bAddition&#xa;SubtractionLeft to right&#xa;a &lt;&lt; b&#xa;a &gt;&gt; bBitwise left shift&#xa;Bitwise right shiftLeft to right&#xa;a &lt; b&#xa;a &gt; b&#xa;a &lt;= b&#xa;a &gt;= bLess than&#xa;Greater than&#xa;Less than or equal to&#xa;Greater than or equal toLeft to right&#xa;a == b&#xa;a != bEquals&#xa;Not equalsLeft to right&#xa;a &amp; bBitwise ANDLeft to right&#xa;a ^ bBitwise ANDLeft to right&#xa;a | bBitwise ORLeft to right&#xa;a &amp;&amp; bLogical ANDLeft to right&#xa;a || bLogical ORLeft to right&#xa;a ? b : c&#xa;throw a&#xa;a = b&#xa;a += b&#xa;a -= b&#xa;a *= b&#xa;a /= b&#xa;a %= b&#xa;a &lt;&lt;= b&#xa;a &gt;&gt;= b&#xa;a &amp;= b&#xa;a ^= b&#xa;a |= bTernary&#xa;Throw&#xa;Assignment&#xa;Sum assignment&#xa;Difference assignment&#xa;Product assignment&#xa;Quotient assignment&#xa;Remainder assignment&#xa;Bitwise-left-shift assignment&#xa;Bitwise-right-shift assignment&#xa;Bitwise AND assignment&#xa;Bitwise XOR assignment&#xa;Bitwise OR assignmentRight to left&#xa;a, bCommaLeft to right" ID="ID_1832309284" CREATED="1759783191762" MODIFIED="1759783208543"/>
+<node TEXT="table in book, P 195" ID="ID_1890417176" CREATED="1759783230710" MODIFIED="1759783244821"/>
+</node>
+<node TEXT="evaluator order" ID="ID_530560628" CREATED="1759783269278" MODIFIED="1759783311534">
+<node TEXT="not specified" ID="ID_850188160" CREATED="1759783278079" MODIFIED="1759783282610"/>
+<node TEXT="The built-in logical AND operator a &amp;&amp; b and built-in logical OR opera-&#xa;tor a || b guarantee that a executes before b.&#xa;The ternary operator a ? b : c guarantees that a executes before&#xa;b and c.&#xa;The comma operator a, b guarantees that a executes before b.&#xa;The constructor arguments in a new expression evaluate before the call&#xa;to the allocator function" ID="ID_326338508" CREATED="1759783283941" MODIFIED="1759783321506"/>
+</node>
+</node>
 <node TEXT="10 user defined literals" ID="ID_650912221" CREATED="1759763484009" MODIFIED="1759763493126"/>
 <node TEXT="11 type conversions" ID="ID_483263613" CREATED="1759763462392" MODIFIED="1759763482934"/>
 <node TEXT="12 constant expressions" ID="ID_133801330" CREATED="1759763439717" MODIFIED="1759763447385"/>
-<node TEXT="13 volatile" ID="ID_1749754194" CREATED="1759763419793" MODIFIED="1759763428776"/>
+<node TEXT="13 volatile" ID="ID_1749754194" CREATED="1759763419793" MODIFIED="1759763428776">
+<node TEXT="everytime you access or write to this symbol, it goes to them underlying memory" ID="ID_1885085868" CREATED="1759783418678" MODIFIED="1759783439871"/>
+<node TEXT="essential concept for CSE3442" ID="ID_986659782" CREATED="1759783442030" MODIFIED="1759783448189"/>
+<node TEXT="makes code slower" ID="ID_975270479" CREATED="1759783451510" MODIFIED="1759783455255"/>
+<node TEXT="essential for communicating between threads (although other mechanisms are available)" ID="ID_677904551" CREATED="1759783457659" MODIFIED="1759783476386"/>
+<node TEXT="essential for setting and reading values from hardware" ID="ID_1366934019" CREATED="1759783478852" MODIFIED="1759783492686"/>
+</node>
 </node>
 </node>
 </node>
