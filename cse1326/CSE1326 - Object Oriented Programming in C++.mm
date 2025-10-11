@@ -851,8 +851,25 @@
 <node TEXT="The built-in logical AND operator a &amp;&amp; b and built-in logical OR opera-&#xa;tor a || b guarantee that a executes before b.&#xa;The ternary operator a ? b : c guarantees that a executes before&#xa;b and c.&#xa;The comma operator a, b guarantees that a executes before b.&#xa;The constructor arguments in a new expression evaluate before the call&#xa;to the allocator function" ID="ID_326338508" CREATED="1759783283941" MODIFIED="1759783321506"/>
 </node>
 </node>
-<node TEXT="10 user defined literals" ID="ID_650912221" CREATED="1759763484009" MODIFIED="1759763493126"/>
-<node TEXT="11 type conversions" ID="ID_483263613" CREATED="1759763462392" MODIFIED="1759763482934"/>
+<node TEXT="10 user defined literals" ID="ID_650912221" CREATED="1759763484009" MODIFIED="1759763493126">
+<node TEXT="allows the addition of units next to constants" ID="ID_1410280930" CREATED="1759939685314" MODIFIED="1759939860908"/>
+<node TEXT="new feature in C++" ID="ID_1220791145" CREATED="1759939863660" MODIFIED="1759940585502"/>
+<node TEXT="user_defined_literals.cpp" ID="ID_761130544" CREATED="1759940554866" MODIFIED="1759940565101"/>
+</node>
+<node TEXT="11 type conversions" ID="ID_483263613" CREATED="1759763462392" MODIFIED="1759763482934">
+<node TEXT="implicit" ID="ID_330512094" CREATED="1759940657690" MODIFIED="1759940666355">
+<node TEXT="{} initialization" ID="ID_130232256" CREATED="1759940816376" MODIFIED="1759941346658"/>
+<node TEXT="float to int" ID="ID_742658662" CREATED="1759941348283" MODIFIED="1759941352467"/>
+<node TEXT="signed / unsigned integers" ID="ID_1477589589" CREATED="1759941354540" MODIFIED="1759941524553"/>
+<node TEXT="" ID="ID_66256642" CREATED="1759941527255" MODIFIED="1759941527255"/>
+</node>
+<node TEXT="explicit" ID="ID_562697301" CREATED="1759940667307" MODIFIED="1759940670831">
+<node TEXT="{} initialization" ID="ID_941548661" CREATED="1759954238394" MODIFIED="1759954244769"/>
+<node TEXT="int c(b)" ID="ID_1798870136" CREATED="1759954246892" MODIFIED="1759954275312">
+<node TEXT="can narrow without warning" ID="ID_1470004926" CREATED="1759954277334" MODIFIED="1759954288502"/>
+</node>
+</node>
+</node>
 <node TEXT="12 constant expressions" ID="ID_133801330" CREATED="1759763439717" MODIFIED="1759763447385"/>
 <node TEXT="13 volatile" ID="ID_1749754194" CREATED="1759763419793" MODIFIED="1759763428776">
 <node TEXT="everytime you access or write to this symbol, it goes to them underlying memory" ID="ID_1885085868" CREATED="1759783418678" MODIFIED="1759783439871"/>
@@ -867,7 +884,29 @@
 <node TEXT="10 Statements / Functions" POSITION="top_or_left" ID="ID_575133128" CREATED="1751483718384" MODIFIED="1751485448103">
 <edge COLOR="#0000ff"/>
 <node TEXT="01 Objectives" ID="ID_858531408" CREATED="1751485184874" MODIFIED="1751485189060"/>
-<node TEXT="02 Lecture" ID="ID_85977516" CREATED="1751485191652" MODIFIED="1751485449240"/>
+<node TEXT="02 Lecture" ID="ID_85977516" CREATED="1751485191652" MODIFIED="1751485449240">
+<node TEXT="expressions&#xa;something followed by a &quot;;&quot;" ID="ID_792509918" CREATED="1759953636023" MODIFIED="1759954934850"/>
+<node TEXT="compound statements&#xa;called a block.  What goes between {}" ID="ID_561086770" CREATED="1759954806727" MODIFIED="1759954845428"/>
+<node TEXT="statements&#xa;Declaration statements (or just declarations) introduce identifiers, such as functions, templates, and namespaces" ID="ID_1727027956" CREATED="1759954904904" MODIFIED="1759954921001"/>
+<node TEXT="functions" ID="ID_14981878" CREATED="1759954939182" MODIFIED="1759954989653">
+<node TEXT="free functions" ID="ID_1391569693" CREATED="1759954989662" MODIFIED="1759954995472"/>
+<node TEXT="member functions" ID="ID_689368248" CREATED="1759954995938" MODIFIED="1759955000121"/>
+<node TEXT="definition" ID="ID_625374241" CREATED="1759955000842" MODIFIED="1759955003676">
+<node TEXT="the implementation" ID="ID_1472314069" CREATED="1759955022962" MODIFIED="1759955028503"/>
+</node>
+<node TEXT="declaration" ID="ID_1491886928" CREATED="1759955005025" MODIFIED="1759955010669">
+<node TEXT="just the interface" ID="ID_1105384681" CREATED="1759955011848" MODIFIED="1759955022436"/>
+</node>
+<node TEXT="foward declarations" ID="ID_610576949" CREATED="1759955052073" MODIFIED="1759955060260"/>
+</node>
+<node TEXT="namespaces" ID="ID_420357089" CREATED="1759955063038" MODIFIED="1759955068909">
+<node TEXT="can be nested" ID="ID_1389009129" CREATED="1759955279820" MODIFIED="1759955284366"/>
+<node TEXT="::" ID="ID_245966030" CREATED="1759955285929" MODIFIED="1759955289767"/>
+<node TEXT="using removes the namespace name requirement for accessing symbols" ID="ID_1476895576" CREATED="1759955291100" MODIFIED="1759955334525"/>
+<node TEXT="type alias&#xa;using &lt;oldname&gt;  = type-name" ID="ID_1168678214" CREATED="1759955336885" MODIFIED="1759955415701"/>
+</node>
+<node TEXT="structured binding" ID="ID_546255957" CREATED="1759955477268" MODIFIED="1759955482212"/>
+</node>
 </node>
 <node TEXT="11 Smart Pointers" FOLDED="true" POSITION="top_or_left" ID="ID_528796219" CREATED="1751483731257" MODIFIED="1751483738302">
 <edge COLOR="#00ff00"/>
