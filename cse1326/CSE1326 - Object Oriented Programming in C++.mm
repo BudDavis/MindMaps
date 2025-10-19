@@ -4,7 +4,7 @@
     <bookmark nodeId="ID_696401721" name="Root" opensAsRoot="true"/>
 </bookmarks>
 <node TEXT="Object Oriented Programming in C++" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1751485598175" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW"><hook NAME="MapStyle" zoom="2.0">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="false" show_notes_in_map="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="false" show_notes_in_map="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" fit_to_viewport="false" show_icons="ABOVE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -758,12 +758,12 @@
 <node TEXT="7 cost of virtual functions" ID="ID_1962756138" CREATED="1758548164512" MODIFIED="1758548175295"/>
 </node>
 </node>
-<node TEXT="07 Compile Time Polymorphism" POSITION="top_or_left" ID="ID_345452930" CREATED="1751483683313" MODIFIED="1751483693807">
+<node TEXT="07 Compile Time Polymorphism" FOLDED="true" POSITION="top_or_left" ID="ID_345452930" CREATED="1751483683313" MODIFIED="1751483693807">
 <edge COLOR="#007c7c"/>
 <node TEXT="01 Objectives" ID="ID_280580309" CREATED="1751485142163" MODIFIED="1751485146044"/>
 <node TEXT="02 Lecture" ID="ID_740371741" CREATED="1751485147867" MODIFIED="1751485151740"/>
 </node>
-<node TEXT="08 OO Design Approaches" POSITION="top_or_left" ID="ID_1240682785" CREATED="1751483696842" MODIFIED="1751483705793">
+<node TEXT="08 OO Design Approaches" FOLDED="true" POSITION="top_or_left" ID="ID_1240682785" CREATED="1751483696842" MODIFIED="1751483705793">
 <edge COLOR="#7c7c00"/>
 <node TEXT="01 Objectives" FOLDED="true" ID="ID_1660359577" CREATED="1751485154051" MODIFIED="1751485158308">
 <node TEXT="Identify classes needed to solve a problem" ID="ID_60829777" CREATED="1759761287910" MODIFIED="1759761298040"/>
@@ -771,7 +771,7 @@
 </node>
 <node TEXT="02 Lecture" ID="ID_1363940037" CREATED="1751485160339" MODIFIED="1751485164100"/>
 </node>
-<node TEXT="09 Expressions" POSITION="top_or_left" ID="ID_508020864" CREATED="1751483710809" MODIFIED="1751485180159">
+<node TEXT="09 Expressions" FOLDED="true" POSITION="top_or_left" ID="ID_508020864" CREATED="1751483710809" MODIFIED="1751485180159">
 <edge COLOR="#ff0000"/>
 <node TEXT="01 Objectives" ID="ID_224148029" CREATED="1751485165898" MODIFIED="1751485169284"/>
 <node TEXT="02 Lecture" ID="ID_1976460779" CREATED="1751485171435" MODIFIED="1751485182443">
@@ -905,15 +905,41 @@
 <node TEXT="using removes the namespace name requirement for accessing symbols" ID="ID_1476895576" CREATED="1759955291100" MODIFIED="1759955334525"/>
 <node TEXT="type alias&#xa;using &lt;oldname&gt;  = type-name" ID="ID_1168678214" CREATED="1759955336885" MODIFIED="1759955415701"/>
 </node>
-<node TEXT="structured binding" ID="ID_546255957" CREATED="1759955477268" MODIFIED="1759955482212"/>
+<node TEXT="structured binding" ID="ID_546255957" CREATED="1759955477268" MODIFIED="1759955482212">
+<node TEXT="creates a structure" ID="ID_1814637696" CREATED="1760501762030" MODIFIED="1760501780990"/>
+<node TEXT="structured_bindings.cpp" ID="ID_1715026220" CREATED="1760501783385" MODIFIED="1760501792540"/>
+</node>
+<node TEXT="attributes" ID="ID_1893596217" CREATED="1760501834567" MODIFIED="1760501838147">
+<node TEXT="[[noreturn]]               Indicates that a function doesn’t return.&#xa;[[deprecated(&quot;reason&quot;)]]            Indicates that this expression is deprecated; that is, its use is discouraged. The &quot;reason&quot; is optional and indicates the reason for deprecation.&#xa;[[fallthrough]]    Indicates that a switch case intends to fall through to the next switch case. This avoids compiler errors that will check for switch case fallthrough, because it’s uncommon.&#xa;[[nodiscard]]      Indicates that the following function or type declaration should be used. If code using this element discards the value, the compiler should emit a warning.&#xa;[[maybe_unused]]      Indicates that the following element might be unused and that the compiler shouldn’t warn about it.&#xa;[[carries_dependency]]   Used within the &lt;atomic&gt; header to help the compiler opti-mize certain memory operations. You’re unlikely to encounter this directly." ID="ID_904985384" CREATED="1760501840567" MODIFIED="1760501990118">
+<node TEXT="" ID="ID_934840401" CREATED="1760501957886" MODIFIED="1760501957886"/>
+<node TEXT="" ID="ID_1928592296" CREATED="1760501961097" MODIFIED="1760501961097"/>
 </node>
 </node>
-<node TEXT="11 Smart Pointers" FOLDED="true" POSITION="top_or_left" ID="ID_528796219" CREATED="1751483731257" MODIFIED="1751483738302">
+<node TEXT="selection statements" ID="ID_967440191" CREATED="1760502029780" MODIFIED="1760502038331">
+<node TEXT="if statements" ID="ID_84427686" CREATED="1760502039941" MODIFIED="1760502053820">
+<node TEXT="can add an initializer inside if (xxx; x&lt;b)" ID="ID_140503447" CREATED="1760502168912" MODIFIED="1760502186214"/>
+</node>
+<node TEXT="switch statements" ID="ID_1734459685" CREATED="1760502055167" MODIFIED="1760502060611"/>
+</node>
+<node TEXT="iteration statements" FOLDED="true" ID="ID_1488173050" CREATED="1760502210040" MODIFIED="1760810023326">
+<node TEXT="while" ID="ID_1214008096" CREATED="1760502256541" MODIFIED="1760502259885"/>
+<node TEXT="do {} while" ID="ID_1475684487" CREATED="1760502260300" MODIFIED="1760502266976"/>
+<node TEXT="for loops" ID="ID_1071151241" CREATED="1760502286366" MODIFIED="1760502291459">
+<node TEXT="indexed" ID="ID_228069664" CREATED="1760502292655" MODIFIED="1760502319470"/>
+<node TEXT="range based" ID="ID_1980680839" CREATED="1760502320740" MODIFIED="1760502324736">
+<node TEXT="range expressions" ID="ID_1680426468" CREATED="1760502409457" MODIFIED="1760502416941"/>
+</node>
+</node>
+</node>
+<node TEXT="jump statements" ID="ID_39075279" CREATED="1760502472098" MODIFIED="1760502479033"/>
+</node>
+</node>
+<node TEXT="11 Smart Pointers" POSITION="top_or_left" ID="ID_528796219" CREATED="1751483731257" MODIFIED="1751483738302">
 <edge COLOR="#00ff00"/>
 <node TEXT="01 Objectives" ID="ID_1926597405" CREATED="1751485200219" MODIFIED="1751485205159"/>
 <node TEXT="02 Lecture" ID="ID_1793394064" CREATED="1751485206875" MODIFIED="1751485211080"/>
 </node>
-<node TEXT="12 Utilities" POSITION="top_or_left" ID="ID_263413799" CREATED="1751483742201" MODIFIED="1751483747406">
+<node TEXT="12 Utilities" FOLDED="true" POSITION="top_or_left" ID="ID_263413799" CREATED="1751483742201" MODIFIED="1751483747406">
 <edge COLOR="#ff00ff"/>
 <node TEXT="01 Objectives" ID="ID_1746316820" CREATED="1751485220275" MODIFIED="1751485224135"/>
 <node TEXT="02 Lecture" ID="ID_1731493156" CREATED="1751485225971" MODIFIED="1751485229583"/>
