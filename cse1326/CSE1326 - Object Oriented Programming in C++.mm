@@ -881,7 +881,7 @@
 </node>
 </node>
 </node>
-<node TEXT="10 Statements / Functions" POSITION="top_or_left" ID="ID_575133128" CREATED="1751483718384" MODIFIED="1751485448103">
+<node TEXT="10 Statements / Functions" FOLDED="true" POSITION="top_or_left" ID="ID_575133128" CREATED="1751483718384" MODIFIED="1751485448103">
 <edge COLOR="#0000ff"/>
 <node TEXT="01 Objectives" ID="ID_858531408" CREATED="1751485184874" MODIFIED="1751485189060"/>
 <node TEXT="02 Lecture" ID="ID_85977516" CREATED="1751485191652" MODIFIED="1751485449240">
@@ -932,12 +932,21 @@
 </node>
 </node>
 <node TEXT="jump statements" ID="ID_39075279" CREATED="1760502472098" MODIFIED="1760502479033"/>
+<node TEXT="lambdas&#xa;&#xa;There are five components to a lambda expression:&#xa; &#xa;captures: The member variables of the function object (that is, the&#xa;partially applied parameters)&#xa;parameters: The arguments required to invoke the function object&#xa;body: The function object’s code&#xa;specifiers: Elements like constexpr, mutable, noexcept, and [[noreturn]]&#xa;return type: The type returned by the function object&#xa;&#xa;Lambda expression usage is as follows:&#xa;[capturesu] (parametersv) modifiersy -&gt; return-typex { bodyw }" ID="ID_1507787337" CREATED="1760989705876" MODIFIED="1760989741709"/>
 </node>
 </node>
-<node TEXT="11 Smart Pointers" POSITION="top_or_left" ID="ID_528796219" CREATED="1751483731257" MODIFIED="1751483738302">
+<node TEXT="11 GUI Programming" POSITION="top_or_left" ID="ID_428879427" CREATED="1751483838143" MODIFIED="1761146868981">
 <edge COLOR="#00ff00"/>
-<node TEXT="01 Objectives" ID="ID_1926597405" CREATED="1751485200219" MODIFIED="1751485205159"/>
-<node TEXT="02 Lecture" ID="ID_1793394064" CREATED="1751485206875" MODIFIED="1751485211080"/>
+<node TEXT="01 Objectives" ID="ID_608860652" CREATED="1751485376897" MODIFIED="1751485380615">
+<node TEXT="be able to create a small gui program in C++/fltk" ID="ID_102667645" CREATED="1761146786375" MODIFIED="1761146806747"/>
+<node TEXT="be able to compile and link an fltk program with a makefile" ID="ID_914631641" CREATED="1761146808537" MODIFIED="1761146830112"/>
+<node TEXT="understand the use of the fluid gui builder program" ID="ID_721859626" CREATED="1761146832118" MODIFIED="1761146844614"/>
+</node>
+<node TEXT="02 Lecture" ID="ID_982670370" CREATED="1751485382088" MODIFIED="1751485493352">
+<node TEXT="fltk" ID="ID_969209287" CREATED="1760989818986" MODIFIED="1760989822460">
+<node TEXT="https://www.fltk.org/doc-1.3/index.html" ID="ID_847640179" CREATED="1761146902611" MODIFIED="1761146920697"/>
+</node>
+</node>
 </node>
 <node TEXT="12 Utilities" FOLDED="true" POSITION="top_or_left" ID="ID_263413799" CREATED="1751483742201" MODIFIED="1751483747406">
 <edge COLOR="#ff00ff"/>
@@ -991,10 +1000,10 @@
 <node TEXT="01 Objectives" ID="ID_1205385815" CREATED="1751485364521" MODIFIED="1751485369046"/>
 <node TEXT="02 Lecture" ID="ID_1772252783" CREATED="1751485370569" MODIFIED="1751485375680"/>
 </node>
-<node TEXT="22 GUI Programming" FOLDED="true" POSITION="top_or_left" ID="ID_428879427" CREATED="1751483838143" MODIFIED="1751485490637">
+<node TEXT="22 Smart Pointers" FOLDED="true" POSITION="top_or_left" ID="ID_528796219" CREATED="1751483731257" MODIFIED="1761146877064">
 <edge COLOR="#00ff00"/>
-<node TEXT="01 Objectives" ID="ID_608860652" CREATED="1751485376897" MODIFIED="1751485380615"/>
-<node TEXT="02 Lecture" ID="ID_982670370" CREATED="1751485382088" MODIFIED="1751485493352"/>
+<node TEXT="01 Objectives" ID="ID_1926597405" CREATED="1751485200219" MODIFIED="1751485205159"/>
+<node TEXT="02 Lecture" ID="ID_1793394064" CREATED="1751485206875" MODIFIED="1751485211080"/>
 </node>
 </node>
 </map>

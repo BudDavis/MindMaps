@@ -1,9 +1,9 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<attribute_registry SHOW_ATTRIBUTES="hide"/>
 <bookmarks>
     <bookmark nodeId="ID_696401721" name="Root" opensAsRoot="true"/>
 </bookmarks>
+<attribute_registry SHOW_ATTRIBUTES="hide"/>
 <node TEXT="Embedded Systems I" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1750187433379" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW"><hook NAME="MapStyle" zoom="1.5970861">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" allow_compact_layout="false" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
@@ -640,7 +640,7 @@
 </node>
 </node>
 </node>
-<node TEXT="06 Interrupts" POSITION="top_or_left" ID="ID_449610218" CREATED="1748038673583" MODIFIED="1749823661583">
+<node TEXT="06 Interrupts" FOLDED="true" POSITION="top_or_left" ID="ID_449610218" CREATED="1748038673583" MODIFIED="1749823661583">
 <edge COLOR="#0000ff"/>
 <node TEXT="1 Objectives" FOLDED="true" ID="ID_474304739" CREATED="1748787814312" MODIFIED="1748787818578">
 <node TEXT="Understand and be able to use interrupt priority" ID="ID_1893159980" CREATED="1759707028051" MODIFIED="1759707045078"/>
@@ -653,7 +653,7 @@
 <node TEXT="spms376e.pdf" ID="ID_1357634291" CREATED="1749420952578" MODIFIED="1760810060891"/>
 </node>
 <node TEXT="4 Contents" ID="ID_1380738219" CREATED="1748787830903" MODIFIED="1748787834979">
-<node TEXT="software considerations" ID="ID_1366967695" CREATED="1748041230746" MODIFIED="1748041240608">
+<node TEXT="software considerations" FOLDED="true" ID="ID_1366967695" CREATED="1748041230746" MODIFIED="1748041240608">
 <node TEXT="enable / disable" ID="ID_1541097009" CREATED="1748041241794" MODIFIED="1748041261705"/>
 <node TEXT="atomic operations" ID="ID_570573312" CREATED="1748041252586" MODIFIED="1748041270147"/>
 <node TEXT="main thread of control" ID="ID_835494797" CREATED="1759707128433" MODIFIED="1759707142546">
@@ -668,7 +668,7 @@
 <node TEXT="" ID="ID_1682070339" CREATED="1759707219661" MODIFIED="1759707219661"/>
 </node>
 </node>
-<node TEXT=" Interrupts in general" ID="ID_304619224" CREATED="1748040985992" MODIFIED="1748041156069">
+<node TEXT=" Interrupts in general" FOLDED="true" ID="ID_304619224" CREATED="1748040985992" MODIFIED="1748041156069">
 <node TEXT="assembly ISR&apos;s" ID="ID_1040906306" CREATED="1748041592169" MODIFIED="1748041598661"/>
 <node TEXT="Interrupts" ID="ID_75112618" CREATED="1740623962957" MODIFIED="1759927457057">
 <node TEXT="p124 (data sheet) Description .  p263 Volvano" ID="ID_964639091" CREATED="1740623974592" MODIFIED="1740625800494">
@@ -742,8 +742,8 @@
 <node TEXT="EN_PR register(s)" ID="ID_347603205" CREATED="1759927251245" MODIFIED="1759927260937"/>
 </node>
 </node>
-<node TEXT="gpio interrupts" ID="ID_1504903549" CREATED="1748041136790" MODIFIED="1748041144110">
-<node TEXT="examples" ID="ID_1901273177" CREATED="1760905420927" MODIFIED="1760905442528">
+<node TEXT="gpio interrupts" FOLDED="true" ID="ID_1504903549" CREATED="1748041136790" MODIFIED="1748041144110">
+<node TEXT="examples" FOLDED="true" ID="ID_1901273177" CREATED="1760905420927" MODIFIED="1760905442528">
 <node TEXT="gpioint&#xa;&#xa;SW1 is high when not pressed.&#xa;main loop does nothing&#xa;trigger on falling edge&#xa;BLUE is never seen on.&#xa;RED toggles when button is pressed.&#xa;Note the switch bouncing." ID="ID_54100428" CREATED="1760905428450" MODIFIED="1760907340354"/>
 <node TEXT="gpioint2&#xa;&#xa;uses systick to enable the int.&#xa;notice how the multiple timer calls get more reasonable delay.&#xa;&#xa;Systick is not synchronized with the gpio int" ID="ID_608013765" CREATED="1760907351271" MODIFIED="1760910819540"/>
 <node TEXT="gpioint3&#xa;&#xa;uses a wait in the ISR.  not a good practice, you can see how long it is in the int by looking at the blue LED." ID="ID_137045198" CREATED="1760910822972" MODIFIED="1760910862531"/>
@@ -780,10 +780,11 @@
 <node TEXT="programming" ID="ID_785376797" CREATED="1760910991038" MODIFIED="1760910995608">
 <node TEXT="1. afsel" ID="ID_1794990029" CREATED="1760911081025" MODIFIED="1760911307906"/>
 <node TEXT="2. clock" ID="ID_1151144990" CREATED="1760911056083" MODIFIED="1760911259059"/>
-<node TEXT="3. cmpa" ID="ID_861381726" CREATED="1760910997999" MODIFIED="1760911266431"/>
-<node TEXT="4. cmpb" ID="ID_165219817" CREATED="1760911004823" MODIFIED="1760911271100"/>
-<node TEXT="5. control" ID="ID_1776864629" CREATED="1760911323853" MODIFIED="1760911330164"/>
-<node TEXT="7. pwm.c" ID="ID_506460632" CREATED="1760911145236" MODIFIED="1760911155087"/>
+<node TEXT="3. load" ID="ID_1903525939" CREATED="1761246718520" MODIFIED="1761246732573"/>
+<node TEXT="4. cmpa" ID="ID_861381726" CREATED="1760910997999" MODIFIED="1761246737531"/>
+<node TEXT="5. cmpb" ID="ID_165219817" CREATED="1760911004823" MODIFIED="1761246741147"/>
+<node TEXT="6. control" ID="ID_1776864629" CREATED="1760911323853" MODIFIED="1761246750476"/>
+<node TEXT="pwm.c is an example" ID="ID_506460632" CREATED="1760911145236" MODIFIED="1761246760937"/>
 </node>
 <node TEXT="motor control" ID="ID_425848708" CREATED="1760911165703" MODIFIED="1760911170378">
 <node TEXT="lab example" ID="ID_222859222" CREATED="1760911238108" MODIFIED="1760911242384"/>
