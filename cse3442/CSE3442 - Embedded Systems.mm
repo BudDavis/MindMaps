@@ -1,9 +1,9 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
+<attribute_registry SHOW_ATTRIBUTES="hide"/>
 <bookmarks>
     <bookmark nodeId="ID_696401721" name="Root" opensAsRoot="true"/>
 </bookmarks>
-<attribute_registry SHOW_ATTRIBUTES="hide"/>
 <node TEXT="Embedded Systems I" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1750187433379" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW"><hook NAME="MapStyle" zoom="1.5970861">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" allow_compact_layout="false" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
@@ -801,7 +801,7 @@
 </node>
 </node>
 </node>
-<node TEXT="08 General Purpose Timer Module" FOLDED="true" POSITION="bottom_or_right" ID="ID_1926501763" CREATED="1748038678402" MODIFIED="1760810082843">
+<node TEXT="08 General Purpose Timer Module" POSITION="bottom_or_right" ID="ID_1926501763" CREATED="1748038678402" MODIFIED="1760810082843">
 <edge COLOR="#ff0000"/>
 <node TEXT="1 Objectives" ID="ID_1174515153" CREATED="1748787873647" MODIFIED="1748787878721"/>
 <node TEXT="2 Lab" ID="ID_157966557" CREATED="1748787880644" MODIFIED="1748787889914"/>
@@ -866,7 +866,6 @@
 <node TEXT="Input Edge Time" ID="ID_1382946569" CREATED="1742399418244" MODIFIED="1742399434221"/>
 <node TEXT="PWM Mode" ID="ID_1434697181" CREATED="1742399437593" MODIFIED="1742399442245"/>
 </node>
-<node TEXT="" ID="ID_1601059200" CREATED="1742399478125" MODIFIED="1742399478125"/>
 </node>
 </node>
 </node>
