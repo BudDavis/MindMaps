@@ -1,9 +1,7 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
+<bookmarks/>
 <attribute_registry SHOW_ATTRIBUTES="hide"/>
-<bookmarks>
-    <bookmark nodeId="ID_696401721" name="Root" opensAsRoot="true"/>
-</bookmarks>
 <node TEXT="Embedded Systems I" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1750187433379" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW"><hook NAME="MapStyle" zoom="1.5970861">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" allow_compact_layout="false" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
@@ -752,7 +750,7 @@
 <node TEXT="UART Interrupts" ID="ID_958197253" CREATED="1748041158643" MODIFIED="1748041164765"/>
 </node>
 </node>
-<node TEXT="07 Pulse Width Modulation" POSITION="top_or_left" ID="ID_582282277" CREATED="1748038683372" MODIFIED="1760810078951">
+<node TEXT="07 Pulse Width Modulation" FOLDED="true" POSITION="top_or_left" ID="ID_582282277" CREATED="1748038683372" MODIFIED="1760810078951">
 <edge COLOR="#7c7c00"/>
 <node TEXT="1 Objectives" ID="ID_1108656082" CREATED="1748787918864" MODIFIED="1748787923399">
 <node TEXT="Be able to program a PWM generator for a given frequency / duty cycle" ID="ID_1098083733" CREATED="1760810218866" MODIFIED="1760911318176"/>
@@ -823,12 +821,20 @@
 </node>
 </node>
 <node TEXT="12 Timers" ID="ID_748918397" CREATED="1742238137011" MODIFIED="1748038461420">
-<node TEXT="References" FOLDED="true" ID="ID_1965805394" CREATED="1742326690220" MODIFIED="1742326702505">
+<node TEXT="0. References" FOLDED="true" ID="ID_1965805394" CREATED="1742326690220" MODIFIED="1762744977304">
 <node TEXT="Data Sheet pages 704-773" ID="ID_1493624923" CREATED="1742326705092" MODIFIED="1742326731290"/>
 <node TEXT="Valvano  p287-p305" ID="ID_107581468" CREATED="1742329502776" MODIFIED="1742329551985"/>
 <node TEXT="https://www.romn.io/2021/01/ti-arm-tiva-tm4c123g-general-purpose.html" ID="ID_91766648" CREATED="1742330334116" MODIFIED="1742330336680"/>
 </node>
-<node TEXT="tm4c has 5 GPTM&apos;s (General Purpose Timer Modules)" ID="ID_1801247825" CREATED="1742331283384" MODIFIED="1742331345185">
+<node TEXT="1. Modes (programmable)" FOLDED="true" ID="ID_1117529803" CREATED="1742399252581" MODIFIED="1762744967615">
+<node TEXT="One shot" ID="ID_34268454" CREATED="1742399355230" MODIFIED="1742399358160"/>
+<node TEXT="Periodic" ID="ID_228606208" CREATED="1742399362522" MODIFIED="1742399365471"/>
+<node TEXT="RTC" ID="ID_903477622" CREATED="1742399375149" MODIFIED="1742399377640"/>
+<node TEXT="Input Edge Count" ID="ID_407372536" CREATED="1742399381214" MODIFIED="1742399389797"/>
+<node TEXT="Input Edge Time" ID="ID_1382946569" CREATED="1742399418244" MODIFIED="1742399434221"/>
+<node TEXT="PWM Mode" ID="ID_1434697181" CREATED="1742399437593" MODIFIED="1742399442245"/>
+</node>
+<node TEXT="2. tm4c has 5 GPTM&apos;s (General Purpose Timer Modules)" FOLDED="true" ID="ID_1801247825" CREATED="1742331283384" MODIFIED="1762744985879">
 <node TEXT="Each has 2 input pins" ID="ID_25991900" CREATED="1742331349703" MODIFIED="1742331364610">
 <node TEXT="one for each timer" ID="ID_204984533" CREATED="1742332852630" MODIFIED="1742332857411"/>
 </node>
@@ -846,9 +852,9 @@
 </node>
 </node>
 </node>
-<node TEXT="example functions from a timer" ID="ID_1708912767" CREATED="1742332877267" MODIFIED="1742332885976">
+<node TEXT="3. example functions from a timer" ID="ID_1708912767" CREATED="1742332877267" MODIFIED="1762744990643">
 <node TEXT="fixed time delay" ID="ID_264109994" CREATED="1742332889102" MODIFIED="1742332896314"/>
-<node TEXT="periodic interrupt" FOLDED="true" ID="ID_1932590133" CREATED="1742332899413" MODIFIED="1742332904350">
+<node TEXT="periodic interrupt" ID="ID_1932590133" CREATED="1742332899413" MODIFIED="1742332904350">
 <node TEXT="poll a signal at a fixed rate" ID="ID_803134541" CREATED="1742332934078" MODIFIED="1742332941296"/>
 </node>
 <node TEXT="PWM from timer" ID="ID_1588824568" CREATED="1742332926182" MODIFIED="1742332930421"/>
@@ -857,14 +863,6 @@
 <node TEXT="Time is very accurate for measuring other parameters" ID="ID_148431467" CREATED="1742399502031" MODIFIED="1742399522229">
 <node TEXT="Volvano Page 296-299" ID="ID_1487812218" CREATED="1742399769518" MODIFIED="1742399785224"/>
 </node>
-</node>
-<node TEXT="Modes (programmable)" ID="ID_1117529803" CREATED="1742399252581" MODIFIED="1742399459689">
-<node TEXT="One shot" ID="ID_34268454" CREATED="1742399355230" MODIFIED="1742399358160"/>
-<node TEXT="Periodic" ID="ID_228606208" CREATED="1742399362522" MODIFIED="1742399365471"/>
-<node TEXT="RTC" ID="ID_903477622" CREATED="1742399375149" MODIFIED="1742399377640"/>
-<node TEXT="Input Edge Count" ID="ID_407372536" CREATED="1742399381214" MODIFIED="1742399389797"/>
-<node TEXT="Input Edge Time" ID="ID_1382946569" CREATED="1742399418244" MODIFIED="1742399434221"/>
-<node TEXT="PWM Mode" ID="ID_1434697181" CREATED="1742399437593" MODIFIED="1742399442245"/>
 </node>
 </node>
 </node>
