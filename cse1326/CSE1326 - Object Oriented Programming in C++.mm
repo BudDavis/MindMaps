@@ -76,31 +76,74 @@
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="25" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<node TEXT="01 Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_873130339" CREATED="1751483600281" MODIFIED="1751644672410">
+<node TEXT="01 Introduction" POSITION="bottom_or_right" ID="ID_873130339" CREATED="1751483600281" MODIFIED="1751644672410">
 <edge COLOR="#ff00ff"/>
 <node TEXT="01 Objectives" ID="ID_1506017022" CREATED="1751483877215" MODIFIED="1755737387867">
 <node TEXT="01 Understand the compilation process and the type of errors emitted from each stage." ID="ID_725997858" CREATED="1751484514630" MODIFIED="1751484549807"/>
-<node TEXT="02 Student will be able to create and compile a simple C++ program from the command line (bash)" ID="ID_1911251631" CREATED="1751483886543" MODIFIED="1751484554777"/>
-<node TEXT="03 Students will be able to create and compile a simple C++ program using the VSCode IDE." ID="ID_265257244" CREATED="1751483929358" MODIFIED="1751484561628"/>
-<node TEXT="04 Student will be able to create and use a simple makefile to compile a simple C++ program." ID="ID_217589001" CREATED="1751483961366" MODIFIED="1755737387866"/>
-<node TEXT="05 Student will understand and use the basic commands of the gdb debugger (single step, breakpoint, display and change memory)" ID="ID_1037177676" CREATED="1751484030117" MODIFIED="1751484570887"/>
-<node TEXT="06 Students will be able to create a private github repository and add collaborators" ID="ID_33175148" CREATED="1751484355600" MODIFIED="1751484574959"/>
-<node TEXT="07 Students will be able to use github for simple source control activities.  (add, commit, push, pull, clone." ID="ID_447166497" CREATED="1751484396999" MODIFIED="1751484579303"/>
+<node TEXT="02 Create and compile a simple C++ program from the command line (bash)" ID="ID_1911251631" CREATED="1751483886543" MODIFIED="1765571071507"/>
+<node TEXT="03 Create and compile a simple C++ program using the VSCode IDE." ID="ID_265257244" CREATED="1751483929358" MODIFIED="1765571085090"/>
+<node TEXT="04 Create and use a simple makefile to compile a simple C++ program." ID="ID_217589001" CREATED="1751483961366" MODIFIED="1765571099614"/>
+<node TEXT="05 Create and use a simple CMakeLists.txt to compile a simple C++ program." ID="ID_614549331" CREATED="1765569073469" MODIFIED="1765571108824"/>
+<node TEXT="06 Understand and use the basic commands of the gdb debugger (single step, breakpoint, display and change memory)" ID="ID_1037177676" CREATED="1751484030117" MODIFIED="1765571121706"/>
+<node TEXT="07 Create a private github repository and add collaborators" ID="ID_33175148" CREATED="1751484355600" MODIFIED="1765571131675"/>
+<node TEXT="08 Use github for simple source control activities.  (add, commit, push, pull, clone." ID="ID_447166497" CREATED="1751484396999" MODIFIED="1765571156426"/>
 </node>
-<node TEXT="02 Lecture" FOLDED="true" ID="ID_537497064" CREATED="1751484315096" MODIFIED="1751644675829">
+<node TEXT="02 Lecture" ID="ID_537497064" CREATED="1751484315096" MODIFIED="1751644675829">
 <node TEXT="01 Valid  Program" ID="ID_899763014" CREATED="1751484613356" MODIFIED="1751484790971">
-<node TEXT="01 main" ID="ID_303604521" CREATED="1751484709107" MODIFIED="1751484742137"/>
-<node TEXT="02 headers" ID="ID_1931172698" CREATED="1751484733050" MODIFIED="1751484746235"/>
+<node TEXT="01 main" ID="ID_303604521" CREATED="1751484709107" MODIFIED="1751484742137">
+<node TEXT="by convention, the name of the entry point to your program." ID="ID_223475883" CREATED="1765569669317" MODIFIED="1765569683320"/>
+<node TEXT="can be named something else" ID="ID_857937694" CREATED="1765569685536" MODIFIED="1765569691684"/>
+<node TEXT="int main(int argc, char* argv[])" ID="ID_1595852642" CREATED="1765569694330" MODIFIED="1765569712111"/>
+<node TEXT="returns a value to the operating system" ID="ID_1663681815" CREATED="1765569721399" MODIFIED="1765569730560"/>
+</node>
+<node TEXT="02 headers" ID="ID_1931172698" CREATED="1751484733050" MODIFIED="1751484746235">
+<node TEXT="source code included from other files" ID="ID_524989491" CREATED="1765569739132" MODIFIED="1765569753774"/>
+<node TEXT="2 kinds, system headers and user headers" ID="ID_615446361" CREATED="1765569755539" MODIFIED="1765569766199">
+<node TEXT="system headers come from /usr/include" ID="ID_952454102" CREATED="1765569768273" MODIFIED="1765569779616"/>
+<node TEXT="user headers come from the current directory, or where specified with a -I directive to the compiler" ID="ID_928377135" CREATED="1765569781008" MODIFIED="1765569805810"/>
+</node>
+<node TEXT="Headers should contain declarations, not definitions" ID="ID_1897180267" CREATED="1765569813508" MODIFIED="1765569829528"/>
+<node TEXT="header guards vs. #pragma once" ID="ID_1700024947" CREATED="1765569831682" MODIFIED="1765569841367">
+<node TEXT="C allows double declarations of many things...... of which it should allow none !!!!" ID="ID_367900601" CREATED="1765569843776" MODIFIED="1765569869427"/>
+<node TEXT="#pragma once is widely supported" ID="ID_903395595" CREATED="1765569872722" MODIFIED="1765569881454"/>
+</node>
+</node>
 <node TEXT="03 definitions vs. declarations" ID="ID_574363290" CREATED="1751484714219" MODIFIED="1751484758784"/>
+<node TEXT="04 examples of compilation errors" ID="ID_859323320" CREATED="1765569256046" MODIFIED="1765569262904"/>
+<node TEXT="05 examples of linking errors" ID="ID_829574857" CREATED="1765569265090" MODIFIED="1765569273599"/>
 </node>
 <node TEXT="02 Compilation Process" ID="ID_1795088649" CREATED="1751484622660" MODIFIED="1751484795800">
-<node TEXT="01 CPP" ID="ID_1564623153" CREATED="1751484631532" MODIFIED="1751484804885"/>
-<node TEXT="02 Compilation" ID="ID_357995921" CREATED="1751484638908" MODIFIED="1751484811866"/>
-<node TEXT="03 Asssembly" ID="ID_1536127683" CREATED="1751484652443" MODIFIED="1751484820041"/>
+<node TEXT="01 CPP" ID="ID_1564623153" CREATED="1751484631532" MODIFIED="1751484804885">
+<node TEXT="textual substitution of source files into a single stream of tokens" ID="ID_999231587" CREATED="1765569388953" MODIFIED="1765569408849">
+<node TEXT="macros" ID="ID_940368554" CREATED="1765569422663" MODIFIED="1765569428034"/>
+<node TEXT="include files" ID="ID_1796786903" CREATED="1765569432523" MODIFIED="1765569436434"/>
+</node>
+<node TEXT="The &quot;C Pre-Processor&quot;" ID="ID_841882553" CREATED="1765569410858" MODIFIED="1765569420369"/>
+</node>
+<node TEXT="02 Compilation" ID="ID_357995921" CREATED="1751484638908" MODIFIED="1751484811866">
+<node TEXT="Conversion of C code into assembly languages (or something at that same level)" ID="ID_1046590328" CREATED="1765569439804" MODIFIED="1765569469088"/>
+</node>
+<node TEXT="03 Asssembly" ID="ID_1536127683" CREATED="1751484652443" MODIFIED="1751484820041">
+<node TEXT="Translation of assembly language to object code" ID="ID_1370279345" CREATED="1765569470312" MODIFIED="1765569483401"/>
+</node>
 <node TEXT="04 Linking" ID="ID_1953098080" CREATED="1751484659059" MODIFIED="1751484824157">
-<node TEXT="static" ID="ID_374634261" CREATED="1751484665404" MODIFIED="1751484683704"/>
-<node TEXT="dynamic" ID="ID_329447136" CREATED="1751484685611" MODIFIED="1751484690505"/>
-<node TEXT="LTO" ID="ID_308514397" CREATED="1751484692659" MODIFIED="1751484696663"/>
+<node TEXT="The conversion from object code into an executable" ID="ID_1197589601" CREATED="1765569496745" MODIFIED="1765569545690">
+<node TEXT="LTO" ID="ID_308514397" CREATED="1751484692659" MODIFIED="1751484696663">
+<node TEXT="&quot;interprocedural optimisation&quot;" ID="ID_1684597999" CREATED="1765569615552" MODIFIED="1765569657360"/>
+</node>
+<node TEXT="dynamic" ID="ID_329447136" CREATED="1751484685611" MODIFIED="1751484690505">
+<node TEXT="libXX.so" ID="ID_1787921867" CREATED="1765569372761" MODIFIED="1765569380325">
+<node TEXT="created with ld" ID="ID_1542764417" CREATED="1765569593522" MODIFIED="1765569601489"/>
+</node>
+<node TEXT="symbols resolved at run time with rld" ID="ID_691483468" CREATED="1765569554263" MODIFIED="1765569569290"/>
+</node>
+<node TEXT="static" ID="ID_374634261" CREATED="1751484665404" MODIFIED="1751484683704">
+<node TEXT="libXXX.a" ID="ID_1747348679" CREATED="1765569367145" MODIFIED="1765569371636">
+<node TEXT="created with ar" ID="ID_819783347" CREATED="1765569602956" MODIFIED="1765569608066"/>
+</node>
+<node TEXT="symbols resolved at link time" ID="ID_784661144" CREATED="1765569570498" MODIFIED="1765569592726"/>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="03 Command Line" ID="ID_37386042" CREATED="1751484879193" MODIFIED="1751484885315">
@@ -111,7 +154,7 @@
 <node TEXT="-g" ID="ID_416857252" CREATED="1751635796768" MODIFIED="1751635800269"/>
 <node TEXT="-std=gnu++17" ID="ID_1604307644" CREATED="1751635802608" MODIFIED="1751636031351"/>
 </node>
-<node TEXT="02 gcc options for better C++" ID="ID_1633843488" CREATED="1751635681857" MODIFIED="1751636060497">
+<node TEXT="02 gcc options for better C++" FOLDED="true" ID="ID_1633843488" CREATED="1751635681857" MODIFIED="1751636060497">
 <node TEXT="-fsanitize=address" ID="ID_823137019" CREATED="1751636142533" MODIFIED="1751636155616">
 <node TEXT="Detects memory errors such as use-after-free, heap-buffer-overflow, stack-buffer-overflow, global-buffer-overflow, use-after-return, use-after-scope, and double-free.&#xa;Often used with -fno-omit-frame-pointer for better stack traces." ID="ID_1227002984" CREATED="1751636168109" MODIFIED="1751636172164"/>
 </node>
@@ -128,9 +171,9 @@
 </node>
 </node>
 <node TEXT="04 VSCode" ID="ID_1821099172" CREATED="1751484888833" MODIFIED="1751484894468"/>
-<node TEXT="06 Running gdb" ID="ID_1403638647" CREATED="1751484899176" MODIFIED="1751484948598"/>
+<node TEXT="06 running gdb" ID="ID_1403638647" CREATED="1751484899176" MODIFIED="1765569050926"/>
 <node TEXT="05 make" ID="ID_135794099" CREATED="1751484937831" MODIFIED="1751484943070"/>
-<node TEXT="06 github / git" ID="ID_1228576397" CREATED="1751484951207" MODIFIED="1751484957787">
+<node TEXT="08 github / git" ID="ID_1228576397" CREATED="1751484951207" MODIFIED="1765569206002">
 <node TEXT="01 Model of git" ID="ID_42108306" CREATED="1751484990799" MODIFIED="1751484997443"/>
 <node TEXT="02 Making a repository" ID="ID_1654572398" CREATED="1751484961359" MODIFIED="1751485003095"/>
 <node TEXT="03 clone" ID="ID_1204483318" CREATED="1751484969599" MODIFIED="1751485010644"/>
@@ -139,15 +182,17 @@
 <node TEXT="06 push" ID="ID_1028269551" CREATED="1751484985167" MODIFIED="1751485034730"/>
 </node>
 <node TEXT="07 valgrind" ID="ID_103788853" CREATED="1751635706649" MODIFIED="1751635712074"/>
-<node TEXT="08 C++ Standards" ID="ID_1388149204" CREATED="1751732091318" MODIFIED="1751732100513">
+<node TEXT="09 C++ Standards" ID="ID_1388149204" CREATED="1751732091318" MODIFIED="1765569211615">
 <node TEXT="C++98" ID="ID_127798329" CREATED="1751732103637" MODIFIED="1751732139733"/>
 <node TEXT="C++11" ID="ID_960274075" CREATED="1751732141412" MODIFIED="1751732146921"/>
 <node TEXT="C++17" ID="ID_516685319" CREATED="1751732149579" MODIFIED="1751732155388"/>
 <node TEXT="C++22" ID="ID_233892716" CREATED="1751732157507" MODIFIED="1751732171522"/>
 </node>
+<node TEXT="06 CMake" ID="ID_481526009" CREATED="1765569176973" MODIFIED="1765569183164"/>
 </node>
+<node TEXT="03 Reading" ID="ID_242719845" CREATED="1765571196857" MODIFIED="1765571202682"/>
 </node>
-<node TEXT="03 Types" FOLDED="true" POSITION="top_or_left" ID="ID_1121057718" CREATED="1751483632723" MODIFIED="1751483640874">
+<node TEXT="03 Types" POSITION="top_or_left" ID="ID_1121057718" CREATED="1751483632723" MODIFIED="1751483640874">
 <edge COLOR="#7c0000"/>
 <node TEXT="01 Objectives" FOLDED="true" ID="ID_1080385548" CREATED="1751484245090" MODIFIED="1751484297218">
 <node TEXT="01 Student will be able to list all of the fundamental types and describe the differences between them." ID="ID_185538877" CREATED="1751824788699" MODIFIED="1751828683464"/>
@@ -489,7 +534,7 @@
 </node>
 </node>
 </node>
-<node TEXT="04 Reference Types" FOLDED="true" POSITION="top_or_left" ID="ID_92519863" CREATED="1751483644211" MODIFIED="1751993744758">
+<node TEXT="04 Reference Types" POSITION="top_or_left" ID="ID_92519863" CREATED="1751483644211" MODIFIED="1751993744758">
 <edge COLOR="#00007c"/>
 <node TEXT="01 Objectives" FOLDED="true" ID="ID_495924139" CREATED="1751485076654" MODIFIED="1751485082321">
 <node TEXT="understand pointers and references" ID="ID_1120403403" CREATED="1752512229799" MODIFIED="1752512248265"/>
@@ -558,7 +603,7 @@
 </node>
 </node>
 </node>
-<node TEXT="05 Object Lifecycle" FOLDED="true" POSITION="top_or_left" ID="ID_13489677" CREATED="1751483660899" MODIFIED="1751483669320">
+<node TEXT="05 Object Lifecycle" POSITION="top_or_left" ID="ID_13489677" CREATED="1751483660899" MODIFIED="1751483669320">
 <edge COLOR="#007c00"/>
 <node TEXT="01 Objectives" FOLDED="true" ID="ID_1322506584" CREATED="1751485090421" MODIFIED="1751485095097">
 <node TEXT="1 exceptions" ID="ID_1207965602" CREATED="1758487549016" MODIFIED="1758487643953"/>
@@ -881,7 +926,7 @@
 </node>
 </node>
 </node>
-<node TEXT="10 Statements / Functions" POSITION="top_or_left" ID="ID_575133128" CREATED="1751483718384" MODIFIED="1751485448103">
+<node TEXT="10 Statements / Functions" FOLDED="true" POSITION="top_or_left" ID="ID_575133128" CREATED="1751483718384" MODIFIED="1751485448103">
 <edge COLOR="#0000ff"/>
 <node TEXT="01 Objectives" ID="ID_858531408" CREATED="1751485184874" MODIFIED="1751485189060"/>
 <node TEXT="02 Lecture" ID="ID_85977516" CREATED="1751485191652" MODIFIED="1751485449240">
@@ -935,7 +980,7 @@
 <node TEXT="lambdas&#xa;&#xa;There are five components to a lambda expression:&#xa; &#xa;captures: The member variables of the function object (that is, the&#xa;partially applied parameters)&#xa;parameters: The arguments required to invoke the function object&#xa;body: The function object’s code&#xa;specifiers: Elements like constexpr, mutable, noexcept, and [[noreturn]]&#xa;return type: The type returned by the function object&#xa;&#xa;Lambda expression usage is as follows:&#xa;[capturesu] (parametersv) modifiersy -&gt; return-typex { bodyw }" ID="ID_1507787337" CREATED="1760989705876" MODIFIED="1760989741709"/>
 </node>
 </node>
-<node TEXT="11 GUI Programming" POSITION="top_or_left" ID="ID_428879427" CREATED="1751483838143" MODIFIED="1761146868981">
+<node TEXT="11 GUI Programming" FOLDED="true" POSITION="top_or_left" ID="ID_428879427" CREATED="1751483838143" MODIFIED="1761146868981">
 <edge COLOR="#00ff00"/>
 <node TEXT="01 Objectives" ID="ID_608860652" CREATED="1751485376897" MODIFIED="1751485380615">
 <node TEXT="be able to create a small gui program in C++/fltk" ID="ID_102667645" CREATED="1761146786375" MODIFIED="1761146806747"/>
