@@ -1,8 +1,8 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<attribute_registry SHOW_ATTRIBUTES="hide"/>
 <bookmarks/>
-<node TEXT="Embedded Systems I" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1750187433379" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW"><hook NAME="MapStyle" zoom="1.5970861">
+<attribute_registry SHOW_ATTRIBUTES="hide"/>
+<node TEXT="Embedded Systems I" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1766166037662" CHILD_NODES_LAYOUT="AUTO_LAST"><hook NAME="MapStyle" zoom="1.5970861">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" allow_compact_layout="false" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -73,7 +73,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="51" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="52" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font SIZE="16"/>
 <node TEXT="00 Info" FOLDED="true" POSITION="bottom_or_right" ID="ID_316523266" CREATED="1748718453241" MODIFIED="1750465337840">
@@ -91,23 +91,27 @@
 </node>
 <node TEXT="Labs 15%" ID="ID_310881027" CREATED="1748718980302" MODIFIED="1748718998398"/>
 <node TEXT="Policy" FOLDED="true" ID="ID_970176045" CREATED="1739144943347" MODIFIED="1749152542706">
-<node TEXT="Late:  10% per day" FOLDED="true" ID="ID_972869490" CREATED="1739144960790" MODIFIED="1739144968668">
+<node TEXT="Late:  10% per day" ID="ID_972869490" CREATED="1739144960790" MODIFIED="1739144968668">
 <node TEXT="Figured out by Canvas" ID="ID_1854944870" CREATED="1739146148435" MODIFIED="1739146153785"/>
 <node TEXT="For University approved absences I will move your due date in canvas. Other absences will have a late penalty." ID="ID_1739592869" CREATED="1739146157200" MODIFIED="1749152251331"/>
 </node>
-<node TEXT="If you don&apos;t finish.." FOLDED="true" ID="ID_1964452564" CREATED="1739144970908" MODIFIED="1739144977019">
+<node TEXT="If you don&apos;t finish.." ID="ID_1964452564" CREATED="1739144970908" MODIFIED="1739144977019">
 <node TEXT="Your grade will be partial based upon what you do. Finish half the lab, your grade is capped at 50% ..." ID="ID_1211083960" CREATED="1739144980498" MODIFIED="1749152866659"/>
 <node TEXT="Due date can be shifted if a significant portion of the class is struggling to complete it on schedule" ID="ID_788573050" CREATED="1749152266649" MODIFIED="1749152297160"/>
 </node>
 <node TEXT="What is turned into canvas is what is graded. No exceptions." ID="ID_270323932" CREATED="1739146097890" MODIFIED="1749130542842"/>
-<node TEXT="Strive for a professional work product.  C code should be clean, concise, and uniformly indented (the IDE will do this for you)" FOLDED="true" ID="ID_493707429" CREATED="1739146216797" MODIFIED="1749152542701">
+<node TEXT="Strive for a professional work product.  C code should be clean, concise, and uniformly indented (the IDE will do this for you)" ID="ID_493707429" CREATED="1739146216797" MODIFIED="1749152542701">
 <node TEXT="Coding Standard" ID="ID_1626115545" CREATED="1749152693648" MODIFIED="1749152701222">
 <node TEXT="code indented as CCS does it" ID="ID_270677684" CREATED="1749152702746" MODIFIED="1749152713585"/>
 <node TEXT="macros are always UPPER CASE" ID="ID_565539864" CREATED="1749152716789" MODIFIED="1749152725544"/>
-<node TEXT="use hex when appropriate" ID="ID_649518272" CREATED="1749152736480" MODIFIED="1749152749956"/>
+<node TEXT="use hex when appropriate" ID="ID_649518272" CREATED="1749152736480" MODIFIED="1749152749956">
+<node TEXT="although in many situations a macros is more appropriate" ID="ID_723677977" CREATED="1766166309570" MODIFIED="1766166334587"/>
+</node>
 <node TEXT="use decimal when appropriate" ID="ID_438813845" CREATED="1749152752815" MODIFIED="1749152759981"/>
 <node TEXT="octal is rarely appropriate" ID="ID_1325460890" CREATED="1749152766446" MODIFIED="1749152776687"/>
 <node TEXT="other than &quot;no path to statement&quot;, warnings are not acceptable" ID="ID_1829169452" CREATED="1749152798543" MODIFIED="1749152818263"/>
+<node TEXT="functions are a valuable form of abstraction" ID="ID_223943130" CREATED="1766166260531" MODIFIED="1766166280662"/>
+<node TEXT="files are a valuable form of abstraction" ID="ID_99924001" CREATED="1766166282654" MODIFIED="1766166299524"/>
 </node>
 </node>
 <node TEXT="All code will be fed through MOSS." FOLDED="true" ID="ID_136407571" CREATED="1739146255925" MODIFIED="1739146265186">
@@ -119,7 +123,11 @@
 <node TEXT="Document your issues with an e-mail.  Include specifics and why you think an error has been made." ID="ID_1739836601" CREATED="1749152607329" MODIFIED="1749153157771"/>
 </node>
 </node>
-<node TEXT="Project 25%" ID="ID_1066697939" CREATED="1748718504799" MODIFIED="1748718537364"/>
+<node TEXT="Project 25%" FOLDED="true" ID="ID_1066697939" CREATED="1748718504799" MODIFIED="1748718537364">
+<node TEXT="Will require simple circuit design" ID="ID_1117019969" CREATED="1766166177996" MODIFIED="1766166190459"/>
+<node TEXT="At least one interrupt" ID="ID_1357068445" CREATED="1766166192376" MODIFIED="1766166203558"/>
+<node TEXT="soldering" ID="ID_290202545" CREATED="1766166210354" MODIFIED="1766166213866"/>
+</node>
 <node TEXT="Things I Do Not Understand" FOLDED="true" ID="ID_1487736289" CREATED="1749083662592" MODIFIED="1749083673684">
 <node TEXT="Auto button on oscilloscopes" ID="ID_1757093416" CREATED="1749083675263" MODIFIED="1749083685682"/>
 <node TEXT="Extra Credit" ID="ID_694453701" CREATED="1749083687338" MODIFIED="1749083691746"/>
@@ -357,7 +365,7 @@
 <node TEXT="4 enable / clock gating for each peripheral block (p232)" ID="ID_813980220" CREATED="1749441048685" MODIFIED="1756133793964"/>
 </node>
 </node>
-<node TEXT="5 Questions" ID="ID_948736729" CREATED="1749508033016" MODIFIED="1749508037513"/>
+<node TEXT="5 Questions ?" ID="ID_948736729" CREATED="1749508033016" MODIFIED="1766166462482"/>
 </node>
 <node TEXT="02 Memory Map" FOLDED="true" POSITION="top_or_left" ID="ID_1621675299" CREATED="1748038649339" MODIFIED="1756255190616">
 <edge COLOR="#007c00"/>
@@ -531,13 +539,10 @@
 </node>
 <node TEXT="04 NVIC / SysTick" FOLDED="true" POSITION="top_or_left" ID="ID_16309586" CREATED="1748038668017" MODIFIED="1749823648053" HGAP_QUANTITY="11.75 pt">
 <edge COLOR="#007c7c"/>
-<node TEXT="1 Objectives" ID="ID_331374664" CREATED="1748787752793" MODIFIED="1757362815471">
+<node TEXT="1 Objectives" FOLDED="true" ID="ID_331374664" CREATED="1748787752793" MODIFIED="1766166055844">
 <node TEXT="Set up a periodic timer using SysTick" ID="ID_1695217492" CREATED="1750465712269" MODIFIED="1757362815470"/>
 <node TEXT="Use the SysTick Timer to measure an interval" ID="ID_196959475" CREATED="1750465739382" MODIFIED="1750465752959"/>
-<node TEXT="Implement a real time clock using SysTick" ID="ID_1728010169" CREATED="1750465757467" MODIFIED="1757362799771">
-<font STRIKETHROUGH="true"/>
-</node>
-<node TEXT="Share information between an ISR and the foreground task" ID="ID_1505719863" CREATED="1750465816213" MODIFIED="1750465841865"/>
+<node TEXT="Share information between an ISR and the foreground task" ID="ID_1505719863" CREATED="1750465816213" MODIFIED="1766166055841"/>
 </node>
 <node TEXT="2 Lab" ID="ID_992486692" CREATED="1748787759958" MODIFIED="1748787762825"/>
 <node TEXT="3 Readings" ID="ID_193439086" CREATED="1748787764656" MODIFIED="1757888033281"/>
@@ -804,7 +809,7 @@
 <node TEXT="1 Objectives" ID="ID_1174515153" CREATED="1748787873647" MODIFIED="1748787878721"/>
 <node TEXT="2 Lab" ID="ID_157966557" CREATED="1748787880644" MODIFIED="1748787889914"/>
 <node TEXT="3 Readings" ID="ID_1507865381" CREATED="1748787892440" MODIFIED="1765568480717"/>
-<node TEXT="4 Contents" ID="ID_525027230" CREATED="1748787899151" MODIFIED="1748787903377">
+<node TEXT="4 Contents" FOLDED="true" ID="ID_525027230" CREATED="1748787899151" MODIFIED="1748787903377">
 <node TEXT="GPTM" ID="ID_1582822631" CREATED="1748041000840" MODIFIED="1748041012849">
 <node TEXT="read / setup" ID="ID_1941129728" CREATED="1748041288853" MODIFIED="1748041346310">
 <node TEXT="prescalar" ID="ID_602328354" CREATED="1748041340714" MODIFIED="1748041346310"/>
@@ -881,6 +886,9 @@
 </node>
 <node TEXT="DAC" ID="ID_524230133" CREATED="1748041043672" MODIFIED="1748041047849"/>
 </node>
+</node>
+<node TEXT="11 UDMA" POSITION="top_or_left" ID="ID_1600478682" CREATED="1766166080357" MODIFIED="1766166091424">
+<edge COLOR="#007c00"/>
 </node>
 </node>
 </map>

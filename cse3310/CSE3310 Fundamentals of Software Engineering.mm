@@ -74,38 +74,31 @@
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="HEADINGS"/>
 <node TEXT="01.0 Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_509777620" CREATED="1703959928549" MODIFIED="1755715136273">
 <node TEXT="1. Course Introduction" ID="ID_222054717" CREATED="1703960303195" MODIFIED="1736703780384">
-<node TEXT="1. Grading" ID="ID_1869525936" CREATED="1703981666770" MODIFIED="1736704486246">
-<node TEXT="Mistakes in grading" ID="ID_1833857770" CREATED="1703983382436" MODIFIED="1754529228083">
+<node TEXT="1. Grading" FOLDED="true" ID="ID_1869525936" CREATED="1703981666770" MODIFIED="1736704486246">
+<node TEXT="Mistakes in grading" FOLDED="true" ID="ID_1833857770" CREATED="1703983382436" MODIFIED="1754529228083">
 <node TEXT="First contact the person that graded it." ID="ID_252953726" CREATED="1736704245143" MODIFIED="1736704265327"/>
-<node TEXT="Then escalate to the instructor" ID="ID_1632655349" CREATED="1736704267519" MODIFIED="1754529234224"/>
+<node TEXT="Then escalate to the instructor" FOLDED="true" ID="ID_1632655349" CREATED="1736704267519" MODIFIED="1754529234224">
+<node TEXT="Don&apos;t just complain, provide rationale that the grade is incorrect." ID="ID_1311608522" CREATED="1766164689220" MODIFIED="1766164709527"/>
+</node>
 </node>
 <node TEXT="&quot;I don&apos;t like my grade&quot;" ID="ID_324933800" CREATED="1703983395808" MODIFIED="1704480855666"/>
 <node TEXT="COE Grade Greivance Process" ID="ID_373354482" CREATED="1703983412962" MODIFIED="1703983424645"/>
-<node TEXT="previous semester" ID="ID_1239994567" CREATED="1736279407994" MODIFIED="1736279653185" LINK="https://www.mavgrades.com/results?course=CSE%203310"><richcontent TYPE="NOTE">
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#xa0;
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node TEXT="UTA Grading Scale" ID="ID_630523934" CREATED="1736279525553" MODIFIED="1736279569169" LINK="https://catalog.uta.edu/academicregulations/grades/">
+<node TEXT="UTA Grading Scale" FOLDED="true" ID="ID_630523934" CREATED="1736279525553" MODIFIED="1736279569169" LINK="https://catalog.uta.edu/academicregulations/grades/">
 <node TEXT="Only in extreme circumstances is 70,80,90 not used" ID="ID_1073174692" CREATED="1736704079300" MODIFIED="1736704101424"/>
+<node TEXT="Most semesters, about 10% A&apos;s and 20% B&apos;s.  With 60 students this is 6 A&apos;s, and 12 B&apos;s." ID="ID_1347853976" CREATED="1766164728846" MODIFIED="1766164785755"/>
 </node>
-<node TEXT="Feedback" ID="ID_947402175" CREATED="1736704289400" MODIFIED="1736704295130">
-<node TEXT="In this course it is required" ID="ID_1327741606" CREATED="1736704296494" MODIFIED="1736704307424"/>
+<node TEXT="Feedback" FOLDED="true" ID="ID_947402175" CREATED="1736704289400" MODIFIED="1736704295130">
+<node TEXT="If you don&apos;t understand something...." ID="ID_1327741606" CREATED="1736704296494" MODIFIED="1766164807054"/>
 <node TEXT="Ask!" ID="ID_1769723543" CREATED="1736704310491" MODIFIED="1736704351656"/>
 </node>
 </node>
 <node TEXT="2. TA Introductions" ID="ID_112312829" CREATED="1703981677365" MODIFIED="1736704495227"/>
 <node TEXT="3. Nameplates" ID="ID_1417028841" CREATED="1703981689055" MODIFIED="1736704503580">
 <node TEXT="Handed out first day of class," ID="ID_318496983" CREATED="1703981808332" MODIFIED="1703981820316"/>
-<node TEXT="Please bring them every lecture" ID="ID_924075409" CREATED="1703981824996" MODIFIED="1703981838452"/>
+<node TEXT="Please bring them to  every lecture" ID="ID_924075409" CREATED="1703981824996" MODIFIED="1766164827786"/>
 <node TEXT="Lost ? Let me know and I will print you a new one." ID="ID_1731347628" CREATED="1703981845858" MODIFIED="1703981918312"/>
+<node TEXT="Why?  I would like to know each student by name" ID="ID_31341605" CREATED="1766164831529" MODIFIED="1766164868028"/>
+<node TEXT="Different Names?  Either make your own or tell me and I will print one out" ID="ID_481541784" CREATED="1766164871142" MODIFIED="1766164898022"/>
 </node>
 <node TEXT="4. Canvas" ID="ID_124986358" CREATED="1703981701290" MODIFIED="1736704509315">
 <node TEXT="All assignments turned in here" ID="ID_1919510964" CREATED="1703981756286" MODIFIED="1703981773467">
@@ -116,10 +109,12 @@
 </node>
 </node>
 </node>
-<node TEXT="Be cognizent of deadlines and your grade" ID="ID_743573120" CREATED="1703981780067" MODIFIED="1703981800378"/>
+<node TEXT="Be cognizent of deadlines and your grade" ID="ID_743573120" CREATED="1703981780067" MODIFIED="1703981800378">
+<node TEXT="Assignments are not accepted after the due date" ID="ID_1588566271" CREATED="1766164909920" MODIFIED="1766164921458"/>
+</node>
 </node>
 <node TEXT="5. Project" ID="ID_1619041841" CREATED="1703981933974" MODIFIED="1736704519039">
-<node TEXT="Group auto selected" ID="ID_148387993" CREATED="1703981944984" MODIFIED="1703981959128"/>
+<node TEXT="Groups auto selected" ID="ID_148387993" CREATED="1703981944984" MODIFIED="1766164939214"/>
 <node TEXT="Java (Discuss)" ID="ID_1857172620" CREATED="1703981962255" MODIFIED="1704240989832"/>
 <node TEXT="Penalty for non-participation" ID="ID_1771846909" CREATED="1703981972377" MODIFIED="1703981981829">
 <node TEXT="0 on the assignment for the non participating student." ID="ID_1391548998" CREATED="1736704431508" MODIFIED="1736704445644"/>
@@ -127,7 +122,10 @@
 <node TEXT="Focus on &quot;Software Engineering&quot;, not coding.  Although some Java competency is required." ID="ID_291670624" CREATED="1754529633035" MODIFIED="1754529656961"/>
 </node>
 <node TEXT="6. Attendance" ID="ID_1168693255" CREATED="1703983341202" MODIFIED="1736704525110">
-<node TEXT="Required" ID="ID_681714610" CREATED="1704041415956" MODIFIED="1754529673576"/>
+<node TEXT="Required" ID="ID_681714610" CREATED="1704041415956" MODIFIED="1766165073025">
+<node TEXT="\latex $CourseGrade=(ClassesAttended/ClassesWithAttendanceTaken*CourseGrade" ID="ID_1823018225" CREATED="1766164635031" MODIFIED="1766165073021"/>
+</node>
+<node TEXT="Canvas Attendance Plus" ID="ID_1100914180" CREATED="1766165078630" MODIFIED="1766165089570"/>
 </node>
 <node TEXT="7. AI" ID="ID_1070977668" CREATED="1736704141382" MODIFIED="1736704530398">
 <node TEXT="Prohibited" ID="ID_1255676044" CREATED="1736704149815" MODIFIED="1736800773112">
@@ -139,7 +137,7 @@
 <node TEXT="MOSS" ID="ID_529037308" CREATED="1754529681507" MODIFIED="1754529684217"/>
 <node TEXT="TurnItIn" ID="ID_1375348694" CREATED="1754529686905" MODIFIED="1754529692793"/>
 </node>
-<node TEXT="Instructors desire penalty is to fail the course" ID="ID_1272829608" CREATED="1736704200378" MODIFIED="1754529704936">
+<node TEXT="Instructors desired penalty is to fail the course" ID="ID_1272829608" CREATED="1736704200378" MODIFIED="1766165124087">
 <font BOLD="false"/>
 </node>
 <node TEXT="Use of AI is considered an academic honesty event" ID="ID_556330576" CREATED="1754529711519" MODIFIED="1754529735927"/>
@@ -183,15 +181,14 @@
 <node TEXT="4. Additional Topics" ID="ID_718431597" CREATED="1703960363113" MODIFIED="1736703824507">
 <node TEXT="1. What is SE?" ID="ID_885257631" CREATED="1703965936619" MODIFIED="1736704605029">
 <node TEXT="SWEBOK" ID="ID_1295226400" CREATED="1703983543859" MODIFIED="1703983549817">
-<node TEXT="V3" ID="ID_464606308" CREATED="1703983556188" MODIFIED="1703983560834"/>
-<node TEXT="V4" ID="ID_208924880" CREATED="1703983563875" MODIFIED="1703983567317"/>
-<node TEXT="Changes " ID="ID_1246255276" CREATED="1703983581634" MODIFIED="1703984199217" LINK="https://waseda.app.box.com/s/elnhhnezdycn2q2zp4fe0f2t1fvse5rn#page=381"/>
 <node TEXT="Defines what graduates should know 5 years after graduation" ID="ID_323424136" CREATED="1703984236869" MODIFIED="1703984259417"/>
+<node TEXT="Version 4, October 2024" ID="ID_651087745" CREATED="1766165279908" MODIFIED="1766165441373"/>
 </node>
 <node TEXT="Accreditation" ID="ID_1859926475" CREATED="1704041459752" MODIFIED="1704041512368">
 <node TEXT="2. What is CS? &quot;Computer Science is the study of computers and computational systems. Unlike electrical and computer engineers, computer scientists deal mostly with software and software systems; this includes their theory, design, development, and application.  &quot;" ID="ID_371496823" CREATED="1703965949961" MODIFIED="1736704615209">
 <node TEXT="Focus of CS education is to prepare you to be a computer scientist.  (Or teach CS)" ID="ID_1020772427" CREATED="1736704805876" MODIFIED="1736704841869"/>
 <node TEXT="Foundation for Scientific Programming" ID="ID_319027268" CREATED="1736704846302" MODIFIED="1736704860869"/>
+<node TEXT="Theory Based, not web programming" ID="ID_1518301815" CREATED="1766165254322" MODIFIED="1766165449988"/>
 </node>
 <node TEXT="Accreditation is a review process to determine if educational programs meet defined standards of quality. Once achieved, accreditation is not permanent—it is renewed periodically to ensure that the quality of the educational program is maintained." ID="ID_1501059187" CREATED="1704041525704" MODIFIED="1704041528580"/>
 <node TEXT="EAC of ABET" ID="ID_1012952031" CREATED="1704041534457" MODIFIED="1704041544341"/>
@@ -202,19 +199,24 @@
 <node TEXT="Vocational Or Academic?" ID="ID_1456643373" CREATED="1704043943012" MODIFIED="1704044269015"/>
 <node TEXT="Is Teamwork fundamental to SE?" ID="ID_802855239" CREATED="1704044070395" MODIFIED="1736704933272"/>
 </node>
-<node TEXT="3. Web Developer" ID="ID_1180745165" CREATED="1703965963443" MODIFIED="1736704622766">
-<node TEXT="(estimate) 90% of all &apos;software engineers&apos;" ID="ID_48649" CREATED="1736704742679" MODIFIED="1736704768367"/>
-<node TEXT="Is this engineering?" ID="ID_1376101126" CREATED="1736704771446" MODIFIED="1736704870143">
-<node TEXT="Do they use math and scientific principles?" ID="ID_1750692734" CREATED="1736704864612" MODIFIED="1736704891586"/>
-<node TEXT="Engineering Methods?" ID="ID_1284653582" CREATED="1736704893114" MODIFIED="1736704926758"/>
-</node>
-</node>
-<node TEXT="4. Origin of Software Engineering" ID="ID_892068201" CREATED="1703982468765" MODIFIED="1736704629558">
+<node TEXT="2.  Origin of Software Engineering" ID="ID_892068201" CREATED="1703982468765" MODIFIED="1766165776781">
 <node TEXT="Project Failure(s)" ID="ID_1778668188" CREATED="1704044166184" MODIFIED="1704044178053"/>
 <node TEXT="NATO Conference " ID="ID_438268785" CREATED="1704131491764" MODIFIED="1704131508238" LINK="http://homepages.cs.ncl.ac.uk/brian.randell/NATO/index.html"/>
 <node TEXT="Initial focus on Cost and Schedule and Quality" ID="ID_1703939778" CREATED="1754529884176" MODIFIED="1754529897660"/>
 </node>
-<node TEXT="5. Path to Employment in Software Engineering" ID="ID_285516430" CREATED="1703983069713" MODIFIED="1736704637241">
+<node TEXT="3. FAANG Developer" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_86223592" CREATED="1766165714948" MODIFIED="1766165747871">
+<node TEXT="Is this engineering?" ID="ID_328829767" CREATED="1766165819373" MODIFIED="1766165826078"/>
+<node TEXT="(estimate) 1% of all software engineers" ID="ID_479139039" CREATED="1766165834242" MODIFIED="1766165852596"/>
+</node>
+<node TEXT="4. Web Developer" ID="ID_1180745165" CREATED="1703965963443" MODIFIED="1766165762758">
+<node TEXT="(estimate) 90% of all &apos;software engineers&apos;" ID="ID_48649" CREATED="1736704742679" MODIFIED="1736704768367"/>
+<node TEXT="Is this engineering?" ID="ID_1376101126" CREATED="1736704771446" MODIFIED="1736704870143">
+<node TEXT="Do they use math and scientific principles?" ID="ID_1750692734" CREATED="1736704864612" MODIFIED="1736704891586"/>
+<node TEXT="Engineering Methods?" ID="ID_1284653582" CREATED="1736704893114" MODIFIED="1736704926758"/>
+<node TEXT="“the application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of software; that is, the application of engineering to software).&quot;" ID="ID_20684568" CREATED="1766165676776" MODIFIED="1766165679772"/>
+</node>
+</node>
+<node TEXT="5. Path to Employment in Software Engineering" ID="ID_285516430" CREATED="1703983069713" MODIFIED="1766165799056">
 <node TEXT="Bootcamp (6 months)" ID="ID_1317639217" CREATED="1703983095102" MODIFIED="1704240917232"/>
 <node TEXT="Community College (24 months)" ID="ID_323870445" CREATED="1703983103656" MODIFIED="1704240927392"/>
 <node TEXT="Military Training (6 months)" ID="ID_1499307916" CREATED="1703983126726" MODIFIED="1704240934473"/>
@@ -234,6 +236,7 @@
 <node TEXT="Is Software Engineering, Engineering?" ID="ID_105370762" CREATED="1736704671920" MODIFIED="1736704721520"/>
 <node TEXT="If it is not, what is it?" ID="ID_309863817" CREATED="1736704693065" MODIFIED="1736704701925"/>
 <node TEXT="Is there a need for Software Engineering?" ID="ID_432244648" CREATED="1736704724457" MODIFIED="1754529880265"/>
+<node TEXT="Software Engineering and Licensing" ID="ID_666248753" CREATED="1766165693590" MODIFIED="1766165705414"/>
 </node>
 </node>
 <node TEXT="02.0 Software Process" FOLDED="true" POSITION="top_or_left" ID="ID_554114201" CREATED="1703960050539" MODIFIED="1738022869330">
@@ -466,16 +469,7 @@
 </node>
 </node>
 </node>
-<node TEXT="SWEBOK Reading" FOLDED="true" ID="ID_1280072247" CREATED="1703983305378" MODIFIED="1703983311403">
-<node TEXT="Introductory Comments" FOLDED="true" ID="ID_696091765" CREATED="1706719302186" MODIFIED="1706719311033">
-<node TEXT="&quot;It is widely acknowledged amongst researchers&#xa;and industry practitioners that software projects&#xa;are critically vulnerable when the requirements related activities are poorly performed&quot;" ID="ID_1654151018" CREATED="1706719313023" MODIFIED="1756930719018"/>
-<node TEXT="&quot;Software requirements express the needs and&#xa;constraints placed on a software product that&#xa;contribute to the solution of some real-world&#xa;problem&quot;" ID="ID_253195579" CREATED="1706719376486" MODIFIED="1706719380073"/>
-<node TEXT="Functional requirements describe the functions&#xa;that the software is to execute; for example, formatting some text or modulating a signal. They&#xa;are sometimes known as capabilities or features.&#xa;A functional requirement can also be described&#xa;as one for which a finite set of test steps can be&#xa;written to validate its behavior." ID="ID_1750201434" CREATED="1706719452053" MODIFIED="1706719454599"/>
-<node TEXT="Nonfunctional requirements are the ones that&#xa;act to constrain the solution. Nonfunctional&#xa;requirements are sometimes known as constraints&#xa;or quality requirements. They can be further classified according to whether they are performance&#xa;requirements, maintainability requirements,&#xa;safety requirements, reliability requirements,&#xa;security requirements, interoperability requirements or one of many other types of software&#xa;requirements" ID="ID_629745341" CREATED="1706719457183" MODIFIED="1706719474476"/>
-<node TEXT="Some requirements represent emergent properties of software—that is, requirements that cannot be addressed by a single component but that&#xa;depend on how all the software components&#xa;interoperate. The throughput requirement for a&#xa;call center would, for example, depend on how&#xa;the telephone system, information system, and&#xa;the operators all interacted under actual operating conditions. Emergent properties are crucially&#xa;dependent on the system architecture." ID="ID_822149999" CREATED="1706719475994" MODIFIED="1706719505039"/>
-</node>
-</node>
-<node TEXT="Additional Topics" FOLDED="true" ID="ID_236754746" CREATED="1703983320167" MODIFIED="1703983326137">
+<node TEXT="Additional Topics" ID="ID_236754746" CREATED="1703983320167" MODIFIED="1703983326137">
 <node TEXT="Trace-a-bility" FOLDED="true" ID="ID_859866786" CREATED="1706553740283" MODIFIED="1706553752914">
 <node TEXT="Unique Identifier" ID="ID_336415695" CREATED="1706553752917" MODIFIED="1706553765869"/>
 <node TEXT="Requirements to Implementation" ID="ID_1313573537" CREATED="1706627436189" MODIFIED="1706627448755"/>
@@ -493,6 +487,15 @@
 <node TEXT="cross reference with a requirement" ID="ID_1642051996" CREATED="1754530517439" MODIFIED="1754530533193"/>
 <node TEXT="generally, would consider these to be &apos;user requirements&apos;" ID="ID_233370331" CREATED="1754530535908" MODIFIED="1754530549384"/>
 </node>
+</node>
+</node>
+<node TEXT="SWEBOK Reading" POSITION="bottom_or_right" ID="ID_1280072247" CREATED="1703983305378" MODIFIED="1703983311403">
+<node TEXT="Introductory Comments" ID="ID_696091765" CREATED="1706719302186" MODIFIED="1706719311033">
+<node TEXT="&quot;It is widely acknowledged amongst researchers&#xa;and industry practitioners that software projects&#xa;are critically vulnerable when the requirements related activities are poorly performed&quot;" ID="ID_1654151018" CREATED="1706719313023" MODIFIED="1756930719018"/>
+<node TEXT="&quot;Software requirements express the needs and&#xa;constraints placed on a software product that&#xa;contribute to the solution of some real-world&#xa;problem&quot;" ID="ID_253195579" CREATED="1706719376486" MODIFIED="1706719380073"/>
+<node TEXT="Functional requirements describe the functions&#xa;that the software is to execute; for example, formatting some text or modulating a signal. They&#xa;are sometimes known as capabilities or features.&#xa;A functional requirement can also be described&#xa;as one for which a finite set of test steps can be&#xa;written to validate its behavior." ID="ID_1750201434" CREATED="1706719452053" MODIFIED="1706719454599"/>
+<node TEXT="Nonfunctional requirements are the ones that&#xa;act to constrain the solution. Nonfunctional&#xa;requirements are sometimes known as constraints&#xa;or quality requirements. They can be further classified according to whether they are performance&#xa;requirements, maintainability requirements,&#xa;safety requirements, reliability requirements,&#xa;security requirements, interoperability requirements or one of many other types of software&#xa;requirements" ID="ID_629745341" CREATED="1706719457183" MODIFIED="1706719474476"/>
+<node TEXT="Some requirements represent emergent properties of software—that is, requirements that cannot be addressed by a single component but that&#xa;depend on how all the software components&#xa;interoperate. The throughput requirement for a&#xa;call center would, for example, depend on how&#xa;the telephone system, information system, and&#xa;the operators all interacted under actual operating conditions. Emergent properties are crucially&#xa;dependent on the system architecture." ID="ID_822149999" CREATED="1706719475994" MODIFIED="1706719505039"/>
 </node>
 </node>
 </node>
@@ -1057,7 +1060,7 @@
 </node>
 </node>
 </node>
-<node TEXT="11.0 Project Planning" POSITION="bottom_or_right" ID="ID_778281146" CREATED="1703960186839" MODIFIED="1703960944734">
+<node TEXT="11.0 Project Planning" FOLDED="true" POSITION="bottom_or_right" ID="ID_778281146" CREATED="1703960186839" MODIFIED="1703960944734">
 <node TEXT="Software Pricing" ID="ID_1928238314" CREATED="1722444795862" MODIFIED="1722444926005">
 <node TEXT="Contractual Terms" ID="ID_299289663" CREATED="1722445865061" MODIFIED="1722445896330">
 <node TEXT="Firm Fixed Price" ID="ID_407380182" CREATED="1763495462422" MODIFIED="1763495475249"/>
