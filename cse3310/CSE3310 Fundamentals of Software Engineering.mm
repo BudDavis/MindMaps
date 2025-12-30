@@ -1,7 +1,10 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="CSE3310 Fundamentals of Software Engineering" FOLDED="false" ID="ID_1171700979" CREATED="1703959867184" MODIFIED="1757355158658"><hook NAME="MapStyle" zoom="1.5">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
+<bookmarks>
+    <bookmark nodeId="ID_1171700979" name="Root" opensAsRoot="true"/>
+</bookmarks>
+<node TEXT="CSE3310 Fundamentals of Software Engineering" FOLDED="false" ID="ID_1171700979" CREATED="1703959867184" MODIFIED="1767120824740" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW"><hook NAME="MapStyle" zoom="1.5">
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false" auto_compact_layout="true"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -74,7 +77,7 @@
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="HEADINGS"/>
 <node TEXT="01.0 Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_509777620" CREATED="1703959928549" MODIFIED="1755715136273">
 <node TEXT="1. Course Introduction" ID="ID_222054717" CREATED="1703960303195" MODIFIED="1736703780384">
-<node TEXT="1. Grading" FOLDED="true" ID="ID_1869525936" CREATED="1703981666770" MODIFIED="1736704486246">
+<node TEXT="1. Grading" ID="ID_1869525936" CREATED="1703981666770" MODIFIED="1736704486246">
 <node TEXT="Mistakes in grading" FOLDED="true" ID="ID_1833857770" CREATED="1703983382436" MODIFIED="1754529228083">
 <node TEXT="First contact the person that graded it." ID="ID_252953726" CREATED="1736704245143" MODIFIED="1736704265327"/>
 <node TEXT="Then escalate to the instructor" FOLDED="true" ID="ID_1632655349" CREATED="1736704267519" MODIFIED="1754529234224">
@@ -155,16 +158,16 @@
 <node TEXT="2. SWEBOK Reading" ID="ID_859991737" CREATED="1703960322456" MODIFIED="1736703799634">
 <node TEXT="WHAT IS SOFTWARE ENGINEERING? ISO/IEC/IEEE Systems and Software Engineering Vocabulary (SEVOCAB) defines software engineering as “the application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of software; that is, the application of engineering to software).&quot;" ID="ID_164164562" CREATED="1704128736585" MODIFIED="1704207887122"/>
 <node TEXT="Engineering Problem Solving Process" ID="ID_624021079" CREATED="1704135762452" MODIFIED="1704906160987">
-<node TEXT="Define the problem" ID="ID_752821216" CREATED="1704906172558" MODIFIED="1704906692449"/>
-<node TEXT="Gather Information" ID="ID_1242216464" CREATED="1704906695779" MODIFIED="1704906710124"/>
-<node TEXT="Generate Multiple Solutions" ID="ID_1579744021" CREATED="1704906720218" MODIFIED="1704906736108"/>
-<node TEXT="Anaylze and Select a Solution" ID="ID_482959445" CREATED="1704906739036" MODIFIED="1704906752731"/>
-<node TEXT="Implement the Solution" ID="ID_1172877368" CREATED="1704906756893" MODIFIED="1704906768393"/>
+<node TEXT="1. Define the problem" ID="ID_752821216" CREATED="1704906172558" MODIFIED="1767119306803"/>
+<node TEXT="2. Gather Information" ID="ID_1242216464" CREATED="1704906695779" MODIFIED="1767119314744"/>
+<node TEXT="3. Generate Multiple Solutions" ID="ID_1579744021" CREATED="1704906720218" MODIFIED="1767119319031"/>
+<node TEXT="4. Anaylze and Select a Solution" ID="ID_482959445" CREATED="1704906739036" MODIFIED="1767119324533"/>
+<node TEXT="5. Implement the Solution" ID="ID_1172877368" CREATED="1704906756893" MODIFIED="1767119329889"/>
 </node>
 <node TEXT="Engineering Design - the process of devising a system, component, or process to meet desired needs. It is a decision-making process (often iterative), in which the basic sciences, mathematics, and the engineering sciences are applied to convert resources optimally to meet these stated needs. [9, p4]" ID="ID_187347347" CREATED="1704906906754" MODIFIED="1704906947199"/>
 </node>
 <node TEXT="3. Sommerville Reading" ID="ID_1759144721" CREATED="1703960282508" MODIFIED="1755715136272">
-<node TEXT="Ch 1.1 Professional software development " FOLDED="true" ID="ID_247774750" CREATED="1703961244092" MODIFIED="1736806684492">
+<node TEXT="Ch 1.1 Professional software development " ID="ID_247774750" CREATED="1703961244092" MODIFIED="1736806684492">
 <node TEXT="Software Process Activities AKA &quot;Fundamental Activities&quot;" ID="ID_1028866560" CREATED="1703982724690" MODIFIED="1704130888617">
 <node TEXT="Specification" ID="ID_1493740255" CREATED="1703982746041" MODIFIED="1703982754720"/>
 <node TEXT="Development" ID="ID_1060058870" CREATED="1703982758004" MODIFIED="1703982768506"/>
@@ -182,7 +185,14 @@
 <node TEXT="1. What is SE?" ID="ID_885257631" CREATED="1703965936619" MODIFIED="1736704605029">
 <node TEXT="SWEBOK" ID="ID_1295226400" CREATED="1703983543859" MODIFIED="1703983549817">
 <node TEXT="Defines what graduates should know 5 years after graduation" ID="ID_323424136" CREATED="1703984236869" MODIFIED="1703984259417"/>
-<node TEXT="Version 4, October 2024" ID="ID_651087745" CREATED="1766165279908" MODIFIED="1766165441373"/>
+<node TEXT="Version 4, October 2024" ID="ID_651087745" CREATED="1766165279908" MODIFIED="1767119624448">
+<node TEXT="List of Knowledg Areas" ID="ID_1129382876" CREATED="1767119602288" MODIFIED="1767119740588" HGAP_QUANTITY="12.5 pt">
+<hook URI="ka.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+<node TEXT="Related Disciplines" ID="ID_1355465687" CREATED="1767119833900" MODIFIED="1767119908520">
+<hook URI="related.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+</node>
 </node>
 <node TEXT="Accreditation" ID="ID_1859926475" CREATED="1704041459752" MODIFIED="1704041512368">
 <node TEXT="2. What is CS? &quot;Computer Science is the study of computers and computational systems. Unlike electrical and computer engineers, computer scientists deal mostly with software and software systems; this includes their theory, design, development, and application.  &quot;" ID="ID_371496823" CREATED="1703965949961" MODIFIED="1736704615209">
@@ -239,27 +249,46 @@
 <node TEXT="Software Engineering and Licensing" ID="ID_666248753" CREATED="1766165693590" MODIFIED="1766165705414"/>
 </node>
 </node>
-<node TEXT="02.0 Software Process" FOLDED="true" POSITION="top_or_left" ID="ID_554114201" CREATED="1703960050539" MODIFIED="1738022869330">
+<node TEXT="02.0 Software Process" FOLDED="true" POSITION="top_or_left" ID="ID_554114201" CREATED="1703960050539" MODIFIED="1767120815356" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW">
 <node TEXT="Sommerville Reading" ID="ID_1899427298" CREATED="1703983228910" MODIFIED="1737583874748">
 <node TEXT="Software Process Models (MACRO PROCESS)" ID="ID_1752038062" CREATED="1705780007317" MODIFIED="1754530110400">
-<node TEXT="Waterfall" ID="ID_1755555716" CREATED="1705794534846" MODIFIED="1705794540605">
-<node TEXT="Understandable" ID="ID_1337646284" CREATED="1705794794992" MODIFIED="1705853099688"/>
-<node TEXT="Poor Visibility" ID="ID_775046381" CREATED="1705853114727" MODIFIED="1705853130812"/>
-<node TEXT="Poor at Dealing with change" ID="ID_799864395" CREATED="1705853139966" MODIFIED="1705853148755"/>
-<node TEXT="" ID="ID_1427250721" CREATED="1705853452529" MODIFIED="1705853471741" LINK="https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fcommons.wikipedia.org%2Fwiki%2FFile%3AWaterfall_model.png&amp;psig=AOvVaw3NaBt5vPazk3yT2E0LnmE0&amp;ust=1705939963676000&amp;source=images&amp;cd=vfe&amp;ved=0CAUQjB1qFwoTCMDjoqDv7oMDFQAAAAAdAAAAABAE"/>
+<node TEXT="Plan Based" ID="ID_1438272402" CREATED="1767120521744" MODIFIED="1767120528468">
+<node TEXT="1. Waterfall" FOLDED="true" ID="ID_1755555716" CREATED="1705794534846" MODIFIED="1767120580876">
+<node TEXT="1. waterfall diagram" ID="ID_370741791" CREATED="1767120430513" MODIFIED="1767120750460">
+<hook URI="Waterfall_model.png" SIZE="1.0" NAME="ExternalObject"/>
 </node>
-<node TEXT="Overview / Plan Based /Agile" ID="ID_1347159340" CREATED="1705853187927" MODIFIED="1705853205118"/>
-<node TEXT="Incremental" ID="ID_1266548318" CREATED="1705794545347" MODIFIED="1705794551435">
-<node TEXT="Partial Delivery Possible" ID="ID_483473666" CREATED="1705853217879" MODIFIED="1705853232400"/>
-<node TEXT="Better at accomodating change" ID="ID_1741765906" CREATED="1705853238341" MODIFIED="1705853252789"/>
-<node TEXT="Can be Complex" ID="ID_650051767" CREATED="1705853264078" MODIFIED="1705853270942"/>
+<node TEXT="2. Understandable" ID="ID_1337646284" CREATED="1705794794992" MODIFIED="1767120759958"/>
+<node TEXT="3. Poor Visibility" ID="ID_775046381" CREATED="1705853114727" MODIFIED="1767120765206"/>
+<node TEXT="4. Poor at Dealing with change" ID="ID_799864395" CREATED="1705853139966" MODIFIED="1767120773231">
+<node TEXT="why?  (slow, assumes work products are perfect)" ID="ID_437307231" CREATED="1767121234342" MODIFIED="1767121257345"/>
 </node>
-<node TEXT="Integration and Configuration" ID="ID_226460065" CREATED="1705794559102" MODIFIED="1705794567589">
-<node TEXT="Good Visibility (Short Schedule)" ID="ID_1123236869" CREATED="1705853277483" MODIFIED="1705853290787"/>
-<node TEXT="Requirements Compromise" ID="ID_166103436" CREATED="1705853300353" MODIFIED="1705853313830"/>
-<node TEXT="Lowest Cost" ID="ID_1277493183" CREATED="1705853321683" MODIFIED="1705853331739"/>
-<node TEXT="Tied to Vendors Roadmap" ID="ID_1960834265" CREATED="1705853338659" MODIFIED="1705853352456"/>
 </node>
+<node TEXT="2. Incremental" FOLDED="true" ID="ID_1266548318" CREATED="1705794545347" MODIFIED="1767120587847">
+<node TEXT="1. Diagram" ID="ID_1242077002" CREATED="1767121152652" MODIFIED="1767121172647">
+<hook URI="iterative.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+<node TEXT="2. Partial Delivery Possible" ID="ID_483473666" CREATED="1705853217879" MODIFIED="1767121183776"/>
+<node TEXT="3. Better at accomodating change" ID="ID_1741765906" CREATED="1705853238341" MODIFIED="1767121188407"/>
+<node TEXT="4. Can be Complex to manage" ID="ID_650051767" CREATED="1705853264078" MODIFIED="1767121197487">
+<node TEXT="multiple teams working on different iterations at the same time" ID="ID_939398074" CREATED="1767121202211" MODIFIED="1767121217813"/>
+</node>
+<node TEXT="5.  Good Visibility- Customer sees partial working system early" ID="ID_550404257" CREATED="1767121265246" MODIFIED="1767121284489"/>
+</node>
+<node TEXT="3. Integration and Configuration" FOLDED="true" ID="ID_226460065" CREATED="1705794559102" MODIFIED="1767121369992">
+<node TEXT="1. Diagram" ID="ID_262504595" CREATED="1767121325774" MODIFIED="1767121518085">
+<hook URI="reuse_oriented.png" SIZE="0.82079345" NAME="ExternalObject"/>
+</node>
+<node TEXT="2. Good Visibility (Short Schedule)" ID="ID_1123236869" CREATED="1705853277483" MODIFIED="1767121339484"/>
+<node TEXT="3. Requirements Compromise" ID="ID_166103436" CREATED="1705853300353" MODIFIED="1767121344487">
+<node TEXT="allows cost / benefit tradeoffs" ID="ID_297930042" CREATED="1767121550878" MODIFIED="1767121560034"/>
+</node>
+<node TEXT="4. Lowest Cost" ID="ID_1277493183" CREATED="1705853321683" MODIFIED="1767121368659">
+<node TEXT="why?" ID="ID_44578146" CREATED="1767121570273" MODIFIED="1767121575065"/>
+</node>
+<node TEXT="5. Tied to Vendors Roadmap" ID="ID_1960834265" CREATED="1705853338659" MODIFIED="1767121374005"/>
+</node>
+</node>
+<node TEXT="Agile" ID="ID_1789956744" CREATED="1767120531260" MODIFIED="1767120535047"/>
 </node>
 <node TEXT="Software Process (MICRO PROCESS)" ID="ID_930546530" CREATED="1705780027887" MODIFIED="1754530121617">
 <node TEXT="Inputs" ID="ID_336289861" CREATED="1705795047683" MODIFIED="1705795053796"/>
