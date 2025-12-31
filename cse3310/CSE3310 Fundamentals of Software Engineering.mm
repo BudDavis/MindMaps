@@ -4,7 +4,7 @@
     <bookmark nodeId="ID_1171700979" name="Root" opensAsRoot="true"/>
 </bookmarks>
 <node TEXT="CSE3310 Fundamentals of Software Engineering" FOLDED="false" ID="ID_1171700979" CREATED="1703959867184" MODIFIED="1767120824740" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW"><hook NAME="MapStyle" zoom="1.5">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false" auto_compact_layout="true"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" auto_compact_layout="true" show_tags="UNDER_NODES" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -250,7 +250,7 @@
 </node>
 </node>
 <node TEXT="02.0 Software Process" FOLDED="true" POSITION="top_or_left" ID="ID_554114201" CREATED="1703960050539" MODIFIED="1767120815356" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW">
-<node TEXT="Sommerville Reading" ID="ID_1899427298" CREATED="1703983228910" MODIFIED="1737583874748">
+<node TEXT="Sommerville Reading" FOLDED="true" ID="ID_1899427298" CREATED="1703983228910" MODIFIED="1737583874748">
 <node TEXT="Software Process Models (MACRO PROCESS)" ID="ID_1752038062" CREATED="1705780007317" MODIFIED="1754530110400">
 <node TEXT="Plan Based" ID="ID_1438272402" CREATED="1767120521744" MODIFIED="1767120528468">
 <node TEXT="1. Waterfall" FOLDED="true" ID="ID_1755555716" CREATED="1705794534846" MODIFIED="1767120580876">
@@ -263,7 +263,7 @@
 <node TEXT="why?  (slow, assumes work products are perfect)" ID="ID_437307231" CREATED="1767121234342" MODIFIED="1767121257345"/>
 </node>
 </node>
-<node TEXT="2. Incremental" FOLDED="true" ID="ID_1266548318" CREATED="1705794545347" MODIFIED="1767120587847">
+<node TEXT="2. Incremental" ID="ID_1266548318" CREATED="1705794545347" MODIFIED="1767120587847">
 <node TEXT="1. Diagram" ID="ID_1242077002" CREATED="1767121152652" MODIFIED="1767121172647">
 <hook URI="iterative.png" SIZE="1.0" NAME="ExternalObject"/>
 </node>
@@ -274,7 +274,7 @@
 </node>
 <node TEXT="5.  Good Visibility- Customer sees partial working system early" ID="ID_550404257" CREATED="1767121265246" MODIFIED="1767121284489"/>
 </node>
-<node TEXT="3. Integration and Configuration" FOLDED="true" ID="ID_226460065" CREATED="1705794559102" MODIFIED="1767121369992">
+<node TEXT="3. Integration and Configuration" ID="ID_226460065" CREATED="1705794559102" MODIFIED="1767121369992">
 <node TEXT="1. Diagram" ID="ID_262504595" CREATED="1767121325774" MODIFIED="1767121518085">
 <hook URI="reuse_oriented.png" SIZE="0.82079345" NAME="ExternalObject"/>
 </node>
@@ -331,14 +331,14 @@
 </node>
 </node>
 </node>
-<node TEXT="SWEBOK Reading" ID="ID_817181727" CREATED="1703983241766" MODIFIED="1703983249083">
+<node TEXT="SWEBOK Reading" FOLDED="true" ID="ID_817181727" CREATED="1703983241766" MODIFIED="1703983249083">
 <node TEXT="Individual software processes have no tempo-&#xa;ral ordering among them. The temporal relation-&#xa;ships among software processes are provided by&#xa;a software life cycle model: either an SDLC or&#xa;SPLC." ID="ID_1601633922" CREATED="1705888085896" MODIFIED="1705888091318"/>
 <node TEXT="Linear SDLC models are sometimes referred&#xa;to as predictive software development life cycle&#xa;models, while iterative and agile SDLCs are&#xa;referred to as adaptive software development&#xa;life cycle models. It should be noted that vari-&#xa;ous maintenance activities during an SPLC can&#xa;be conducted using different SDLC models, as&#xa;appropriate to the maintenance activities." ID="ID_346615959" CREATED="1705888157572" MODIFIED="1705888162603"/>
 <node TEXT="A distinguishing feature of the various soft-&#xa;ware development life cycle models is the way in&#xa;which software requirements are managed. Lin-&#xa;ear development models typically develop a com-&#xa;plete set of software requirements, to the extent&#xa;possible, during project initiation and planning.&#xa;The software requirements are then rigorously&#xa;controlled. Changes to the software requirements&#xa;are based on change requests that are processed&#xa;by a change control board (see Requesting,&#xa;Evaluating and Approving Software Changes in&#xa;the Change Control Board in the Software Con-&#xa;figuration Management KA). An incremental&#xa;model produces successive increments of work-&#xa;ing, deliverable software based on partitioning&#xa;of the software requirements to be implemented&#xa;in each of the increments. The software require-&#xa;ments may be rigorously controlled, as in a linear&#xa;model, or there may be some flexibility in revising&#xa;the software requirements as the software product&#xa;evolves." ID="ID_1764888633" CREATED="1705888216370" MODIFIED="1705888220293"/>
 <node TEXT="The efficiency of a software process, activity,&#xa;or task is the ratio of resources actually consumed&#xa;to resources expected or desired to be consumed" ID="ID_818244345" CREATED="1705888383289" MODIFIED="1705888389255"/>
 <node TEXT="Effectiveness is the ratio of actual output to&#xa;expected output produced by a software process,&#xa;activity, or task;" ID="ID_708221979" CREATED="1705888394993" MODIFIED="1705888415086"/>
 </node>
-<node TEXT="Additional Topics" ID="ID_647686605" CREATED="1703983256994" MODIFIED="1705853769630">
+<node TEXT="Additional Topics" FOLDED="true" ID="ID_647686605" CREATED="1703983256994" MODIFIED="1705853769630">
 <node TEXT="Watts Humphrey" ID="ID_1763593741" CREATED="1705853718088" MODIFIED="1705853789057">
 <node TEXT="Managing the Software Process" ID="ID_1970522380" CREATED="1705853799941" MODIFIED="1705853818036"/>
 <node TEXT="A Discipline for Software Engineering" ID="ID_1337202430" CREATED="1705853824111" MODIFIED="1705853838421"/>
@@ -356,7 +356,7 @@
 </node>
 </node>
 <node TEXT="03.0 Software requirements" FOLDED="true" POSITION="bottom_or_right" ID="ID_1483684652" CREATED="1703960064963" MODIFIED="1757887940219">
-<node TEXT="Sommerville Reading" ID="ID_267303377" CREATED="1703983292658" MODIFIED="1703983300081">
+<node TEXT="Sommerville Reading" FOLDED="true" ID="ID_267303377" CREATED="1703983292658" MODIFIED="1703983300081">
 <node TEXT="Requirements" FOLDED="true" ID="ID_1424634565" CREATED="1706460800770" MODIFIED="1706551501089">
 <node TEXT="User Requirements" ID="ID_1795477741" CREATED="1706551509781" MODIFIED="1706551519326">
 <node TEXT="Natural Language plus diagrams, broad statements." ID="ID_1236966029" CREATED="1706551928462" MODIFIED="1706551960933"/>
@@ -518,7 +518,7 @@
 </node>
 </node>
 </node>
-<node TEXT="SWEBOK Reading" POSITION="bottom_or_right" ID="ID_1280072247" CREATED="1703983305378" MODIFIED="1703983311403">
+<node TEXT="SWEBOK Reading" FOLDED="true" POSITION="bottom_or_right" ID="ID_1280072247" CREATED="1703983305378" MODIFIED="1703983311403">
 <node TEXT="Introductory Comments" ID="ID_696091765" CREATED="1706719302186" MODIFIED="1706719311033">
 <node TEXT="&quot;It is widely acknowledged amongst researchers&#xa;and industry practitioners that software projects&#xa;are critically vulnerable when the requirements related activities are poorly performed&quot;" ID="ID_1654151018" CREATED="1706719313023" MODIFIED="1756930719018"/>
 <node TEXT="&quot;Software requirements express the needs and&#xa;constraints placed on a software product that&#xa;contribute to the solution of some real-world&#xa;problem&quot;" ID="ID_253195579" CREATED="1706719376486" MODIFIED="1706719380073"/>

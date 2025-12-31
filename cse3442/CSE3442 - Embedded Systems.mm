@@ -175,7 +175,7 @@
 <node TEXT="4 Contents" ID="ID_459893785" CREATED="1748289048135" MODIFIED="1748789818341">
 <node TEXT="1 Using CCS" ID="ID_562560687" CREATED="1748040803149" MODIFIED="1749156933666">
 <node TEXT="1 Use CCS to create a new project" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_943542100" CREATED="1749236450582" MODIFIED="1749236477403"/>
-<node TEXT="2 Required elements of a program" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" ID="ID_1836930859" CREATED="1748718385301" MODIFIED="1749236468048">
+<node TEXT="2 Required elements of a program" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1836930859" CREATED="1748718385301" MODIFIED="1749236468048">
 <node TEXT="main()" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_762246020" CREATED="1749235659204" MODIFIED="1749236403402">
 <node TEXT="headers" ID="ID_858449210" CREATED="1749236157109" MODIFIED="1749236161388">
 <node TEXT="stdint.h" ID="ID_1688560691" CREATED="1749236379164" MODIFIED="1749418411969" LINK="stdint.h"/>
@@ -745,7 +745,7 @@
 <node TEXT="EN_PR register(s)" ID="ID_347603205" CREATED="1759927251245" MODIFIED="1759927260937"/>
 </node>
 </node>
-<node TEXT="gpio interrupts" FOLDED="true" ID="ID_1504903549" CREATED="1748041136790" MODIFIED="1748041144110">
+<node TEXT="gpio interrupts" ID="ID_1504903549" CREATED="1748041136790" MODIFIED="1748041144110">
 <node TEXT="examples" FOLDED="true" ID="ID_1901273177" CREATED="1760905420927" MODIFIED="1760905442528">
 <node TEXT="gpioint&#xa;&#xa;SW1 is high when not pressed.&#xa;main loop does nothing&#xa;trigger on falling edge&#xa;BLUE is never seen on.&#xa;RED toggles when button is pressed.&#xa;Note the switch bouncing." ID="ID_54100428" CREATED="1760905428450" MODIFIED="1760907340354"/>
 <node TEXT="gpioint2&#xa;&#xa;uses systick to enable the int.&#xa;notice how the multiple timer calls get more reasonable delay.&#xa;&#xa;Systick is not synchronized with the gpio int" ID="ID_608013765" CREATED="1760907351271" MODIFIED="1760910819540"/>
