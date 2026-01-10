@@ -1,7 +1,7 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<bookmarks/>
 <attribute_registry SHOW_ATTRIBUTES="hide"/>
+<bookmarks/>
 <node TEXT="Embedded Systems I" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1766166037662" CHILD_NODES_LAYOUT="AUTO_LAST"><hook NAME="MapStyle" zoom="1.5970861">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" allow_compact_layout="false" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
@@ -73,7 +73,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="52" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="53" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font SIZE="16"/>
 <node TEXT="00 Info" FOLDED="true" POSITION="bottom_or_right" ID="ID_316523266" CREATED="1748718453241" MODIFIED="1750465337840">
@@ -889,6 +889,9 @@
 </node>
 <node TEXT="11 UDMA" POSITION="top_or_left" ID="ID_1600478682" CREATED="1766166080357" MODIFIED="1766166091424">
 <edge COLOR="#007c00"/>
+</node>
+<node TEXT="12 SPI" POSITION="top_or_left" ID="ID_406213939" CREATED="1767590186772" MODIFIED="1767590200719">
+<edge COLOR="#7c007c"/>
 </node>
 </node>
 </map>

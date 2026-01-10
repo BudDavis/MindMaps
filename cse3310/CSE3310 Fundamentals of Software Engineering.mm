@@ -76,7 +76,7 @@
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="HEADINGS"/>
 <node TEXT="01.0 Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_509777620" CREATED="1703959928549" MODIFIED="1755715136273">
-<node TEXT="1. Course Introduction" ID="ID_222054717" CREATED="1703960303195" MODIFIED="1736703780384">
+<node TEXT="1. Course Introduction" FOLDED="true" ID="ID_222054717" CREATED="1703960303195" MODIFIED="1736703780384">
 <node TEXT="1. Grading" ID="ID_1869525936" CREATED="1703981666770" MODIFIED="1736704486246">
 <node TEXT="Mistakes in grading" FOLDED="true" ID="ID_1833857770" CREATED="1703983382436" MODIFIED="1754529228083">
 <node TEXT="First contact the person that graded it." ID="ID_252953726" CREATED="1736704245143" MODIFIED="1736704265327"/>
@@ -95,7 +95,9 @@
 <node TEXT="Ask!" ID="ID_1769723543" CREATED="1736704310491" MODIFIED="1736704351656"/>
 </node>
 </node>
-<node TEXT="2. TA Introductions" ID="ID_112312829" CREATED="1703981677365" MODIFIED="1736704495227"/>
+<node TEXT="2. TA Introductions" ID="ID_112312829" CREATED="1703981677365" MODIFIED="1736704495227">
+<node TEXT="Md. Sazid Reza" ID="ID_1517893767" CREATED="1768078535329" MODIFIED="1768078599614"/>
+</node>
 <node TEXT="3. Nameplates" ID="ID_1417028841" CREATED="1703981689055" MODIFIED="1736704503580">
 <node TEXT="Handed out first day of class," ID="ID_318496983" CREATED="1703981808332" MODIFIED="1703981820316"/>
 <node TEXT="Please bring them to  every lecture" ID="ID_924075409" CREATED="1703981824996" MODIFIED="1766164827786"/>
@@ -155,7 +157,7 @@
 <node TEXT="Project gives an opportunity for hands on application" ID="ID_172022103" CREATED="1754530022214" MODIFIED="1754530050475"/>
 </node>
 </node>
-<node TEXT="2. SWEBOK Reading" ID="ID_859991737" CREATED="1703960322456" MODIFIED="1736703799634">
+<node TEXT="2. SWEBOK Reading" FOLDED="true" ID="ID_859991737" CREATED="1703960322456" MODIFIED="1736703799634">
 <node TEXT="WHAT IS SOFTWARE ENGINEERING? ISO/IEC/IEEE Systems and Software Engineering Vocabulary (SEVOCAB) defines software engineering as “the application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of software; that is, the application of engineering to software).&quot;" ID="ID_164164562" CREATED="1704128736585" MODIFIED="1704207887122"/>
 <node TEXT="Engineering Problem Solving Process" ID="ID_624021079" CREATED="1704135762452" MODIFIED="1704906160987">
 <node TEXT="1. Define the problem" ID="ID_752821216" CREATED="1704906172558" MODIFIED="1767119306803"/>
@@ -166,7 +168,7 @@
 </node>
 <node TEXT="Engineering Design - the process of devising a system, component, or process to meet desired needs. It is a decision-making process (often iterative), in which the basic sciences, mathematics, and the engineering sciences are applied to convert resources optimally to meet these stated needs. [9, p4]" ID="ID_187347347" CREATED="1704906906754" MODIFIED="1704906947199"/>
 </node>
-<node TEXT="3. Sommerville Reading" ID="ID_1759144721" CREATED="1703960282508" MODIFIED="1755715136272">
+<node TEXT="3. Sommerville Reading" FOLDED="true" ID="ID_1759144721" CREATED="1703960282508" MODIFIED="1755715136272">
 <node TEXT="Ch 1.1 Professional software development " ID="ID_247774750" CREATED="1703961244092" MODIFIED="1736806684492">
 <node TEXT="Software Process Activities AKA &quot;Fundamental Activities&quot;" ID="ID_1028866560" CREATED="1703982724690" MODIFIED="1704130888617">
 <node TEXT="Specification" ID="ID_1493740255" CREATED="1703982746041" MODIFIED="1703982754720"/>
@@ -181,7 +183,7 @@
 </node>
 </node>
 </node>
-<node TEXT="4. Additional Topics" ID="ID_718431597" CREATED="1703960363113" MODIFIED="1736703824507">
+<node TEXT="4. Additional Topics" FOLDED="true" ID="ID_718431597" CREATED="1703960363113" MODIFIED="1736703824507">
 <node TEXT="1. What is SE?" ID="ID_885257631" CREATED="1703965936619" MODIFIED="1736704605029">
 <node TEXT="SWEBOK" ID="ID_1295226400" CREATED="1703983543859" MODIFIED="1703983549817">
 <node TEXT="Defines what graduates should know 5 years after graduation" ID="ID_323424136" CREATED="1703984236869" MODIFIED="1703984259417"/>
@@ -206,7 +208,7 @@
 <node TEXT="Curriculum Guidelines" ID="ID_1087310453" CREATED="1704041551584" MODIFIED="1704041583150">
 <node TEXT="" ID="ID_1344062628" CREATED="1704041590666" MODIFIED="1704041606837" LINK="https://www.acm.org/binaries/content/assets/education/se2014.pdf"/>
 </node>
-<node TEXT="Vocational Or Academic?" ID="ID_1456643373" CREATED="1704043943012" MODIFIED="1704044269015"/>
+<node TEXT="Vocational Or Professional ?" ID="ID_1456643373" CREATED="1704043943012" MODIFIED="1768078377295"/>
 <node TEXT="Is Teamwork fundamental to SE?" ID="ID_802855239" CREATED="1704044070395" MODIFIED="1736704933272"/>
 </node>
 <node TEXT="2.  Origin of Software Engineering" ID="ID_892068201" CREATED="1703982468765" MODIFIED="1766165776781">
@@ -216,7 +218,7 @@
 </node>
 <node TEXT="3. FAANG Developer" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_86223592" CREATED="1766165714948" MODIFIED="1766165747871">
 <node TEXT="Is this engineering?" ID="ID_328829767" CREATED="1766165819373" MODIFIED="1766165826078"/>
-<node TEXT="(estimate) 1% of all software engineers" ID="ID_479139039" CREATED="1766165834242" MODIFIED="1766165852596"/>
+<node TEXT="(estimate) &lt;1% of all software engineers (estimates are as high as 3 Million people worldwide are involved with computers / programming / operations." ID="ID_479139039" CREATED="1766165834242" MODIFIED="1768078429750"/>
 </node>
 <node TEXT="4. Web Developer" ID="ID_1180745165" CREATED="1703965963443" MODIFIED="1766165762758">
 <node TEXT="(estimate) 90% of all &apos;software engineers&apos;" ID="ID_48649" CREATED="1736704742679" MODIFIED="1736704768367"/>
@@ -224,6 +226,11 @@
 <node TEXT="Do they use math and scientific principles?" ID="ID_1750692734" CREATED="1736704864612" MODIFIED="1736704891586"/>
 <node TEXT="Engineering Methods?" ID="ID_1284653582" CREATED="1736704893114" MODIFIED="1736704926758"/>
 <node TEXT="“the application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of software; that is, the application of engineering to software).&quot;" ID="ID_20684568" CREATED="1766165676776" MODIFIED="1766165679772"/>
+</node>
+<node TEXT="what else?" ID="ID_519452543" CREATED="1768078448245" MODIFIED="1768078453458">
+<node TEXT="embedded" ID="ID_1752563929" CREATED="1768078455175" MODIFIED="1768078459123"/>
+<node TEXT="desktop" ID="ID_291227243" CREATED="1768078460444" MODIFIED="1768078468973"/>
+<node TEXT="systems" ID="ID_1293351364" CREATED="1768078470237" MODIFIED="1768078479159"/>
 </node>
 </node>
 <node TEXT="5. Path to Employment in Software Engineering" ID="ID_285516430" CREATED="1703983069713" MODIFIED="1766165799056">
@@ -242,7 +249,7 @@
 </node>
 </node>
 </node>
-<node TEXT="5. Fundamental Questions" ID="ID_590213450" CREATED="1736704658468" MODIFIED="1736704669493">
+<node TEXT="5. Fundamental Questions" FOLDED="true" ID="ID_590213450" CREATED="1736704658468" MODIFIED="1736704669493">
 <node TEXT="Is Software Engineering, Engineering?" ID="ID_105370762" CREATED="1736704671920" MODIFIED="1736704721520"/>
 <node TEXT="If it is not, what is it?" ID="ID_309863817" CREATED="1736704693065" MODIFIED="1736704701925"/>
 <node TEXT="Is there a need for Software Engineering?" ID="ID_432244648" CREATED="1736704724457" MODIFIED="1754529880265"/>
