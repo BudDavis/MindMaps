@@ -1,15 +1,17 @@
-<map version="freeplane 1.7.0">
-<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<attribute_registry SHOW_ATTRIBUTES="hide"/>
+<map version="freeplane 1.12.1">
+<!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <bookmarks/>
+<attribute_registry SHOW_ATTRIBUTES="hide"/>
 <node TEXT="Embedded Systems I" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1766166037662" CHILD_NODES_LAYOUT="AUTO_LAST"><hook NAME="MapStyle" zoom="1.5970861">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" allow_compact_layout="false" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
+    <tags category_separator="::"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork" ID="ID_271890427">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" ID="ID_271890427" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_271890427" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
@@ -26,7 +28,7 @@
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#afd3f7" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#afd3f7"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
@@ -39,10 +41,10 @@
 <stylenode LOCALIZED_TEXT="styles.important" ID="ID_67550811">
 <icon BUILTIN="yes"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.flower" COLOR="#ffffff" BACKGROUND_COLOR="#255aba" STYLE="oval" TEXT_ALIGN="CENTER" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="22.0 pt" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#f9d71c" BORDER_DASH_LIKE_EDGE="false" BORDER_DASH="CLOSE_DOTS" MAX_WIDTH="6.0 cm" MIN_WIDTH="3.0 cm"/>
+<stylenode LOCALIZED_TEXT="styles.flower" COLOR="#ffffff" BACKGROUND_COLOR="#255aba" STYLE="oval" TEXT_ALIGN="CENTER" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="22 pt" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#f9d71c" BORDER_DASH_LIKE_EDGE="false" BORDER_DASH="CLOSE_DOTS" MAX_WIDTH="6 cm" MIN_WIDTH="3 cm"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
@@ -71,7 +73,7 @@
 <hook NAME="AutomaticEdgeColor" COUNTER="53" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font SIZE="16"/>
-<node TEXT="00 Info" POSITION="right" ID="ID_316523266" CREATED="1748718453241" MODIFIED="1750465337840">
+<node TEXT="00 Info" POSITION="bottom_or_right" ID="ID_316523266" CREATED="1748718453241" MODIFIED="1750465337840">
 <edge COLOR="#7c0000"/>
 <node TEXT="2 Exams 15% each" ID="ID_314243961" CREATED="1748718487847" MODIFIED="1748718758351">
 <node TEXT="Exam 1 covers 1st third" ID="ID_980504252" CREATED="1748719007765" MODIFIED="1749152996006"/>
@@ -111,7 +113,7 @@
 <node TEXT="All code will be fed through MOSS." FOLDED="true" ID="ID_136407571" CREATED="1739146255925" MODIFIED="1739146265186">
 <node TEXT="Students &apos;working together&apos; or sharing code will be identified and turned into Student Conduct" ID="ID_344892438" CREATED="1749130482350" MODIFIED="1749130524890"/>
 </node>
-<node TEXT="Students must provide paper copies of portions of the data sheet for the exam.  (not craziness) It is your responsibility to find the parts that you will need, and to copy them." ID="ID_1412297594" CREATED="1739292033244" MODIFIED="1748789302400" HGAP_QUANTITY="16.25 pt" VSHIFT_QUANTITY="-21.0 pt"/>
+<node TEXT="Students must provide paper copies of portions of the data sheet for the exam.  (not craziness) It is your responsibility to find the parts that you will need, and to copy them." ID="ID_1412297594" CREATED="1739292033244" MODIFIED="1748789302400" HGAP_QUANTITY="16.25 pt" VSHIFT_QUANTITY="-21 pt"/>
 <node TEXT="Issues with grading?" FOLDED="true" ID="ID_147989353" CREATED="1749152549025" MODIFIED="1749153157773">
 <node TEXT="Process must be started no more than 48 hours after the grades have been released OR when the test is gone over in class." ID="ID_1465796352" CREATED="1749152559446" MODIFIED="1749152604337"/>
 <node TEXT="Document your issues with an e-mail.  Include specifics and why you think an error has been made." ID="ID_1739836601" CREATED="1749152607329" MODIFIED="1749153157771"/>
@@ -141,7 +143,7 @@
 <node TEXT="Last month of the course, 55% of the course grade is turned in.  Be ready for this!" ID="ID_713048842" CREATED="1749153040956" MODIFIED="1749153137023"/>
 </node>
 </node>
-<node TEXT="01 Programming" POSITION="right" ID="ID_826684588" CREATED="1748038641602" MODIFIED="1749823508531">
+<node TEXT="01 Programming" POSITION="bottom_or_right" ID="ID_826684588" CREATED="1748038641602" MODIFIED="1749823508531">
 <edge COLOR="#00007c"/>
 <node TEXT="1 Objectives" ID="ID_1523678332" CREATED="1748289028482" MODIFIED="1748555960645">
 <node TEXT="1 Understand the basics of C programming; pointers, addresses, scope, linkage." ID="ID_1764064600" CREATED="1748557068163" MODIFIED="1748557102031"/>
@@ -154,11 +156,11 @@
 <node TEXT="8 Understand &apos;volatile&apos; keyword" ID="ID_963991764" CREATED="1748790009454" MODIFIED="1748971000393"/>
 </node>
 <node TEXT="2 Readings" ID="ID_1748369068" CREATED="1748556207026" MODIFIED="1748556213200">
-<node TEXT="spms376e.pdf" ID="ID_1320023849" CREATED="1749420952578" MODIFIED="1749420974263">
+<node TEXT="spms376e.pdf (data sheet)" ID="ID_1320023849" CREATED="1749420952578" MODIFIED="1768406292142">
 <node TEXT="1 Architectural Overview" ID="ID_1004629006" CREATED="1749420978557" MODIFIED="1749432935823"/>
 <node TEXT="5.2.5 Clock Control" ID="ID_169756226" CREATED="1749432372611" MODIFIED="1749432397637"/>
 </node>
-<node TEXT="spmu296.pdf" ID="ID_1073806259" CREATED="1749431996294" MODIFIED="1749431996294">
+<node TEXT="spmu296.pdf (launchpad)" ID="ID_1073806259" CREATED="1749431996294" MODIFIED="1768406305835">
 <node TEXT="Entire Document" ID="ID_1134822699" CREATED="1749432042697" MODIFIED="1749432049897"/>
 </node>
 <node TEXT="Valvano" ID="ID_790256914" CREATED="1749508156890" MODIFIED="1749508192850">
@@ -167,9 +169,9 @@
 </node>
 <node TEXT="3 Lab" ID="ID_1442651440" CREATED="1748289040279" MODIFIED="1749155426694"/>
 <node TEXT="4 Contents" ID="ID_459893785" CREATED="1748289048135" MODIFIED="1748789818341">
-<node TEXT="1 Using CCS" ID="ID_562560687" CREATED="1748040803149" MODIFIED="1749156933666">
+<node TEXT="1 Using CCS" FOLDED="true" ID="ID_562560687" CREATED="1748040803149" MODIFIED="1749156933666">
 <node TEXT="1 Use CCS to create a new project" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_943542100" CREATED="1749236450582" MODIFIED="1749236477403"/>
-<node TEXT="2 Required elements of a program" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1836930859" CREATED="1748718385301" MODIFIED="1749236468048">
+<node TEXT="2 Required elements of a program" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" ID="ID_1836930859" CREATED="1748718385301" MODIFIED="1749236468048">
 <node TEXT="main()" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_762246020" CREATED="1749235659204" MODIFIED="1749236403402">
 <node TEXT="headers" ID="ID_858449210" CREATED="1749236157109" MODIFIED="1749236161388">
 <node TEXT="stdint.h" ID="ID_1688560691" CREATED="1749236379164" MODIFIED="1749418411969" LINK="stdint.h"/>
@@ -185,11 +187,11 @@
 </node>
 <node TEXT="3 Debugger Commands" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1355531089" CREATED="1749236352938" MODIFIED="1749236471091"/>
 </node>
-<node TEXT="2 Delay Routines" ID="ID_722505460" CREATED="1748040885869" MODIFIED="1748556143801">
+<node TEXT="2 Delay Routines" FOLDED="true" ID="ID_722505460" CREATED="1748040885869" MODIFIED="1748556143801">
 <node TEXT="wait function" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_555282171" CREATED="1749156819343" MODIFIED="1749236255694" LINK="wait.c"/>
 <node TEXT="what is the maximum value (usec) ?" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1588122427" CREATED="1749157114739" MODIFIED="1749236272429"/>
 </node>
-<node TEXT="3 C programming" ID="ID_359886156" CREATED="1734577836296" MODIFIED="1749156938750">
+<node TEXT="3 C programming" FOLDED="true" ID="ID_359886156" CREATED="1734577836296" MODIFIED="1749156938750">
 <node TEXT="1 The C Programming Language" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" ID="ID_947284179" CREATED="1736908346813" MODIFIED="1749418560561">
 <node TEXT="variables" LOCALIZED_STYLE_REF="styles.subsubtopic" FOLDED="true" ID="ID_281465109" CREATED="1736908371939" MODIFIED="1749156108132">
 <node TEXT="Stack" ID="ID_1839459741" CREATED="1736908388365" MODIFIED="1736908391810"/>
@@ -326,19 +328,37 @@
 </node>
 </node>
 <node TEXT="4 tm4C123GXL" ID="ID_446456208" CREATED="1748040450936" MODIFIED="1749238176173">
-<node TEXT="Board Picture" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1595231963" CREATED="1748972182729" MODIFIED="1749435753703" LINK="spmu296.pdf%23page=4">
-<node TEXT="R,G,B LED&apos;s" ID="ID_681550219" CREATED="1749420814958" MODIFIED="1749420821064"/>
-<node TEXT="2 Switches" ID="ID_385813789" CREATED="1749420824636" MODIFIED="1749420830765"/>
-<node TEXT="Reset" ID="ID_1484973514" CREATED="1749420832711" MODIFIED="1749420837502"/>
-<node TEXT="Pinout" ID="ID_1518245086" CREATED="1749420843610" MODIFIED="1749420847271"/>
-</node>
 <node TEXT="Schematic" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1003357533" CREATED="1749420711287" MODIFIED="1749435761949" LINK="spmu296.pdf%23--page-label=20"/>
+<node TEXT="picture" ID="ID_1989600783" CREATED="1768406582547" MODIFIED="1768406657970"><richcontent TYPE="DETAILS" HIDDEN="true">
+<html>
+  
+
+  <head>
+
+  </head>
+  <body>
+  </body>
+</html></richcontent>
+<hook URI="eval_board.png" SIZE="1.0" NAME="ExternalObject"/>
 </node>
-<node TEXT="" ID="ID_1175694465" CREATED="1768265553615" MODIFIED="1768265553615"/>
-<node TEXT="passs" ID="ID_373433096" CREATED="1768265553956" MODIFIED="1768265555937"/>
-<node TEXT="" ID="ID_1978826927" CREATED="1768265556101" MODIFIED="1768265556101"/>
+<node TEXT="block diagram" ID="ID_1805871000" CREATED="1768406768250" MODIFIED="1768406790868">
+<hook URI="eval_board_block.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+<node TEXT="schematic" ID="ID_942880165" CREATED="1768406800239" MODIFIED="1768407102880">
+<node TEXT="sheet 1" ID="ID_583898752" CREATED="1768407103954" MODIFIED="1768407145683">
+<hook URI="eval_board_sch1.png" SIZE="0.6036217" NAME="ExternalObject"/>
+</node>
+<node TEXT="sheet 2" ID="ID_342188130" CREATED="1768407113860" MODIFIED="1768407155331">
+<hook URI="eval_board_sch2.png" SIZE="0.6036217" NAME="ExternalObject"/>
+</node>
+<node TEXT="sheet 3" ID="ID_1694699396" CREATED="1768407124211" MODIFIED="1768407164213">
+<hook URI="eval_board_sch3.png" SIZE="0.6036217" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
 <node TEXT="5 System Clock / Block Enables" ID="ID_1103869197" CREATED="1748040834136" MODIFIED="1749083806317">
-<node TEXT="1 Block Diagram (p48)" ID="ID_1419644123" CREATED="1749439750130" MODIFIED="1756151982177" LINK="spms376e.pdf%23page-label=222">
+<node TEXT="1 Block Diagram (p48)" FOLDED="true" ID="ID_1419644123" CREATED="1749439750130" MODIFIED="1768407448209" LINK="spms376e.pdf%23page-label=222">
+<hook URI="block_diagram.png" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="CPU (p71)" ID="ID_671626364" CREATED="1756132376932" MODIFIED="1756132400638">
 <node TEXT="Harvard Architecture" ID="ID_282279851" CREATED="1756132400718" MODIFIED="1756132408915"/>
 <node TEXT="Busses" ID="ID_404969011" CREATED="1756132410065" MODIFIED="1756132475210">
@@ -359,15 +379,21 @@
 <node TEXT="2 RUN MODE CLOCK CONFIGURATION (SYSTCTL_RCC_R) p254" FOLDED="true" ID="ID_778730063" CREATED="1749440547025" MODIFIED="1756157488006" LINK="../spms376e.pdf%23page-label=254">
 <node TEXT="// Configure HW to work with 16 MHz XTAL, PLL enabled, sysdivider of 5, creating system clock of 40 MHz&#xa;       SYSCTL_RCC_R = SYSCTL_RCC_XTAL_16MHZ |              SYSCTL_RCC_OSCSRC_MAIN | SYSCTL_RCC_USESYSDIV | (4 &lt;&lt; SYSCTL_RCC_SYSDIV_S);&#xa; " ID="ID_1980536839" CREATED="1749440195012" MODIFIED="1749440745982"/>
 </node>
+<node TEXT="3 code" ID="ID_352727485" CREATED="1768407537381" MODIFIED="1768407812083">
+<hook URI="clock_code.png" SIZE="0.525394" NAME="ExternalObject"/>
+</node>
 <node TEXT="4 enable / clock gating for each peripheral block (p232)" ID="ID_813980220" CREATED="1749441048685" MODIFIED="1756133793964"/>
+<node TEXT="5 code" ID="ID_1535670616" CREATED="1768407916200" MODIFIED="1768407933829">
+<hook URI="clock_enable.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
 </node>
 </node>
 <node TEXT="5 Questions ?" ID="ID_948736729" CREATED="1749508033016" MODIFIED="1766166462482"/>
 </node>
-<node TEXT="02 Memory Map" FOLDED="true" POSITION="right" ID="ID_1621675299" CREATED="1748038649339" MODIFIED="1756255190616">
+<node TEXT="02 Memory Map" POSITION="bottom_or_right" ID="ID_1621675299" CREATED="1748038649339" MODIFIED="1756255190616">
 <edge COLOR="#007c00"/>
 <font SIZE="16"/>
-<node TEXT="1 Objectives" FOLDED="true" ID="ID_1860897960" CREATED="1748554851857" MODIFIED="1749441213653">
+<node TEXT="1 Objectives" ID="ID_1860897960" CREATED="1748554851857" MODIFIED="1749441213653">
 <node TEXT="1 Be able to identify the different partitions of the Memory Map" ID="ID_117854209" CREATED="1748717959153" MODIFIED="1748718002128"/>
 <node TEXT="2 Describe &apos;bit banding&apos;.  Understand the problem(s) that it solves." ID="ID_214239978" CREATED="1748718005172" MODIFIED="1748718070288"/>
 <node TEXT="3 Using the system memory map, calculate the bitbanded address for a given bit in memory" ID="ID_355624814" CREATED="1748718074019" MODIFIED="1748718191176"/>
@@ -385,14 +411,22 @@
 <node TEXT="2.1.2 Memory (p68)" ID="ID_622770013" CREATED="1749509079507" MODIFIED="1755941960020"/>
 </node>
 </node>
-<node TEXT="4 Contents" FOLDED="true" ID="ID_1505435801" CREATED="1748554868001" MODIFIED="1756255190614">
+<node TEXT="4 Contents" ID="ID_1505435801" CREATED="1748554868001" MODIFIED="1756255190614">
 <node TEXT="1 Memory Map" ID="ID_135894633" CREATED="1748040567138" MODIFIED="1748554910759">
 <node TEXT="1 Memory Map" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_223566472" CREATED="1748040646480" MODIFIED="1755944360709">
-<node TEXT="(p92)" ID="ID_1022192542" CREATED="1755943880106" MODIFIED="1756133038493"/>
-<node TEXT="everything is an address !!" ID="ID_551663257" CREATED="1756133045625" MODIFIED="1756133055086"/>
+<node TEXT="1 (p92) 1" ID="ID_1022192542" CREATED="1755943880106" MODIFIED="1768408217263">
+<hook URI="memory_map1.png" SIZE="0.88235295" NAME="ExternalObject"/>
+</node>
+<node TEXT="2 2" ID="ID_1752178191" CREATED="1768408182825" MODIFIED="1768408225736">
+<hook URI="memory_map2.png" SIZE="0.88235295" NAME="ExternalObject"/>
+</node>
+<node TEXT="3 3" ID="ID_1779083635" CREATED="1768408192858" MODIFIED="1768408241871">
+<hook URI="memory_map3.png" SIZE="0.88235295" NAME="ExternalObject"/>
+</node>
+<node TEXT="4 everything is an address !!" ID="ID_551663257" CREATED="1756133045625" MODIFIED="1768408205502"/>
+<node TEXT="5 Access to an address that does not exist causes a bus fault" ID="ID_884497243" CREATED="1768408250268" MODIFIED="1768408285420"/>
 </node>
 <node TEXT="2 BitBanding (p99)" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_1234931429" CREATED="1748040613077" MODIFIED="1756132894595" LINK="spms376e.pdf%25page_label=97"><richcontent TYPE="DETAILS">
-
 <html>
   <head>
     
@@ -402,19 +436,35 @@
       bbOffset = 32*offset+(4*bit)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="alias region" ID="ID_845636487" CREATED="1756132881927" MODIFIED="1756132910612">
 <node TEXT="p98" ID="ID_796548251" CREATED="1756133100515" MODIFIED="1756133105187"/>
 </node>
 <node TEXT="Each 32 bit word is aliased by 32 words, one word per bit" ID="ID_1078556002" CREATED="1756132899589" MODIFIED="1756132932346"/>
 <node TEXT="only LSB matters when setting 0x00000001" ID="ID_1530266423" CREATED="1756133161112" MODIFIED="1756133175520"/>
-<node TEXT="peripheral memory and SRAM" ID="ID_171271704" CREATED="1756133182837" MODIFIED="1756133207324"/>
+<node TEXT="peripheral memory and SRAM" ID="ID_171271704" CREATED="1756133182837" MODIFIED="1768409583092">
+<hook URI="bitband2.png" SIZE="0.88235295" NAME="ExternalObject"/>
+</node>
 <node TEXT="ways to set" ID="ID_1626062615" CREATED="1756133217258" MODIFIED="1756133226766">
 <node TEXT="macro" ID="ID_1972277430" CREATED="1756133228875" MODIFIED="1756133237597"/>
 <node TEXT="function" ID="ID_1859918280" CREATED="1756133239553" MODIFIED="1756133243073"/>
 <node TEXT="calculate from address" ID="ID_1531675620" CREATED="1756133245766" MODIFIED="1756133252399"/>
 <node TEXT="hardcoded value" ID="ID_1300004292" CREATED="1756133254603" MODIFIED="1756133260958"/>
+</node>
+<node TEXT="" ID="ID_1242437169" CREATED="1768409634647" MODIFIED="1768409645956">
+<hook URI="bitband1.png" SIZE="0.88235295" NAME="ExternalObject"/>
+</node>
+<node TEXT="" ID="ID_630725242" CREATED="1768409649733" MODIFIED="1768409658544">
+<hook URI="bitband2.png" SIZE="0.88235295" NAME="ExternalObject"/>
+</node>
+<node TEXT="" ID="ID_858244285" CREATED="1768409660432" MODIFIED="1768409672145">
+<hook URI="bitband3.png" SIZE="0.88235295" NAME="ExternalObject"/>
+</node>
+<node TEXT="" ID="ID_1615226035" CREATED="1768409674133" MODIFIED="1768409683397">
+<hook URI="bitband4.png" SIZE="0.88235295" NAME="ExternalObject"/>
+</node>
+<node TEXT="" ID="ID_1609693516" CREATED="1768409685471" MODIFIED="1768409699431">
+<hook URI="bitband5.png" SIZE="0.88235295" NAME="ExternalObject"/>
 </node>
 </node>
 </node>
@@ -453,7 +503,7 @@
 </node>
 <node TEXT="5 Questions" ID="ID_1108737733" CREATED="1749508073395" MODIFIED="1749508077410"/>
 </node>
-<node TEXT="03 GPIO" FOLDED="true" POSITION="right" ID="ID_298152031" CREATED="1748038653956" MODIFIED="1749823515902">
+<node TEXT="03 GPIO" FOLDED="true" POSITION="bottom_or_right" ID="ID_298152031" CREATED="1748038653956" MODIFIED="1749823515902">
 <edge COLOR="#7c007c"/>
 <node TEXT="1 Objectives" FOLDED="true" ID="ID_1716081651" CREATED="1748555992877" MODIFIED="1748555997493">
 <node TEXT="01 Program GPIO" ID="ID_511406462" CREATED="1749083880372" MODIFIED="1749083893520"/>
@@ -496,7 +546,7 @@
 <node TEXT="To configure the GPIO pins of a particular port, follow these steps:" ID="ID_747168122" CREATED="1756847737845" MODIFIED="1756847737845"/>
 <node TEXT="1. Enable the clock to the port by setting the appropriate bits in the RCGCGPIO register (see page 340)" ID="ID_151492337" CREATED="1756847737847" MODIFIED="1756847817209"/>
 <node TEXT="2. Set the direction of the GPIO port pins by programming the GPIODIR register. A write of a 1indicates output and a write of 0 indicates input." ID="ID_1365301697" CREATED="1756847737852" MODIFIED="1756847844118"/>
-<node TEXT="3. Configure the GPIOAFSEL register to program each bit as a GPIO or alternate pin. If an alternate pin is chosen for a bit, then the PMCx field must be programmed in the GPIOPCTL register for the specific peripheral required. There are also two registers, GPIOADCCTL and GPIODMACTL, which can be used to program a GPIO pin as a ADC or &#x3bc;DMA trigger, respectively." ID="ID_723137247" CREATED="1756847737857" MODIFIED="1756847938178"/>
+<node TEXT="3. Configure the GPIOAFSEL register to program each bit as a GPIO or alternate pin. If an alternate pin is chosen for a bit, then the PMCx field must be programmed in the GPIOPCTL register for the specific peripheral required. There are also two registers, GPIOADCCTL and GPIODMACTL, which can be used to program a GPIO pin as a ADC or μDMA trigger, respectively." ID="ID_723137247" CREATED="1756847737857" MODIFIED="1756847938178"/>
 <node TEXT="4. Set the drive strength for each of the pins through the GPIODR2R, GPIODR4R, and GPIODR8R registers." ID="ID_683276350" CREATED="1756847737864" MODIFIED="1756847975518"/>
 <node TEXT="5. Program each pad in the port to have either pull-up, pull-down, or open drain functionality through the GPIOPUR, GPIOPDR, GPIOODR register. Slew rate may also be programmed, if needed, through the GPIOSLR register." ID="ID_275956780" CREATED="1756847737869" MODIFIED="1756848019729"/>
 <node TEXT="6. To enable GPIO pins as digital I/Os, set the appropriate DEN bit in the GPIODEN register. To enable GPIO pins to their analog function (if available), set the GPIOAMSEL bit in the GPIOAMSEL register." ID="ID_37147467" CREATED="1756847737872" MODIFIED="1756848097333"/>
@@ -536,7 +586,7 @@
 </node>
 </node>
 </node>
-<node TEXT="04 NVIC / SysTick" FOLDED="true" POSITION="right" ID="ID_16309586" CREATED="1748038668017" MODIFIED="1749823648053" HGAP_QUANTITY="11.75 pt">
+<node TEXT="04 NVIC / SysTick" FOLDED="true" POSITION="bottom_or_right" ID="ID_16309586" CREATED="1748038668017" MODIFIED="1749823648053" HGAP_QUANTITY="11.75 pt">
 <edge COLOR="#007c7c"/>
 <node TEXT="1 Objectives" FOLDED="true" ID="ID_331374664" CREATED="1748787752793" MODIFIED="1766166055844">
 <node TEXT="Set up a periodic timer using SysTick" ID="ID_1695217492" CREATED="1750465712269" MODIFIED="1757362815470"/>
@@ -589,7 +639,7 @@
 </node>
 </node>
 </node>
-<node TEXT="05 UART" FOLDED="true" POSITION="right" ID="ID_764395375" CREATED="1748038659162" MODIFIED="1749823532286">
+<node TEXT="05 UART" FOLDED="true" POSITION="bottom_or_right" ID="ID_764395375" CREATED="1748038659162" MODIFIED="1749823532286">
 <edge COLOR="#00ff00"/>
 <node TEXT="1 Objectives" ID="ID_1344670637" CREATED="1748717212629" MODIFIED="1748717216923">
 <node TEXT="1 Understand the data path for UART in the TM4C" ID="ID_305526434" CREATED="1758487032245" MODIFIED="1758487057716"/>
@@ -642,7 +692,7 @@
 </node>
 </node>
 </node>
-<node TEXT="06 Interrupts" FOLDED="true" POSITION="right" ID="ID_449610218" CREATED="1748038673583" MODIFIED="1749823661583">
+<node TEXT="06 Interrupts" FOLDED="true" POSITION="bottom_or_right" ID="ID_449610218" CREATED="1748038673583" MODIFIED="1749823661583">
 <edge COLOR="#0000ff"/>
 <node TEXT="1 Objectives" FOLDED="true" ID="ID_474304739" CREATED="1748787814312" MODIFIED="1748787818578">
 <node TEXT="Understand and be able to use interrupt priority" ID="ID_1893159980" CREATED="1759707028051" MODIFIED="1759707045078"/>
@@ -754,7 +804,7 @@
 <node TEXT="UART Interrupts" ID="ID_958197253" CREATED="1748041158643" MODIFIED="1748041164765"/>
 </node>
 </node>
-<node TEXT="07 Pulse Width Modulation" FOLDED="true" POSITION="right" ID="ID_582282277" CREATED="1748038683372" MODIFIED="1760810078951">
+<node TEXT="07 Pulse Width Modulation" FOLDED="true" POSITION="bottom_or_right" ID="ID_582282277" CREATED="1748038683372" MODIFIED="1760810078951">
 <edge COLOR="#7c7c00"/>
 <node TEXT="1 Objectives" ID="ID_1108656082" CREATED="1748787918864" MODIFIED="1748787923399">
 <node TEXT="Be able to program a PWM generator for a given frequency / duty cycle" ID="ID_1098083733" CREATED="1760810218866" MODIFIED="1760911318176"/>
@@ -803,12 +853,12 @@
 </node>
 </node>
 </node>
-<node TEXT="08 General Purpose Timer Module" FOLDED="true" POSITION="right" ID="ID_1926501763" CREATED="1748038678402" MODIFIED="1765568480719">
+<node TEXT="08 General Purpose Timer Module" FOLDED="true" POSITION="bottom_or_right" ID="ID_1926501763" CREATED="1748038678402" MODIFIED="1765568480719">
 <edge COLOR="#ff0000"/>
 <node TEXT="1 Objectives" ID="ID_1174515153" CREATED="1748787873647" MODIFIED="1748787878721"/>
 <node TEXT="2 Lab" ID="ID_157966557" CREATED="1748787880644" MODIFIED="1748787889914"/>
 <node TEXT="3 Readings" ID="ID_1507865381" CREATED="1748787892440" MODIFIED="1765568480717"/>
-<node TEXT="4 Contents" FOLDED="true" ID="ID_525027230" CREATED="1748787899151" MODIFIED="1748787903377">
+<node TEXT="4 Contents" ID="ID_525027230" CREATED="1748787899151" MODIFIED="1748787903377">
 <node TEXT="GPTM" ID="ID_1582822631" CREATED="1748041000840" MODIFIED="1748041012849">
 <node TEXT="read / setup" ID="ID_1941129728" CREATED="1748041288853" MODIFIED="1748041346310">
 <node TEXT="prescalar" ID="ID_602328354" CREATED="1748041340714" MODIFIED="1748041346310"/>
@@ -871,7 +921,7 @@
 </node>
 </node>
 </node>
-<node TEXT="10 Analog" FOLDED="true" POSITION="right" ID="ID_1112028314" CREATED="1748038692798" MODIFIED="1749823611544">
+<node TEXT="10 Analog" FOLDED="true" POSITION="bottom_or_right" ID="ID_1112028314" CREATED="1748038692798" MODIFIED="1749823611544">
 <edge COLOR="#ff00ff"/>
 <node TEXT="1 Objectives" ID="ID_1546586376" CREATED="1748787988133" MODIFIED="1748787993423"/>
 <node TEXT="2 Lab" ID="ID_1083290799" CREATED="1748787995315" MODIFIED="1748787997576"/>
@@ -886,10 +936,10 @@
 <node TEXT="DAC" ID="ID_524230133" CREATED="1748041043672" MODIFIED="1748041047849"/>
 </node>
 </node>
-<node TEXT="11 UDMA" POSITION="right" ID="ID_1600478682" CREATED="1766166080357" MODIFIED="1766166091424">
+<node TEXT="11 UDMA" POSITION="bottom_or_right" ID="ID_1600478682" CREATED="1766166080357" MODIFIED="1766166091424">
 <edge COLOR="#007c00"/>
 </node>
-<node TEXT="12 SPI" POSITION="right" ID="ID_406213939" CREATED="1767590186772" MODIFIED="1767590200719">
+<node TEXT="12 SPI" POSITION="bottom_or_right" ID="ID_406213939" CREATED="1767590186772" MODIFIED="1767590200719">
 <edge COLOR="#7c007c"/>
 </node>
 </node>
