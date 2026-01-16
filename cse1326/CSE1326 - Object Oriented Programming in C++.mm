@@ -76,9 +76,9 @@
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="26" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<node TEXT="01 Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_873130339" CREATED="1751483600281" MODIFIED="1751644672410">
+<node TEXT="01 Introduction" POSITION="bottom_or_right" ID="ID_873130339" CREATED="1751483600281" MODIFIED="1751644672410">
 <edge COLOR="#ff00ff"/>
-<node TEXT="01 Objectives" FOLDED="true" ID="ID_1506017022" CREATED="1751483877215" MODIFIED="1755737387867">
+<node TEXT="01 Objectives" ID="ID_1506017022" CREATED="1751483877215" MODIFIED="1755737387867">
 <node TEXT="01 Understand the compilation process and the type of errors emitted from each stage." ID="ID_725997858" CREATED="1751484514630" MODIFIED="1751484549807"/>
 <node TEXT="02 Create and compile a simple C++ program from the command line (bash)" ID="ID_1911251631" CREATED="1751483886543" MODIFIED="1765571071507"/>
 <node TEXT="03 Create and compile a simple C++ program using the VSCode IDE." ID="ID_265257244" CREATED="1751483929358" MODIFIED="1765571085090"/>
@@ -89,7 +89,7 @@
 <node TEXT="08 Use github for simple source control activities.  (add, commit, push, pull, clone." ID="ID_447166497" CREATED="1751484396999" MODIFIED="1765571156426"/>
 <node TEXT="09 Use valgrind on a simple program" ID="ID_18685142" CREATED="1767215289789" MODIFIED="1767215306652"/>
 </node>
-<node TEXT="02 Lecture" FOLDED="true" ID="ID_537497064" CREATED="1751484315096" MODIFIED="1751644675829">
+<node TEXT="02 Lecture" ID="ID_537497064" CREATED="1751484315096" MODIFIED="1751644675829">
 <node TEXT="01 Valid  Program" ID="ID_899763014" CREATED="1751484613356" MODIFIED="1751484790971">
 <node TEXT="01 main" ID="ID_303604521" CREATED="1751484709107" MODIFIED="1751484742137">
 <node TEXT="by convention, the name of the entry point to your program." ID="ID_223475883" CREATED="1765569669317" MODIFIED="1765569683320"/>

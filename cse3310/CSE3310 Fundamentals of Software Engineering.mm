@@ -1,4 +1,4 @@
-<map version="freeplane 1.12.1">
+<map version="freeplane 1.12.15">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <bookmarks>
     <bookmark nodeId="ID_1171700979" name="Root" opensAsRoot="true"/>
@@ -75,7 +75,7 @@
 </map_styles>
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="HEADINGS"/>
-<node TEXT="01.0 Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_509777620" CREATED="1703959928549" MODIFIED="1755715136273">
+<node TEXT="01.0 Introduction" POSITION="bottom_or_right" ID="ID_509777620" CREATED="1703959928549" MODIFIED="1755715136273">
 <node TEXT="1. Course Introduction" FOLDED="true" ID="ID_222054717" CREATED="1703960303195" MODIFIED="1736703780384">
 <node TEXT="1. Grading" ID="ID_1869525936" CREATED="1703981666770" MODIFIED="1736704486246">
 <node TEXT="Mistakes in grading" FOLDED="true" ID="ID_1833857770" CREATED="1703983382436" MODIFIED="1754529228083">
@@ -168,7 +168,7 @@
 </node>
 <node TEXT="Engineering Design - the process of devising a system, component, or process to meet desired needs. It is a decision-making process (often iterative), in which the basic sciences, mathematics, and the engineering sciences are applied to convert resources optimally to meet these stated needs. [9, p4]" ID="ID_187347347" CREATED="1704906906754" MODIFIED="1704906947199"/>
 </node>
-<node TEXT="3. Sommerville Reading" FOLDED="true" ID="ID_1759144721" CREATED="1703960282508" MODIFIED="1755715136272">
+<node TEXT="3. Sommerville Reading" ID="ID_1759144721" CREATED="1703960282508" MODIFIED="1755715136272">
 <node TEXT="Ch 1.1 Professional software development " ID="ID_247774750" CREATED="1703961244092" MODIFIED="1736806684492">
 <node TEXT="Software Process Activities AKA &quot;Fundamental Activities&quot;" ID="ID_1028866560" CREATED="1703982724690" MODIFIED="1704130888617">
 <node TEXT="Specification" ID="ID_1493740255" CREATED="1703982746041" MODIFIED="1703982754720"/>
@@ -249,18 +249,18 @@
 </node>
 </node>
 </node>
-<node TEXT="5. Fundamental Questions" FOLDED="true" ID="ID_590213450" CREATED="1736704658468" MODIFIED="1736704669493">
+<node TEXT="5. Fundamental Questions" ID="ID_590213450" CREATED="1736704658468" MODIFIED="1736704669493">
 <node TEXT="Is Software Engineering, Engineering?" ID="ID_105370762" CREATED="1736704671920" MODIFIED="1736704721520"/>
 <node TEXT="If it is not, what is it?" ID="ID_309863817" CREATED="1736704693065" MODIFIED="1736704701925"/>
 <node TEXT="Is there a need for Software Engineering?" ID="ID_432244648" CREATED="1736704724457" MODIFIED="1754529880265"/>
 <node TEXT="Software Engineering and Licensing" ID="ID_666248753" CREATED="1766165693590" MODIFIED="1766165705414"/>
 </node>
 </node>
-<node TEXT="02.0 Software Process" FOLDED="true" POSITION="top_or_left" ID="ID_554114201" CREATED="1703960050539" MODIFIED="1767120815356" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW">
-<node TEXT="Sommerville Reading" FOLDED="true" ID="ID_1899427298" CREATED="1703983228910" MODIFIED="1737583874748">
+<node TEXT="02.0 Software Process" POSITION="top_or_left" ID="ID_554114201" CREATED="1703960050539" MODIFIED="1767120815356" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW">
+<node TEXT="Sommerville Reading" ID="ID_1899427298" CREATED="1703983228910" MODIFIED="1737583874748">
 <node TEXT="Software Process Models (MACRO PROCESS)" ID="ID_1752038062" CREATED="1705780007317" MODIFIED="1754530110400">
 <node TEXT="Plan Based" ID="ID_1438272402" CREATED="1767120521744" MODIFIED="1767120528468">
-<node TEXT="1. Waterfall" FOLDED="true" ID="ID_1755555716" CREATED="1705794534846" MODIFIED="1767120580876">
+<node TEXT="1. Waterfall" ID="ID_1755555716" CREATED="1705794534846" MODIFIED="1767120580876">
 <node TEXT="1. waterfall diagram" ID="ID_370741791" CREATED="1767120430513" MODIFIED="1767120750460">
 <hook URI="Waterfall_model.png" SIZE="1.0" NAME="ExternalObject"/>
 </node>
@@ -338,7 +338,7 @@
 </node>
 </node>
 </node>
-<node TEXT="SWEBOK Reading" FOLDED="true" ID="ID_817181727" CREATED="1703983241766" MODIFIED="1703983249083">
+<node TEXT="SWEBOK Reading" ID="ID_817181727" CREATED="1703983241766" MODIFIED="1703983249083">
 <node TEXT="Individual software processes have no tempo-&#xa;ral ordering among them. The temporal relation-&#xa;ships among software processes are provided by&#xa;a software life cycle model: either an SDLC or&#xa;SPLC." ID="ID_1601633922" CREATED="1705888085896" MODIFIED="1705888091318"/>
 <node TEXT="Linear SDLC models are sometimes referred&#xa;to as predictive software development life cycle&#xa;models, while iterative and agile SDLCs are&#xa;referred to as adaptive software development&#xa;life cycle models. It should be noted that vari-&#xa;ous maintenance activities during an SPLC can&#xa;be conducted using different SDLC models, as&#xa;appropriate to the maintenance activities." ID="ID_346615959" CREATED="1705888157572" MODIFIED="1705888162603"/>
 <node TEXT="A distinguishing feature of the various soft-&#xa;ware development life cycle models is the way in&#xa;which software requirements are managed. Lin-&#xa;ear development models typically develop a com-&#xa;plete set of software requirements, to the extent&#xa;possible, during project initiation and planning.&#xa;The software requirements are then rigorously&#xa;controlled. Changes to the software requirements&#xa;are based on change requests that are processed&#xa;by a change control board (see Requesting,&#xa;Evaluating and Approving Software Changes in&#xa;the Change Control Board in the Software Con-&#xa;figuration Management KA). An incremental&#xa;model produces successive increments of work-&#xa;ing, deliverable software based on partitioning&#xa;of the software requirements to be implemented&#xa;in each of the increments. The software require-&#xa;ments may be rigorously controlled, as in a linear&#xa;model, or there may be some flexibility in revising&#xa;the software requirements as the software product&#xa;evolves." ID="ID_1764888633" CREATED="1705888216370" MODIFIED="1705888220293"/>
