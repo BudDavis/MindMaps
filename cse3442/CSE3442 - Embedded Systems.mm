@@ -1,9 +1,9 @@
-<map version="freeplane 1.12.15">
+<map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<attribute_registry SHOW_ATTRIBUTES="hide"/>
 <bookmarks/>
-<node TEXT="Embedded Systems I" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1768590008244" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_CENTERED"><hook NAME="MapStyle" zoom="1.5970861">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="false" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" allow_compact_layout="false" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false" show_notes_in_map="true"/>
+<attribute_registry SHOW_ATTRIBUTES="hide"/>
+<node TEXT="Embedded Systems I" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1768590008244" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_CENTERED"><hook NAME="MapStyle">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="false" show_notes_in_map="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" allow_compact_layout="false" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -420,7 +420,7 @@
 </node>
 </node>
 </node>
-<node TEXT="02 exam 1" POSITION="top_or_left" ID="ID_135878272" CREATED="1768589708758" MODIFIED="1768589931320">
+<node TEXT="02 exam 1" POSITION="top_or_left" ID="ID_135878272" CREATED="1768589708758" MODIFIED="1768874417174">
 <edge COLOR="#7c7c00"/>
 <node TEXT="1 Memory Map" FOLDED="true" ID="ID_1621675299" CREATED="1748038649339" MODIFIED="1768601647526">
 <font SIZE="16"/>
@@ -499,7 +499,7 @@
 </node>
 </node>
 </node>
-<node TEXT="2 Read / Modify / Write" ID="ID_898947924" CREATED="1749493325738" MODIFIED="1755942883391">
+<node TEXT="2 Read / Modify / Write" FOLDED="true" ID="ID_898947924" CREATED="1749493325738" MODIFIED="1755942883391">
 <node TEXT="1 atomic operations" ID="ID_1527829514" CREATED="1755943644764" MODIFIED="1755943744809">
 <node TEXT="one asm instruction" ID="ID_1231405196" CREATED="1755943654046" MODIFIED="1755943659617"/>
 <node TEXT="byte, halfword, word access" ID="ID_926413459" CREATED="1768675949850" MODIFIED="1768675963798"/>
@@ -524,13 +524,125 @@
 <node TEXT="most generally used for individual GPIO pins..." ID="ID_1932743620" CREATED="1768676009286" MODIFIED="1768676026549"/>
 </node>
 </node>
-<node TEXT="3 Peripherals" ID="ID_23763601" CREATED="1749493262171" MODIFIED="1755942894962">
+<node TEXT="3 Peripherals" FOLDED="true" ID="ID_23763601" CREATED="1749493262171" MODIFIED="1755942894962">
 <node TEXT="memory mapped" ID="ID_1756739458" CREATED="1755942853829" MODIFIED="1756255882772"/>
 <node TEXT="bitbanding peripherals" ID="ID_73534298" CREATED="1755943468284" MODIFIED="1755943720376"/>
 </node>
 </node>
 </node>
-<node TEXT="2 SysTick" FOLDED="true" ID="ID_178369916" CREATED="1768601601285" MODIFIED="1768601681864">
+<node TEXT="2 GPIO" FOLDED="true" ID="ID_298152031" CREATED="1748038653956" MODIFIED="1768870690242">
+<node TEXT="1 Objectives" FOLDED="true" ID="ID_1716081651" CREATED="1748555992877" MODIFIED="1748555997493">
+<node TEXT="01 Program GPIO" ID="ID_511406462" CREATED="1749083880372" MODIFIED="1749083893520"/>
+<node TEXT="02 Program PINMUX" ID="ID_1697712955" CREATED="1749083895272" MODIFIED="1749083910459"/>
+<node TEXT="03 Interface LED&apos;s directly to GPIO" ID="ID_61445033" CREATED="1749083919362" MODIFIED="1749083956609"/>
+<node TEXT="04 Interface LED&apos;s to GPIO with an NPN or PNP transistor" ID="ID_1725074459" CREATED="1749083959426" MODIFIED="1749083978705"/>
+<node ID="ID_714357857" CREATED="1749151989205" MODIFIED="1749151989205"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      06 Interface to mechanical switches using internal pull up / pull down resistors
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="07 Interface to mechanical switches using external pull up / pull down resistors" ID="ID_968737944" CREATED="1749084035761" MODIFIED="1749084058391"/>
+<node TEXT="08 Level Shifter" ID="ID_1218381303" CREATED="1756257103512" MODIFIED="1756257112351"/>
+<node TEXT="09 Issues with +5 and 3.3 volt logic interfacing" ID="ID_1482045136" CREATED="1757363733784" MODIFIED="1757363746485"/>
+</node>
+<node TEXT="3 Readings" ID="ID_293433486" CREATED="1748717106542" MODIFIED="1768874408223">
+<node TEXT="spms376e.pdf ( p649 through p691)" ID="ID_1212070010" CREATED="1749420952578" MODIFIED="1768874408221"/>
+</node>
+<node TEXT="4 Contents" FOLDED="true" ID="ID_1050794369" CREATED="1748556007028" MODIFIED="1748717116054">
+<node TEXT="Introduction to GPIO" FOLDED="true" ID="ID_1808533250" CREATED="1748040586589" MODIFIED="1748040594635">
+<node TEXT="1 Block Diagram of GPIO Blocks (p652)" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1727662303" CREATED="1749084219391" MODIFIED="1768872061358">
+<hook URI="gpioBlockDiagram.png" SIZE="0.5708849" NAME="ExternalObject"/>
+<node TEXT="" ID="ID_822762762" CREATED="1756256324172" MODIFIED="1756256324172"/>
+</node>
+<node TEXT="2 APB and AHB" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1240186113" CREATED="1768872115162" MODIFIED="1768872205348">
+<node TEXT="Advanced Periphrial  Bus and Advanced High Performance Bus" ID="ID_1287129068" CREATED="1768872436712" MODIFIED="1768872555178"/>
+<node TEXT="Controlled by (p258)" ID="ID_1219627922" CREATED="1768872465108" MODIFIED="1768872755975">
+<hook URI="hbctl.png" SIZE="0.6060606" NAME="ExternalObject"/>
+</node>
+<node TEXT="Each GPIO Block has 2 addresses, one for APB and one for AHB" ID="ID_1734553924" CREATED="1768872765275" MODIFIED="1768872810599"/>
+</node>
+<node TEXT="3 Overview" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_111020002" CREATED="1768872910484" MODIFIED="1768872933204">
+<node TEXT="1.  Either read or write a 1 or a 0 ..... Both are through the GPIO_DATA_R" ID="ID_1995682744" CREATED="1768873197953" MODIFIED="1768873288120"/>
+<node TEXT="2. Minimum to get started" ID="ID_312121670" CREATED="1768873117632" MODIFIED="1768873224607">
+<node TEXT="GPIO_DEN_R  -- Digital Enable" ID="ID_674339159" CREATED="1768873130111" MODIFIED="1768873142640"/>
+<node TEXT="GPIO_DIR_R -- Direction" ID="ID_1051179094" CREATED="1768873144232" MODIFIED="1768873166646"/>
+</node>
+<node TEXT="3. Default direction is INPUT" ID="ID_1757430382" CREATED="1768873092968" MODIFIED="1768873267000"/>
+<node TEXT="4. Some pins are locked.  Information on unlocking them is in the data sheet" ID="ID_1885922778" CREATED="1768873072573" MODIFIED="1768873234594"/>
+<node TEXT="5.  All registers look like this:" ID="ID_1127791008" CREATED="1768873300681" MODIFIED="1768873494601">
+<hook URI="gpioExample.png" SIZE="0.6060606" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="4 PinMux" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_537557762" CREATED="1748041090383" MODIFIED="1768872942436">
+<node TEXT="p1351 Table of options" ID="ID_1930919087" CREATED="1756847241237" MODIFIED="1756847666067"/>
+<node TEXT="GPIOPCTL (p688) also (p650)" ID="ID_996088786" CREATED="1756847434440" MODIFIED="1756847676333"/>
+<node TEXT="GPIOAFSEL(p671)" ID="ID_1922491231" CREATED="1756847472904" MODIFIED="1756847508650"/>
+<node TEXT="GPIOAMSEL (p687) (not really needed for digital signals)" ID="ID_1856102363" CREATED="1756847480150" MODIFIED="1756847599909"/>
+</node>
+<node TEXT="5 GPIO Programming (ch10) (p649)" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_628029338" CREATED="1748041100810" MODIFIED="1768872949996">
+<node TEXT="" ID="ID_1378846846" CREATED="1756847616230" MODIFIED="1756847616230">
+<node TEXT="To configure the GPIO pins of a particular port, follow these steps:" ID="ID_747168122" CREATED="1756847737845" MODIFIED="1756847737845"/>
+<node TEXT="1. Enable the clock to the port by setting the appropriate bits in the RCGCGPIO register (see page 340)" ID="ID_151492337" CREATED="1756847737847" MODIFIED="1756847817209"/>
+<node TEXT="2. Set the direction of the GPIO port pins by programming the GPIODIR register. A write of a 1indicates output and a write of 0 indicates input." ID="ID_1365301697" CREATED="1756847737852" MODIFIED="1756847844118"/>
+<node TEXT="3. Configure the GPIOAFSEL register to program each bit as a GPIO or alternate pin. If an alternate pin is chosen for a bit, then the PMCx field must be programmed in the GPIOPCTL register for the specific peripheral required. There are also two registers, GPIOADCCTL and GPIODMACTL, which can be used to program a GPIO pin as a ADC or μDMA trigger, respectively." ID="ID_723137247" CREATED="1756847737857" MODIFIED="1756847938178"/>
+<node TEXT="4. Set the drive strength for each of the pins through the GPIODR2R, GPIODR4R, and GPIODR8R registers." ID="ID_683276350" CREATED="1756847737864" MODIFIED="1756847975518"/>
+<node TEXT="5. Program each pad in the port to have either pull-up, pull-down, or open drain functionality through the GPIOPUR, GPIOPDR, GPIOODR register. Slew rate may also be programmed, if needed, through the GPIOSLR register." ID="ID_275956780" CREATED="1756847737869" MODIFIED="1756848019729"/>
+<node TEXT="6. To enable GPIO pins as digital I/Os, set the appropriate DEN bit in the GPIODEN register. To enable GPIO pins to their analog function (if available), set the GPIOAMSEL bit in the GPIOAMSEL register." ID="ID_37147467" CREATED="1756847737872" MODIFIED="1756848097333"/>
+</node>
+</node>
+<node TEXT="6 GPIO_DATA_R (it&apos;s complicated)" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1028608060" CREATED="1768872247568" MODIFIED="1768872956925">
+<node TEXT="1 Multiple Addresses for gpio_data_r" ID="ID_965134396" CREATED="1768873968483" MODIFIED="1768874002102"/>
+<node TEXT="2 advantages" ID="ID_930518168" CREATED="1768874007363" MODIFIED="1768874015650">
+<node TEXT="no need to read / modify / write" ID="ID_1201027792" CREATED="1768874017118" MODIFIED="1768874035687"/>
+<node TEXT="limit visibility to bits" ID="ID_1626378246" CREATED="1768874037471" MODIFIED="1768874045043"/>
+</node>
+<node TEXT="3" OBJECT="java.lang.Long|3" ID="ID_1074468637" CREATED="1768873872693" MODIFIED="1768873962549">
+<hook URI="gpioDataWrite.png" SIZE="0.6060606" NAME="ExternalObject"/>
+</node>
+<node TEXT="4" OBJECT="java.lang.Long|4" ID="ID_1415892203" CREATED="1768873885519" MODIFIED="1768873967422">
+<hook URI="gpioDataRead.png" SIZE="0.6060606" NAME="ExternalObject"/>
+</node>
+<node TEXT="5 examples" ID="ID_675641279" CREATED="1768874054600" MODIFIED="1768874062475"/>
+</node>
+</node>
+<node TEXT="Interfacing to GPIO" FOLDED="true" ID="ID_398120066" CREATED="1756846467833" MODIFIED="1756846473385">
+<node TEXT="input" ID="ID_427827411" CREATED="1756846481270" MODIFIED="1756846485036">
+<node TEXT="Digital circuitry" ID="ID_1448803194" CREATED="1756848286004" MODIFIED="1756848296175"/>
+<node TEXT="Open Drain" ID="ID_1986757067" CREATED="1756848416361" MODIFIED="1756848421051"/>
+<node TEXT="mechanical switches" ID="ID_1833276924" CREATED="1756848354364" MODIFIED="1756848361080">
+<node TEXT="pull up" ID="ID_957526407" CREATED="1756848362543" MODIFIED="1756848370378"/>
+<node TEXT="pull down" ID="ID_845943079" CREATED="1756848372043" MODIFIED="1756848376355"/>
+<node TEXT="debounce" ID="ID_1131051131" CREATED="1756848379197" MODIFIED="1756848382677"/>
+</node>
+</node>
+<node TEXT="output" ID="ID_1600181852" CREATED="1756846485518" MODIFIED="1756846488734">
+<node TEXT="LED&apos;s directly" ID="ID_1415793608" CREATED="1756848305853" MODIFIED="1756848322565">
+<node TEXT="current limited" ID="ID_1659698522" CREATED="1756848406360" MODIFIED="1756848411239"/>
+</node>
+<node TEXT="transistors" ID="ID_153633148" CREATED="1756848324848" MODIFIED="1756848332877">
+<node TEXT="PNP" ID="ID_830854921" CREATED="1756848333919" MODIFIED="1756848341350"/>
+<node TEXT="NPN" ID="ID_239423619" CREATED="1756848342718" MODIFIED="1756848346207"/>
+</node>
+</node>
+<node TEXT="voltage" ID="ID_299604833" CREATED="1756848446076" MODIFIED="1756848451629">
+<node TEXT="3.3" OBJECT="java.lang.Double|3.3" ID="ID_75112092" CREATED="1756848452726" MODIFIED="1756848464645"/>
+<node TEXT="5" OBJECT="java.lang.Long|5" ID="ID_726638188" CREATED="1756848465145" MODIFIED="1756848468230"/>
+<node TEXT="Level Shifter" ID="ID_464464399" CREATED="1756848476692" MODIFIED="1756848482298"/>
+</node>
+</node>
+<node TEXT="code" ID="ID_1217041004" CREATED="1768874361726" MODIFIED="1768874368974"/>
+</node>
+</node>
+<node TEXT="3 SysTick" FOLDED="true" ID="ID_178369916" CREATED="1768601601285" MODIFIED="1768874417172">
 <node TEXT="1 Objectives" FOLDED="true" ID="ID_1842723382" CREATED="1768673195939" MODIFIED="1768673202070">
 <node TEXT="Use the SysTick Timer to measure a time interval" ID="ID_196959475" CREATED="1750465739382" MODIFIED="1768676293830"/>
 <node TEXT="Use SysTick to run an ISR periodically" ID="ID_1541886104" CREATED="1768756789027" MODIFIED="1768756809932"/>
@@ -571,89 +683,7 @@
 </node>
 </node>
 </node>
-<node TEXT="3 GPIO" FOLDED="true" ID="ID_298152031" CREATED="1748038653956" MODIFIED="1768673236528">
-<node TEXT="1 Objectives" FOLDED="true" ID="ID_1716081651" CREATED="1748555992877" MODIFIED="1748555997493">
-<node TEXT="01 Program GPIO" ID="ID_511406462" CREATED="1749083880372" MODIFIED="1749083893520"/>
-<node TEXT="02 Program PINMUX" ID="ID_1697712955" CREATED="1749083895272" MODIFIED="1749083910459"/>
-<node TEXT="03 Interface LED&apos;s directly to GPIO" ID="ID_61445033" CREATED="1749083919362" MODIFIED="1749083956609"/>
-<node TEXT="04 Interface LED&apos;s to GPIO with an NPN or PNP transistor" ID="ID_1725074459" CREATED="1749083959426" MODIFIED="1749083978705"/>
-<node TEXT="05 Interface using an inverting circuit" ID="ID_407988978" CREATED="1749083982830" MODIFIED="1757363706450">
-<font STRIKETHROUGH="true"/>
-</node>
-<node ID="ID_714357857" CREATED="1749151989205" MODIFIED="1749151989205"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      06 Interface to mechanical switches using internal pull up / pull down resistors
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="07 Interface to mechanical switches using external pull up / pull down resistors" ID="ID_968737944" CREATED="1749084035761" MODIFIED="1749084058391"/>
-<node TEXT="08 Level Shifter" ID="ID_1218381303" CREATED="1756257103512" MODIFIED="1756257112351"/>
-<node TEXT="09 Issues with +5 and 3.3 volt logic interfacing" ID="ID_1482045136" CREATED="1757363733784" MODIFIED="1757363746485"/>
-</node>
-<node TEXT="2 Lab" ID="ID_1472967203" CREATED="1748556001080" MODIFIED="1748556003908"/>
-<node TEXT="3 Readings" ID="ID_293433486" CREATED="1748717106542" MODIFIED="1748717111411">
-<node TEXT="spms376e.pdf" ID="ID_1212070010" CREATED="1749420952578" MODIFIED="1749493610172"/>
-</node>
-<node TEXT="4 Contents" ID="ID_1050794369" CREATED="1748556007028" MODIFIED="1748717116054">
-<node TEXT="Introduction to GPIO" FOLDED="true" ID="ID_1808533250" CREATED="1748040586589" MODIFIED="1748040594635">
-<node TEXT="1 Block Diagram of GPIO Blocks (p652)" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1727662303" CREATED="1749084219391" MODIFIED="1756257029073">
-<node TEXT="" ID="ID_822762762" CREATED="1756256324172" MODIFIED="1756256324172"/>
-</node>
-<node TEXT="2 GPIO (ch10) (p649)" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_628029338" CREATED="1748041100810" MODIFIED="1756257061110">
-<node TEXT="" FOLDED="true" ID="ID_1378846846" CREATED="1756847616230" MODIFIED="1756847616230">
-<node TEXT="aperture enabled for a given GPIO port is controlled by the appropriate bit in the GPIOHBCTL" ID="ID_143114418" CREATED="1756847737842" MODIFIED="1756847737842"/>
-<node TEXT="To configure the GPIO pins of a particular port, follow these steps:" ID="ID_747168122" CREATED="1756847737845" MODIFIED="1756847737845"/>
-<node TEXT="1. Enable the clock to the port by setting the appropriate bits in the RCGCGPIO register (see page 340)" ID="ID_151492337" CREATED="1756847737847" MODIFIED="1756847817209"/>
-<node TEXT="2. Set the direction of the GPIO port pins by programming the GPIODIR register. A write of a 1indicates output and a write of 0 indicates input." ID="ID_1365301697" CREATED="1756847737852" MODIFIED="1756847844118"/>
-<node TEXT="3. Configure the GPIOAFSEL register to program each bit as a GPIO or alternate pin. If an alternate pin is chosen for a bit, then the PMCx field must be programmed in the GPIOPCTL register for the specific peripheral required. There are also two registers, GPIOADCCTL and GPIODMACTL, which can be used to program a GPIO pin as a ADC or μDMA trigger, respectively." ID="ID_723137247" CREATED="1756847737857" MODIFIED="1756847938178"/>
-<node TEXT="4. Set the drive strength for each of the pins through the GPIODR2R, GPIODR4R, and GPIODR8R registers." ID="ID_683276350" CREATED="1756847737864" MODIFIED="1756847975518"/>
-<node TEXT="5. Program each pad in the port to have either pull-up, pull-down, or open drain functionality through the GPIOPUR, GPIOPDR, GPIOODR register. Slew rate may also be programmed, if needed, through the GPIOSLR register." ID="ID_275956780" CREATED="1756847737869" MODIFIED="1756848019729"/>
-<node TEXT="6. To enable GPIO pins as digital I/Os, set the appropriate DEN bit in the GPIODEN register. To enable GPIO pins to their analog function (if available), set the GPIOAMSEL bit in the GPIOAMSEL register." ID="ID_37147467" CREATED="1756847737872" MODIFIED="1756848097333"/>
-</node>
-</node>
-<node TEXT="3 PinMux" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_537557762" CREATED="1748041090383" MODIFIED="1756847666068">
-<node TEXT="p1351 Table of options" ID="ID_1930919087" CREATED="1756847241237" MODIFIED="1756847666067"/>
-<node TEXT="GPIOPCTL (p688) also (p650)" ID="ID_996088786" CREATED="1756847434440" MODIFIED="1756847676333"/>
-<node TEXT="GPIOAFSEL(p671)" ID="ID_1922491231" CREATED="1756847472904" MODIFIED="1756847508650"/>
-<node TEXT="GPIOAMSEL (p687) (not really needed for digital signals)" ID="ID_1856102363" CREATED="1756847480150" MODIFIED="1756847599909"/>
-</node>
-</node>
-<node TEXT="Interfacing to GPIO" FOLDED="true" ID="ID_398120066" CREATED="1756846467833" MODIFIED="1756846473385">
-<node TEXT="input" ID="ID_427827411" CREATED="1756846481270" MODIFIED="1756846485036">
-<node TEXT="Digital circuitry" ID="ID_1448803194" CREATED="1756848286004" MODIFIED="1756848296175"/>
-<node TEXT="Open Drain" ID="ID_1986757067" CREATED="1756848416361" MODIFIED="1756848421051"/>
-<node TEXT="mechanical switches" ID="ID_1833276924" CREATED="1756848354364" MODIFIED="1756848361080">
-<node TEXT="pull up" ID="ID_957526407" CREATED="1756848362543" MODIFIED="1756848370378"/>
-<node TEXT="pull down" ID="ID_845943079" CREATED="1756848372043" MODIFIED="1756848376355"/>
-<node TEXT="debounce" ID="ID_1131051131" CREATED="1756848379197" MODIFIED="1756848382677"/>
-</node>
-</node>
-<node TEXT="output" ID="ID_1600181852" CREATED="1756846485518" MODIFIED="1756846488734">
-<node TEXT="LED&apos;s directly" ID="ID_1415793608" CREATED="1756848305853" MODIFIED="1756848322565">
-<node TEXT="current limited" ID="ID_1659698522" CREATED="1756848406360" MODIFIED="1756848411239"/>
-</node>
-<node TEXT="transistors" ID="ID_153633148" CREATED="1756848324848" MODIFIED="1756848332877">
-<node TEXT="PNP" ID="ID_830854921" CREATED="1756848333919" MODIFIED="1756848341350"/>
-<node TEXT="NPN" ID="ID_239423619" CREATED="1756848342718" MODIFIED="1756848346207"/>
-</node>
-</node>
-<node TEXT="voltage" ID="ID_299604833" CREATED="1756848446076" MODIFIED="1756848451629">
-<node TEXT="3.3" OBJECT="java.lang.Double|3.3" ID="ID_75112092" CREATED="1756848452726" MODIFIED="1756848464645"/>
-<node TEXT="5" OBJECT="java.lang.Long|5" ID="ID_726638188" CREATED="1756848465145" MODIFIED="1756848468230"/>
-<node TEXT="Level Shifter" ID="ID_464464399" CREATED="1756848476692" MODIFIED="1756848482298"/>
-</node>
-</node>
-</node>
-</node>
-<node TEXT="3 Interrupts" FOLDED="true" ID="ID_449610218" CREATED="1748038673583" MODIFIED="1768601702747">
+<node TEXT="4 Interrupts" FOLDED="true" ID="ID_449610218" CREATED="1748038673583" MODIFIED="1768870699560">
 <node TEXT="1 Objectives" FOLDED="true" ID="ID_474304739" CREATED="1748787814312" MODIFIED="1748787818578">
 <node TEXT="Understand and be able to use interrupt priority" ID="ID_1893159980" CREATED="1759707028051" MODIFIED="1759707045078"/>
 <node TEXT="Be able to configure and use an interrupt from a GPIO pin" ID="ID_1546468959" CREATED="1759707051144" MODIFIED="1759707065985"/>
@@ -664,7 +694,7 @@
 <node TEXT="3 Readings" ID="ID_979636184" CREATED="1748787825869" MODIFIED="1760810060893">
 <node TEXT="spms376e.pdf" ID="ID_1357634291" CREATED="1749420952578" MODIFIED="1760810060891"/>
 </node>
-<node TEXT="4 Contents" FOLDED="true" ID="ID_1380738219" CREATED="1748787830903" MODIFIED="1748787834979">
+<node TEXT="4 Contents" ID="ID_1380738219" CREATED="1748787830903" MODIFIED="1748787834979">
 <node TEXT="software considerations" FOLDED="true" ID="ID_1366967695" CREATED="1748041230746" MODIFIED="1748041240608">
 <node TEXT="enable / disable" ID="ID_1541097009" CREATED="1748041241794" MODIFIED="1748041261705"/>
 <node TEXT="atomic operations" ID="ID_570573312" CREATED="1748041252586" MODIFIED="1748041270147"/>
@@ -767,7 +797,7 @@
 </node>
 </node>
 </node>
-<node TEXT="03 exam 2" FOLDED="true" POSITION="top_or_left" ID="ID_390703876" CREATED="1768589720247" MODIFIED="1768589936231">
+<node TEXT="03 exam 2" POSITION="top_or_left" ID="ID_390703876" CREATED="1768589720247" MODIFIED="1768589936231">
 <edge COLOR="#ff0000"/>
 <node TEXT="08 General Purpose Timer Module" FOLDED="true" ID="ID_1926501763" CREATED="1748038678402" MODIFIED="1768589776038">
 <node TEXT="1 Objectives" ID="ID_1174515153" CREATED="1748787873647" MODIFIED="1748787878721"/>
@@ -936,7 +966,7 @@
 </node>
 </node>
 </node>
-<node TEXT="04 NVIC / SysTick" ID="ID_16309586" CREATED="1748038668017" MODIFIED="1768589991353" HGAP_QUANTITY="11.75 pt">
+<node TEXT="04 NVIC / SysTick" FOLDED="true" ID="ID_16309586" CREATED="1748038668017" MODIFIED="1768589991353" HGAP_QUANTITY="11.75 pt">
 <node TEXT="1 Objectives" ID="ID_331374664" CREATED="1748787752793" MODIFIED="1766166055844">
 <node TEXT="Set up a periodic timer using SysTick" ID="ID_1695217492" CREATED="1750465712269" MODIFIED="1757362815470"/>
 <node TEXT="Share information between an ISR and the foreground task" ID="ID_1505719863" CREATED="1750465816213" MODIFIED="1766166055841"/>
@@ -1005,16 +1035,8 @@
 </node>
 </node>
 </node>
-<node TEXT="05 lost and found" FOLDED="true" POSITION="top_or_left" ID="ID_761662230" CREATED="1768588625998" MODIFIED="1768589954322">
+<node TEXT="05 lost and found" POSITION="top_or_left" ID="ID_761662230" CREATED="1768588625998" MODIFIED="1768589954322">
 <edge COLOR="#007c7c"/>
-<node TEXT="6 Understand the differences between the AHB and the APB" ID="ID_431721190" CREATED="1748718229048" MODIFIED="1748718264061"/>
-<node TEXT="4 AHB/APB" ID="ID_1886536392" CREATED="1749493290379" MODIFIED="1755942887015">
-<node TEXT="AHB is faster" ID="ID_70877594" CREATED="1756132945980" MODIFIED="1756255324649"/>
-<node TEXT="select before use" ID="ID_1655727635" CREATED="1756133120833" MODIFIED="1756255815255">
-<node TEXT="GPIOHPCTL(p258)" ID="ID_1088787998" CREATED="1756255224759" MODIFIED="1756255790334"/>
-</node>
-</node>
-<node TEXT="5 Use either the AHB or the APB to access a peripheral" ID="ID_1008999260" CREATED="1748718197845" MODIFIED="1748718225627"/>
 <node TEXT="12 SPI" ID="ID_406213939" CREATED="1767590186772" MODIFIED="1768589748218"/>
 <node TEXT="11 UDMA" ID="ID_1600478682" CREATED="1766166080357" MODIFIED="1768589755546"/>
 </node>
