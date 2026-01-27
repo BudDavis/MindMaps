@@ -1,7 +1,7 @@
-<map version="freeplane 1.12.15">
+<map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<attribute_registry SHOW_ATTRIBUTES="hide"/>
 <bookmarks/>
+<attribute_registry SHOW_ATTRIBUTES="hide"/>
 <node TEXT="Embedded Systems I" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1768590008244" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_CENTERED"><hook NAME="MapStyle" zoom="2.0">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="false" show_notes_in_map="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" allow_compact_layout="false" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
@@ -420,7 +420,7 @@
 </node>
 </node>
 </node>
-<node TEXT="02 exam 1 (Feb 11 2026)" POSITION="top_or_left" ID="ID_135878272" CREATED="1768589708758" MODIFIED="1768936635972">
+<node TEXT="02 exam 1 (Feb 11 2026)" FOLDED="true" POSITION="top_or_left" ID="ID_135878272" CREATED="1768589708758" MODIFIED="1768936635972">
 <edge COLOR="#7c7c00"/>
 <node TEXT="1 Memory Map" ID="ID_1621675299" CREATED="1748038649339" MODIFIED="1768601647526">
 <font SIZE="16"/>
@@ -797,7 +797,7 @@
 </node>
 </node>
 </node>
-<node TEXT="03 exam 2 (30 March 2026)" POSITION="top_or_left" ID="ID_390703876" CREATED="1768589720247" MODIFIED="1768936666021">
+<node TEXT="03 exam 2 (30 March 2026)" FOLDED="true" POSITION="top_or_left" ID="ID_390703876" CREATED="1768589720247" MODIFIED="1768936666021">
 <edge COLOR="#ff0000"/>
 <node TEXT="1 NVIC / SysTick" FOLDED="true" ID="ID_16309586" CREATED="1748038668017" MODIFIED="1768936404752" HGAP_QUANTITY="11.75 pt">
 <node TEXT="1 Objectives" ID="ID_331374664" CREATED="1748787752793" MODIFIED="1766166055844">
@@ -1026,7 +1026,7 @@
 <node TEXT="Filtering" ID="ID_1676616918" CREATED="1768936386115" MODIFIED="1768936394083"/>
 </node>
 </node>
-<node TEXT="05 lost and found" POSITION="top_or_left" ID="ID_761662230" CREATED="1768588625998" MODIFIED="1768589954322">
+<node TEXT="05 lost and found" FOLDED="true" POSITION="top_or_left" ID="ID_761662230" CREATED="1768588625998" MODIFIED="1768589954322">
 <edge COLOR="#007c7c"/>
 <node TEXT="12 SPI" ID="ID_406213939" CREATED="1767590186772" MODIFIED="1768589748218"/>
 <node TEXT="11 UDMA" ID="ID_1600478682" CREATED="1766166080357" MODIFIED="1768589755546"/>
