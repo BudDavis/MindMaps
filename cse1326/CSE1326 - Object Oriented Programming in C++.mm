@@ -78,7 +78,131 @@
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="1 Assessment 1 (1/21)" POSITION="top_or_left" ID="ID_1356519250" CREATED="1768937034448" MODIFIED="1768937109606">
 <edge COLOR="#00ffff"/>
-<node TEXT="01 Mechanics of Code" ID="ID_873130339" CREATED="1751483600281" MODIFIED="1768939078767">
+<node TEXT="01 Objectives" FOLDED="true" ID="ID_1796171457" CREATED="1769200384402" MODIFIED="1769200416600">
+<node TEXT="01 Objectives" ID="ID_1080385548" CREATED="1751484245090" MODIFIED="1751484297218">
+<node TEXT="01 Student will be able to list all of the fundamental types and describe the differences between them." ID="ID_185538877" CREATED="1751824788699" MODIFIED="1751828683464"/>
+<node TEXT="02 Student will be able to use the comparison operators in code" ID="ID_1653732052" CREATED="1751828687132" MODIFIED="1751828724184"/>
+<node TEXT="03 Student will be able to use the logical operators in code." ID="ID_1164724485" CREATED="1751828727900" MODIFIED="1751828745207"/>
+<node TEXT="04 Student will understand why and when to use std::byte" ID="ID_1455801645" CREATED="1751828747532" MODIFIED="1751828773215"/>
+<node TEXT="05 Student will understand and be able to use size_t, void, and sizeof()." ID="ID_192942017" CREATED="1751828775475" MODIFIED="1751828844953"/>
+<node TEXT="06 Students will use the appropriate type of for loop for C++" ID="ID_794775777" CREATED="1751828863108" MODIFIED="1751828895735"/>
+<node TEXT="07 Student will be able to define and initialize C strings" ID="ID_1885172017" CREATED="1751828898667" MODIFIED="1751828936775"/>
+<node TEXT="08 Students will be able to create and used scoped enums." ID="ID_877987248" CREATED="1751828939363" MODIFIED="1751828962431"/>
+<node TEXT="09 Student will be able to define and use POD classes (structs)" ID="ID_847133230" CREATED="1751828963419" MODIFIED="1751828993144"/>
+<node TEXT="10 Students will be able to define and use unions, to include understanding the underlying mechanism" ID="ID_1401829537" CREATED="1751828996403" MODIFIED="1751829600349"/>
+<node TEXT="11 Students will be able to define and initialize classes, to include specifying appropriate visibility modifiers." ID="ID_1146871131" CREATED="1751829042235" MODIFIED="1751829092745"/>
+</node>
+<node TEXT="04 Boolean" ID="ID_118168362" CREATED="1751830948356" MODIFIED="1769200731023"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#xa0;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      #include &lt;cstdint&gt;
+    </p>
+    <p>
+      #include &lt;stdio.h&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      int main(int argc, char* argv[])
+    </p>
+    <p>
+      {
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;bool a;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;bool b;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;printf(&quot;%lu\n&quot;,sizeof(bool));
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;printf(&quot;%p %p\n&quot;,&amp;a,&amp;b);
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return 0;
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="either true of false" ID="ID_729560407" CREATED="1751831668925" MODIFIED="1751831684170"/>
+<node TEXT="1 or 0" ID="ID_213364891" CREATED="1751831685092" MODIFIED="1751831691969"/>
+</node>
+<node TEXT="04 Boolean" FOLDED="true" ID="ID_1679688622" CREATED="1751830948356" MODIFIED="1769200731023"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#xa0;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      #include &lt;cstdint&gt;
+    </p>
+    <p>
+      #include &lt;stdio.h&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      int main(int argc, char* argv[])
+    </p>
+    <p>
+      {
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;bool a;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;bool b;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;printf(&quot;%lu\n&quot;,sizeof(bool));
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;printf(&quot;%p %p\n&quot;,&amp;a,&amp;b);
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return 0;
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="either true of false" ID="ID_392230253" CREATED="1751831668925" MODIFIED="1751831684170"/>
+<node TEXT="1 or 0" ID="ID_1768362008" CREATED="1751831685092" MODIFIED="1751831691969"/>
+</node>
+<node TEXT="01 Objectives" ID="ID_495924139" CREATED="1751485076654" MODIFIED="1751485082321">
+<node TEXT="understand pointers and references" ID="ID_1120403403" CREATED="1752512229799" MODIFIED="1752512248265"/>
+<node TEXT="use the operators used to work with pointers and references" ID="ID_1061554252" CREATED="1752512251090" MODIFIED="1752512270468"/>
+<node TEXT="understand the relationship between pointers and arrays" ID="ID_846360402" CREATED="1752512272812" MODIFIED="1752512289329"/>
+<node TEXT="use this ptr" ID="ID_695266021" CREATED="1752512303472" MODIFIED="1752512310018"/>
+<node TEXT="how auto works and when to use it" ID="ID_1566958832" CREATED="1752512311648" MODIFIED="1752512323661"/>
+<node TEXT="different way of initialing data in classes" ID="ID_779558238" CREATED="1752512325266" MODIFIED="1752512342817"/>
+</node>
+</node>
+<node TEXT="02 Reading" ID="ID_625598223" CREATED="1769200403669" MODIFIED="1769200412256"/>
+<node TEXT="03 Mechanics of Code" FOLDED="true" ID="ID_873130339" CREATED="1751483600281" MODIFIED="1769200426665">
 <node TEXT="01 Objectives" ID="ID_1506017022" CREATED="1751483877215" MODIFIED="1755737387867">
 <node TEXT="01 Understand the compilation process and the type of errors emitted from each stage." ID="ID_725997858" CREATED="1751484514630" MODIFIED="1751484549807"/>
 <node TEXT="02 Create and compile a simple C++ program from the command line (bash)" ID="ID_1911251631" CREATED="1751483886543" MODIFIED="1765571071507"/>
@@ -90,7 +214,7 @@
 <node TEXT="08 Use github for simple source control activities.  (add, commit, push, pull, clone." ID="ID_447166497" CREATED="1751484396999" MODIFIED="1765571156426"/>
 <node TEXT="09 Use valgrind on a simple program" ID="ID_18685142" CREATED="1767215289789" MODIFIED="1767215306652"/>
 </node>
-<node TEXT="02 Topics" FOLDED="true" ID="ID_537497064" CREATED="1751484315096" MODIFIED="1768939139672">
+<node TEXT="02 Topics" ID="ID_537497064" CREATED="1751484315096" MODIFIED="1768939139672">
 <node TEXT="01 Valid  Program" FOLDED="true" ID="ID_899763014" CREATED="1751484613356" MODIFIED="1751484790971">
 <node TEXT="01 main" ID="ID_303604521" CREATED="1751484709107" MODIFIED="1751484742137">
 <node TEXT="by convention, the name of the entry point to your program." ID="ID_223475883" CREATED="1765569669317" MODIFIED="1765569683320"/>
@@ -221,22 +345,10 @@
 </node>
 <node TEXT="03 Reading" ID="ID_371157847" CREATED="1768941485270" MODIFIED="1768941492025"/>
 </node>
-<node TEXT="02 Types" ID="ID_1121057718" CREATED="1751483632723" MODIFIED="1768939091769">
-<node TEXT="01 Objectives" FOLDED="true" ID="ID_1080385548" CREATED="1751484245090" MODIFIED="1751484297218">
-<node TEXT="01 Student will be able to list all of the fundamental types and describe the differences between them." ID="ID_185538877" CREATED="1751824788699" MODIFIED="1751828683464"/>
-<node TEXT="02 Student will be able to use the comparison operators in code" ID="ID_1653732052" CREATED="1751828687132" MODIFIED="1751828724184"/>
-<node TEXT="03 Student will be able to use the logical operators in code." ID="ID_1164724485" CREATED="1751828727900" MODIFIED="1751828745207"/>
-<node TEXT="04 Student will understand why and when to use std::byte" ID="ID_1455801645" CREATED="1751828747532" MODIFIED="1751828773215"/>
-<node TEXT="05 Student will understand and be able to use size_t, void, and sizeof()." ID="ID_192942017" CREATED="1751828775475" MODIFIED="1751828844953"/>
-<node TEXT="06 Students will use the appropriate type of for loop for C++" ID="ID_794775777" CREATED="1751828863108" MODIFIED="1751828895735"/>
-<node TEXT="07 Student will be able to define and initialize C strings" ID="ID_1885172017" CREATED="1751828898667" MODIFIED="1751828936775"/>
-<node TEXT="08 Students will be able to create and used scoped enums." ID="ID_877987248" CREATED="1751828939363" MODIFIED="1751828962431"/>
-<node TEXT="09 Student will be able to define and use POD classes (structs)" ID="ID_847133230" CREATED="1751828963419" MODIFIED="1751828993144"/>
-<node TEXT="10 Students will be able to define and use unions, to include understanding the underlying mechanism" ID="ID_1401829537" CREATED="1751828996403" MODIFIED="1751829600349"/>
-<node TEXT="11 Students will be able to define and initialize classes, to include specifying appropriate visibility modifiers." ID="ID_1146871131" CREATED="1751829042235" MODIFIED="1751829092745"/>
-</node>
-<node TEXT="02 Lecture" ID="ID_1225056246" CREATED="1751484250994" MODIFIED="1752008595517">
-<node TEXT="Fundamental Types" FOLDED="true" ID="ID_405844597" CREATED="1751830490228" MODIFIED="1751831625348"><richcontent TYPE="NOTE">
+<node TEXT="04 Strings" ID="ID_1154596433" CREATED="1751483771321" MODIFIED="1768939101937"/>
+<node TEXT="04 Types" ID="ID_1121057718" CREATED="1751483632723" MODIFIED="1769200432545">
+<node TEXT="02 Lecture" FOLDED="true" ID="ID_1225056246" CREATED="1751484250994" MODIFIED="1752008595517">
+<node TEXT="Fundamental Types" ID="ID_405844597" CREATED="1751830490228" MODIFIED="1751831625348"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -259,7 +371,7 @@
     </p>
   </body>
 </html></richcontent>
-<node TEXT="Integer" ID="ID_762558156" CREATED="1751830901245" MODIFIED="1751830909003">
+<node TEXT="01 Integer" ID="ID_762558156" CREATED="1751830901245" MODIFIED="1769200709569">
 <node TEXT="short, long, long long, signed, unsigned" ID="ID_322407918" CREATED="1751831996575" MODIFIED="1751832020748"/>
 <node TEXT="literals" ID="ID_1681649129" CREATED="1751832046999" MODIFIED="1751832050513">
 <node TEXT="0b01110" ID="ID_1094147854" CREATED="1751832051110" MODIFIED="1751832065786"/>
@@ -275,7 +387,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Floating Point" ID="ID_275174566" CREATED="1751830912758" MODIFIED="1751830926305">
+<node TEXT="02 Floating Point" ID="ID_275174566" CREATED="1751830912758" MODIFIED="1769200714982">
 <node TEXT="float" ID="ID_1161755579" CREATED="1751832723877" MODIFIED="1751832729292">
 <node TEXT="32 bit (single precision)" ID="ID_888943699" CREATED="1751832762789" MODIFIED="1751832916435"/>
 </node>
@@ -285,15 +397,28 @@
 <node TEXT="long double" ID="ID_410455267" CREATED="1751832738301" MODIFIED="1751832742827">
 <node TEXT="128 bit (extended precision or quad precision)" ID="ID_1053994436" CREATED="1751832784860" MODIFIED="1751832953301"/>
 </node>
-<node TEXT="deault is double, can add f (F)for single precision or l (L) for extended precision" ID="ID_1939368218" CREATED="1751832822988" MODIFIED="1751832906534"/>
+<node TEXT="default is double, can add f (F)for single precision or l (L) for extended precision" ID="ID_1939368218" CREATED="1751832822988" MODIFIED="1769200667471"/>
 </node>
-<node TEXT="Char" ID="ID_1034917615" CREATED="1751830928661" MODIFIED="1751830946728">
+<node TEXT="03 Char" ID="ID_1034917615" CREATED="1751830928661" MODIFIED="1769200720421">
 <node TEXT="&quot;wide&quot; characters out of scope for this class !!! But, they do exist." ID="ID_1031904391" CREATED="1752007566277" MODIFIED="1752007598125"/>
 <node TEXT="1 byte (8 bits) .... for the last 50 years or so....." ID="ID_368877291" CREATED="1752007600398" MODIFIED="1752007652656"/>
 <node TEXT="can be signed or unsigned" ID="ID_1387444265" CREATED="1752007677149" MODIFIED="1752007684568"/>
 <node TEXT="&apos;x&apos; single quote literals" ID="ID_1203276930" CREATED="1752007695564" MODIFIED="1752007706568"/>
 </node>
-<node TEXT="Boolean" ID="ID_642346090" CREATED="1751830948356" MODIFIED="1751831965462"><richcontent TYPE="NOTE">
+<node TEXT="04 Boolean" ID="ID_642346090" CREATED="1751830948356" MODIFIED="1769200800551"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#xa0;
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="either true of false" ID="ID_71660145" CREATED="1751831668925" MODIFIED="1751831684170"/>
+<node TEXT="1 or 0" ID="ID_1502974021" CREATED="1751831685092" MODIFIED="1751831691969"/>
+<node TEXT="04 Boolean" FOLDED="true" ID="ID_1336500970" CREATED="1751830948356" MODIFIED="1769200731023"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -340,9 +465,11 @@
     </p>
   </body>
 </html></richcontent>
-<node TEXT="either true of false" ID="ID_71660145" CREATED="1751831668925" MODIFIED="1751831684170"/>
-<node TEXT="1 or 0" ID="ID_1502974021" CREATED="1751831685092" MODIFIED="1751831691969"/>
+<node TEXT="either true of false" ID="ID_1415856114" CREATED="1751831668925" MODIFIED="1751831684170"/>
+<node TEXT="1 or 0" ID="ID_1044321773" CREATED="1751831685092" MODIFIED="1751831691969"/>
 </node>
+</node>
+<node TEXT="04 Boolean" ID="ID_763203696" CREATED="1769200835683" MODIFIED="1769200840286"/>
 </node>
 <node TEXT="operators" ID="ID_126544184" CREATED="1751830519546" MODIFIED="1755738061157">
 <node TEXT="comparison" ID="ID_394188424" CREATED="1752007767178" MODIFIED="1755738061347"><richcontent TYPE="NOTE">
@@ -445,7 +572,7 @@
 <node TEXT="char a[]=&quot;abc&quot;;" ID="ID_1294626417" CREATED="1752008611108" MODIFIED="1752008635787">
 <node TEXT="" ID="ID_1063483858" CREATED="1752008639539" MODIFIED="1752008639539"/>
 </node>
-<node TEXT="if using char*, need to cas to &apos;char*&apos;" ID="ID_196087181" CREATED="1752008643002" MODIFIED="1752008667617"/>
+<node TEXT="if using char*, need to cast to &apos;char*&apos;" ID="ID_196087181" CREATED="1752008643002" MODIFIED="1769035454138"/>
 <node TEXT="man ascii" ID="ID_1031605430" CREATED="1752008668897" MODIFIED="1752008672738"/>
 </node>
 <node TEXT="User Defined Types" ID="ID_287809503" CREATED="1751830615942" MODIFIED="1756168159258">
@@ -561,18 +688,9 @@
 </node>
 </node>
 </node>
-<node TEXT="03 Reading" ID="ID_866578766" CREATED="1767215101241" MODIFIED="1767215107464"/>
 </node>
-<node TEXT="03 Reference Types" FOLDED="true" ID="ID_92519863" CREATED="1751483644211" MODIFIED="1768939096979">
-<node TEXT="01 Objectives" ID="ID_495924139" CREATED="1751485076654" MODIFIED="1751485082321">
-<node TEXT="understand pointers and references" ID="ID_1120403403" CREATED="1752512229799" MODIFIED="1752512248265"/>
-<node TEXT="use the operators used to work with pointers and references" ID="ID_1061554252" CREATED="1752512251090" MODIFIED="1752512270468"/>
-<node TEXT="understand the relationship between pointers and arrays" ID="ID_846360402" CREATED="1752512272812" MODIFIED="1752512289329"/>
-<node TEXT="use this ptr" ID="ID_695266021" CREATED="1752512303472" MODIFIED="1752512310018"/>
-<node TEXT="how auto works and when to use it" ID="ID_1566958832" CREATED="1752512311648" MODIFIED="1752512323661"/>
-<node TEXT="different way of initialing data in classes" ID="ID_779558238" CREATED="1752512325266" MODIFIED="1752512342817"/>
-</node>
-<node TEXT="02 Lecture" ID="ID_1624682033" CREATED="1751485084813" MODIFIED="1751993744756">
+<node TEXT="05 Reference Types" ID="ID_92519863" CREATED="1751483644211" MODIFIED="1769200441052">
+<node TEXT="02 Lecture" FOLDED="true" ID="ID_1624682033" CREATED="1751485084813" MODIFIED="1751993744756">
 <node TEXT="pointers" ID="ID_1543411162" CREATED="1752183015921" MODIFIED="1752183231893"><richcontent TYPE="NOTE">
 <html>
   <head>
@@ -630,9 +748,7 @@
 </node>
 </node>
 </node>
-<node TEXT="03 Reading" ID="ID_1121169199" CREATED="1767215110268" MODIFIED="1767215124943"/>
 </node>
-<node TEXT="04 Strings" ID="ID_1154596433" CREATED="1751483771321" MODIFIED="1768939101937"/>
 </node>
 <node TEXT="2 Assessment 2" FOLDED="true" POSITION="top_or_left" ID="ID_567336706" CREATED="1768937082101" MODIFIED="1768937098959">
 <edge COLOR="#7c0000"/>
