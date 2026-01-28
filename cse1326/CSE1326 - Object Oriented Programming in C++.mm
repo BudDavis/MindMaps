@@ -3,7 +3,7 @@
 <bookmarks>
     <bookmark nodeId="ID_696401721" name="Root" opensAsRoot="true"/>
 </bookmarks>
-<node TEXT="Object Oriented Programming in C++" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1768937198505" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW"><hook NAME="MapStyle" zoom="0.6830134">
+<node TEXT="Object Oriented Programming in C++" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1768937198505" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW"><hook NAME="MapStyle" zoom="2.0">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="false" show_notes_in_map="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" fit_to_viewport="false" show_icons="ABOVE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -76,7 +76,7 @@
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="33" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<node TEXT="1 Assessment 1 (1/21)" POSITION="top_or_left" ID="ID_1356519250" CREATED="1768937034448" MODIFIED="1768937109606">
+<node TEXT="1 Assessment 1 (2/4)" FOLDED="true" POSITION="top_or_left" ID="ID_1356519250" CREATED="1768937034448" MODIFIED="1769623844075">
 <edge COLOR="#00ffff"/>
 <node TEXT="01 Objectives" FOLDED="true" ID="ID_1796171457" CREATED="1769200384402" MODIFIED="1769539093908">
 <node TEXT="01 Understand the compilation process and the type of errors emitted from each stage." ID="ID_725997858" CREATED="1751484514630" MODIFIED="1751484549807"/>
@@ -106,6 +106,7 @@
 </node>
 <node TEXT="02 Reading" FOLDED="true" ID="ID_625598223" CREATED="1769200403669" MODIFIED="1769539110902">
 <node TEXT="Lospinoso CH 2 through CH 5" ID="ID_381974663" CREATED="1769537524134" MODIFIED="1769539110900"/>
+<node TEXT="https://en.cppreference.com/w/cpp/language/initializer_list.html" ID="ID_943805501" CREATED="1769618181378" MODIFIED="1769618187033"/>
 </node>
 <node TEXT="03 Mechanics of Code" FOLDED="true" ID="ID_873130339" CREATED="1751483600281" MODIFIED="1769200426665">
 <node TEXT="01 Valid  Program" FOLDED="true" ID="ID_899763014" CREATED="1751484613356" MODIFIED="1751484790971">
@@ -254,8 +255,8 @@
 </node>
 <node TEXT="04 More on strings later on this semester" ID="ID_774887852" CREATED="1769546086837" MODIFIED="1769546102715"/>
 </node>
-<node TEXT="04 Types" ID="ID_1121057718" CREATED="1751483632723" MODIFIED="1769200432545">
-<node TEXT="Fundamental Types" FOLDED="true" ID="ID_405844597" CREATED="1751830490228" MODIFIED="1751831625348"><richcontent TYPE="NOTE">
+<node TEXT="04 Types" FOLDED="true" ID="ID_1121057718" CREATED="1751483632723" MODIFIED="1769200432545">
+<node TEXT="01 Fundamental Types" ID="ID_405844597" CREATED="1751830490228" MODIFIED="1769616966130"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -378,7 +379,7 @@
 </node>
 <node TEXT="04 Boolean" ID="ID_763203696" CREATED="1769200835683" MODIFIED="1769200840286"/>
 </node>
-<node TEXT="operators" ID="ID_126544184" CREATED="1751830519546" MODIFIED="1755738061157">
+<node TEXT="02 operators" ID="ID_126544184" CREATED="1751830519546" MODIFIED="1769616976844">
 <node TEXT="comparison" ID="ID_394188424" CREATED="1752007767178" MODIFIED="1755738061347"><richcontent TYPE="NOTE">
 <html>
   <head>
@@ -423,18 +424,18 @@
 </html></richcontent>
 </node>
 </node>
-<node TEXT="std::byte" ID="ID_548477926" CREATED="1751830533113" MODIFIED="1751830537957">
+<node TEXT="03 std::byte" ID="ID_548477926" CREATED="1751830533113" MODIFIED="1769616984288">
 <node TEXT="#include &lt;cstddef&gt;" ID="ID_1708664394" CREATED="1752008051486" MODIFIED="1752008067640"/>
 <node TEXT="only supports bitwise operators" ID="ID_1511654122" CREATED="1752008105806" MODIFIED="1752008120589"/>
 </node>
-<node TEXT="size_t, sizeof()" ID="ID_1321445553" CREATED="1751830543033" MODIFIED="1751830560494">
+<node TEXT="04 size_t, sizeof()" FOLDED="true" ID="ID_1321445553" CREATED="1751830543033" MODIFIED="1769616995068">
 <node TEXT="It operates on a single operand, which can be a type name (enclosed in parentheses, e.g., sizeof(int)) or an expression (where parentheses are optional, e.g., sizeof x for a variable x). This syntax is characteristic of an operator." ID="ID_938268005" CREATED="1752007988534" MODIFIED="1752007994037"/>
 <node TEXT="size_t will store the largest pointer on the machine, so it can be used to access any symbol." ID="ID_89640118" CREATED="1752007998333" MODIFIED="1752008019328"/>
 <node TEXT="size_t is also in namespace std, std::size_t" ID="ID_102369874" CREATED="1752008079862" MODIFIED="1752008096558"/>
 <node TEXT="#include &lt;iterable&gt; gives a size() method" ID="ID_1899973744" CREATED="1752008531233" MODIFIED="1752008554719"/>
 <node TEXT="size_of(array)/size_of( int)" ID="ID_1432919437" CREATED="1752008555366" MODIFIED="1752008575587"/>
 </node>
-<node TEXT="void" ID="ID_1455678421" CREATED="1751830575104" MODIFIED="1751830577172">
+<node TEXT="05 void" ID="ID_1455678421" CREATED="1751830575104" MODIFIED="1769617004059">
 <node TEXT="" ID="ID_1626965572" CREATED="1752008257695" MODIFIED="1752008257695">
 <node ID="ID_1295579187" CREATED="1752008268289" MODIFIED="1752008268289"><richcontent TYPE="NODE">
 
@@ -451,13 +452,13 @@
 </node>
 <node TEXT="void* means pointer of unknown type" ID="ID_784953889" CREATED="1752008270813" MODIFIED="1752008284901"/>
 </node>
-<node TEXT="arrays" ID="ID_558536979" CREATED="1751830579271" MODIFIED="1751830583539">
+<node TEXT="06 arrays" ID="ID_558536979" CREATED="1751830579271" MODIFIED="1769617011271">
 <node TEXT="contiguous collection of a type" ID="ID_1643305569" CREATED="1752008287098" MODIFIED="1752008324369"/>
 <node TEXT="(contained type) name [size]" ID="ID_477457519" CREATED="1752008330116" MODIFIED="1752008354317"/>
 <node TEXT="Initialization with braces" ID="ID_1603562210" CREATED="1752008356608" MODIFIED="1752008366709"/>
 <node TEXT="size can be inferred from number of items in initializer" ID="ID_535194138" CREATED="1752008370838" MODIFIED="1752008389955"/>
 </node>
-<node TEXT="for loops" ID="ID_173014708" CREATED="1751830590631" MODIFIED="1751830593195">
+<node TEXT="07 for loops" ID="ID_173014708" CREATED="1751830590631" MODIFIED="1769617016469">
 <node TEXT="old school" ID="ID_800346163" CREATED="1752008452663" MODIFIED="1752008466987">
 <node TEXT="for (int i=0;i&lt;10;i++)" ID="ID_310400919" CREATED="1752008474578" MODIFIED="1752008490600"/>
 </node>
@@ -465,7 +466,7 @@
 <node TEXT="for ( int X: xlist)" ID="ID_404590527" CREATED="1752008491204" MODIFIED="1752008530325"/>
 </node>
 </node>
-<node TEXT="C strings" ID="ID_1376421849" CREATED="1751830606447" MODIFIED="1752008595512"><richcontent TYPE="NOTE">
+<node TEXT="08 C strings" ID="ID_1376421849" CREATED="1751830606447" MODIFIED="1769617022143"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -482,8 +483,8 @@
 <node TEXT="if using char*, need to cast to &apos;char*&apos;" ID="ID_196087181" CREATED="1752008643002" MODIFIED="1769035454138"/>
 <node TEXT="man ascii" ID="ID_1031605430" CREATED="1752008668897" MODIFIED="1752008672738"/>
 </node>
-<node TEXT="User Defined Types" FOLDED="true" ID="ID_287809503" CREATED="1751830615942" MODIFIED="1756168159258">
-<node TEXT="Enumerations" ID="ID_443003384" CREATED="1751830627574" MODIFIED="1756167607416">
+<node TEXT="09 User Defined Types" ID="ID_287809503" CREATED="1751830615942" MODIFIED="1769617030015">
+<node TEXT="01 Enumerations" ID="ID_443003384" CREATED="1751830627574" MODIFIED="1769617164115">
 <node TEXT="scoped enumerations" ID="ID_1190394976" CREATED="1751830634750" MODIFIED="1756167623349" HGAP_QUANTITY="15.5 pt"><richcontent TYPE="NOTE">
 <html>
   <head>
@@ -519,11 +520,11 @@
 </node>
 <node TEXT="old school enumerations" ID="ID_786541423" CREATED="1751830643139" MODIFIED="1751836068380"/>
 </node>
-<node TEXT="Classes (POD)" ID="ID_1170098796" CREATED="1751830677628" MODIFIED="1751830684076">
+<node TEXT="02 Classes (POD)" ID="ID_1170098796" CREATED="1751830677628" MODIFIED="1769617172698">
 <node TEXT="Pod == Plain Old Data" ID="ID_888859777" CREATED="1752008834978" MODIFIED="1752008848187"/>
 <node TEXT="Can copy it around as bytes" ID="ID_1936858867" CREATED="1752008854394" MODIFIED="1752008870326"/>
 </node>
-<node TEXT="Unions" ID="ID_269435291" CREATED="1751830686956" MODIFIED="1756170291500"><richcontent TYPE="NOTE">
+<node TEXT="03 Unions" ID="ID_269435291" CREATED="1751830686956" MODIFIED="1769617178139"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -577,11 +578,13 @@
   </body>
 </html></richcontent>
 </node>
-<node TEXT="Classes" ID="ID_1523840678" CREATED="1751830700259" MODIFIED="1756168159258">
-<node TEXT="Use class or struct" ID="ID_1429482847" CREATED="1752008967990" MODIFIED="1752008979666">
+<node TEXT="04 Classes" ID="ID_1523840678" CREATED="1751830700259" MODIFIED="1769617183461">
+<node TEXT="1 combines data and the functions that use that data" ID="ID_854221490" CREATED="1769617195250" MODIFIED="1769617220884"/>
+<node TEXT="2 difference between class and object" ID="ID_1392508815" CREATED="1752182511169" MODIFIED="1769617247345"/>
+<node TEXT="3 Use class or struct" ID="ID_1429482847" CREATED="1752008967990" MODIFIED="1769617252703">
 <node TEXT="depends on default visibility, use class and they are private by default" ID="ID_194187976" CREATED="1752008981214" MODIFIED="1752009075831"/>
 </node>
-<node TEXT="Access specifiers" ID="ID_439489375" CREATED="1752009141826" MODIFIED="1752009159599">
+<node TEXT="4 Access specifiers" ID="ID_439489375" CREATED="1752009141826" MODIFIED="1769617266443">
 <node TEXT="public" ID="ID_464484778" CREATED="1752008996061" MODIFIED="1752009085711"/>
 <node TEXT="private" ID="ID_1388679109" CREATED="1752009088323" MODIFIED="1752009091816">
 <node TEXT="only in the class in which it is defined" ID="ID_877119396" CREATED="1752009101931" MODIFIED="1752009111503"/>
@@ -590,12 +593,25 @@
 <node TEXT="defined class, derived classes and friends" ID="ID_1879840729" CREATED="1752009207937" MODIFIED="1752009239639"/>
 </node>
 </node>
-<node TEXT="Constructors" ID="ID_202663041" CREATED="1752182433473" MODIFIED="1752182509067"/>
-<node TEXT="destructors" ID="ID_1392508815" CREATED="1752182511169" MODIFIED="1752182516007"/>
+<node TEXT="5 constructors" ID="ID_202663041" CREATED="1752182433473" MODIFIED="1769617293483">
+<node TEXT="01 used to initialize the values of member variables in an object" ID="ID_365801647" CREATED="1769619323097" MODIFIED="1769620682737"/>
+<node TEXT="02 C++ mechanics" ID="ID_756946757" CREATED="1769619354503" MODIFIED="1769620691975">
+<node TEXT="in the header" ID="ID_1432218826" CREATED="1769619383878" MODIFIED="1769619389807"/>
+<node TEXT="in the body" ID="ID_1213528404" CREATED="1769619391290" MODIFIED="1769619414147">
+<node TEXT="discuss spec / implementation and what it means for C++" ID="ID_980374270" CREATED="1769619415575" MODIFIED="1769619438201"/>
+</node>
+</node>
+<node TEXT="03 Syntax" ID="ID_309803670" CREATED="1769620704125" MODIFIED="1769620722733">
+<node TEXT="" ID="ID_951836236" CREATED="1769622942547" MODIFIED="1769622952078">
+<hook URI="constructor1.png" SIZE="0.52401745" NAME="ExternalObject"/>
 </node>
 </node>
 </node>
-<node TEXT="05 Reference Types" ID="ID_92519863" CREATED="1751483644211" MODIFIED="1769539081383">
+<node TEXT="6 destructors" ID="ID_252089478" CREATED="1769617223450" MODIFIED="1769617282510"/>
+</node>
+</node>
+</node>
+<node TEXT="05 Reference Types" FOLDED="true" ID="ID_92519863" CREATED="1751483644211" MODIFIED="1769539081383">
 <node TEXT="pointers" ID="ID_1543411162" CREATED="1752183015921" MODIFIED="1752183231893"><richcontent TYPE="NOTE">
 <html>
   <head>
@@ -621,6 +637,9 @@
 </node>
 <node TEXT="*" ID="ID_1370725701" CREATED="1752183047344" MODIFIED="1752183050240">
 <node TEXT="dereference" ID="ID_544755221" CREATED="1752183090600" MODIFIED="1752183099885"/>
+</node>
+<node TEXT="" ID="ID_1224330278" CREATED="1769623746677" MODIFIED="1769623755439">
+<hook URI="operator1.png" SIZE="1.0" NAME="ExternalObject"/>
 </node>
 </node>
 <node TEXT="arrays" ID="ID_1983298653" CREATED="1752183270615" MODIFIED="1752183274049">
