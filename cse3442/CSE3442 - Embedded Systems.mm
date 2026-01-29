@@ -1,4 +1,4 @@
-<map version="freeplane 1.12.1">
+<map version="freeplane 1.12.15">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <bookmarks/>
 <attribute_registry SHOW_ATTRIBUTES="hide"/>
@@ -439,7 +439,7 @@
 <node TEXT="2.1.2 Memory (p68)" ID="ID_622770013" CREATED="1749509079507" MODIFIED="1755941960020"/>
 </node>
 </node>
-<node TEXT="4 Contents" ID="ID_1505435801" CREATED="1748554868001" MODIFIED="1756255190614">
+<node TEXT="4 Contents" FOLDED="true" ID="ID_1505435801" CREATED="1748554868001" MODIFIED="1756255190614">
 <node TEXT="1 Memory Map" ID="ID_135894633" CREATED="1748040567138" MODIFIED="1748554910759">
 <node TEXT="1 Memory Map" LOCALIZED_STYLE_REF="styles.subsubtopic" FOLDED="true" ID="ID_223566472" CREATED="1748040646480" MODIFIED="1755944360709">
 <node TEXT="1 (p92) 1" ID="ID_1022192542" CREATED="1755943880106" MODIFIED="1768408217263">
@@ -499,7 +499,7 @@
 </node>
 </node>
 </node>
-<node TEXT="2 Read / Modify / Write" ID="ID_898947924" CREATED="1749493325738" MODIFIED="1755942883391">
+<node TEXT="2 Read / Modify / Write" FOLDED="true" ID="ID_898947924" CREATED="1749493325738" MODIFIED="1755942883391">
 <node TEXT="1 atomic operations" ID="ID_1527829514" CREATED="1755943644764" MODIFIED="1755943744809">
 <node TEXT="one asm instruction" ID="ID_1231405196" CREATED="1755943654046" MODIFIED="1755943659617"/>
 <node TEXT="byte, halfword, word access" ID="ID_926413459" CREATED="1768675949850" MODIFIED="1768675963798"/>
@@ -561,7 +561,6 @@
 <node TEXT="Introduction to GPIO" ID="ID_1808533250" CREATED="1748040586589" MODIFIED="1748040594635">
 <node TEXT="1 Block Diagram of GPIO Blocks (p652)" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1727662303" CREATED="1749084219391" MODIFIED="1768872061358">
 <hook URI="gpioBlockDiagram.png" SIZE="0.5708849" NAME="ExternalObject"/>
-<node TEXT="" ID="ID_822762762" CREATED="1756256324172" MODIFIED="1756256324172"/>
 </node>
 <node TEXT="2 APB and AHB" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" ID="ID_1240186113" CREATED="1768872115162" MODIFIED="1768872205348">
 <node TEXT="Advanced Periphrial  Bus and Advanced High Performance Bus" ID="ID_1287129068" CREATED="1768872436712" MODIFIED="1768872555178"/>
@@ -589,7 +588,7 @@
 <node TEXT="GPIOAMSEL (p687) (not really needed for digital signals)" ID="ID_1856102363" CREATED="1756847480150" MODIFIED="1756847599909"/>
 </node>
 <node TEXT="5 GPIO Programming (ch10) (p649)" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_628029338" CREATED="1748041100810" MODIFIED="1768872949996">
-<node TEXT="" ID="ID_1378846846" CREATED="1756847616230" MODIFIED="1756847616230">
+<node TEXT="" FOLDED="true" ID="ID_1378846846" CREATED="1756847616230" MODIFIED="1756847616230">
 <node TEXT="To configure the GPIO pins of a particular port, follow these steps:" ID="ID_747168122" CREATED="1756847737845" MODIFIED="1756847737845"/>
 <node TEXT="1. Enable the clock to the port by setting the appropriate bits in the RCGCGPIO register (see page 340)" ID="ID_151492337" CREATED="1756847737847" MODIFIED="1756847817209"/>
 <node TEXT="2. Set the direction of the GPIO port pins by programming the GPIODIR register. A write of a 1indicates output and a write of 0 indicates input." ID="ID_1365301697" CREATED="1756847737852" MODIFIED="1756847844118"/>
@@ -599,7 +598,7 @@
 <node TEXT="6. To enable GPIO pins as digital I/Os, set the appropriate DEN bit in the GPIODEN register. To enable GPIO pins to their analog function (if available), set the GPIOAMSEL bit in the GPIOAMSEL register." ID="ID_37147467" CREATED="1756847737872" MODIFIED="1756848097333"/>
 </node>
 </node>
-<node TEXT="6 GPIO_DATA_R (it&apos;s complicated)" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1028608060" CREATED="1768872247568" MODIFIED="1768872956925">
+<node TEXT="6 GPIO_DATA_R (it&apos;s complicated)" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" ID="ID_1028608060" CREATED="1768872247568" MODIFIED="1768872956925">
 <node TEXT="1 Multiple Addresses for gpio_data_r" ID="ID_965134396" CREATED="1768873968483" MODIFIED="1768874002102"/>
 <node TEXT="2 advantages" ID="ID_930518168" CREATED="1768874007363" MODIFIED="1768874015650">
 <node TEXT="no need to read / modify / write" ID="ID_1201027792" CREATED="1768874017118" MODIFIED="1768874035687"/>
