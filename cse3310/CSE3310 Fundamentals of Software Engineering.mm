@@ -1,4 +1,4 @@
-<map version="freeplane 1.12.15">
+<map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <bookmarks>
     <bookmark nodeId="ID_1171700979" name="Root" opensAsRoot="true"/>
@@ -75,7 +75,7 @@
 </map_styles>
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="HEADINGS"/>
-<node TEXT="01.0 Introduction" POSITION="bottom_or_right" ID="ID_509777620" CREATED="1703959928549" MODIFIED="1755715136273">
+<node TEXT="01.0 Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_509777620" CREATED="1703959928549" MODIFIED="1755715136273">
 <node TEXT="1. Course Introduction" FOLDED="true" ID="ID_222054717" CREATED="1703960303195" MODIFIED="1736703780384">
 <node TEXT="1. Grading" ID="ID_1869525936" CREATED="1703981666770" MODIFIED="1736704486246">
 <node TEXT="Mistakes in grading" FOLDED="true" ID="ID_1833857770" CREATED="1703983382436" MODIFIED="1754529228083">
@@ -168,8 +168,8 @@
 </node>
 <node TEXT="Engineering Design - the process of devising a system, component, or process to meet desired needs. It is a decision-making process (often iterative), in which the basic sciences, mathematics, and the engineering sciences are applied to convert resources optimally to meet these stated needs. [9, p4]" ID="ID_187347347" CREATED="1704906906754" MODIFIED="1704906947199"/>
 </node>
-<node TEXT="3. Sommerville Reading" ID="ID_1759144721" CREATED="1703960282508" MODIFIED="1755715136272">
-<node TEXT="Ch 1.1 Professional software development " ID="ID_247774750" CREATED="1703961244092" MODIFIED="1736806684492">
+<node TEXT="3. Sommerville Reading" FOLDED="true" ID="ID_1759144721" CREATED="1703960282508" MODIFIED="1770052670865">
+<node TEXT="Ch 1.1 Professional software development " FOLDED="true" ID="ID_247774750" CREATED="1703961244092" MODIFIED="1770052670864">
 <node TEXT="Software Process Activities AKA &quot;Fundamental Activities&quot;" ID="ID_1028866560" CREATED="1703982724690" MODIFIED="1704130888617">
 <node TEXT="Specification" ID="ID_1493740255" CREATED="1703982746041" MODIFIED="1703982754720"/>
 <node TEXT="Development" ID="ID_1060058870" CREATED="1703982758004" MODIFIED="1703982768506"/>
@@ -249,7 +249,7 @@
 </node>
 </node>
 </node>
-<node TEXT="5. Fundamental Questions" ID="ID_590213450" CREATED="1736704658468" MODIFIED="1736704669493">
+<node TEXT="5. Fundamental Questions" FOLDED="true" ID="ID_590213450" CREATED="1736704658468" MODIFIED="1736704669493">
 <node TEXT="Is Software Engineering, Engineering?" ID="ID_105370762" CREATED="1736704671920" MODIFIED="1736704721520"/>
 <node TEXT="If it is not, what is it?" ID="ID_309863817" CREATED="1736704693065" MODIFIED="1736704701925"/>
 <node TEXT="Is there a need for Software Engineering?" ID="ID_432244648" CREATED="1736704724457" MODIFIED="1754529880265"/>
@@ -505,7 +505,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Additional Topics" ID="ID_236754746" CREATED="1703983320167" MODIFIED="1703983326137">
+<node TEXT="Additional Topics" FOLDED="true" ID="ID_236754746" CREATED="1703983320167" MODIFIED="1703983326137">
 <node TEXT="Trace-a-bility" FOLDED="true" ID="ID_859866786" CREATED="1706553740283" MODIFIED="1706553752914">
 <node TEXT="Unique Identifier" ID="ID_336415695" CREATED="1706553752917" MODIFIED="1706553765869"/>
 <node TEXT="Requirements to Implementation" ID="ID_1313573537" CREATED="1706627436189" MODIFIED="1706627448755"/>
