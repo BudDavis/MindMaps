@@ -553,7 +553,7 @@
 <node TEXT="Jacobsen" ID="ID_831557873" CREATED="1707335360807" MODIFIED="1707335374576"/>
 </node>
 </node>
-<node TEXT="2. Context Models" FOLDED="true" ID="ID_473972398" CREATED="1707272916830" MODIFIED="1770652798490">
+<node TEXT="2. Context Models" ID="ID_473972398" CREATED="1707272916830" MODIFIED="1770652798490">
 <node TEXT="1. Context Diagram" FOLDED="true" ID="ID_958698723" CREATED="1719845990980" MODIFIED="1770652432437">
 <node TEXT="1 Defines the Boundaries of the system" ID="ID_383567964" CREATED="1719846125041" MODIFIED="1770652552219"/>
 <node TEXT="2 Shows the system and any other systems it interfaces with&#xa;    Interface means connection; can be file or realtime" ID="ID_1627700514" CREATED="1719846030456" MODIFIED="1770652556536"/>
@@ -569,7 +569,7 @@
 <node TEXT="3.  symbols. parallel activities, other systems, decision blocks, start symbol, end symbol, co-ordination (solid bar)" ID="ID_722031097" CREATED="1770652858372" MODIFIED="1770652943967"/>
 </node>
 </node>
-<node TEXT="3. Interaction Models" FOLDED="true" ID="ID_764106385" CREATED="1707272941708" MODIFIED="1770652805225">
+<node TEXT="3. Interaction Models" ID="ID_764106385" CREATED="1707272941708" MODIFIED="1770652805225">
 <node TEXT="1. Use Case" FOLDED="true" ID="ID_958865924" CREATED="1707759268325" MODIFIED="1770652986955">
 <node TEXT="1 definition" ID="ID_218063454" CREATED="1770653093308" MODIFIED="1770653406965">
 <node TEXT="&quot;A use case can be taken as a simple description of what a user expects from a system in that interaction&quot;" ID="ID_822614520" CREATED="1770653126788" MODIFIED="1770653142377"/>
@@ -589,28 +589,73 @@
 </node>
 </node>
 <node TEXT="2. Sequence Diagram" FOLDED="true" ID="ID_1746197331" CREATED="1707759282512" MODIFIED="1770652992228">
-<node TEXT="" ID="ID_1880205496" CREATED="1770653187789" MODIFIED="1770653187789"/>
+<node TEXT="" ID="ID_1880205496" CREATED="1770653187789" MODIFIED="1771253752275">
+<hook URI="eventDiagram.png" SIZE="0.6615215" NAME="ExternalObject"/>
+</node>
+<node TEXT="shows interaction between actors and objects, and objects and objects" ID="ID_1770979625" CREATED="1771253759216" MODIFIED="1771253829485"/>
+<node TEXT="can be used for requirements or even code generation, depending on abstraction level" ID="ID_1975672547" CREATED="1771253939563" MODIFIED="1771253961544"/>
 </node>
 </node>
-<node TEXT="4. Structural Models" FOLDED="true" ID="ID_583080493" CREATED="1707272955247" MODIFIED="1770652812732">
-<node TEXT="Class Diagrams" FOLDED="true" ID="ID_1066803186" CREATED="1707759302288" MODIFIED="1707759344523">
-<node TEXT="Association" ID="ID_1248482237" CREATED="1707759359075" MODIFIED="1707759365410"/>
-<node TEXT="Generalization" ID="ID_212531671" CREATED="1707759376016" MODIFIED="1707759381024"/>
-<node TEXT="Aggregation" ID="ID_1847598968" CREATED="1707759384125" MODIFIED="1707759388224"/>
-<node TEXT="Class / Attributes / Operations" ID="ID_425970956" CREATED="1707759471705" MODIFIED="1707759496143"/>
+<node TEXT="4. Structural Models" ID="ID_583080493" CREATED="1707272955247" MODIFIED="1770652812732">
+<node TEXT="1. Class Diagrams" FOLDED="true" ID="ID_1066803186" CREATED="1707759302288" MODIFIED="1771254656356">
+<node TEXT="Association" ID="ID_1248482237" CREATED="1707759359075" MODIFIED="1771254284344">
+<hook URI="class2.png" SIZE="0.6615215" NAME="ExternalObject"/>
+</node>
+<node TEXT="Generalization" ID="ID_212531671" CREATED="1707759376016" MODIFIED="1771254371577">
+<hook URI="class4.png" SIZE="0.6615215" NAME="ExternalObject"/>
+</node>
+<node TEXT="Aggregation" ID="ID_1847598968" CREATED="1707759384125" MODIFIED="1771254478189">
+<hook URI="class5.png" SIZE="0.6615215" NAME="ExternalObject"/>
+</node>
+<node TEXT="Class / Attributes / Operations" ID="ID_425970956" CREATED="1707759471705" MODIFIED="1771254193874">
+<hook URI="class1.png" SIZE="0.6615215" NAME="ExternalObject"/>
 </node>
 </node>
-<node TEXT="5. Behavioral Models" FOLDED="true" ID="ID_1539139131" CREATED="1707272967264" MODIFIED="1770652817865">
-<node TEXT="1 Activity Model" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_1858759238" CREATED="1707759397807" MODIFIED="1770653500056"/>
-<node TEXT="2 State Diagrams" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_1427346837" CREATED="1707759422523" MODIFIED="1770653507985"/>
 </node>
-<node TEXT="6. Model Driven Engineering" FOLDED="true" ID="ID_731162291" CREATED="1707273003032" MODIFIED="1770652824997">
-<node TEXT="System represented by a set of models that can be automatically converted to code" ID="ID_825600554" CREATED="1707759552850" MODIFIED="1707759571699"/>
+<node TEXT="5. Behavioral Models" ID="ID_1539139131" CREATED="1707272967264" MODIFIED="1770652817865">
+<node TEXT="1 Activity Model" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_1858759238" CREATED="1707759397807" MODIFIED="1770653500056">
+<node TEXT="1. considered &apos;data driven&apos; (data processing / business systems)" ID="ID_1248111147" CREATED="1771254912313" MODIFIED="1771254998566"/>
+<node TEXT="2" OBJECT="java.lang.Long|2" ID="ID_321688357" CREATED="1771254735936" MODIFIED="1771254942665">
+<hook URI="activity1.png" SIZE="0.6615215" NAME="ExternalObject"/>
+</node>
+<node TEXT="3. alternately expressed with an event diagram" ID="ID_1128063985" CREATED="1771254800055" MODIFIED="1771254949998"/>
+</node>
+<node TEXT="2 State Diagrams" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_1427346837" CREATED="1707759422523" MODIFIED="1770653507985">
+<node TEXT="1. considered &apos;event driven&apos;. (real time, control systems)" ID="ID_1207848970" CREATED="1771254957122" MODIFIED="1771254980746"/>
+<node TEXT="2.  (note this drawing has issues)" ID="ID_230192003" CREATED="1771255247054" MODIFIED="1771255298622">
+<hook URI="state1.png" SIZE="0.6615215" NAME="ExternalObject"/>
+</node>
+<node TEXT="3" OBJECT="java.lang.Long|3" ID="ID_664788738" CREATED="1771255300619" MODIFIED="1771255327792">
+<hook URI="state2.png" SIZE="0.6615215" NAME="ExternalObject"/>
+</node>
+<node TEXT="Rules" ID="ID_1989524373" CREATED="1771255343265" MODIFIED="1771255357417">
+<node TEXT="must have a start  (power on event)" ID="ID_1255666482" CREATED="1771255358429" MODIFIED="1771255482915"/>
+<node TEXT="do not have to have a stop" ID="ID_940197854" CREATED="1771255370207" MODIFIED="1771255379093"/>
+<node TEXT="every transition has an event" ID="ID_1441655600" CREATED="1771255380771" MODIFIED="1771255397811"/>
+<node TEXT="on_entry and on_exit activities" ID="ID_483443840" CREATED="1771255420678" MODIFIED="1771255445602"/>
+<node TEXT="an event without a transition is ignored" ID="ID_903058406" CREATED="1771255447930" MODIFIED="1771255467063"/>
+</node>
+</node>
+</node>
+<node TEXT="6. Model Driven Engineering" ID="ID_731162291" CREATED="1707273003032" MODIFIED="1770652824997">
+<node TEXT="System represented by a set of models that can be automatically converted to code" FOLDED="true" ID="ID_825600554" CREATED="1707759552850" MODIFIED="1707759571699">
+<node TEXT="1" OBJECT="java.lang.Long|1" ID="ID_424348329" CREATED="1771255599876" MODIFIED="1771255621976">
+<hook URI="mda1.png" SIZE="0.6615215" NAME="ExternalObject"/>
+</node>
+<node TEXT="2 Model Driven Architecture" ID="ID_1485732123" CREATED="1771255626580" MODIFIED="1771255641970">
+<node TEXT="Platform-specific models (PSM) PSMs are transformations of the platform-­&#xa;independent model with a separate PSM for each application platform." ID="ID_59337274" CREATED="1771255644972" MODIFIED="1771255669797"/>
+<node TEXT="A platform-independent model (PIM) PIMs model the operation of the system&#xa;without reference to its implementation. A PIM is usually described using UML&#xa;models that show the static system structure and how it responds to external and&#xa;internal events." ID="ID_814930309" CREATED="1771255671753" MODIFIED="1771255704719"/>
+<node TEXT="A computation independent model (CIM) CIMs model the important domain&#xa;abstractions used in a system and so are sometimes called domain models. You&#xa;may develop several different CIMs, reflecting different views of the system.&#xa;For example, there may be a security CIM in which you identify important secu-&#xa;rity abstractions such as an asset, and a role and a patient record CIM, in which&#xa;you describe abstractions such as patients and consultations." ID="ID_151480896" CREATED="1771255706164" MODIFIED="1771255732154"/>
+</node>
+<node TEXT="3" OBJECT="java.lang.Long|3" ID="ID_1943405531" CREATED="1771255791596" MODIFIED="1771255808841">
+<hook URI="mda2.png" SIZE="0.6615215" NAME="ExternalObject"/>
+</node>
+</node>
 <node TEXT="Tools Required" ID="ID_406409932" CREATED="1707759594004" MODIFIED="1707759603607"/>
 <node TEXT="Large, long running hardware / software systems" ID="ID_1328192470" CREATED="1707759605786" MODIFIED="1707759617003"/>
 <node TEXT="MBSE Model Based System Engineering" ID="ID_1171291913" CREATED="1754530621650" MODIFIED="1754530634350"/>
 </node>
-<node TEXT="7. SWEBOK" FOLDED="true" ID="ID_1460725985" CREATED="1707273023552" MODIFIED="1770652830636">
+<node TEXT="7. SWEBOK" ID="ID_1460725985" CREATED="1707273023552" MODIFIED="1770652830636">
 <node TEXT="Characteristics of Models" ID="ID_1911197281" CREATED="1707759696006" MODIFIED="1707759702199">
 <node TEXT="Consistent" ID="ID_884736603" CREATED="1707759704486" MODIFIED="1707759737487"/>
 <node TEXT="Complete" ID="ID_1009083610" CREATED="1707759727710" MODIFIED="1707759730649"/>
