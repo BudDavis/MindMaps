@@ -535,7 +535,7 @@
 </node>
 </node>
 </node>
-<node TEXT="04.0 Software Modeling" POSITION="top_or_left" ID="ID_1291018404" CREATED="1703960080688" MODIFIED="1705795502891">
+<node TEXT="04.0 Software Modeling" FOLDED="true" POSITION="top_or_left" ID="ID_1291018404" CREATED="1703960080688" MODIFIED="1705795502891">
 <node TEXT="1. Introduction" FOLDED="true" ID="ID_984664653" CREATED="1707272878210" MODIFIED="1770652790043">
 <node TEXT="1. System Modeling is the process of developing abstract models of a system." LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_443301688" CREATED="1707273062037" MODIFIED="1770652774903"/>
 <node TEXT="2. Characteristics of a model" ID="ID_596968595" CREATED="1707273135076" MODIFIED="1770652766096">
@@ -612,7 +612,7 @@
 </node>
 </node>
 </node>
-<node TEXT="5. Behavioral Models" ID="ID_1539139131" CREATED="1707272967264" MODIFIED="1770652817865">
+<node TEXT="5. Behavioral Models" FOLDED="true" ID="ID_1539139131" CREATED="1707272967264" MODIFIED="1770652817865">
 <node TEXT="1 Activity Model" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_1858759238" CREATED="1707759397807" MODIFIED="1770653500056">
 <node TEXT="1. considered &apos;data driven&apos; (data processing / business systems)" ID="ID_1248111147" CREATED="1771254912313" MODIFIED="1771254998566"/>
 <node TEXT="2" OBJECT="java.lang.Long|2" ID="ID_321688357" CREATED="1771254735936" MODIFIED="1771254942665">
@@ -655,7 +655,7 @@
 <node TEXT="Large, long running hardware / software systems" ID="ID_1328192470" CREATED="1707759605786" MODIFIED="1707759617003"/>
 <node TEXT="MBSE Model Based System Engineering" ID="ID_1171291913" CREATED="1754530621650" MODIFIED="1754530634350"/>
 </node>
-<node TEXT="7. SWEBOK" ID="ID_1460725985" CREATED="1707273023552" MODIFIED="1770652830636">
+<node TEXT="7. SWEBOK" FOLDED="true" ID="ID_1460725985" CREATED="1707273023552" MODIFIED="1770652830636">
 <node TEXT="Characteristics of Models" ID="ID_1911197281" CREATED="1707759696006" MODIFIED="1707759702199">
 <node TEXT="Consistent" ID="ID_884736603" CREATED="1707759704486" MODIFIED="1707759737487"/>
 <node TEXT="Complete" ID="ID_1009083610" CREATED="1707759727710" MODIFIED="1707759730649"/>
@@ -663,19 +663,46 @@
 </node>
 </node>
 </node>
-<node TEXT="05.0 Architecture" FOLDED="true" POSITION="bottom_or_right" ID="ID_407988059" CREATED="1703960095427" MODIFIED="1720023244542">
+<node TEXT="05.0 Architecture" POSITION="bottom_or_right" ID="ID_407988059" CREATED="1703960095427" MODIFIED="1720023244542">
 <node TEXT="Sommerville" ID="ID_1772273115" CREATED="1754530693987" MODIFIED="1754530702068">
-<node TEXT="1. Introduction" ID="ID_76657719" CREATED="1720023162548" MODIFIED="1754530722639">
+<node TEXT="1. Introduction" FOLDED="true" ID="ID_76657719" CREATED="1720023162548" MODIFIED="1754530722639">
 <node TEXT="Definition" ID="ID_111027798" CREATED="1720025132794" MODIFIED="1720025142226">
 <node TEXT="How the system is divided into components and how those components communicate" ID="ID_1245525615" CREATED="1720025143252" MODIFIED="1720025180136"/>
+<node TEXT="According to SWEBOK, software architecture is defined as the high-level structure, decomposition, and organization of a software system into components, along with the interfaces and relationships between them." ID="ID_1601533657" CREATED="1771438165341" MODIFIED="1771438172122"/>
+</node>
+<node TEXT="when?" ID="ID_1498128855" CREATED="1771437326023" MODIFIED="1771437335977">
+<node TEXT="requirements ---&gt; architecture --&gt; design" ID="ID_918889362" CREATED="1771437335990" MODIFIED="1771437356431"/>
+<node TEXT="closer to requirements with overlap" ID="ID_992563742" CREATED="1771437357859" MODIFIED="1771437375205"/>
+<node TEXT="last century it was called &quot;preliminary design&quot;" ID="ID_1657630608" CREATED="1771437375679" MODIFIED="1771437389447"/>
+</node>
+<node TEXT="levels of abstraction" ID="ID_1520808507" CREATED="1771438233632" MODIFIED="1771438244211">
+<node TEXT="&quot;architecture in the small&quot; a single or small group of programs.  Internal." ID="ID_1751020443" CREATED="1771438245658" MODIFIED="1771438268039"/>
+<node TEXT="&quot;architecture in the large&quot;  systems that are distributed and solve big problems with many computers" ID="ID_1630474339" CREATED="1771438269393" MODIFIED="1771438320568"/>
 </node>
 </node>
-<node TEXT="2. Design Decisions" ID="ID_1659096117" CREATED="1719846607222" MODIFIED="1754530727273">
-<node TEXT="Architecture is where non functional requirements are realized" ID="ID_286458410" CREATED="1720025298009" MODIFIED="1720025316910"/>
-<node TEXT="Decisions about the product and how it is built that are not covered by requirements" ID="ID_1734010461" CREATED="1754530821806" MODIFIED="1754530842269"/>
+<node TEXT="2. Design Decisions" FOLDED="true" ID="ID_1659096117" CREATED="1719846607222" MODIFIED="1754530727273">
+<node TEXT="Architecture is where non functional requirements are realized" FOLDED="true" ID="ID_286458410" CREATED="1720025298009" MODIFIED="1771437230427">
+<font BOLD="true"/>
+<node TEXT="understand non functional requirements and develop a strategy" FOLDED="true" ID="ID_677365708" CREATED="1771437243632" MODIFIED="1771437265621">
+<node TEXT="performance - the architecture should be designed to localize critical operations within a small number of components, with these components deployed on the same computer rather than distributed across the network. This may mean using a few relatively large components&#xa;rather than small, finer-grain components. Using large components reduces the number of component communications, as most of the interactions between&#xa;related system features take place within a component. You may also consider runtime system organizations that allow the system to be replicated and executed on different processors." ID="ID_102811185" CREATED="1771437777463" MODIFIED="1771438070628"/>
+<node TEXT="security - a layered structure for the architecture should be used, with the most critical assets protected in the innermost layers and a high level of security validation applied to these layers." ID="ID_209723352" CREATED="1771437783823" MODIFIED="1771438004946"/>
+<node TEXT="safety - If safety is a critical requirement, the architecture should be designed so that safety-related operations are co-located in a single component or in a small number of components." ID="ID_288972341" CREATED="1771437791753" MODIFIED="1771437955490"/>
+<node TEXT="availability - If availability is a critical requirement, the architecture should be designed to include redundant components so that it is possible to replace and&#xa;update components without stopping the system." ID="ID_343989487" CREATED="1771437814628" MODIFIED="1771437923287"/>
+<node TEXT="maintainability - If maintainability is a critical requirement, the system architecture should be designed using fine-grain, self-contained components that may&#xa;readily be changed. Producers of data should be separated from consumers, and shared data structures should be avoided" ID="ID_878073686" CREATED="1771437835800" MODIFIED="1771437890746"/>
 </node>
-<node TEXT="3. Documenting an Architecture" ID="ID_231843481" CREATED="1754530864797" MODIFIED="1754530875663">
-<node TEXT="Architectural Views" ID="ID_1117237533" CREATED="1720023188176" MODIFIED="1754530889187">
+</node>
+<node TEXT="Decisions about the product and how it is built that are not covered by requirements" ID="ID_1734010461" CREATED="1754530821806" MODIFIED="1771437711903">
+<hook URI="architecturalDesignDecisions.png" SIZE="0.82191783" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="3. Documenting an Architecture" FOLDED="true" ID="ID_231843481" CREATED="1754530864797" MODIFIED="1754530875663">
+<node TEXT="1. Advantages to documenting an architecture" ID="ID_1605324544" CREATED="1771437475530" MODIFIED="1771437494099">
+<node TEXT="Stakeholder communication" ID="ID_1684539621" CREATED="1771437501869" MODIFIED="1771437532264"/>
+<node TEXT="System Analysis" ID="ID_494411682" CREATED="1771437532662" MODIFIED="1771437537343"/>
+<node TEXT="Large Scale Reuse" ID="ID_1317593591" CREATED="1771437537838" MODIFIED="1771437562186"/>
+</node>
+<node TEXT="2. Book series by Bass and Clements (SEI)" ID="ID_138830988" CREATED="1771437577653" MODIFIED="1771437599444"/>
+<node TEXT="3. Architectural Views" ID="ID_1117237533" CREATED="1720023188176" MODIFIED="1771437603933">
 <node TEXT="4+1" ID="ID_1074823336" CREATED="1720025184090" MODIFIED="1720025190696">
 <node TEXT="Logical" ID="ID_662561486" CREATED="1720025191235" MODIFIED="1720025220043">
 <node TEXT="key abstractions" ID="ID_1823695748" CREATED="1720025749407" MODIFIED="1720025784507"/>
@@ -693,18 +720,30 @@
 </node>
 </node>
 </node>
-<node TEXT="4. Architectural Patterns" ID="ID_1252960972" CREATED="1720023249487" MODIFIED="1754530741571">
-<node TEXT="Layered" ID="ID_945579877" CREATED="1720023272275" MODIFIED="1720023282474"/>
-<node TEXT="Repository" ID="ID_606711208" CREATED="1720023285802" MODIFIED="1720023290826"/>
-<node TEXT="Model View Controller" ID="ID_753801286" CREATED="1720023327450" MODIFIED="1720023334905"/>
-<node TEXT="Client Server" ID="ID_557803137" CREATED="1720023338251" MODIFIED="1720023351747">
+<node TEXT="4. Architectural Patterns" FOLDED="true" ID="ID_1252960972" CREATED="1720023249487" MODIFIED="1754530741571">
+<node TEXT="1. Layered" ID="ID_945579877" CREATED="1720023272275" MODIFIED="1771439408903">
+<hook URI="layered.png" SIZE="0.7407407" NAME="ExternalObject"/>
+</node>
+<node TEXT="2. Repository" ID="ID_606711208" CREATED="1720023285802" MODIFIED="1771439361963">
+<hook URI="repository.png" SIZE="0.7407407" NAME="ExternalObject"/>
+</node>
+<node TEXT="3. Model View Controller" ID="ID_753801286" CREATED="1720023327450" MODIFIED="1771439465894">
+<hook URI="mvc2.png" SIZE="0.7407407" NAME="ExternalObject"/>
+<node TEXT="" ID="ID_1569262862" CREATED="1771439475363" MODIFIED="1771439516827">
+<hook URI="mvc1.png" SIZE="0.7407407" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="4. Client Server" ID="ID_557803137" CREATED="1720023338251" MODIFIED="1771439314203">
+<hook URI="clientServer.png" SIZE="0.7407407" NAME="ExternalObject"/>
 <node TEXT="Thick Clients" ID="ID_1593969744" CREATED="1720023367271" MODIFIED="1720023374131"/>
 <node TEXT="Thin Clients" ID="ID_493314025" CREATED="1720023377717" MODIFIED="1720023386505"/>
 <node TEXT="WWW" ID="ID_1240904494" CREATED="1720023422062" MODIFIED="1720023427772"/>
 </node>
-<node TEXT="Pipe And Filter" ID="ID_975092804" CREATED="1720023356025" MODIFIED="1720023365427"/>
+<node TEXT="5. Pipe And Filter" ID="ID_975092804" CREATED="1720023356025" MODIFIED="1771439262286">
+<hook URI="pipeAndFilter.png" SIZE="0.7407407" NAME="ExternalObject"/>
 </node>
-<node TEXT="5. Application architectures" ID="ID_616810421" CREATED="1720023433279" MODIFIED="1754530754939">
+</node>
+<node TEXT="5. Application architectures" FOLDED="true" ID="ID_616810421" CREATED="1720023433279" MODIFIED="1754530754939">
 <node TEXT="Used for" ID="ID_1962501196" CREATED="1720023477434" MODIFIED="1720023492069">
 <node TEXT="Starting point for architectural design" ID="ID_1468774681" CREATED="1720023433469" MODIFIED="1720023456127"/>
 <node TEXT="Design checklist" ID="ID_1575703044" CREATED="1720023503008" MODIFIED="1720023510879"/>
@@ -720,6 +759,7 @@
 <node TEXT="definition" ID="ID_615077646" CREATED="1720023934397" MODIFIED="1720023940399">
 <node TEXT="&quot;describe the structure and organization of particular types of software systems&quot;" ID="ID_1292332031" CREATED="1720023942295" MODIFIED="1720024096886"/>
 </node>
+<node TEXT="product line architectures" ID="ID_1382989089" CREATED="1771439561937" MODIFIED="1771439569773"/>
 </node>
 </node>
 <node TEXT="SWEBOK" ID="ID_1738635526" CREATED="1754530704673" MODIFIED="1754530707828"/>
