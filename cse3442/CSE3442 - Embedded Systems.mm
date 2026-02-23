@@ -1,7 +1,7 @@
-<map version="freeplane 1.12.1">
+<map version="freeplane 1.12.15">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<bookmarks/>
 <attribute_registry SHOW_ATTRIBUTES="hide"/>
+<bookmarks/>
 <node TEXT="Embedded Systems I" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1768590008244" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_CENTERED"><hook NAME="MapStyle" zoom="2.0">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="false" show_notes_in_map="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" allow_compact_layout="false" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
@@ -851,7 +851,7 @@
 </node>
 </node>
 </node>
-<node TEXT="03 exam 2 (30 March 2026)" FOLDED="true" POSITION="top_or_left" ID="ID_390703876" CREATED="1768589720247" MODIFIED="1768936666021">
+<node TEXT="03 exam 2 (30 March 2026)" POSITION="top_or_left" ID="ID_390703876" CREATED="1768589720247" MODIFIED="1768936666021">
 <edge COLOR="#ff0000"/>
 <node TEXT="1 NVIC / SysTick" FOLDED="true" ID="ID_16309586" CREATED="1748038668017" MODIFIED="1768936404752" HGAP_QUANTITY="11.75 pt">
 <node TEXT="1 Objectives" ID="ID_331374664" CREATED="1748787752793" MODIFIED="1766166055844">
@@ -904,7 +904,7 @@
 </node>
 </node>
 </node>
-<node TEXT="2 UART" FOLDED="true" ID="ID_764395375" CREATED="1748038659162" MODIFIED="1768936408247">
+<node TEXT="2 UART" ID="ID_764395375" CREATED="1748038659162" MODIFIED="1768936408247">
 <node TEXT="1 Objectives" FOLDED="true" ID="ID_1344670637" CREATED="1748717212629" MODIFIED="1748717216923">
 <node TEXT="1 Understand the data path for UART in the TM4C" ID="ID_305526434" CREATED="1758487032245" MODIFIED="1758487057716"/>
 <node TEXT="2 Understand the Serial Data Format(s) and the timing of the different baud rates" ID="ID_210601415" CREATED="1750465987137" MODIFIED="1758487065749"/>
@@ -916,10 +916,12 @@
 <node TEXT="3 Readings" FOLDED="true" ID="ID_1808357518" CREATED="1748717225705" MODIFIED="1748717231743">
 <node TEXT="ch14 p893" ID="ID_1075559579" CREATED="1758570730863" MODIFIED="1758570736968"/>
 </node>
-<node TEXT="4 Contents" FOLDED="true" ID="ID_1652373914" CREATED="1748717233727" MODIFIED="1748717238232">
-<node TEXT="1. concepts" FOLDED="true" ID="ID_573602690" CREATED="1758570743937" MODIFIED="1758570751096">
+<node TEXT="4 Contents" ID="ID_1652373914" CREATED="1748717233727" MODIFIED="1748717238232">
+<node TEXT="1. concepts" ID="ID_573602690" CREATED="1758570743937" MODIFIED="1758570751096">
 <node TEXT="serial" ID="ID_321916422" CREATED="1758570773608" MODIFIED="1758570781635">
-<node TEXT="string of bits" ID="ID_1782093905" CREATED="1758570785704" MODIFIED="1758570789584"/>
+<node TEXT="string of bits" ID="ID_1782093905" CREATED="1758570785704" MODIFIED="1771872981760">
+<hook URI="uartDataFrame.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
 </node>
 <node TEXT="RS-232 / RS-423 etc" ID="ID_1130324421" CREATED="1758570784322" MODIFIED="1758570812353"/>
 <node TEXT="half duplex" ID="ID_618907011" CREATED="1758570791856" MODIFIED="1758570795165"/>
@@ -928,14 +930,21 @@
 <node TEXT="One of the first IC&apos;s" ID="ID_146480309" CREATED="1758570871666" MODIFIED="1758570878778"/>
 <node TEXT="Used with mechanical teletypes" ID="ID_988273908" CREATED="1758570880547" MODIFIED="1758570888294"/>
 </node>
-<node TEXT="&apos;handshaking&apos;" ID="ID_1377494845" CREATED="1758570904206" MODIFIED="1758570915757"/>
+<node TEXT="&apos;&apos;handshaking&apos;" ID="ID_1377494845" CREATED="1758570904206" MODIFIED="1771872996489">
+<node TEXT="only provided by uart1 on the tm4c123gh6pm" ID="ID_1624247232" CREATED="1771872998141" MODIFIED="1771873022924"/>
+<node TEXT="valuable on long cables and with high data rates" ID="ID_1222794545" CREATED="1771873026373" MODIFIED="1771873039777"/>
+</node>
 <node TEXT="baud" ID="ID_684683641" CREATED="1758570918084" MODIFIED="1758570921774">
 <node TEXT="1200,9600,19200,115200" ID="ID_1755772906" CREATED="1758570922999" MODIFIED="1758571022820"/>
-<node TEXT="" ID="ID_1928193271" CREATED="1758570931677" MODIFIED="1758570931677"/>
+<node TEXT="baud is one bit." ID="ID_1928193271" CREATED="1758570931677" MODIFIED="1771873053837"/>
 </node>
 <node TEXT="parity" ID="ID_320849561" CREATED="1758571026703" MODIFIED="1758571034004">
-<node TEXT="even" ID="ID_122845236" CREATED="1758571035202" MODIFIED="1758571050174"/>
-<node TEXT="odd" ID="ID_1538809500" CREATED="1758571052097" MODIFIED="1758571054537"/>
+<node TEXT="even" ID="ID_122845236" CREATED="1758571035202" MODIFIED="1758571050174">
+<node TEXT="even parity bit is high when needed to make the number of bits high in the data even" ID="ID_1171574956" CREATED="1771873058289" MODIFIED="1771873087410"/>
+</node>
+<node TEXT="odd" ID="ID_1538809500" CREATED="1758571052097" MODIFIED="1758571054537">
+<node TEXT="odd parity bit is high when needed to make the number of bits high in the data odd." ID="ID_1608961682" CREATED="1771873081173" MODIFIED="1771873110779"/>
+</node>
 <node TEXT="stick" ID="ID_1596893683" CREATED="1758571056211" MODIFIED="1758571110888">
 <node TEXT="always a &apos;1&apos;, called mark" ID="ID_543406098" CREATED="1758571112193" MODIFIED="1758571125289"/>
 <node TEXT="always a &apos;0&apos;. called space" ID="ID_780616511" CREATED="1758571127211" MODIFIED="1758571138202"/>
@@ -943,16 +952,57 @@
 </node>
 </node>
 <node TEXT="mandatory start bit.  (0)" ID="ID_483931968" CREATED="1758571270822" MODIFIED="1758571288336"/>
-<node TEXT="stop bits are (1)" ID="ID_1233554652" CREATED="1758571290494" MODIFIED="1758571298089"/>
+<node TEXT="stop bits are (1)" ID="ID_1233554652" CREATED="1758571290494" MODIFIED="1758571298089">
+<node TEXT="have to have one stop bit" ID="ID_938538687" CREATED="1771873124438" MODIFIED="1771873132510"/>
+<node TEXT="you can use two stop bits if you want (wasteful in bandwidth), easier to re-sync the data stream." ID="ID_203270994" CREATED="1771873134153" MODIFIED="1771873169323"/>
 </node>
-<node TEXT="2. Serial Communications" ID="ID_1922218135" CREATED="1757888127873" MODIFIED="1758570760477"/>
-<node TEXT="3. UART" FOLDED="true" ID="ID_71939556" CREATED="1748041078526" MODIFIED="1759927410248">
+</node>
+<node TEXT="2. UART" ID="ID_71939556" CREATED="1748041078526" MODIFIED="1771873200241">
 <node TEXT="1 polling interface" ID="ID_7414468" CREATED="1748041556209" MODIFIED="1757888195137"/>
-<node TEXT="2 Block Diagram" ID="ID_1150724062" CREATED="1757888080886" MODIFIED="1757888199185"/>
-<node TEXT="3 Connecting to Pins" ID="ID_746142725" CREATED="1757888093643" MODIFIED="1757888202954"/>
-<node TEXT="4 data rates" ID="ID_400953961" CREATED="1757888227151" MODIFIED="1759927410247"/>
-<node TEXT="5 Reading" ID="ID_398486437" CREATED="1757888108559" MODIFIED="1757888222028"/>
-<node TEXT="6 Writing" ID="ID_449941471" CREATED="1757888113710" MODIFIED="1757888211787"/>
+<node TEXT="2 Block Diagram(p894)" FOLDED="true" ID="ID_1150724062" CREATED="1757888080886" MODIFIED="1771872652899">
+<node TEXT="uart0 is &apos;special&apos;" ID="ID_1878009849" CREATED="1771872564513" MODIFIED="1771872576121"/>
+<node TEXT="" ID="ID_1858105844" CREATED="1771872654468" MODIFIED="1771872734708">
+<hook URI="uartBlock.png" SIZE="0.7894737" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="3 Connecting to Pins" FOLDED="true" ID="ID_746142725" CREATED="1757888093643" MODIFIED="1757888202954">
+<node TEXT="p1351 is &apos;pin mux info table&apos;" ID="ID_919308884" CREATED="1771872377797" MODIFIED="1771872845310">
+<hook URI="uartSignals.png" SIZE="0.7894737" NAME="ExternalObject"/>
+</node>
+<node TEXT="GPIO_AFCTL" ID="ID_1920910986" CREATED="1771872521875" MODIFIED="1771873320846">
+<hook URI="afsel.png" SIZE="0.7741935" NAME="ExternalObject"/>
+</node>
+<node TEXT="GPIO_PCTL" ID="ID_359831885" CREATED="1771872535494" MODIFIED="1771873466221">
+<hook URI="pctl.png" SIZE="0.7741935" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="4 data rates" ID="ID_400953961" CREATED="1757888227151" MODIFIED="1759927410247">
+<node TEXT="Calculating the BRD, FBRD and IBRD (p896)" FOLDED="true" ID="ID_1307778607" CREATED="1771872758155" MODIFIED="1771873605018">
+<node TEXT="BRD = BRDI + BRDF = UARTSysClk / (ClkDiv * Baud Rate)" ID="ID_101729850" CREATED="1771873473752" MODIFIED="1771874797384"/>
+<node TEXT="UARTFBRD = integer(BRDF * 64 + 0.5)" ID="ID_885225472" CREATED="1771874801114" MODIFIED="1771874972058"/>
+<node TEXT="BRDI.BRDF" ID="ID_92183497" CREATED="1771874977578" MODIFIED="1771875040815">
+<node TEXT="BRDI is the integer, brdf is the fractional part" ID="ID_175038327" CREATED="1771875040821" MODIFIED="1771875060837"/>
+</node>
+<node TEXT="divisor set by UARTCTL" ID="ID_205830802" CREATED="1771875063522" MODIFIED="1771875239259">
+<node TEXT="" ID="ID_488682210" CREATED="1771875243426" MODIFIED="1771875258038">
+<hook URI="uartctl1.png" SIZE="0.7741935" NAME="ExternalObject"/>
+</node>
+<node TEXT="" ID="ID_1203806961" CREATED="1771875260605" MODIFIED="1771875270466">
+<hook URI="uartctl2.png" SIZE="0.7741935" NAME="ExternalObject"/>
+</node>
+<node TEXT="With the BRD values in hand, the UART configuration is written to the module in the following order:&#xa;1. Disable the UART by clearing the UARTEN bit in the UARTCTL register.&#xa;2. Write the integer portion of the BRD to the UARTIBRD register.&#xa;3. Write the fractional portion of the BRD to the UARTFBRD register.&#xa;4. Write the desired serial parameters to the UARTLCRH register (in this case, a value of 0x0000.0060).&#xa;5. Configure the UART clock source by writing to the UARTCC register.&#xa;6. Optionally, configure the µDMA channel (see “Micro Direct Memory Access (μDMA)” on page 585) and enable the DMA option(s) in the UARTDMACTL register.&#xa;7. Enable the UART by setting the UARTEN bit in the UARTCTL register." ID="ID_1334340365" CREATED="1771875294426" MODIFIED="1771875364160"/>
+</node>
+</node>
+</node>
+<node TEXT="5 other configuration" FOLDED="true" ID="ID_1541378089" CREATED="1771875471696" MODIFIED="1771875481069">
+<node TEXT="the UARTIBRD and UARTFBRD registers must be written before the UARTLCRH register." ID="ID_94995892" CREATED="1771875482152" MODIFIED="1771875486189"/>
+</node>
+<node TEXT="6 Reading" ID="ID_398486437" CREATED="1757888108559" MODIFIED="1771875461213">
+<node TEXT="p906 UART_DR" ID="ID_1554622945" CREATED="1771875523277" MODIFIED="1771875577209"/>
+</node>
+<node TEXT="7 Writing" ID="ID_449941471" CREATED="1757888113710" MODIFIED="1771875464356">
+<node TEXT="p906 UART_DR" ID="ID_1585486427" CREATED="1771875578900" MODIFIED="1771875586730"/>
+</node>
 </node>
 </node>
 </node>
@@ -1071,8 +1121,27 @@
 </node>
 </node>
 </node>
-<node TEXT="99 Transient" FOLDED="true" ID="ID_472507813" CREATED="1770519249683" MODIFIED="1770519258196">
-<node TEXT="23 Feb" ID="ID_1220394665" CREATED="1770519267115" MODIFIED="1770519274196"/>
+<node TEXT="99 Transient" ID="ID_472507813" CREATED="1770519249683" MODIFIED="1770519258196">
+<node TEXT="23 Feb" ID="ID_1220394665" CREATED="1770519267115" MODIFIED="1770519274196">
+<node TEXT="1. Test Feedback" ID="ID_1101685831" CREATED="1771871889638" MODIFIED="1771875626463">
+<node TEXT="still working on grading" ID="ID_1475579514" CREATED="1771871902421" MODIFIED="1771871910548"/>
+<node TEXT="&apos;&apos;or&apos; and &apos;and&apos; aka &apos;set&apos; and &apos;clear&apos;" ID="ID_1498546204" CREATED="1771871911929" MODIFIED="1771871954489"/>
+<node TEXT="coding concepts" ID="ID_447506668" CREATED="1771871964655" MODIFIED="1771871973253">
+<node TEXT="macros are useful" ID="ID_102917495" CREATED="1771871977554" MODIFIED="1771871986736"/>
+<node TEXT="hex is useful" ID="ID_1352453265" CREATED="1771871988394" MODIFIED="1771871994744"/>
+<node TEXT="when do you clear single bits" ID="ID_243633500" CREATED="1771872002990" MODIFIED="1771872015231"/>
+<node TEXT="when do you clear a mask or a field ?" ID="ID_150927081" CREATED="1771872016405" MODIFIED="1771872029117"/>
+<node TEXT="only deal with the bits you care about, leave the rest alone" ID="ID_1820317292" CREATED="1771872033972" MODIFIED="1771872048661"/>
+</node>
+<node TEXT="The GPIODR2R register is the 2-mA drive control register. Each GPIO signal in the port can be individually configured without affecting the other pads. When setting the DRV2 bit for a GPIO signal,&#xa;the corresponding DRV4 bit in the GPIODR4R register and DRV8 bit in the GPIODR8R register are automatically cleared by hardware. By default, all GPIO pins have 2-mA drive." ID="ID_1090200247" CREATED="1771871975157" MODIFIED="1771875697964"/>
+</node>
+<node TEXT="2. &apos;&apos;polled implementation&quot;" ID="ID_374956052" CREATED="1771871863514" MODIFIED="1771875632688"/>
+<node TEXT="3. calculate IBRD and FBRD" ID="ID_1623345728" CREATED="1771871828129" MODIFIED="1771875637912"/>
+<node TEXT="4. go over provided code" ID="ID_830249320" CREATED="1771871850869" MODIFIED="1771875642272">
+<node TEXT="pinmux" ID="ID_1333684167" CREATED="1771871878237" MODIFIED="1771871883985"/>
+<node TEXT="uart.c" ID="ID_1891319080" CREATED="1771875651437" MODIFIED="1771875657177"/>
+</node>
+</node>
 <node TEXT="25 Feb" ID="ID_1339855624" CREATED="1770519275465" MODIFIED="1770519282386"/>
 <node TEXT="02 March" ID="ID_762027268" CREATED="1770519284290" MODIFIED="1770519300787"/>
 <node TEXT="04 March" ID="ID_1538933852" CREATED="1770519302195" MODIFIED="1770519310303"/>

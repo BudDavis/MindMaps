@@ -1,4 +1,4 @@
-<map version="freeplane 1.12.1">
+<map version="freeplane 1.12.15">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <bookmarks>
     <bookmark nodeId="ID_1171700979" name="Root" opensAsRoot="true"/>
@@ -665,7 +665,7 @@
 </node>
 <node TEXT="05.0 Architecture" POSITION="bottom_or_right" ID="ID_407988059" CREATED="1703960095427" MODIFIED="1720023244542">
 <node TEXT="Sommerville" ID="ID_1772273115" CREATED="1754530693987" MODIFIED="1754530702068">
-<node TEXT="1. Introduction" FOLDED="true" ID="ID_76657719" CREATED="1720023162548" MODIFIED="1754530722639">
+<node TEXT="1. Introduction" ID="ID_76657719" CREATED="1720023162548" MODIFIED="1754530722639">
 <node TEXT="Definition" ID="ID_111027798" CREATED="1720025132794" MODIFIED="1720025142226">
 <node TEXT="How the system is divided into components and how those components communicate" ID="ID_1245525615" CREATED="1720025143252" MODIFIED="1720025180136"/>
 <node TEXT="According to SWEBOK, software architecture is defined as the high-level structure, decomposition, and organization of a software system into components, along with the interfaces and relationships between them." ID="ID_1601533657" CREATED="1771438165341" MODIFIED="1771438172122"/>

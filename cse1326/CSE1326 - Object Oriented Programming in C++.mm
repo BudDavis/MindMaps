@@ -1,4 +1,4 @@
-<map version="freeplane 1.12.1">
+<map version="freeplane 1.12.15">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <bookmarks>
     <bookmark nodeId="ID_696401721" name="Root" opensAsRoot="true"/>
@@ -901,7 +901,7 @@
 <node TEXT="9. memory leaks" ID="ID_452856109" CREATED="1752514519546" MODIFIED="1771428599685">
 <node TEXT="programming errors that make memory inaccessible" ID="ID_1469317710" CREATED="1757888328052" MODIFIED="1757888349782"/>
 </node>
-<node TEXT="10. exceptions" FOLDED="true" ID="ID_185376808" CREATED="1752514605836" MODIFIED="1771428607671">
+<node TEXT="10. exceptions" ID="ID_185376808" CREATED="1752514605836" MODIFIED="1771428607671">
 <node TEXT="throw" ID="ID_1422427426" CREATED="1757470691951" MODIFIED="1757470695149"/>
 <node TEXT="try catch" ID="ID_735437466" CREATED="1757470697053" MODIFIED="1757470700974"/>
 <node TEXT="1 Exceptions are types that communicate an error condition" ID="ID_1444564867" CREATED="1757888402496" MODIFIED="1757888419324"/>
@@ -915,7 +915,7 @@
 <node TEXT="logic" ID="ID_113964078" CREATED="1757889063184" MODIFIED="1757889079009"/>
 <node TEXT="language support" ID="ID_712294769" CREATED="1757889080370" MODIFIED="1757889097404"/>
 </node>
-<node TEXT="4. examples" FOLDED="true" ID="ID_1948096381" CREATED="1771428270845" MODIFIED="1771428382094">
+<node TEXT="4. examples" ID="ID_1948096381" CREATED="1771428270845" MODIFIED="1771428382094">
 <node TEXT="" ID="ID_1141424860" CREATED="1771428288844" MODIFIED="1771428382092">
 <hook URI="exception2.png" SIZE="0.82191783" NAME="ExternalObject"/>
 </node>
@@ -952,11 +952,28 @@
 </node>
 <node TEXT="04 Runtime Polymorphism" ID="ID_1696236521" CREATED="1751483672130" MODIFIED="1771260632845">
 <node TEXT="02 Lecture" ID="ID_1688661178" CREATED="1751485136459" MODIFIED="1751485140028">
+<node TEXT="1 polymorphism Definition:" ID="ID_195207291" CREATED="1771868131739" MODIFIED="1771868756280">
+<node TEXT="In programming language theory and type theory, polymorphism allows a value or variable to have more than one type and allows a given operation to be performed on values of more than one type.[1]&#xa;&#xa;In object-oriented programming, polymorphism is the provision of one interface to entities of different data types.[2]  (wikipedia)" ID="ID_1710997750" CREATED="1771868676311" MODIFIED="1771868693728"/>
+<node TEXT="kinds of" ID="ID_1977347646" CREATED="1771868695606" MODIFIED="1771868705105">
+<node TEXT="ad hoc" ID="ID_1187117653" CREATED="1771868295171" MODIFIED="1771868302429">
+<node TEXT="just define methods that have the same name, but different arguments...." ID="ID_402222213" CREATED="1771868809432" MODIFIED="1771869834586">
+<hook URI="adhocPoly.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="parametric" ID="ID_1061608164" CREATED="1771868303566" MODIFIED="1771868311726">
+<node TEXT="templates or generics... to be covered shortly" ID="ID_681320462" CREATED="1771868785739" MODIFIED="1771868805462"/>
+</node>
+<node TEXT="subtyping" ID="ID_1343368720" CREATED="1771868313231" MODIFIED="1771868320959">
+<node TEXT="show example code...." ID="ID_415381918" CREATED="1771871584684" MODIFIED="1771871591956"/>
+</node>
+</node>
+</node>
 <node TEXT="1 single inheritance" ID="ID_1657815353" CREATED="1758502011515" MODIFIED="1758548092238">
 <node TEXT="when are the constructors called?" ID="ID_1797582878" CREATED="1758502076650" MODIFIED="1771428736526"/>
 </node>
 <node TEXT="2 virtual declarations" ID="ID_1968248127" CREATED="1758502019846" MODIFIED="1758548100671">
 <node TEXT="can be overriden" ID="ID_112258620" CREATED="1758547686058" MODIFIED="1758547692613"/>
+<node TEXT="&apos;&apos;pure&apos; means == 0" ID="ID_573376101" CREATED="1771871600868" MODIFIED="1771871633598"/>
 </node>
 <node TEXT="3 interface in C++" ID="ID_1133613278" CREATED="1758548000807" MODIFIED="1758548112145">
 <node TEXT="all virtual base class" ID="ID_464128141" CREATED="1758548012477" MODIFIED="1758548020399"/>
@@ -971,6 +988,7 @@
 </node>
 <node TEXT="6 multiple inheritance" ID="ID_477884229" CREATED="1758548078064" MODIFIED="1758548127353">
 <node TEXT="constructors and destructors" ID="ID_914032016" CREATED="1758548183883" MODIFIED="1758548190593"/>
+<node TEXT="excellent question for the upcoming assessment (delete this)" ID="ID_664491791" CREATED="1771871648088" MODIFIED="1771871665479"/>
 </node>
 <node TEXT="7 cost of virtual functions" ID="ID_1962756138" CREATED="1758548164512" MODIFIED="1758548175295"/>
 </node>
@@ -979,7 +997,7 @@
 <node TEXT="02 Lecture" ID="ID_740371741" CREATED="1751485147867" MODIFIED="1751485151740"/>
 </node>
 <node TEXT="99 transient" ID="ID_790967091" CREATED="1771260300478" MODIFIED="1771260308262">
-<node TEXT="2/16/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-02-16T00:00-0600|date" ID="ID_1982157564" CREATED="1771260309911" MODIFIED="1771260319377">
+<node TEXT="2/16/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-02-16T00:00-0600|date" FOLDED="true" ID="ID_1982157564" CREATED="1771260309911" MODIFIED="1771260319377">
 <node TEXT="talk about first assessment" ID="ID_1544537126" CREATED="1771260471910" MODIFIED="1771260482001">
 <node TEXT="4 A" ID="ID_228555849" CREATED="1771261053310" MODIFIED="1771261057305"/>
 <node TEXT="2 B" ID="ID_90262074" CREATED="1771261058479" MODIFIED="1771261075266"/>
@@ -997,24 +1015,39 @@
 <node TEXT="uml diagrams" ID="ID_183522016" CREATED="1771260847532" MODIFIED="1771260864918"/>
 <node TEXT="object lifecycle" ID="ID_1109476807" CREATED="1771260973600" MODIFIED="1771260982194"/>
 </node>
-<node TEXT="2/18/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-02-18T00:00-0600|date" ID="ID_1793722340" CREATED="1771260321364" MODIFIED="1771260328081">
+<node TEXT="2/18/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-02-18T00:00-0600|date" FOLDED="true" ID="ID_1793722340" CREATED="1771260321364" MODIFIED="1771260328081">
 <node TEXT="1.0 static class members (example code)" ID="ID_679176169" CREATED="1771427826583" MODIFIED="1771427984996">
 <hook URI="staticClassMember.png" SIZE="0.82191783" NAME="ExternalObject"/>
 </node>
 <node TEXT="2.0 exceptions" ID="ID_1559692266" CREATED="1771425259599" MODIFIED="1771427869203"/>
 <node TEXT="3.0 runtime polymorphism" ID="ID_269629726" CREATED="1771261166389" MODIFIED="1771427875788"/>
 </node>
-<node TEXT="2/23/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-02-23T00:00-0600|date" ID="ID_1845228078" CREATED="1771260340986" MODIFIED="1771260360118"/>
+<node TEXT="2/23/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-02-23T00:00-0600|date" ID="ID_1845228078" CREATED="1771260340986" MODIFIED="1771260360118">
+<node TEXT="class project code discussion" ID="ID_220170804" CREATED="1771867289482" MODIFIED="1771867301226">
+<node TEXT="add copy constructors to the code" ID="ID_1073306686" CREATED="1771867305661" MODIFIED="1771867315640"/>
+<node TEXT="add exception handlers, discuss the overall strategy of exceptions....." ID="ID_114709601" CREATED="1771867367783" MODIFIED="1771867388175"/>
+<node TEXT="talk design" ID="ID_1773642594" CREATED="1771867746849" MODIFIED="1771867990867">
+<node TEXT="characteristics" ID="ID_1464600056" CREATED="1771867754998" MODIFIED="1771867999710">
+<node TEXT="information hiding" ID="ID_1815588447" CREATED="1771868002177" MODIFIED="1771868009297"/>
+<node TEXT="minimal communication" ID="ID_125064975" CREATED="1771868010353" MODIFIED="1771868120438"/>
+</node>
+</node>
+</node>
+<node TEXT="runtime polymorphism (aka inheritance)" ID="ID_158410943" CREATED="1771867394476" MODIFIED="1771867415513"/>
+</node>
 <node TEXT="2/25/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-02-25T00:00-0600|date" ID="ID_1871407917" CREATED="1771260363425" MODIFIED="1771260372022">
 <node TEXT="compile time polymorphism" ID="ID_1056332407" CREATED="1771261185861" MODIFIED="1771261195143"/>
 </node>
-<node TEXT="3/2/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-03-02T00:00-0600|date" ID="ID_504097524" CREATED="1771260387024" MODIFIED="1771260395019"/>
+<node TEXT="3/2/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-03-02T00:00-0600|date" ID="ID_504097524" CREATED="1771260387024" MODIFIED="1771260395019">
+<node TEXT="prepare for assessment" ID="ID_1862355626" CREATED="1771867705699" MODIFIED="1771867715676"/>
+</node>
 <node TEXT="3/4/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-03-04T00:00-0600|date" ID="ID_606413597" CREATED="1771260397566" MODIFIED="1771260406339">
 <node TEXT="assessment" ID="ID_1561107670" CREATED="1771260987197" MODIFIED="1771260992448"/>
+<node TEXT="spring break begins...." ID="ID_1383942669" CREATED="1771867720267" MODIFIED="1771867728863"/>
 </node>
 </node>
 </node>
-<node TEXT="3 Assessment 3" POSITION="top_or_left" ID="ID_563079713" CREATED="1768937113633" MODIFIED="1768937122671">
+<node TEXT="3 Assessment 3" FOLDED="true" POSITION="top_or_left" ID="ID_563079713" CREATED="1768937113633" MODIFIED="1768937122671">
 <edge COLOR="#00007c"/>
 <node TEXT="22 Smart Pointers" ID="ID_528796219" CREATED="1751483731257" MODIFIED="1768937215214">
 <node TEXT="01 Objectives" ID="ID_1926597405" CREATED="1751485200219" MODIFIED="1751485205159"/>
