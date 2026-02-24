@@ -1,4 +1,4 @@
-<map version="freeplane 1.12.15">
+<map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <bookmarks>
     <bookmark nodeId="ID_1171700979" name="Root" opensAsRoot="true"/>
@@ -665,7 +665,7 @@
 </node>
 <node TEXT="05.0 Architecture" POSITION="bottom_or_right" ID="ID_407988059" CREATED="1703960095427" MODIFIED="1720023244542">
 <node TEXT="Sommerville" ID="ID_1772273115" CREATED="1754530693987" MODIFIED="1754530702068">
-<node TEXT="1. Introduction" ID="ID_76657719" CREATED="1720023162548" MODIFIED="1754530722639">
+<node TEXT="1. Introduction" FOLDED="true" ID="ID_76657719" CREATED="1720023162548" MODIFIED="1754530722639">
 <node TEXT="Definition" ID="ID_111027798" CREATED="1720025132794" MODIFIED="1720025142226">
 <node TEXT="How the system is divided into components and how those components communicate" ID="ID_1245525615" CREATED="1720025143252" MODIFIED="1720025180136"/>
 <node TEXT="According to SWEBOK, software architecture is defined as the high-level structure, decomposition, and organization of a software system into components, along with the interfaces and relationships between them." ID="ID_1601533657" CREATED="1771438165341" MODIFIED="1771438172122"/>
@@ -765,9 +765,9 @@
 <node TEXT="SWEBOK" ID="ID_1738635526" CREATED="1754530704673" MODIFIED="1754530707828"/>
 </node>
 <node TEXT="06.0 Design and Implementation" POSITION="top_or_left" ID="ID_7229223" CREATED="1703960109127" MODIFIED="1705795585940"/>
-<node TEXT="07.0 Software Testing" FOLDED="true" POSITION="bottom_or_right" ID="ID_1745259993" CREATED="1703960127362" MODIFIED="1705795550799">
+<node TEXT="07.0 Software Testing" POSITION="bottom_or_right" ID="ID_1745259993" CREATED="1703960127362" MODIFIED="1705795550799">
 <node TEXT="Definitions" ID="ID_1647273780" CREATED="1720572805829" MODIFIED="1720572816438">
-<node TEXT="Testing" ID="ID_1414981698" CREATED="1721062076223" MODIFIED="1721062152781">
+<node TEXT="Testing" FOLDED="true" ID="ID_1414981698" CREATED="1721062076223" MODIFIED="1721062152781">
 <node TEXT="Software testing consists of the dynamic verification that a program provides expected behaviors on a finite set of test cases, suitably selected from the usually infinite execution domain. In the above definition, italicized words correspond to key issues in describing the Software Testing knowledge area (KA):" ID="ID_1304314201" CREATED="1721062154328" MODIFIED="1721062157768">
 <node TEXT="Dynamic: This term means that testing always implies executing the program on selected inputs. To be precise, the input value alone is not always sufficient to specify a test, since a complex, nondeterministic system might react to the same input with different behaviors, depending on the system state. In this KA, however, the term “input” will be maintained, with the implied convention that its meaning also includes a specified input state in those cases for which it is important. Static techniques are different from and complementary to dynamic testing. Static techniques are covered in the Software Quality KA. It is worth noting that terminology is not uniform among different communities and some use the term “testing” also in reference to static techniques." ID="ID_367043458" CREATED="1721062160248" MODIFIED="1721062179484"/>
 <node TEXT="" ID="ID_1733253905" CREATED="1721062182029" MODIFIED="1721062182029">
@@ -794,28 +794,40 @@
 <node TEXT="Identify Defects" ID="ID_474527618" CREATED="1721062396095" MODIFIED="1721062406304"/>
 </node>
 </node>
-<node TEXT="Validation" ID="ID_988269404" CREATED="1721062250444" MODIFIED="1721062255442"/>
-<node TEXT="Verification" ID="ID_993638336" CREATED="1721062259587" MODIFIED="1721062264623"/>
-<node TEXT="Oracle" ID="ID_1909817428" CREATED="1721062268098" MODIFIED="1721062271350">
+<node TEXT="Validation" FOLDED="true" ID="ID_988269404" CREATED="1721062250444" MODIFIED="1721062255442">
+<node TEXT="are we making the right product?" ID="ID_17880005" CREATED="1771955568769" MODIFIED="1771955586033"/>
+</node>
+<node TEXT="Verification" FOLDED="true" ID="ID_993638336" CREATED="1721062259587" MODIFIED="1721062264623">
+<node TEXT="are we making the product right?" ID="ID_1956852860" CREATED="1771955586574" MODIFIED="1771955598881"/>
+</node>
+<node TEXT="Oracle" FOLDED="true" ID="ID_1909817428" CREATED="1721062268098" MODIFIED="1721062271350">
 <node TEXT="An oracle is any human or mechanical agent that decides whether a program behaved correctly in a given test and accordingly results in a verdict of “pass” or “fail.” There exist many different kinds of oracles; for example, unambiguous requirements specifications, behavioral models, and code annotations. Automation of mechanized oracles can be difficult and expensive." ID="ID_1625023851" CREATED="1721062922640" MODIFIED="1721062925771"/>
 </node>
-<node TEXT="White Box" ID="ID_858542367" CREATED="1721062413454" MODIFIED="1721062418281"/>
-<node TEXT="Black Box" ID="ID_322266871" CREATED="1721062420132" MODIFIED="1721062425787"/>
-<node TEXT="&quot;Testing can only show the presence of errors, not their absence&quot;  Edsgar Dijkstra" ID="ID_420145085" CREATED="1721062439147" MODIFIED="1721062483561">
+<node TEXT="White Box" FOLDED="true" ID="ID_858542367" CREATED="1721062413454" MODIFIED="1721062418281">
+<node TEXT="testing done taking into account the internal structure of the system / software" ID="ID_1947607797" CREATED="1771955602471" MODIFIED="1771955624194"/>
+</node>
+<node TEXT="Black Box" FOLDED="true" ID="ID_322266871" CREATED="1721062420132" MODIFIED="1721062425787">
+<node TEXT="testing done based upon specifications only" ID="ID_481740122" CREATED="1771955625934" MODIFIED="1771955643471"/>
+</node>
+<node TEXT="&quot;Testing can only show the presence of errors, not their absence&quot;  Edsgar Dijkstra" FOLDED="true" ID="ID_420145085" CREATED="1721062439147" MODIFIED="1721062483561">
 <node TEXT="Testing theory warns against ascribing an unjustified level of confidence to a series of successful tests. Unfortunately, most established results of testing theory are negative ones, in that they state what testing can never achieve as opposed to what is actually achieved. The most famous quotation in this regard is the Dijkstra aphorism that “program testing can be used to show the presence of bugs, but never to show their absence” [5]. The obvious reason for this is that complete testing is not feasible in realistic software. Because of this, testing must be driven based on risk [6, part 1] and can be seen as a risk management strategy." ID="ID_684854592" CREATED="1721063554490" MODIFIED="1721063557553"/>
 </node>
-<node TEXT="Input Domain Partitioning" ID="ID_1844732209" CREATED="1721062803455" MODIFIED="1721062815202"/>
-<node TEXT="Acceptance Testing Process" ID="ID_97222007" CREATED="1721063256219" MODIFIED="1721063282249"/>
-<node TEXT="Automation" ID="ID_582534609" CREATED="1721063423686" MODIFIED="1721063434598">
+<node TEXT="Input Domain Partitioning" ID="ID_1844732209" CREATED="1721062803455" MODIFIED="1771956017581">
+<hook URI="idp.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+<node TEXT="Acceptance Testing Process" ID="ID_97222007" CREATED="1721063256219" MODIFIED="1771956030736">
+<hook URI="atp.png" SIZE="0.88235295" NAME="ExternalObject"/>
+</node>
+<node TEXT="Automation" FOLDED="true" ID="ID_582534609" CREATED="1721063423686" MODIFIED="1721063434598">
 <node TEXT="Essential for efficiency" ID="ID_717423734" CREATED="1721063434605" MODIFIED="1721063442240"/>
 <node TEXT="Junit Examples" ID="ID_837212868" CREATED="1721063447610" MODIFIED="1721063453321"/>
 </node>
 </node>
 <node TEXT="Types of Testing" ID="ID_50577210" CREATED="1720572823007" MODIFIED="1720572830628">
-<node TEXT="swebok" ID="ID_1876603933" CREATED="1720572832569" MODIFIED="1720572841385">
+<node TEXT="swebok" FOLDED="true" ID="ID_1876603933" CREATED="1720572832569" MODIFIED="1720572841385">
 <node TEXT="http://swebokwiki.org/Chapter_4:_Software_Testing" ID="ID_363072583" CREATED="1721063030132" MODIFIED="1721063032587"/>
 </node>
-<node TEXT="sommerville" ID="ID_652520180" CREATED="1720572843160" MODIFIED="1720572848359">
+<node TEXT="sommerville" FOLDED="true" ID="ID_652520180" CREATED="1720572843160" MODIFIED="1720572848359">
 <node TEXT="Development Testing" ID="ID_1534671895" CREATED="1721062327587" MODIFIED="1721062334248">
 <node TEXT="Unit" ID="ID_972415720" CREATED="1721062728447" MODIFIED="1721062734082"/>
 <node TEXT="Component" ID="ID_1159049850" CREATED="1721062735534" MODIFIED="1721062741484"/>
@@ -848,7 +860,8 @@
 </node>
 </node>
 </node>
-<node TEXT="Test Driven Development (TDD)" ID="ID_1965418179" CREATED="1720572873049" MODIFIED="1720572905224">
+<node TEXT="Test Driven Development (TDD)" ID="ID_1965418179" CREATED="1720572873049" MODIFIED="1771956057365">
+<hook URI="tdd.png" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="Code Coverage" ID="ID_1885294541" CREATED="1721063051431" MODIFIED="1721063065951"/>
 <node TEXT="Regression" ID="ID_1024837956" CREATED="1721063068928" MODIFIED="1721063078651"/>
 <node TEXT="Simplified Debugging" ID="ID_1196831275" CREATED="1721063081717" MODIFIED="1721063087946"/>
