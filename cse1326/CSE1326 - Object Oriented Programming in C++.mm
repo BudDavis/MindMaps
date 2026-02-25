@@ -1,4 +1,4 @@
-<map version="freeplane 1.12.15">
+<map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <bookmarks>
     <bookmark nodeId="ID_696401721" name="Root" opensAsRoot="true"/>
@@ -989,12 +989,31 @@
 <node TEXT="6 multiple inheritance" ID="ID_477884229" CREATED="1758548078064" MODIFIED="1758548127353">
 <node TEXT="constructors and destructors" ID="ID_914032016" CREATED="1758548183883" MODIFIED="1758548190593"/>
 <node TEXT="excellent question for the upcoming assessment (delete this)" ID="ID_664491791" CREATED="1771871648088" MODIFIED="1771871665479"/>
+<node TEXT="example multipleInheritance.cpp" ID="ID_54952082" CREATED="1771964993231" MODIFIED="1771965008852"/>
 </node>
-<node TEXT="7 cost of virtual functions" ID="ID_1962756138" CREATED="1758548164512" MODIFIED="1758548175295"/>
+<node TEXT="7 cost of virtual functions" ID="ID_1962756138" CREATED="1758548164512" MODIFIED="1758548175295">
+<node TEXT="vtable" ID="ID_482629836" CREATED="1771964982322" MODIFIED="1771964990756"/>
+</node>
 </node>
 </node>
 <node TEXT="05 Compile Time Polymorphism" ID="ID_345452930" CREATED="1751483683313" MODIFIED="1771260636197">
-<node TEXT="02 Lecture" ID="ID_740371741" CREATED="1751485147867" MODIFIED="1751485151740"/>
+<node TEXT="02 Lecture" ID="ID_740371741" CREATED="1751485147867" MODIFIED="1751485151740">
+<node TEXT="The big idea is that, rather than copying and pasting common code all over the place, you write a single template; the compiler generates new template instances when it encounters a new combination of types&#xa;in the template parameters." ID="ID_395622578" CREATED="1771969367350" MODIFIED="1772042958760"/>
+<node TEXT="Template instantiation is the process of creating a class or a function from a template" ID="ID_1669059035" CREATED="1772042978763" MODIFIED="1772042996630"/>
+<node TEXT="types" ID="ID_733456903" CREATED="1772043085275" MODIFIED="1772043090226">
+<node TEXT="class templates" ID="ID_1410186279" CREATED="1772043091424" MODIFIED="1772043099626"/>
+<node TEXT="function templates" ID="ID_1401821893" CREATED="1772043100432" MODIFIED="1772043106859"/>
+</node>
+<node TEXT="instantiation example" ID="ID_546796613" CREATED="1772043154509" MODIFIED="1772043163499"/>
+<node TEXT="named conversion functions" ID="ID_1384829704" CREATED="1772043165125" MODIFIED="1772043196501">
+<node TEXT="const_cast" ID="ID_423789621" CREATED="1772043197928" MODIFIED="1772043220860"/>
+<node TEXT="static_cast" ID="ID_1459857837" CREATED="1772043223448" MODIFIED="1772043254116"/>
+<node TEXT="reinterpret_cast" ID="ID_699143448" CREATED="1772043255302" MODIFIED="1772043326650"/>
+<node TEXT="narrow_cast" ID="ID_58572163" CREATED="1772043327396" MODIFIED="1772043352828"/>
+</node>
+<node TEXT="concepts (not covered in this course)" ID="ID_1546244674" CREATED="1772043538220" MODIFIED="1772043555774"/>
+<node TEXT="templates are a compile time expense......" ID="ID_173371235" CREATED="1772043674802" MODIFIED="1772043688127"/>
+</node>
 </node>
 <node TEXT="99 transient" ID="ID_790967091" CREATED="1771260300478" MODIFIED="1771260308262">
 <node TEXT="2/16/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-02-16T00:00-0600|date" FOLDED="true" ID="ID_1982157564" CREATED="1771260309911" MODIFIED="1771260319377">
@@ -1037,13 +1056,13 @@
 </node>
 <node TEXT="2/25/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-02-25T00:00-0600|date" ID="ID_1871407917" CREATED="1771260363425" MODIFIED="1771260372022">
 <node TEXT="compile time polymorphism" ID="ID_1056332407" CREATED="1771261185861" MODIFIED="1771261195143"/>
+<node TEXT="class project discussion" ID="ID_1761115437" CREATED="1771965065898" MODIFIED="1771965075413"/>
 </node>
 <node TEXT="3/2/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-03-02T00:00-0600|date" ID="ID_504097524" CREATED="1771260387024" MODIFIED="1771260395019">
 <node TEXT="prepare for assessment" ID="ID_1862355626" CREATED="1771867705699" MODIFIED="1771867715676"/>
 </node>
 <node TEXT="3/4/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-03-04T00:00-0600|date" ID="ID_606413597" CREATED="1771260397566" MODIFIED="1771260406339">
 <node TEXT="assessment" ID="ID_1561107670" CREATED="1771260987197" MODIFIED="1771260992448"/>
-<node TEXT="spring break begins...." ID="ID_1383942669" CREATED="1771867720267" MODIFIED="1771867728863"/>
 </node>
 </node>
 </node>
