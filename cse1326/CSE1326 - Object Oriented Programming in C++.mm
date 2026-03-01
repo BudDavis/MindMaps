@@ -1,4 +1,4 @@
-<map version="freeplane 1.12.1">
+<map version="freeplane 1.12.15">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <bookmarks>
     <bookmark nodeId="ID_696401721" name="Root" opensAsRoot="true"/>
@@ -778,7 +778,7 @@
 </node>
 <node TEXT="02 reading" ID="ID_426410373" CREATED="1771260614412" MODIFIED="1771260621101"/>
 <node TEXT="03 Object Lifecycle" ID="ID_13489677" CREATED="1751483660899" MODIFIED="1771260626873">
-<node TEXT="02 Lecture" ID="ID_1508229288" CREATED="1751485097189" MODIFIED="1771428558900">
+<node TEXT="02 Lecture" FOLDED="true" ID="ID_1508229288" CREATED="1751485097189" MODIFIED="1771428558900">
 <node TEXT="1. Object Lifecycle" ID="ID_1360100357" CREATED="1752513307560" MODIFIED="1771428549407"><richcontent TYPE="NOTE">
 <html>
   <head>
@@ -889,7 +889,7 @@
 <node TEXT="static variables per thread" ID="ID_1156479321" CREATED="1757470571089" MODIFIED="1757470580102"/>
 <node TEXT="static thread_local int rat_things_power = 200;" ID="ID_89447498" CREATED="1757470584720" MODIFIED="1757470608466"/>
 </node>
-<node TEXT="8. dynamic allocation" ID="ID_472342252" CREATED="1752514400002" MODIFIED="1771428593585">
+<node TEXT="8. dynamic allocation" FOLDED="true" ID="ID_472342252" CREATED="1752514400002" MODIFIED="1771428593585">
 <node TEXT="single variables / classes" ID="ID_75182461" CREATED="1752514411682" MODIFIED="1752514435667">
 <node TEXT="new and delete" ID="ID_1114043226" CREATED="1752514466882" MODIFIED="1752514472915"/>
 </node>
@@ -898,10 +898,10 @@
 <node TEXT="delete []xxx" ID="ID_1834174472" CREATED="1752514485227" MODIFIED="1752514500050"/>
 </node>
 </node>
-<node TEXT="9. memory leaks" ID="ID_452856109" CREATED="1752514519546" MODIFIED="1771428599685">
+<node TEXT="9. memory leaks" FOLDED="true" ID="ID_452856109" CREATED="1752514519546" MODIFIED="1771428599685">
 <node TEXT="programming errors that make memory inaccessible" ID="ID_1469317710" CREATED="1757888328052" MODIFIED="1757888349782"/>
 </node>
-<node TEXT="10. exceptions" ID="ID_185376808" CREATED="1752514605836" MODIFIED="1771428607671">
+<node TEXT="10. exceptions" FOLDED="true" ID="ID_185376808" CREATED="1752514605836" MODIFIED="1771428607671">
 <node TEXT="throw" ID="ID_1422427426" CREATED="1757470691951" MODIFIED="1757470695149"/>
 <node TEXT="try catch" ID="ID_735437466" CREATED="1757470697053" MODIFIED="1757470700974"/>
 <node TEXT="1 Exceptions are types that communicate an error condition" ID="ID_1444564867" CREATED="1757888402496" MODIFIED="1757888419324"/>
@@ -924,7 +924,7 @@
 </node>
 </node>
 </node>
-<node TEXT="11. copying" ID="ID_853257802" CREATED="1752514635171" MODIFIED="1771428614860">
+<node TEXT="11. copying" FOLDED="true" ID="ID_853257802" CREATED="1752514635171" MODIFIED="1771428614860">
 <node TEXT="copy constructors" ID="ID_356541674" CREATED="1752514640812" MODIFIED="1752514653586">
 <node TEXT="1 used for" ID="ID_801811006" CREATED="1757947196455" MODIFIED="1757947401234">
 <node TEXT="initialization of an object with another object" ID="ID_107346327" CREATED="1757947203991" MODIFIED="1757947223722"/>
@@ -944,14 +944,14 @@
 <node TEXT="default copy" ID="ID_613176304" CREATED="1752514673043" MODIFIED="1752514676587"/>
 <node TEXT="shallow /deep" ID="ID_1703148442" CREATED="1757952323440" MODIFIED="1757952331464"/>
 </node>
-<node TEXT="12. move semantics" ID="ID_626844329" CREATED="1752514685675" MODIFIED="1771428621584">
+<node TEXT="12. move semantics" FOLDED="true" ID="ID_626844329" CREATED="1752514685675" MODIFIED="1771428621584">
 <node TEXT="std::move" ID="ID_1193884894" CREATED="1758148992744" MODIFIED="1758148997344"/>
 </node>
 <node TEXT="13. defaults" ID="ID_211390920" CREATED="1771428628099" MODIFIED="1771428637560"/>
 </node>
 </node>
 <node TEXT="04 Runtime Polymorphism" ID="ID_1696236521" CREATED="1751483672130" MODIFIED="1771260632845">
-<node TEXT="02 Lecture" ID="ID_1688661178" CREATED="1751485136459" MODIFIED="1751485140028">
+<node TEXT="02 Lecture" FOLDED="true" ID="ID_1688661178" CREATED="1751485136459" MODIFIED="1751485140028">
 <node TEXT="1 polymorphism Definition:" ID="ID_195207291" CREATED="1771868131739" MODIFIED="1771868756280">
 <node TEXT="In programming language theory and type theory, polymorphism allows a value or variable to have more than one type and allows a given operation to be performed on values of more than one type.[1]&#xa;&#xa;In object-oriented programming, polymorphism is the provision of one interface to entities of different data types.[2]  (wikipedia)" ID="ID_1710997750" CREATED="1771868676311" MODIFIED="1771868693728"/>
 <node TEXT="kinds of" ID="ID_1977347646" CREATED="1771868695606" MODIFIED="1771868705105">
@@ -997,7 +997,7 @@
 </node>
 </node>
 <node TEXT="05 Compile Time Polymorphism" ID="ID_345452930" CREATED="1751483683313" MODIFIED="1771260636197">
-<node TEXT="02 Lecture" ID="ID_740371741" CREATED="1751485147867" MODIFIED="1751485151740">
+<node TEXT="02 Lecture" FOLDED="true" ID="ID_740371741" CREATED="1751485147867" MODIFIED="1751485151740">
 <node TEXT="The big idea is that, rather than copying and pasting common code all over the place, you write a single template; the compiler generates new template instances when it encounters a new combination of types&#xa;in the template parameters." ID="ID_395622578" CREATED="1771969367350" MODIFIED="1772042958760"/>
 <node TEXT="Template instantiation is the process of creating a class or a function from a template" ID="ID_1669059035" CREATED="1772042978763" MODIFIED="1772042996630"/>
 <node TEXT="types" ID="ID_733456903" CREATED="1772043085275" MODIFIED="1772043090226">
@@ -1041,7 +1041,7 @@
 <node TEXT="2.0 exceptions" ID="ID_1559692266" CREATED="1771425259599" MODIFIED="1771427869203"/>
 <node TEXT="3.0 runtime polymorphism" ID="ID_269629726" CREATED="1771261166389" MODIFIED="1771427875788"/>
 </node>
-<node TEXT="2/23/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-02-23T00:00-0600|date" ID="ID_1845228078" CREATED="1771260340986" MODIFIED="1771260360118">
+<node TEXT="2/23/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-02-23T00:00-0600|date" FOLDED="true" ID="ID_1845228078" CREATED="1771260340986" MODIFIED="1771260360118">
 <node TEXT="class project code discussion" ID="ID_220170804" CREATED="1771867289482" MODIFIED="1771867301226">
 <node TEXT="add copy constructors to the code" ID="ID_1073306686" CREATED="1771867305661" MODIFIED="1771867315640"/>
 <node TEXT="add exception handlers, discuss the overall strategy of exceptions....." ID="ID_114709601" CREATED="1771867367783" MODIFIED="1771867388175"/>
@@ -1054,14 +1054,14 @@
 </node>
 <node TEXT="runtime polymorphism (aka inheritance)" ID="ID_158410943" CREATED="1771867394476" MODIFIED="1771867415513"/>
 </node>
-<node TEXT="2/25/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-02-25T00:00-0600|date" ID="ID_1871407917" CREATED="1771260363425" MODIFIED="1771260372022">
+<node TEXT="2/25/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-02-25T00:00-0600|date" FOLDED="true" ID="ID_1871407917" CREATED="1771260363425" MODIFIED="1771260372022">
 <node TEXT="compile time polymorphism" ID="ID_1056332407" CREATED="1771261185861" MODIFIED="1771261195143"/>
 <node TEXT="class project discussion" ID="ID_1761115437" CREATED="1771965065898" MODIFIED="1771965075413"/>
 </node>
-<node TEXT="3/2/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-03-02T00:00-0600|date" ID="ID_504097524" CREATED="1771260387024" MODIFIED="1771260395019">
+<node TEXT="3/2/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-03-02T00:00-0600|date" FOLDED="true" ID="ID_504097524" CREATED="1771260387024" MODIFIED="1771260395019">
 <node TEXT="prepare for assessment" ID="ID_1862355626" CREATED="1771867705699" MODIFIED="1771867715676"/>
 </node>
-<node TEXT="3/4/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-03-04T00:00-0600|date" ID="ID_606413597" CREATED="1771260397566" MODIFIED="1771260406339">
+<node TEXT="3/4/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-03-04T00:00-0600|date" FOLDED="true" ID="ID_606413597" CREATED="1771260397566" MODIFIED="1771260406339">
 <node TEXT="assessment" ID="ID_1561107670" CREATED="1771260987197" MODIFIED="1771260992448"/>
 </node>
 </node>
