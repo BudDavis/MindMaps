@@ -1,4 +1,4 @@
-<map version="freeplane 1.12.1">
+<map version="freeplane 1.12.15">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <bookmarks>
     <bookmark nodeId="ID_1171700979" name="Root" opensAsRoot="true"/>
@@ -663,7 +663,7 @@
 </node>
 </node>
 </node>
-<node TEXT="05.0 Architecture" POSITION="bottom_or_right" ID="ID_407988059" CREATED="1703960095427" MODIFIED="1720023244542">
+<node TEXT="05.0 Architecture" FOLDED="true" POSITION="bottom_or_right" ID="ID_407988059" CREATED="1703960095427" MODIFIED="1720023244542">
 <node TEXT="Sommerville" ID="ID_1772273115" CREATED="1754530693987" MODIFIED="1754530702068">
 <node TEXT="1. Introduction" FOLDED="true" ID="ID_76657719" CREATED="1720023162548" MODIFIED="1754530722639">
 <node TEXT="Definition" ID="ID_111027798" CREATED="1720025132794" MODIFIED="1720025142226">
@@ -693,6 +693,23 @@
 </node>
 <node TEXT="Decisions about the product and how it is built that are not covered by requirements" ID="ID_1734010461" CREATED="1754530821806" MODIFIED="1771437711903">
 <hook URI="architecturalDesignDecisions.png" SIZE="0.82191783" NAME="ExternalObject"/>
+</node>
+<node TEXT="strategies" ID="ID_1544113016" CREATED="1772476272660" MODIFIED="1772476285781">
+<node TEXT="performance" ID="ID_1911009988" CREATED="1772476335941" MODIFIED="1772476342496">
+<node TEXT="If performance is a critical requirement, the architecture should be designed to localize critical operations within a small number of components, with these components deployed on the same computer rather than distributed&#xa;across the network. This may mean using a few relatively large components rather than small, finer-grain components. Using large components reduces the&#xa;number of component communications, as most of the interactions between related system features take place within a component. You may also consider runtime system organizations that allow the system to be replicated and exe&#xa;cuted on different processors." ID="ID_862601561" CREATED="1772476343442" MODIFIED="1772476396352"/>
+</node>
+<node TEXT="security" ID="ID_933571178" CREATED="1772476398902" MODIFIED="1772476421281">
+<node TEXT="a layered structure for the architecture should be used, with the most critical assets protected in the innermost layers and a high level of security validation applied to these layers." ID="ID_1445430367" CREATED="1772476422554" MODIFIED="1772476439036"/>
+</node>
+<node TEXT="safety" ID="ID_782352562" CREATED="1772476440995" MODIFIED="1772476468015">
+<node TEXT="the architecture should be designed so that safety-related operations are co-located in a single component or in a small number of components. This reduces the costs and problems of safety validation and may make it possible to provide related protection systems that can safely shut down the system in the event of failure." ID="ID_255146795" CREATED="1772476469494" MODIFIED="1772476486994"/>
+</node>
+<node TEXT="availability" ID="ID_830549132" CREATED="1772476489443" MODIFIED="1772476522279">
+<node TEXT="the architecture should be designed to include redundant components so that it is possible to replace and update components without stopping the system" ID="ID_1672909906" CREATED="1772476522838" MODIFIED="1772476532736"/>
+</node>
+<node TEXT="maintainability" ID="ID_314999130" CREATED="1772476534535" MODIFIED="1772476562099">
+<node TEXT="the system architecture should be designed using fine-grain, self-contained components that may&#xa;readily be changed. Producers of data should be separated from consumers, and shared data structures should be avoided." ID="ID_1581349987" CREATED="1772476563555" MODIFIED="1772476580502"/>
+</node>
 </node>
 </node>
 <node TEXT="3. Documenting an Architecture" FOLDED="true" ID="ID_231843481" CREATED="1754530864797" MODIFIED="1754530875663">
@@ -766,7 +783,7 @@
 </node>
 <node TEXT="06.0 Design and Implementation" POSITION="top_or_left" ID="ID_7229223" CREATED="1703960109127" MODIFIED="1705795585940"/>
 <node TEXT="07.0 Software Testing" POSITION="bottom_or_right" ID="ID_1745259993" CREATED="1703960127362" MODIFIED="1705795550799">
-<node TEXT="Definitions" ID="ID_1647273780" CREATED="1720572805829" MODIFIED="1720572816438">
+<node TEXT="1. Definitions (sommerville)" ID="ID_1647273780" CREATED="1720572805829" MODIFIED="1772477422717">
 <node TEXT="Testing" FOLDED="true" ID="ID_1414981698" CREATED="1721062076223" MODIFIED="1721062152781">
 <node TEXT="Software testing consists of the dynamic verification that a program provides expected behaviors on a finite set of test cases, suitably selected from the usually infinite execution domain. In the above definition, italicized words correspond to key issues in describing the Software Testing knowledge area (KA):" ID="ID_1304314201" CREATED="1721062154328" MODIFIED="1721062157768">
 <node TEXT="Dynamic: This term means that testing always implies executing the program on selected inputs. To be precise, the input value alone is not always sufficient to specify a test, since a complex, nondeterministic system might react to the same input with different behaviors, depending on the system state. In this KA, however, the term “input” will be maintained, with the implied convention that its meaning also includes a specified input state in those cases for which it is important. Static techniques are different from and complementary to dynamic testing. Static techniques are covered in the Software Quality KA. It is worth noting that terminology is not uniform among different communities and some use the term “testing” also in reference to static techniques." ID="ID_367043458" CREATED="1721062160248" MODIFIED="1721062179484"/>
@@ -823,11 +840,16 @@
 <node TEXT="Junit Examples" ID="ID_837212868" CREATED="1721063447610" MODIFIED="1721063453321"/>
 </node>
 </node>
-<node TEXT="Types of Testing" ID="ID_50577210" CREATED="1720572823007" MODIFIED="1720572830628">
-<node TEXT="swebok" FOLDED="true" ID="ID_1876603933" CREATED="1720572832569" MODIFIED="1720572841385">
-<node TEXT="http://swebokwiki.org/Chapter_4:_Software_Testing" ID="ID_363072583" CREATED="1721063030132" MODIFIED="1721063032587"/>
+<node TEXT="2. definitions (swebok)" ID="ID_1069898005" CREATED="1772476707731" MODIFIED="1772477433259">
+<node TEXT="System Under Test: This term refers to the tested object, which can be a program, a software product, an application, a service-oriented application (e.g.,web services,microservices), middleware (HW/SW), a services composition, a system, a System of Systems (SoS), or an&#xa;Ecosystem." ID="ID_1079473741" CREATED="1772476718006" MODIFIED="1772476800636"/>
+<node TEXT="Test Case: A test case is the specification of all the entities that are essential for the execution, such as input values, execution and timing conditions, testing procedure,and the expected outcomes (e.g., pro-duced values, state changes, output messages). Input values alone are not always sufficient to specify the test cases because the SUT might react to the same input with different behaviors, depending, for instance, on the SUT state or environmental conditions. A set of test cases is usually called a test suite.&#xa; " ID="ID_743679685" CREATED="1772476801982" MODIFIED="1772476889452"/>
+<node TEXT="fault - &quot;defect in a system or a representation of a system that, if executed or activated, could potentially result in an error&quot;" ID="ID_864571359" CREATED="1772476892127" MODIFIED="1772477165520"/>
+<node TEXT="failure- an undesired effect or event where a system or component does not perform a required function within specified limits. It is the externally visible, observed, or delivered service deviation from expected behavior, often caused by a underlying fault" ID="ID_886523564" CREATED="1772477090408" MODIFIED="1772477206341"/>
+<node TEXT="mistake - an action taken by a human that causes a fault" ID="ID_1481832371" CREATED="1772477208503" MODIFIED="1772477224728"/>
 </node>
-<node TEXT="sommerville" FOLDED="true" ID="ID_652520180" CREATED="1720572843160" MODIFIED="1720572848359">
+<node TEXT="3. Types of Testing" ID="ID_50577210" CREATED="1720572823007" MODIFIED="1772477442255">
+<node TEXT="swebok" ID="ID_1876603933" CREATED="1720572832569" MODIFIED="1720572841385"/>
+<node TEXT="sommerville" ID="ID_652520180" CREATED="1720572843160" MODIFIED="1720572848359">
 <node TEXT="Development Testing" ID="ID_1534671895" CREATED="1721062327587" MODIFIED="1721062334248">
 <node TEXT="Unit" ID="ID_972415720" CREATED="1721062728447" MODIFIED="1721062734082"/>
 <node TEXT="Component" ID="ID_1159049850" CREATED="1721062735534" MODIFIED="1721062741484"/>
@@ -860,13 +882,17 @@
 </node>
 </node>
 </node>
-<node TEXT="Test Driven Development (TDD)" ID="ID_1965418179" CREATED="1720572873049" MODIFIED="1771956057365">
+<node TEXT="4. Test Driven Development (TDD)" ID="ID_1965418179" CREATED="1720572873049" MODIFIED="1772477447807">
 <hook URI="tdd.png" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="Code Coverage" ID="ID_1885294541" CREATED="1721063051431" MODIFIED="1721063065951"/>
 <node TEXT="Regression" ID="ID_1024837956" CREATED="1721063068928" MODIFIED="1721063078651"/>
 <node TEXT="Simplified Debugging" ID="ID_1196831275" CREATED="1721063081717" MODIFIED="1721063087946"/>
 <node TEXT="System Documentation" ID="ID_1008565905" CREATED="1721063090811" MODIFIED="1721063097943"/>
 <node TEXT="Write the Test before you write the code" ID="ID_1336835395" CREATED="1721063338931" MODIFIED="1721063350254"/>
+</node>
+<node TEXT="5.  Practical Testing Techniques" ID="ID_566119348" CREATED="1772477520604" MODIFIED="1772477533089">
+<node TEXT="select types of testing that match what you are developing" ID="ID_1538520529" CREATED="1772477536353" MODIFIED="1772477551828"/>
+<node TEXT="goal is to be efficient at identifying and removing defects." ID="ID_1945642780" CREATED="1772477552568" MODIFIED="1772477574158"/>
 </node>
 </node>
 <node TEXT="08.0 Software Evolution" FOLDED="true" POSITION="top_or_left" ID="ID_1115346714" CREATED="1703960140577" MODIFIED="1705795577335">
