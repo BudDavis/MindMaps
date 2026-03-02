@@ -997,7 +997,7 @@
 </node>
 </node>
 <node TEXT="05 Compile Time Polymorphism" ID="ID_345452930" CREATED="1751483683313" MODIFIED="1771260636197">
-<node TEXT="02 Lecture" FOLDED="true" ID="ID_740371741" CREATED="1751485147867" MODIFIED="1751485151740">
+<node TEXT="02 Lecture" ID="ID_740371741" CREATED="1751485147867" MODIFIED="1751485151740">
 <node TEXT="The big idea is that, rather than copying and pasting common code all over the place, you write a single template; the compiler generates new template instances when it encounters a new combination of types&#xa;in the template parameters." ID="ID_395622578" CREATED="1771969367350" MODIFIED="1772042958760"/>
 <node TEXT="Template instantiation is the process of creating a class or a function from a template" ID="ID_1669059035" CREATED="1772042978763" MODIFIED="1772042996630"/>
 <node TEXT="types" ID="ID_733456903" CREATED="1772043085275" MODIFIED="1772043090226">
@@ -1006,10 +1006,26 @@
 </node>
 <node TEXT="instantiation example" ID="ID_546796613" CREATED="1772043154509" MODIFIED="1772043163499"/>
 <node TEXT="named conversion functions" ID="ID_1384829704" CREATED="1772043165125" MODIFIED="1772043196501">
-<node TEXT="const_cast" ID="ID_423789621" CREATED="1772043197928" MODIFIED="1772043220860"/>
-<node TEXT="static_cast" ID="ID_1459857837" CREATED="1772043223448" MODIFIED="1772043254116"/>
-<node TEXT="reinterpret_cast" ID="ID_699143448" CREATED="1772043255302" MODIFIED="1772043326650"/>
-<node TEXT="narrow_cast" ID="ID_58572163" CREATED="1772043327396" MODIFIED="1772043352828"/>
+<node TEXT="const_cast" ID="ID_423789621" CREATED="1772043197928" MODIFIED="1772043220860">
+<node TEXT="" ID="ID_1185489902" CREATED="1772410101937" MODIFIED="1772410177169">
+<hook URI="const_cast.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="static_cast" ID="ID_1459857837" CREATED="1772043223448" MODIFIED="1772043254116">
+<node TEXT="" ID="ID_1591739616" CREATED="1772472272465" MODIFIED="1772472280704">
+<hook URI="staticCast.png" SIZE="0.80213904" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="reinterpret_cast" ID="ID_699143448" CREATED="1772043255302" MODIFIED="1772043326650">
+<node TEXT="" ID="ID_615118716" CREATED="1772472353322" MODIFIED="1772472361979">
+<hook URI="reinterpretcast.png" SIZE="0.747198" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1957047597" CREATED="1772409019232" MODIFIED="1772409019232">
+<node TEXT="Named conversions are language features that explicitly convert one type into another type. You use named conversions sparingly in situations where you cannot use implicit conversions or constructors to get the types you need" ID="ID_5011559" CREATED="1772409024849" MODIFIED="1772409059477"/>
+<node TEXT="named-conversion&lt;desired-type&gt;(object-to-cast)" ID="ID_1613261038" CREATED="1772409104545" MODIFIED="1772409110504"/>
+<node TEXT="compile time check" ID="ID_188738366" CREATED="1772410083969" MODIFIED="1772410100945"/>
+</node>
 </node>
 <node TEXT="concepts (not covered in this course)" ID="ID_1546244674" CREATED="1772043538220" MODIFIED="1772043555774"/>
 <node TEXT="templates are a compile time expense......" ID="ID_173371235" CREATED="1772043674802" MODIFIED="1772043688127"/>
@@ -1058,31 +1074,37 @@
 <node TEXT="compile time polymorphism" ID="ID_1056332407" CREATED="1771261185861" MODIFIED="1771261195143"/>
 <node TEXT="class project discussion" ID="ID_1761115437" CREATED="1771965065898" MODIFIED="1771965075413"/>
 </node>
-<node TEXT="3/2/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-03-02T00:00-0600|date" FOLDED="true" ID="ID_504097524" CREATED="1771260387024" MODIFIED="1771260395019">
+<node TEXT="3/2/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-03-02T00:00-0600|date" ID="ID_504097524" CREATED="1771260387024" MODIFIED="1772407952124">
 <node TEXT="prepare for assessment" ID="ID_1862355626" CREATED="1771867705699" MODIFIED="1771867715676"/>
+<node TEXT="class project discussion" ID="ID_262601664" CREATED="1772407949972" MODIFIED="1772407995629"/>
+<node TEXT="named conversion functions" ID="ID_632080926" CREATED="1772408005023" MODIFIED="1772408014379"/>
+<node TEXT="templates (more)" ID="ID_1226942553" CREATED="1772408509147" MODIFIED="1772408524468">
+<node TEXT="given an array of something, return the index of the smallest item. " ID="ID_1856305580" CREATED="1772472470883" MODIFIED="1772472580705"/>
+<node TEXT="change it to return the smallest item" ID="ID_1254547928" CREATED="1772472582783" MODIFIED="1772472595843"/>
+<node TEXT="put it in a main and demonstrate it" ID="ID_497358988" CREATED="1772472597563" MODIFIED="1772472608643"/>
 </node>
-<node TEXT="3/4/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-03-04T00:00-0600|date" FOLDED="true" ID="ID_606413597" CREATED="1771260397566" MODIFIED="1771260406339">
+<node TEXT=" ***** using interfaces ********" ID="ID_1949493196" CREATED="1772408629601" MODIFIED="1772472431814">
+<node TEXT="add with constructor" ID="ID_1857103825" CREATED="1772408638566" MODIFIED="1772408650623"/>
+<node TEXT="add with a property" ID="ID_1518038907" CREATED="1772408651763" MODIFIED="1772408663100"/>
+</node>
+<node TEXT="multiple inheritance example" ID="ID_153993748" CREATED="1772474081362" MODIFIED="1772474095507"/>
+</node>
+<node TEXT="3/4/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-03-04T00:00-0600|date" ID="ID_606413597" CREATED="1771260397566" MODIFIED="1771260406339">
 <node TEXT="assessment" ID="ID_1561107670" CREATED="1771260987197" MODIFIED="1771260992448"/>
 </node>
 </node>
 </node>
-<node TEXT="3 Assessment 3" FOLDED="true" POSITION="top_or_left" ID="ID_563079713" CREATED="1768937113633" MODIFIED="1768937122671">
+<node TEXT="3 Assessment 3" POSITION="top_or_left" ID="ID_563079713" CREATED="1768937113633" MODIFIED="1768937122671">
 <edge COLOR="#00007c"/>
-<node TEXT="22 Smart Pointers" ID="ID_528796219" CREATED="1751483731257" MODIFIED="1768937215214">
-<node TEXT="01 Objectives" ID="ID_1926597405" CREATED="1751485200219" MODIFIED="1751485205159"/>
-<node TEXT="02 Lecture" ID="ID_1793394064" CREATED="1751485206875" MODIFIED="1751485211080"/>
+<node TEXT="01 Objectives" ID="ID_1070431862" CREATED="1772408129372" MODIFIED="1772408138210">
+<node TEXT="1. Identify classes needed to solve a problem" ID="ID_60829777" CREATED="1759761287910" MODIFIED="1772408257922"/>
+<node TEXT="2. Develop a development / integration approach" ID="ID_359404609" CREATED="1759761304702" MODIFIED="1772408262676"/>
+<node TEXT="" ID="ID_201204768" CREATED="1772408264323" MODIFIED="1772408264323"/>
 </node>
-<node TEXT="08 OO Design Approaches" ID="ID_1240682785" CREATED="1751483696842" MODIFIED="1768937449876">
-<node TEXT="01 Objectives" FOLDED="true" ID="ID_1660359577" CREATED="1751485154051" MODIFIED="1751485158308">
-<node TEXT="Identify classes needed to solve a problem" ID="ID_60829777" CREATED="1759761287910" MODIFIED="1759761298040"/>
-<node TEXT="Develop a development / integration approach" ID="ID_359404609" CREATED="1759761304702" MODIFIED="1759761319753"/>
-</node>
-<node TEXT="02 Lecture" ID="ID_1363940037" CREATED="1751485160339" MODIFIED="1751485164100"/>
-</node>
-<node TEXT="09 Expressions" FOLDED="true" ID="ID_508020864" CREATED="1751483710809" MODIFIED="1768937457186">
-<node TEXT="01 Objectives" ID="ID_224148029" CREATED="1751485165898" MODIFIED="1751485169284"/>
-<node TEXT="02 Lecture" ID="ID_1976460779" CREATED="1751485171435" MODIFIED="1751485182443">
-<node TEXT="1 Operators" ID="ID_1424864872" CREATED="1759761331671" MODIFIED="1759761458914">
+<node TEXT="02 Reading" ID="ID_661038894" CREATED="1772408149981" MODIFIED="1772408159570"/>
+<node TEXT="03 Containers" ID="ID_712039896" CREATED="1751483750049" MODIFIED="1772408315279"/>
+<node TEXT="04 Expressions" ID="ID_508020864" CREATED="1751483710809" MODIFIED="1772408175269">
+<node TEXT="1 Operators" FOLDED="true" ID="ID_1424864872" CREATED="1759761331671" MODIFIED="1759761458914">
 <node TEXT="01 logical" ID="ID_464777578" CREATED="1759761460205" MODIFIED="1759763573177">
 <node TEXT="bitwise" ID="ID_1633430771" CREATED="1759761504958" MODIFIED="1759761508876">
 <node TEXT="and,or,xor, complement, shift left, shift right" ID="ID_1908194089" CREATED="1759761532124" MODIFIED="1759761596865"/>
@@ -1187,8 +1209,7 @@
 </node>
 </node>
 </node>
-</node>
-<node TEXT="10 Statements / Functions" FOLDED="true" ID="ID_575133128" CREATED="1751483718384" MODIFIED="1768937467752">
+<node TEXT="05 Statements / Functions" FOLDED="true" ID="ID_575133128" CREATED="1751483718384" MODIFIED="1772408179059">
 <node TEXT="01 Objectives" ID="ID_858531408" CREATED="1751485184874" MODIFIED="1751485189060"/>
 <node TEXT="02 Lecture" ID="ID_85977516" CREATED="1751485191652" MODIFIED="1751485449240">
 <node TEXT="expressions&#xa;something followed by a &quot;;&quot;" ID="ID_792509918" CREATED="1759953636023" MODIFIED="1759954934850"/>
@@ -1241,6 +1262,16 @@
 <node TEXT="lambdas&#xa;&#xa;There are five components to a lambda expression:&#xa; &#xa;captures: The member variables of the function object (that is, the&#xa;partially applied parameters)&#xa;parameters: The arguments required to invoke the function object&#xa;body: The function object’s code&#xa;specifiers: Elements like constexpr, mutable, noexcept, and [[noreturn]]&#xa;return type: The type returned by the function object&#xa;&#xa;Lambda expression usage is as follows:&#xa;[capturesu] (parametersv) modifiersy -&gt; return-typex { bodyw }" ID="ID_1507787337" CREATED="1760989705876" MODIFIED="1760989741709"/>
 </node>
 </node>
+<node TEXT="06 Smart Pointers" ID="ID_528796219" CREATED="1751483731257" MODIFIED="1772408329867"/>
+<node TEXT="07 OO Design Approaches" ID="ID_1240682785" CREATED="1751483696842" MODIFIED="1772408320884"/>
+<node TEXT="99 Transient" ID="ID_1997539264" CREATED="1772408370640" MODIFIED="1772408378535">
+<node TEXT="3/16/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-03-16T00:00-0500|date" ID="ID_184393528" CREATED="1772408388419" MODIFIED="1772408406168"/>
+<node TEXT="3/18/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-03-18T00:00-0500|date" ID="ID_1991135413" CREATED="1772408407589" MODIFIED="1772408412362"/>
+<node TEXT="3/23/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-03-23T00:00-0500|date" ID="ID_568714130" CREATED="1772408413923" MODIFIED="1772408424074"/>
+<node TEXT="3/25/26" OBJECT="org.freeplane.features.format.FormattedDate|2026-03-25T00:00-0500|date" ID="ID_93931127" CREATED="1772408425481" MODIFIED="1772408429760">
+<node TEXT="Assessment 3" ID="ID_593160543" CREATED="1772408438877" MODIFIED="1772408446399"/>
+</node>
+</node>
 </node>
 <node TEXT="4 Assessment 4" FOLDED="true" POSITION="top_or_left" ID="ID_1322606626" CREATED="1768937147277" MODIFIED="1768937364836">
 <edge COLOR="#007c00"/>
@@ -1257,10 +1288,6 @@
 <node TEXT="12 Utilities" FOLDED="true" ID="ID_263413799" CREATED="1751483742201" MODIFIED="1768937613705">
 <node TEXT="01 Objectives" ID="ID_1746316820" CREATED="1751485220275" MODIFIED="1751485224135"/>
 <node TEXT="02 Lecture" ID="ID_1731493156" CREATED="1751485225971" MODIFIED="1751485229583"/>
-</node>
-<node TEXT="13 Containers" ID="ID_712039896" CREATED="1751483750049" MODIFIED="1768937623689">
-<node TEXT="01 Objectives" ID="ID_1968574709" CREATED="1751485265051" MODIFIED="1751485268591"/>
-<node TEXT="02 Lecture" ID="ID_361480821" CREATED="1751485271146" MODIFIED="1751485463180"/>
 </node>
 <node TEXT="14 Iterators" ID="ID_343586558" CREATED="1751483762432" MODIFIED="1768937632700">
 <node TEXT="01 Objectives" ID="ID_836871818" CREATED="1751485276802" MODIFIED="1751485280654"/>
