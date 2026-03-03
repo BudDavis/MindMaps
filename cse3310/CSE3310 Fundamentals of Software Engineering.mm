@@ -664,7 +664,7 @@
 </node>
 </node>
 <node TEXT="05.0 Architecture" FOLDED="true" POSITION="bottom_or_right" ID="ID_407988059" CREATED="1703960095427" MODIFIED="1720023244542">
-<node TEXT="Sommerville" ID="ID_1772273115" CREATED="1754530693987" MODIFIED="1754530702068">
+<node TEXT="Sommerville" FOLDED="true" ID="ID_1772273115" CREATED="1754530693987" MODIFIED="1754530702068">
 <node TEXT="1. Introduction" FOLDED="true" ID="ID_76657719" CREATED="1720023162548" MODIFIED="1754530722639">
 <node TEXT="Definition" ID="ID_111027798" CREATED="1720025132794" MODIFIED="1720025142226">
 <node TEXT="How the system is divided into components and how those components communicate" ID="ID_1245525615" CREATED="1720025143252" MODIFIED="1720025180136"/>
@@ -680,7 +680,7 @@
 <node TEXT="&quot;architecture in the large&quot;  systems that are distributed and solve big problems with many computers" ID="ID_1630474339" CREATED="1771438269393" MODIFIED="1771438320568"/>
 </node>
 </node>
-<node TEXT="2. Design Decisions" FOLDED="true" ID="ID_1659096117" CREATED="1719846607222" MODIFIED="1754530727273">
+<node TEXT="2. Design Decisions" ID="ID_1659096117" CREATED="1719846607222" MODIFIED="1754530727273">
 <node TEXT="Architecture is where non functional requirements are realized" FOLDED="true" ID="ID_286458410" CREATED="1720025298009" MODIFIED="1771437230427">
 <font BOLD="true"/>
 <node TEXT="understand non functional requirements and develop a strategy" FOLDED="true" ID="ID_677365708" CREATED="1771437243632" MODIFIED="1771437265621">
@@ -737,7 +737,7 @@
 </node>
 </node>
 </node>
-<node TEXT="4. Architectural Patterns" FOLDED="true" ID="ID_1252960972" CREATED="1720023249487" MODIFIED="1754530741571">
+<node TEXT="4. Architectural Patterns" ID="ID_1252960972" CREATED="1720023249487" MODIFIED="1754530741571">
 <node TEXT="1. Layered" ID="ID_945579877" CREATED="1720023272275" MODIFIED="1771439408903">
 <hook URI="layered.png" SIZE="0.7407407" NAME="ExternalObject"/>
 </node>
@@ -835,7 +835,7 @@
 <node TEXT="Acceptance Testing Process" ID="ID_97222007" CREATED="1721063256219" MODIFIED="1771956030736">
 <hook URI="atp.png" SIZE="0.88235295" NAME="ExternalObject"/>
 </node>
-<node TEXT="Automation" FOLDED="true" ID="ID_582534609" CREATED="1721063423686" MODIFIED="1721063434598">
+<node TEXT="Automation" ID="ID_582534609" CREATED="1721063423686" MODIFIED="1721063434598">
 <node TEXT="Essential for efficiency" ID="ID_717423734" CREATED="1721063434605" MODIFIED="1721063442240"/>
 <node TEXT="Junit Examples" ID="ID_837212868" CREATED="1721063447610" MODIFIED="1721063453321"/>
 </node>
@@ -882,7 +882,7 @@
 </node>
 </node>
 </node>
-<node TEXT="4. Test Driven Development (TDD)" ID="ID_1965418179" CREATED="1720572873049" MODIFIED="1772477447807">
+<node TEXT="4. Test Driven Development (TDD)" FOLDED="true" ID="ID_1965418179" CREATED="1720572873049" MODIFIED="1772477447807">
 <hook URI="tdd.png" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="Code Coverage" ID="ID_1885294541" CREATED="1721063051431" MODIFIED="1721063065951"/>
 <node TEXT="Regression" ID="ID_1024837956" CREATED="1721063068928" MODIFIED="1721063078651"/>
@@ -890,9 +890,9 @@
 <node TEXT="System Documentation" ID="ID_1008565905" CREATED="1721063090811" MODIFIED="1721063097943"/>
 <node TEXT="Write the Test before you write the code" ID="ID_1336835395" CREATED="1721063338931" MODIFIED="1721063350254"/>
 </node>
-<node TEXT="5.  Practical Testing Techniques" ID="ID_566119348" CREATED="1772477520604" MODIFIED="1772477533089">
+<node TEXT="5.  Practical Testing Techniques" FOLDED="true" ID="ID_566119348" CREATED="1772477520604" MODIFIED="1772484831510">
 <node TEXT="select types of testing that match what you are developing" ID="ID_1538520529" CREATED="1772477536353" MODIFIED="1772477551828"/>
-<node TEXT="goal is to be efficient at identifying and removing defects." ID="ID_1945642780" CREATED="1772477552568" MODIFIED="1772477574158"/>
+<node TEXT="goal is to be efficient at identifying and removing defects." ID="ID_1945642780" CREATED="1772477552568" MODIFIED="1772484831506"/>
 </node>
 </node>
 <node TEXT="08.0 Software Evolution" FOLDED="true" POSITION="top_or_left" ID="ID_1115346714" CREATED="1703960140577" MODIFIED="1705795577335">

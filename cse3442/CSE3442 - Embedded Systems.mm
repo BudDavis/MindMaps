@@ -1,7 +1,7 @@
 <map version="freeplane 1.12.15">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<attribute_registry SHOW_ATTRIBUTES="hide"/>
 <bookmarks/>
+<attribute_registry SHOW_ATTRIBUTES="hide"/>
 <node TEXT="Embedded Systems I" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1768590008244" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_CENTERED"><hook NAME="MapStyle" zoom="2.0">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="false" show_notes_in_map="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" allow_compact_layout="false" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
@@ -916,8 +916,8 @@
 <node TEXT="3 Readings" FOLDED="true" ID="ID_1808357518" CREATED="1748717225705" MODIFIED="1748717231743">
 <node TEXT="ch14 p893" ID="ID_1075559579" CREATED="1758570730863" MODIFIED="1758570736968"/>
 </node>
-<node TEXT="4 Contents" ID="ID_1652373914" CREATED="1748717233727" MODIFIED="1748717238232">
-<node TEXT="1. concepts" ID="ID_573602690" CREATED="1758570743937" MODIFIED="1758570751096">
+<node TEXT="4 Contents" FOLDED="true" ID="ID_1652373914" CREATED="1748717233727" MODIFIED="1748717238232">
+<node TEXT="1. concepts" FOLDED="true" ID="ID_573602690" CREATED="1758570743937" MODIFIED="1758570751096">
 <node TEXT="serial" ID="ID_321916422" CREATED="1758570773608" MODIFIED="1758570781635">
 <node TEXT="string of bits" ID="ID_1782093905" CREATED="1758570785704" MODIFIED="1771872981760">
 <hook URI="uartDataFrame.png" SIZE="1.0" NAME="ExternalObject"/>
@@ -957,7 +957,7 @@
 <node TEXT="you can use two stop bits if you want (wasteful in bandwidth), easier to re-sync the data stream." ID="ID_203270994" CREATED="1771873134153" MODIFIED="1771873169323"/>
 </node>
 </node>
-<node TEXT="2. UART" ID="ID_71939556" CREATED="1748041078526" MODIFIED="1771873200241">
+<node TEXT="2. UART" FOLDED="true" ID="ID_71939556" CREATED="1748041078526" MODIFIED="1771873200241">
 <node TEXT="1 polling interface" ID="ID_7414468" CREATED="1748041556209" MODIFIED="1757888195137"/>
 <node TEXT="2 Block Diagram(p894)" FOLDED="true" ID="ID_1150724062" CREATED="1757888080886" MODIFIED="1771872652899">
 <node TEXT="uart0 is &apos;special&apos;" ID="ID_1878009849" CREATED="1771872564513" MODIFIED="1771872576121"/>
@@ -1006,7 +1006,72 @@
 </node>
 </node>
 </node>
-<node TEXT="3 General Purpose Timer Module" FOLDED="true" ID="ID_1926501763" CREATED="1748038678402" MODIFIED="1768936415321">
+<node TEXT="3 Embedded System Design Topics" ID="ID_356504406" CREATED="1772574747415" MODIFIED="1772574760895">
+<node TEXT="1 objectives" ID="ID_1164771034" CREATED="1772578656206" MODIFIED="1772578663347"/>
+<node TEXT="2 reading" ID="ID_916584703" CREATED="1772578665254" MODIFIED="1772578672758"/>
+<node TEXT="3 content" ID="ID_161899387" CREATED="1772578674978" MODIFIED="1772578681048">
+<node TEXT="sending and receiving uart with polling interface" ID="ID_388262753" CREATED="1772574819279" MODIFIED="1772574858803">
+<node TEXT="calculate the time to send / recv 16 bytes " ID="ID_20983885" CREATED="1772575404886" MODIFIED="1772579131517">
+<hook URI="timeCalculation.png" SIZE="0.82191783" NAME="ExternalObject"/>
+<node TEXT="" ID="ID_214988029" CREATED="1772578740495" MODIFIED="1772578740495"/>
+</node>
+<node TEXT="calculate IBRD and FBRD (is this in the right place?)" ID="ID_917372876" CREATED="1772579874853" MODIFIED="1772579906153">
+<hook URI="calculateIBRDandFBRD.png" SIZE="0.82191783" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="&quot;foreground processing&quot; aka &quot;using the main&quot;" ID="ID_1668594773" CREATED="1772574865109" MODIFIED="1772574921883">
+<node TEXT="timing guarantees for main are weak" ID="ID_1170835635" CREATED="1772574923740" MODIFIED="1772574947663">
+<node TEXT="discuss" ID="ID_71720640" CREATED="1772577064680" MODIFIED="1772577069791"/>
+</node>
+<node TEXT="if it&apos;s critical, handle it in an ISR." ID="ID_899679004" CREATED="1772574949488" MODIFIED="1772574962992">
+<node TEXT="timing guarantees get worse the lower the interrupt priority" ID="ID_2582931" CREATED="1772579929509" MODIFIED="1772579961605"/>
+</node>
+<node TEXT="long running processing in the main()" ID="ID_1007645093" CREATED="1772574964396" MODIFIED="1772574980835"/>
+<node TEXT="don&apos;t recreate an Operating System unless you have to" ID="ID_1396697339" CREATED="1772574982308" MODIFIED="1772574999501"/>
+</node>
+<node TEXT="communicating between ISR and main (concepts also apply in communicating between ISR&apos;s." ID="ID_1574465024" CREATED="1772575004896" MODIFIED="1772575036739">
+<node TEXT="atomic access on the tm4c" ID="ID_1379536578" CREATED="1772575044028" MODIFIED="1772575130869">
+<node TEXT="32 bit, 16 bit, 8 bit" ID="ID_977477837" CREATED="1772575132473" MODIFIED="1772575144360"/>
+</node>
+<node TEXT="demonstrate the problem (SysTick2)" ID="ID_1915220110" CREATED="1772575151969" MODIFIED="1772580116527">
+<node TEXT="main loop" ID="ID_1879220054" CREATED="1772580117866" MODIFIED="1772580130443">
+<hook URI="mainLoop1.png" SIZE="0.82191783" NAME="ExternalObject"/>
+</node>
+<node TEXT="ISR" ID="ID_447783272" CREATED="1772580139906" MODIFIED="1772580217757">
+<hook URI="isr1.png" SIZE="0.82191783" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="disable interrupts during critical region" ID="ID_968619209" CREATED="1772575174572" MODIFIED="1772575193221">
+<node TEXT="1 uggggg......" ID="ID_1521083954" CREATED="1772575197863" MODIFIED="1772580303441">
+<hook URI="criticalRegion.png" SIZE="0.82191783" NAME="ExternalObject"/>
+</node>
+<node TEXT="3 slow" ID="ID_1428475214" CREATED="1772575206116" MODIFIED="1772575308958"/>
+<node TEXT="4 make timing analysis difficult" ID="ID_147072989" CREATED="1772575213745" MODIFIED="1772575312359"/>
+<node TEXT="2 must be done on read and write of variables when not in ISR" ID="ID_708580213" CREATED="1772575232681" MODIFIED="1772575303603"/>
+<node TEXT="5 bitbanding solves this problem for single bits !!!!" ID="ID_791822294" CREATED="1772575289433" MODIFIED="1772575367085"/>
+<node TEXT="6 gpio_data_r specific bit addresses also solves this problem !!!!!" ID="ID_982137250" CREATED="1772575338862" MODIFIED="1772575403699"/>
+</node>
+</node>
+<node TEXT="using a fifo" ID="ID_909307716" CREATED="1772575563907" MODIFIED="1772575572785">
+<node TEXT="f25_project_code" ID="ID_891329240" CREATED="1772580510600" MODIFIED="1772580522610"/>
+</node>
+<node TEXT="using an interrupt driven uart implementation" ID="ID_1075342358" CREATED="1772575578266" MODIFIED="1772575602026">
+<node TEXT="receiving more than 16" ID="ID_1965847736" CREATED="1772575606767" MODIFIED="1772575638631">
+<node TEXT="is the data more than 16, or is it coming quicker ?" ID="ID_1285412658" CREATED="1772575660639" MODIFIED="1772575730164"/>
+<node TEXT="losing data or multiple commands?" ID="ID_1470167507" CREATED="1772575811240" MODIFIED="1772575827551"/>
+</node>
+<node TEXT="sending more than 16" ID="ID_1472771349" CREATED="1772575640339" MODIFIED="1772575647504">
+<node TEXT="have to buffer this somewhere" ID="ID_1748285729" CREATED="1772575683279" MODIFIED="1772575693187"/>
+<node TEXT="tm4c is not exactly full of buffer space...." ID="ID_1836385784" CREATED="1772575699242" MODIFIED="1772575718722"/>
+</node>
+<node TEXT="interrupts" ID="ID_245851054" CREATED="1772580718949" MODIFIED="1772580742572">
+<hook URI="UARTIM.png" SIZE="0.58536583" NAME="ExternalObject"/>
+<node TEXT="" ID="ID_1066220645" CREATED="1772580731182" MODIFIED="1772580731182"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="4 General Purpose Timer Module" FOLDED="true" ID="ID_1926501763" CREATED="1748038678402" MODIFIED="1772574766522">
 <node TEXT="1 Objectives" ID="ID_1174515153" CREATED="1748787873647" MODIFIED="1748787878721"/>
 <node TEXT="2 Lab" ID="ID_157966557" CREATED="1748787880644" MODIFIED="1748787889914"/>
 <node TEXT="3 Readings" ID="ID_1507865381" CREATED="1748787892440" MODIFIED="1765568480717"/>
@@ -1073,7 +1138,7 @@
 </node>
 </node>
 </node>
-<node TEXT="4 Pulse Width Modulation" FOLDED="true" ID="ID_582282277" CREATED="1748038683372" MODIFIED="1768936418575">
+<node TEXT="5 Pulse Width Modulation" FOLDED="true" ID="ID_582282277" CREATED="1748038683372" MODIFIED="1772574770112">
 <node TEXT="1 Objectives" ID="ID_1108656082" CREATED="1748787918864" MODIFIED="1748787923399">
 <node TEXT="Be able to program a PWM generator for a given frequency / duty cycle" ID="ID_1098083733" CREATED="1760810218866" MODIFIED="1760911318176"/>
 <node TEXT="understand using pwm for motor control" ID="ID_1447531260" CREATED="1760810249206" MODIFIED="1760810258035"/>
@@ -1123,7 +1188,7 @@
 </node>
 <node TEXT="99 Transient" ID="ID_472507813" CREATED="1770519249683" MODIFIED="1770519258196">
 <node TEXT="23 Feb" ID="ID_1220394665" CREATED="1770519267115" MODIFIED="1770519274196">
-<node TEXT="1. Test Feedback" ID="ID_1101685831" CREATED="1771871889638" MODIFIED="1771875626463">
+<node TEXT="1. Test Feedback" FOLDED="true" ID="ID_1101685831" CREATED="1771871889638" MODIFIED="1771875626463">
 <node TEXT="still working on grading" ID="ID_1475579514" CREATED="1771871902421" MODIFIED="1771871910548"/>
 <node TEXT="&apos;&apos;or&apos; and &apos;and&apos; aka &apos;set&apos; and &apos;clear&apos;" ID="ID_1498546204" CREATED="1771871911929" MODIFIED="1771871954489"/>
 <node TEXT="coding concepts" ID="ID_447506668" CREATED="1771871964655" MODIFIED="1771871973253">
@@ -1143,8 +1208,12 @@
 </node>
 </node>
 <node TEXT="25 Feb" ID="ID_1339855624" CREATED="1770519275465" MODIFIED="1770519282386"/>
-<node TEXT="02 March" ID="ID_762027268" CREATED="1770519284290" MODIFIED="1770519300787"/>
-<node TEXT="04 March" ID="ID_1538933852" CREATED="1770519302195" MODIFIED="1770519310303"/>
+<node TEXT="02 March" ID="ID_762027268" CREATED="1770519284290" MODIFIED="1770519300787">
+<node TEXT="class cancelled" ID="ID_645933945" CREATED="1772574667887" MODIFIED="1772574676500"/>
+</node>
+<node TEXT="04 March" ID="ID_1538933852" CREATED="1770519302195" MODIFIED="1770519310303">
+<node TEXT="embedded system design" ID="ID_1390888765" CREATED="1772574700699" MODIFIED="1772574713186"/>
+</node>
 </node>
 </node>
 <node TEXT="04 final (4 May 2026)" FOLDED="true" POSITION="top_or_left" ID="ID_405887282" CREATED="1768589725735" MODIFIED="1768936699586">
