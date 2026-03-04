@@ -420,7 +420,7 @@
 </node>
 </node>
 </node>
-<node TEXT="02 exam 1 (Feb 11 2026)" POSITION="top_or_left" ID="ID_135878272" CREATED="1768589708758" MODIFIED="1768936635972">
+<node TEXT="02 exam 1 (Feb 11 2026)" FOLDED="true" POSITION="top_or_left" ID="ID_135878272" CREATED="1768589708758" MODIFIED="1768936635972">
 <edge COLOR="#7c7c00"/>
 <node TEXT="1 Memory Map" FOLDED="true" ID="ID_1621675299" CREATED="1748038649339" MODIFIED="1768601647526">
 <font SIZE="16"/>
@@ -904,7 +904,7 @@
 </node>
 </node>
 </node>
-<node TEXT="2 UART" ID="ID_764395375" CREATED="1748038659162" MODIFIED="1768936408247">
+<node TEXT="2 UART" FOLDED="true" ID="ID_764395375" CREATED="1748038659162" MODIFIED="1768936408247">
 <node TEXT="1 Objectives" FOLDED="true" ID="ID_1344670637" CREATED="1748717212629" MODIFIED="1748717216923">
 <node TEXT="1 Understand the data path for UART in the TM4C" ID="ID_305526434" CREATED="1758487032245" MODIFIED="1758487057716"/>
 <node TEXT="2 Understand the Serial Data Format(s) and the timing of the different baud rates" ID="ID_210601415" CREATED="1750465987137" MODIFIED="1758487065749"/>
@@ -1006,9 +1006,16 @@
 </node>
 </node>
 </node>
-<node TEXT="3 Embedded System Design Topics" ID="ID_356504406" CREATED="1772574747415" MODIFIED="1772574760895">
-<node TEXT="1 objectives" ID="ID_1164771034" CREATED="1772578656206" MODIFIED="1772578663347"/>
-<node TEXT="2 reading" ID="ID_916584703" CREATED="1772578665254" MODIFIED="1772578672758"/>
+<node TEXT="3 Embedded System Design Topics" FOLDED="true" ID="ID_356504406" CREATED="1772574747415" MODIFIED="1772574760895">
+<node TEXT="1 objectives" ID="ID_1164771034" CREATED="1772578656206" MODIFIED="1772578663347">
+<node TEXT="understand critical regions" ID="ID_1732782799" CREATED="1772651178367" MODIFIED="1772651186977"/>
+<node TEXT="use the main and ISR&apos;s to ensure timing requirements are met." ID="ID_1763270941" CREATED="1772651225820" MODIFIED="1772651244431"/>
+<node TEXT="understand the requirement for using FIFO&apos;s" ID="ID_1445108019" CREATED="1772651256689" MODIFIED="1772651268117"/>
+<node TEXT="be able to program an interrupt driven UART" ID="ID_1202179233" CREATED="1772651268609" MODIFIED="1772651287436"/>
+</node>
+<node TEXT="2 reading" ID="ID_916584703" CREATED="1772578665254" MODIFIED="1772578672758">
+<node TEXT="volvano  5.3 Critical Sections" ID="ID_1614939945" CREATED="1772651187326" MODIFIED="1772651215762"/>
+</node>
 <node TEXT="3 content" ID="ID_161899387" CREATED="1772578674978" MODIFIED="1772578681048">
 <node TEXT="sending and receiving uart with polling interface" ID="ID_388262753" CREATED="1772574819279" MODIFIED="1772574858803">
 <node TEXT="calculate the time to send / recv 16 bytes " ID="ID_20983885" CREATED="1772575404886" MODIFIED="1772579131517">
@@ -1030,10 +1037,7 @@
 <node TEXT="don&apos;t recreate an Operating System unless you have to" ID="ID_1396697339" CREATED="1772574982308" MODIFIED="1772574999501"/>
 </node>
 <node TEXT="communicating between ISR and main (concepts also apply in communicating between ISR&apos;s." ID="ID_1574465024" CREATED="1772575004896" MODIFIED="1772575036739">
-<node TEXT="atomic access on the tm4c" ID="ID_1379536578" CREATED="1772575044028" MODIFIED="1772575130869">
-<node TEXT="32 bit, 16 bit, 8 bit" ID="ID_977477837" CREATED="1772575132473" MODIFIED="1772575144360"/>
-</node>
-<node TEXT="demonstrate the problem (SysTick2)" ID="ID_1915220110" CREATED="1772575151969" MODIFIED="1772580116527">
+<node TEXT="1. demonstrate the problem (SysTick2)" FOLDED="true" ID="ID_1915220110" CREATED="1772575151969" MODIFIED="1772651089748">
 <node TEXT="main loop" ID="ID_1879220054" CREATED="1772580117866" MODIFIED="1772580130443">
 <hook URI="mainLoop1.png" SIZE="0.82191783" NAME="ExternalObject"/>
 </node>
@@ -1041,15 +1045,38 @@
 <hook URI="isr1.png" SIZE="0.82191783" NAME="ExternalObject"/>
 </node>
 </node>
-<node TEXT="disable interrupts during critical region" ID="ID_968619209" CREATED="1772575174572" MODIFIED="1772575193221">
-<node TEXT="1 uggggg......" ID="ID_1521083954" CREATED="1772575197863" MODIFIED="1772580303441">
-<hook URI="criticalRegion.png" SIZE="0.82191783" NAME="ExternalObject"/>
+<node TEXT="2. disable interrupts during critical region" FOLDED="true" ID="ID_968619209" CREATED="1772575174572" MODIFIED="1772651122889">
+<node TEXT="1 uggggg......" ID="ID_1521083954" CREATED="1772575197863" MODIFIED="1772649572919">
+<hook URI="critRegion.png" SIZE="1.0" NAME="ExternalObject"/>
 </node>
-<node TEXT="3 slow" ID="ID_1428475214" CREATED="1772575206116" MODIFIED="1772575308958"/>
-<node TEXT="4 make timing analysis difficult" ID="ID_147072989" CREATED="1772575213745" MODIFIED="1772575312359"/>
 <node TEXT="2 must be done on read and write of variables when not in ISR" ID="ID_708580213" CREATED="1772575232681" MODIFIED="1772575303603"/>
-<node TEXT="5 bitbanding solves this problem for single bits !!!!" ID="ID_791822294" CREATED="1772575289433" MODIFIED="1772575367085"/>
+<node TEXT="3 slow" ID="ID_1428475214" CREATED="1772575206116" MODIFIED="1772575308958"/>
+<node TEXT="3 times this comes up:" ID="ID_1843553395" CREATED="1772649594646" MODIFIED="1772649605259">
+<node TEXT="read /modify /write" ID="ID_448897808" CREATED="1772649606318" MODIFIED="1772649629830">
+<node TEXT="a global variable is read and a copy is made" ID="ID_523055212" CREATED="1772649656278" MODIFIED="1772649668435"/>
+<node TEXT="the copy is modified" ID="ID_487976635" CREATED="1772649670891" MODIFIED="1772649677802"/>
+<node TEXT="the modified copy is written to the global variable" ID="ID_967915886" CREATED="1772649678658" MODIFIED="1772649714022"/>
+</node>
+<node TEXT="write followed by read" ID="ID_1095319211" CREATED="1772649631251" MODIFIED="1772649768782">
+<node TEXT="value is written to a global" ID="ID_825823482" CREATED="1772649843746" MODIFIED="1772649856843"/>
+<node TEXT="the value is then read, and it is assumed to be the same as what was written." ID="ID_1029756467" CREATED="1772649857359" MODIFIED="1772649941781"/>
+</node>
+<node TEXT="non atomic multi step write" ID="ID_947368037" CREATED="1772649770667" MODIFIED="1772649839357">
+<node TEXT="example of systick timer" ID="ID_1668379122" CREATED="1772650091793" MODIFIED="1772650101854"/>
+</node>
+</node>
+<node TEXT="4 make timing analysis difficult" ID="ID_147072989" CREATED="1772575213745" MODIFIED="1772575312359">
+<node TEXT="make critical regions as short as possible" ID="ID_401794146" CREATED="1772650105426" MODIFIED="1772650118607"/>
+</node>
+<node TEXT="5 bitbanding solves this problem for single bits !!!!" ID="ID_791822294" CREATED="1772575289433" MODIFIED="1772575367085">
+<node TEXT="go over this with an example...." ID="ID_1786472466" CREATED="1772650969956" MODIFIED="1772650980003"/>
+</node>
 <node TEXT="6 gpio_data_r specific bit addresses also solves this problem !!!!!" ID="ID_982137250" CREATED="1772575338862" MODIFIED="1772575403699"/>
+<node TEXT="7 old school solution.  only read / write to a register from one thread." ID="ID_448516547" CREATED="1772651003313" MODIFIED="1772651063605"/>
+</node>
+<node TEXT="3. atomic access on the tm4c" FOLDED="true" ID="ID_1379536578" CREATED="1772575044028" MODIFIED="1772651125975">
+<node TEXT="32 bit, 16 bit, 8 bit" ID="ID_977477837" CREATED="1772575132473" MODIFIED="1772575144360"/>
+<node TEXT="atomic means not interruptable" ID="ID_1635213438" CREATED="1772651090776" MODIFIED="1772651109500"/>
 </node>
 </node>
 <node TEXT="using a fifo" ID="ID_909307716" CREATED="1772575563907" MODIFIED="1772575572785">
