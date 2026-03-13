@@ -1,7 +1,7 @@
 <map version="freeplane 1.12.15">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<bookmarks/>
 <attribute_registry SHOW_ATTRIBUTES="hide"/>
+<bookmarks/>
 <node TEXT="Embedded Systems I" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1768590008244" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_CENTERED"><hook NAME="MapStyle" zoom="2.0">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="false" show_notes_in_map="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" allow_compact_layout="false" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
@@ -851,7 +851,7 @@
 </node>
 </node>
 </node>
-<node TEXT="03 exam 2 (30 March 2026)" POSITION="top_or_left" ID="ID_390703876" CREATED="1768589720247" MODIFIED="1768936666021">
+<node TEXT="03 exam 2 (30 March 2026)" FOLDED="true" POSITION="top_or_left" ID="ID_390703876" CREATED="1768589720247" MODIFIED="1768936666021">
 <edge COLOR="#ff0000"/>
 <node TEXT="1 NVIC / SysTick" FOLDED="true" ID="ID_16309586" CREATED="1748038668017" MODIFIED="1768936404752" HGAP_QUANTITY="11.75 pt">
 <node TEXT="1 Objectives" ID="ID_331374664" CREATED="1748787752793" MODIFIED="1766166055844">
@@ -904,8 +904,8 @@
 </node>
 </node>
 </node>
-<node TEXT="2 UART" FOLDED="true" ID="ID_764395375" CREATED="1748038659162" MODIFIED="1768936408247">
-<node TEXT="1 Objectives" FOLDED="true" ID="ID_1344670637" CREATED="1748717212629" MODIFIED="1748717216923">
+<node TEXT="2 UART" ID="ID_764395375" CREATED="1748038659162" MODIFIED="1768936408247">
+<node TEXT="1 Objectives" ID="ID_1344670637" CREATED="1748717212629" MODIFIED="1748717216923">
 <node TEXT="1 Understand the data path for UART in the TM4C" ID="ID_305526434" CREATED="1758487032245" MODIFIED="1758487057716"/>
 <node TEXT="2 Understand the Serial Data Format(s) and the timing of the different baud rates" ID="ID_210601415" CREATED="1750465987137" MODIFIED="1758487065749"/>
 <node TEXT="3 Using an Oscilloscope, decode serial data" ID="ID_1885885975" CREATED="1750466018609" MODIFIED="1758487070893"/>
@@ -916,8 +916,8 @@
 <node TEXT="3 Readings" FOLDED="true" ID="ID_1808357518" CREATED="1748717225705" MODIFIED="1748717231743">
 <node TEXT="ch14 p893" ID="ID_1075559579" CREATED="1758570730863" MODIFIED="1758570736968"/>
 </node>
-<node TEXT="4 Contents" FOLDED="true" ID="ID_1652373914" CREATED="1748717233727" MODIFIED="1748717238232">
-<node TEXT="1. concepts" FOLDED="true" ID="ID_573602690" CREATED="1758570743937" MODIFIED="1758570751096">
+<node TEXT="4 Contents" ID="ID_1652373914" CREATED="1748717233727" MODIFIED="1748717238232">
+<node TEXT="1. serial data concepts" FOLDED="true" ID="ID_573602690" CREATED="1758570743937" MODIFIED="1773432934596">
 <node TEXT="serial" ID="ID_321916422" CREATED="1758570773608" MODIFIED="1758570781635">
 <node TEXT="string of bits" ID="ID_1782093905" CREATED="1758570785704" MODIFIED="1771872981760">
 <hook URI="uartDataFrame.png" SIZE="1.0" NAME="ExternalObject"/>
@@ -1006,7 +1006,7 @@
 </node>
 </node>
 </node>
-<node TEXT="3 Embedded System Design Topics" FOLDED="true" ID="ID_356504406" CREATED="1772574747415" MODIFIED="1772574760895">
+<node TEXT="3 Embedded System Design Topics" ID="ID_356504406" CREATED="1772574747415" MODIFIED="1772574760895">
 <node TEXT="1 objectives" ID="ID_1164771034" CREATED="1772578656206" MODIFIED="1772578663347">
 <node TEXT="understand critical regions" ID="ID_1732782799" CREATED="1772651178367" MODIFIED="1772651186977"/>
 <node TEXT="use the main and ISR&apos;s to ensure timing requirements are met." ID="ID_1763270941" CREATED="1772651225820" MODIFIED="1772651244431"/>
@@ -1017,7 +1017,7 @@
 <node TEXT="volvano  5.3 Critical Sections" ID="ID_1614939945" CREATED="1772651187326" MODIFIED="1772651215762"/>
 </node>
 <node TEXT="3 content" ID="ID_161899387" CREATED="1772578674978" MODIFIED="1772578681048">
-<node TEXT="sending and receiving uart with polling interface" ID="ID_388262753" CREATED="1772574819279" MODIFIED="1772574858803">
+<node TEXT="sending and receiving uart with polling interface" FOLDED="true" ID="ID_388262753" CREATED="1772574819279" MODIFIED="1772574858803">
 <node TEXT="calculate the time to send / recv 16 bytes " ID="ID_20983885" CREATED="1772575404886" MODIFIED="1772579131517">
 <hook URI="timeCalculation.png" SIZE="0.82191783" NAME="ExternalObject"/>
 <node TEXT="" ID="ID_214988029" CREATED="1772578740495" MODIFIED="1772578740495"/>
@@ -1026,7 +1026,7 @@
 <hook URI="calculateIBRDandFBRD.png" SIZE="0.82191783" NAME="ExternalObject"/>
 </node>
 </node>
-<node TEXT="&quot;foreground processing&quot; aka &quot;using the main&quot;" ID="ID_1668594773" CREATED="1772574865109" MODIFIED="1772574921883">
+<node TEXT="&quot;foreground processing&quot; aka &quot;using the main&quot;" FOLDED="true" ID="ID_1668594773" CREATED="1772574865109" MODIFIED="1772574921883">
 <node TEXT="timing guarantees for main are weak" ID="ID_1170835635" CREATED="1772574923740" MODIFIED="1772574947663">
 <node TEXT="discuss" ID="ID_71720640" CREATED="1772577064680" MODIFIED="1772577069791"/>
 </node>
@@ -1036,7 +1036,7 @@
 <node TEXT="long running processing in the main()" ID="ID_1007645093" CREATED="1772574964396" MODIFIED="1772574980835"/>
 <node TEXT="don&apos;t recreate an Operating System unless you have to" ID="ID_1396697339" CREATED="1772574982308" MODIFIED="1772574999501"/>
 </node>
-<node TEXT="communicating between ISR and main (concepts also apply in communicating between ISR&apos;s." ID="ID_1574465024" CREATED="1772575004896" MODIFIED="1772575036739">
+<node TEXT="communicating between ISR and main (concepts also apply in communicating between ISR&apos;s." FOLDED="true" ID="ID_1574465024" CREATED="1772575004896" MODIFIED="1772575036739">
 <node TEXT="1. demonstrate the problem (SysTick2)" FOLDED="true" ID="ID_1915220110" CREATED="1772575151969" MODIFIED="1772651089748">
 <node TEXT="main loop" ID="ID_1879220054" CREATED="1772580117866" MODIFIED="1772580130443">
 <hook URI="mainLoop1.png" SIZE="0.82191783" NAME="ExternalObject"/>
@@ -1082,7 +1082,7 @@
 <node TEXT="using a fifo" ID="ID_909307716" CREATED="1772575563907" MODIFIED="1772575572785">
 <node TEXT="f25_project_code" ID="ID_891329240" CREATED="1772580510600" MODIFIED="1772580522610"/>
 </node>
-<node TEXT="using an interrupt driven uart implementation" ID="ID_1075342358" CREATED="1772575578266" MODIFIED="1772575602026">
+<node TEXT="using an interrupt driven uart implementation" FOLDED="true" ID="ID_1075342358" CREATED="1772575578266" MODIFIED="1772575602026">
 <node TEXT="receiving more than 16" ID="ID_1965847736" CREATED="1772575606767" MODIFIED="1772575638631">
 <node TEXT="is the data more than 16, or is it coming quicker ?" ID="ID_1285412658" CREATED="1772575660639" MODIFIED="1772575730164"/>
 <node TEXT="losing data or multiple commands?" ID="ID_1470167507" CREATED="1772575811240" MODIFIED="1772575827551"/>
@@ -1096,9 +1096,13 @@
 <node TEXT="" ID="ID_1066220645" CREATED="1772580731182" MODIFIED="1772580731182"/>
 </node>
 </node>
+<node TEXT="things to know" ID="ID_1286074098" CREATED="1773432862781" MODIFIED="1773432870274">
+<node TEXT="how long to transmit a char at a given baud rate" ID="ID_390731804" CREATED="1773432871422" MODIFIED="1773432886626"/>
+<node TEXT="how many usecs to fill up the fifo at a given baud rate" ID="ID_748179919" CREATED="1773432887841" MODIFIED="1773432904909"/>
 </node>
 </node>
-<node TEXT="4 General Purpose Timer Module" FOLDED="true" ID="ID_1926501763" CREATED="1748038678402" MODIFIED="1772574766522">
+</node>
+<node TEXT="4 General Purpose Timer Module" ID="ID_1926501763" CREATED="1748038678402" MODIFIED="1772574766522">
 <node TEXT="1 Objectives" ID="ID_1174515153" CREATED="1748787873647" MODIFIED="1748787878721"/>
 <node TEXT="2 Lab" ID="ID_157966557" CREATED="1748787880644" MODIFIED="1748787889914"/>
 <node TEXT="3 Readings" ID="ID_1507865381" CREATED="1748787892440" MODIFIED="1765568480717"/>
@@ -1165,7 +1169,57 @@
 </node>
 </node>
 </node>
-<node TEXT="5 Pulse Width Modulation" FOLDED="true" ID="ID_582282277" CREATED="1748038683372" MODIFIED="1772574770112">
+<node TEXT="99 Transient [to be deleted after this semester is completed]" ID="ID_472507813" CREATED="1770519249683" MODIFIED="1773433736100">
+<node TEXT="23 Feb" ID="ID_1220394665" CREATED="1770519267115" MODIFIED="1770519274196">
+<node TEXT="1. Test Feedback" ID="ID_1101685831" CREATED="1771871889638" MODIFIED="1771875626463">
+<node TEXT="still working on grading" ID="ID_1475579514" CREATED="1771871902421" MODIFIED="1771871910548"/>
+<node TEXT="&apos;&apos;or&apos; and &apos;and&apos; aka &apos;set&apos; and &apos;clear&apos;" ID="ID_1498546204" CREATED="1771871911929" MODIFIED="1771871954489"/>
+<node TEXT="coding concepts" ID="ID_447506668" CREATED="1771871964655" MODIFIED="1771871973253">
+<node TEXT="macros are useful" ID="ID_102917495" CREATED="1771871977554" MODIFIED="1771871986736"/>
+<node TEXT="hex is useful" ID="ID_1352453265" CREATED="1771871988394" MODIFIED="1771871994744"/>
+<node TEXT="when do you clear single bits" ID="ID_243633500" CREATED="1771872002990" MODIFIED="1771872015231"/>
+<node TEXT="when do you clear a mask or a field ?" ID="ID_150927081" CREATED="1771872016405" MODIFIED="1771872029117"/>
+<node TEXT="only deal with the bits you care about, leave the rest alone" ID="ID_1820317292" CREATED="1771872033972" MODIFIED="1771872048661"/>
+</node>
+<node TEXT="The GPIODR2R register is the 2-mA drive control register. Each GPIO signal in the port can be individually configured without affecting the other pads. When setting the DRV2 bit for a GPIO signal,&#xa;the corresponding DRV4 bit in the GPIODR4R register and DRV8 bit in the GPIODR8R register are automatically cleared by hardware. By default, all GPIO pins have 2-mA drive." ID="ID_1090200247" CREATED="1771871975157" MODIFIED="1771875697964"/>
+</node>
+<node TEXT="2. &apos;&apos;polled implementation&quot;" ID="ID_374956052" CREATED="1771871863514" MODIFIED="1771875632688"/>
+<node TEXT="3. calculate IBRD and FBRD" ID="ID_1623345728" CREATED="1771871828129" MODIFIED="1771875637912"/>
+<node TEXT="4. go over provided code" ID="ID_830249320" CREATED="1771871850869" MODIFIED="1771875642272">
+<node TEXT="pinmux" ID="ID_1333684167" CREATED="1771871878237" MODIFIED="1771871883985"/>
+<node TEXT="uart.c" ID="ID_1891319080" CREATED="1771875651437" MODIFIED="1771875657177"/>
+</node>
+</node>
+<node TEXT="25 Feb" ID="ID_1339855624" CREATED="1770519275465" MODIFIED="1770519282386"/>
+<node TEXT="02 March" ID="ID_762027268" CREATED="1770519284290" MODIFIED="1770519300787">
+<node TEXT="class cancelled" ID="ID_645933945" CREATED="1772574667887" MODIFIED="1772574676500"/>
+</node>
+<node TEXT="04 March" ID="ID_1538933852" CREATED="1770519302195" MODIFIED="1770519310303">
+<node TEXT="embedded system design" ID="ID_1390888765" CREATED="1772574700699" MODIFIED="1772574713186"/>
+</node>
+<node TEXT="16 March" ID="ID_649614135" CREATED="1773433381390" MODIFIED="1773433397013">
+<node TEXT="gptm" ID="ID_1370463162" CREATED="1773433744072" MODIFIED="1773433749248"/>
+<node TEXT="fifo details" ID="ID_1076970984" CREATED="1773433781895" MODIFIED="1773433788577"/>
+<node TEXT="communicating between an ISR and main()" ID="ID_732143842" CREATED="1773433789681" MODIFIED="1773433802268"/>
+</node>
+<node TEXT="18 March" ID="ID_481967120" CREATED="1773433398914" MODIFIED="1773433433658">
+<node TEXT="gptm" ID="ID_210093778" CREATED="1773433750047" MODIFIED="1773433762115"/>
+<node TEXT="assignment 2 / lab 7" ID="ID_1244500439" CREATED="1773433820814" MODIFIED="1773433857222"/>
+</node>
+<node TEXT="23 March" ID="ID_1763804228" CREATED="1773433440136" MODIFIED="1773433470316"/>
+<node TEXT="25 March" ID="ID_1505780979" CREATED="1773433471427" MODIFIED="1773433482309"/>
+</node>
+</node>
+<node TEXT="04 final (5 May 2026) [comprehensive final, with a focus on new material since previous exam]" FOLDED="true" POSITION="top_or_left" ID="ID_405887282" CREATED="1768589725735" MODIFIED="1773433709751">
+<edge COLOR="#0000ff"/>
+<node TEXT="1 analog" ID="ID_1593153527" CREATED="1768936352544" MODIFIED="1768936361614">
+<node TEXT="ADC" ID="ID_1795528217" CREATED="1768936363416" MODIFIED="1768936375737"/>
+<node TEXT="DAC" ID="ID_1174505433" CREATED="1768936377123" MODIFIED="1768936384715"/>
+<node TEXT="Filtering" ID="ID_1676616918" CREATED="1768936386115" MODIFIED="1768936394083"/>
+</node>
+<node TEXT="2 spi" ID="ID_1247027048" CREATED="1770229451104" MODIFIED="1770229456688"/>
+<node TEXT="3 project" ID="ID_485475713" CREATED="1770519352062" MODIFIED="1770519371187"/>
+<node TEXT="4 Pulse Width Modulation" ID="ID_582282277" CREATED="1748038683372" MODIFIED="1773435197609">
 <node TEXT="1 Objectives" ID="ID_1108656082" CREATED="1748787918864" MODIFIED="1748787923399">
 <node TEXT="Be able to program a PWM generator for a given frequency / duty cycle" ID="ID_1098083733" CREATED="1760810218866" MODIFIED="1760911318176"/>
 <node TEXT="understand using pwm for motor control" ID="ID_1447531260" CREATED="1760810249206" MODIFIED="1760810258035"/>
@@ -1213,45 +1267,6 @@
 </node>
 </node>
 </node>
-<node TEXT="99 Transient" ID="ID_472507813" CREATED="1770519249683" MODIFIED="1770519258196">
-<node TEXT="23 Feb" ID="ID_1220394665" CREATED="1770519267115" MODIFIED="1770519274196">
-<node TEXT="1. Test Feedback" FOLDED="true" ID="ID_1101685831" CREATED="1771871889638" MODIFIED="1771875626463">
-<node TEXT="still working on grading" ID="ID_1475579514" CREATED="1771871902421" MODIFIED="1771871910548"/>
-<node TEXT="&apos;&apos;or&apos; and &apos;and&apos; aka &apos;set&apos; and &apos;clear&apos;" ID="ID_1498546204" CREATED="1771871911929" MODIFIED="1771871954489"/>
-<node TEXT="coding concepts" ID="ID_447506668" CREATED="1771871964655" MODIFIED="1771871973253">
-<node TEXT="macros are useful" ID="ID_102917495" CREATED="1771871977554" MODIFIED="1771871986736"/>
-<node TEXT="hex is useful" ID="ID_1352453265" CREATED="1771871988394" MODIFIED="1771871994744"/>
-<node TEXT="when do you clear single bits" ID="ID_243633500" CREATED="1771872002990" MODIFIED="1771872015231"/>
-<node TEXT="when do you clear a mask or a field ?" ID="ID_150927081" CREATED="1771872016405" MODIFIED="1771872029117"/>
-<node TEXT="only deal with the bits you care about, leave the rest alone" ID="ID_1820317292" CREATED="1771872033972" MODIFIED="1771872048661"/>
-</node>
-<node TEXT="The GPIODR2R register is the 2-mA drive control register. Each GPIO signal in the port can be individually configured without affecting the other pads. When setting the DRV2 bit for a GPIO signal,&#xa;the corresponding DRV4 bit in the GPIODR4R register and DRV8 bit in the GPIODR8R register are automatically cleared by hardware. By default, all GPIO pins have 2-mA drive." ID="ID_1090200247" CREATED="1771871975157" MODIFIED="1771875697964"/>
-</node>
-<node TEXT="2. &apos;&apos;polled implementation&quot;" ID="ID_374956052" CREATED="1771871863514" MODIFIED="1771875632688"/>
-<node TEXT="3. calculate IBRD and FBRD" ID="ID_1623345728" CREATED="1771871828129" MODIFIED="1771875637912"/>
-<node TEXT="4. go over provided code" ID="ID_830249320" CREATED="1771871850869" MODIFIED="1771875642272">
-<node TEXT="pinmux" ID="ID_1333684167" CREATED="1771871878237" MODIFIED="1771871883985"/>
-<node TEXT="uart.c" ID="ID_1891319080" CREATED="1771875651437" MODIFIED="1771875657177"/>
-</node>
-</node>
-<node TEXT="25 Feb" ID="ID_1339855624" CREATED="1770519275465" MODIFIED="1770519282386"/>
-<node TEXT="02 March" ID="ID_762027268" CREATED="1770519284290" MODIFIED="1770519300787">
-<node TEXT="class cancelled" ID="ID_645933945" CREATED="1772574667887" MODIFIED="1772574676500"/>
-</node>
-<node TEXT="04 March" ID="ID_1538933852" CREATED="1770519302195" MODIFIED="1770519310303">
-<node TEXT="embedded system design" ID="ID_1390888765" CREATED="1772574700699" MODIFIED="1772574713186"/>
-</node>
-</node>
-</node>
-<node TEXT="04 final (4 May 2026)" FOLDED="true" POSITION="top_or_left" ID="ID_405887282" CREATED="1768589725735" MODIFIED="1768936699586">
-<edge COLOR="#0000ff"/>
-<node TEXT="1 analog" FOLDED="true" ID="ID_1593153527" CREATED="1768936352544" MODIFIED="1768936361614">
-<node TEXT="ADC" ID="ID_1795528217" CREATED="1768936363416" MODIFIED="1768936375737"/>
-<node TEXT="DAC" ID="ID_1174505433" CREATED="1768936377123" MODIFIED="1768936384715"/>
-<node TEXT="Filtering" ID="ID_1676616918" CREATED="1768936386115" MODIFIED="1768936394083"/>
-</node>
-<node TEXT="2 spi" ID="ID_1247027048" CREATED="1770229451104" MODIFIED="1770229456688"/>
-<node TEXT="3 project" ID="ID_485475713" CREATED="1770519352062" MODIFIED="1770519371187"/>
 </node>
 <node TEXT="05 lost and found" FOLDED="true" POSITION="top_or_left" ID="ID_761662230" CREATED="1768588625998" MODIFIED="1768589954322">
 <edge COLOR="#007c7c"/>
