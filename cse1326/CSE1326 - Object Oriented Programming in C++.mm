@@ -1,4 +1,4 @@
-<map version="freeplane 1.12.1">
+<map version="freeplane 1.12.15">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <bookmarks>
     <bookmark nodeId="ID_696401721" name="Root" opensAsRoot="true"/>
@@ -761,7 +761,7 @@
 <node TEXT="11 feb" ID="ID_695240894" CREATED="1770653938349" MODIFIED="1770653941832"/>
 </node>
 </node>
-<node TEXT="2 Assessment 2 (3/3)" FOLDED="true" POSITION="top_or_left" ID="ID_567336706" CREATED="1768937082101" MODIFIED="1772574615435">
+<node TEXT="2 Assessment 2 (3/3)" POSITION="top_or_left" ID="ID_567336706" CREATED="1768937082101" MODIFIED="1772574615435">
 <edge COLOR="#7c0000"/>
 <node TEXT="01 objectives" FOLDED="true" ID="ID_514074899" CREATED="1771260563531" MODIFIED="1771260582990">
 <node TEXT="01 catch an exception" ID="ID_1207965602" CREATED="1758487549016" MODIFIED="1771260783317"/>
@@ -1110,7 +1110,7 @@
 </node>
 <node TEXT="03 Containers" ID="ID_712039896" CREATED="1751483750049" MODIFIED="1772408315279">
 <node TEXT="categories" ID="ID_190979123" CREATED="1773619848157" MODIFIED="1773619857666">
-<node TEXT="sequence" FOLDED="true" ID="ID_987655435" CREATED="1773619733575" MODIFIED="1773619738575">
+<node TEXT="sequence" ID="ID_987655435" CREATED="1773619733575" MODIFIED="1773619738575">
 <node TEXT="std::array" ID="ID_1167416876" CREATED="1773620373604" MODIFIED="1773620381293">
 <node TEXT="fixed size" ID="ID_927467789" CREATED="1773620484425" MODIFIED="1773620490151"/>
 <node TEXT="data is sequential in memory" ID="ID_154947225" CREATED="1773620491113" MODIFIED="1773620501267">
