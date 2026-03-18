@@ -3,7 +3,7 @@
 <bookmarks>
     <bookmark nodeId="ID_696401721" name="Root" opensAsRoot="true"/>
 </bookmarks>
-<node TEXT="Object Oriented Programming in C++" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1768937198505" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW"><hook NAME="MapStyle" zoom="2.0">
+<node TEXT="Object Oriented Programming in C++" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1768937198505" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW"><hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="false" show_notes_in_map="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" fit_to_viewport="false" show_icons="ABOVE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -1158,7 +1158,30 @@
 <node TEXT="infinite others......" ID="ID_1785985372" CREATED="1773674260464" MODIFIED="1773674267574"/>
 </node>
 </node>
-<node TEXT="associative" ID="ID_1348070510" CREATED="1773619739601" MODIFIED="1773619749387"/>
+<node TEXT="associative" ID="ID_1348070510" CREATED="1773619739601" MODIFIED="1773619749387">
+<node TEXT="keys or (key,value) pairs" ID="ID_473410774" CREATED="1773856114451" MODIFIED="1773856149439"/>
+<node TEXT="ordering of elements" ID="ID_67701470" CREATED="1773856151413" MODIFIED="1773856163627"/>
+<node TEXT="are keys unique" ID="ID_1341345159" CREATED="1773856164726" MODIFIED="1773856180701"/>
+<node TEXT="sets" ID="ID_1625765725" CREATED="1773856221771" MODIFIED="1773856226034">
+<node TEXT="sorted and unique" ID="ID_1706651726" CREATED="1773856227562" MODIFIED="1773856237125"/>
+<node TEXT="set&lt;T,Comparator,Allocator&gt; Comparator defaults to std::less and allocator defaults to std::allocator&lt;T&gt;" ID="ID_443392927" CREATED="1773856353546" MODIFIED="1773856417338"/>
+<node TEXT="" ID="ID_1560444378" CREATED="1773857136990" MODIFIED="1773857143991">
+<hook URI="set1.png" SIZE="0.77720207" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="multiset" ID="ID_880974702" CREATED="1773857217738" MODIFIED="1773857224734">
+<node TEXT="sorted and non unique.. can have more than 1 value" ID="ID_827028552" CREATED="1773857226048" MODIFIED="1773857243755"/>
+</node>
+<node TEXT="unordered set" ID="ID_607131317" CREATED="1773857323375" MODIFIED="1773857335214">
+<node TEXT="uses a hash table for storage" ID="ID_149927843" CREATED="1773857336918" MODIFIED="1773857348640"/>
+</node>
+<node TEXT="unordered multiset" ID="ID_112847392" CREATED="1773857370027" MODIFIED="1773857379147"/>
+<node TEXT="map" ID="ID_874556245" CREATED="1773857380840" MODIFIED="1773857385116">
+<node TEXT="associative array" ID="ID_1428624212" CREATED="1773859419415" MODIFIED="1773859427273"/>
+<node TEXT="(key, value) pairs" ID="ID_241941709" CREATED="1773859428392" MODIFIED="1773859438450"/>
+<node TEXT="map&lt;Key, Value, Comparator, Allocator&gt;" ID="ID_601731609" CREATED="1773859439539" MODIFIED="1773859444019"/>
+</node>
+</node>
 <node TEXT="unordered" ID="ID_846324736" CREATED="1773619750693" MODIFIED="1773619756590"/>
 </node>
 </node>
