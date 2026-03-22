@@ -782,7 +782,7 @@
 <node TEXT="SWEBOK" ID="ID_1738635526" CREATED="1754530704673" MODIFIED="1754530707828"/>
 </node>
 <node TEXT="06.0 Design and Implementation" POSITION="top_or_left" ID="ID_7229223" CREATED="1703960109127" MODIFIED="1705795585940"/>
-<node TEXT="07.0 Software Testing" POSITION="bottom_or_right" ID="ID_1745259993" CREATED="1703960127362" MODIFIED="1705795550799">
+<node TEXT="07.0 Software Testing" FOLDED="true" POSITION="bottom_or_right" ID="ID_1745259993" CREATED="1703960127362" MODIFIED="1705795550799">
 <node TEXT="1. Definitions (sommerville)" ID="ID_1647273780" CREATED="1720572805829" MODIFIED="1772477422717">
 <node TEXT="Testing" FOLDED="true" ID="ID_1414981698" CREATED="1721062076223" MODIFIED="1721062152781">
 <node TEXT="Software testing consists of the dynamic verification that a program provides expected behaviors on a finite set of test cases, suitably selected from the usually infinite execution domain. In the above definition, italicized words correspond to key issues in describing the Software Testing knowledge area (KA):" ID="ID_1304314201" CREATED="1721062154328" MODIFIED="1721062157768">
@@ -840,16 +840,16 @@
 <node TEXT="Junit Examples" ID="ID_837212868" CREATED="1721063447610" MODIFIED="1721063453321"/>
 </node>
 </node>
-<node TEXT="2. definitions (swebok)" ID="ID_1069898005" CREATED="1772476707731" MODIFIED="1772477433259">
+<node TEXT="2. definitions (swebok)" FOLDED="true" ID="ID_1069898005" CREATED="1772476707731" MODIFIED="1772477433259">
 <node TEXT="System Under Test: This term refers to the tested object, which can be a program, a software product, an application, a service-oriented application (e.g.,web services,microservices), middleware (HW/SW), a services composition, a system, a System of Systems (SoS), or an&#xa;Ecosystem." ID="ID_1079473741" CREATED="1772476718006" MODIFIED="1772476800636"/>
 <node TEXT="Test Case: A test case is the specification of all the entities that are essential for the execution, such as input values, execution and timing conditions, testing procedure,and the expected outcomes (e.g., pro-duced values, state changes, output messages). Input values alone are not always sufficient to specify the test cases because the SUT might react to the same input with different behaviors, depending, for instance, on the SUT state or environmental conditions. A set of test cases is usually called a test suite.&#xa; " ID="ID_743679685" CREATED="1772476801982" MODIFIED="1772476889452"/>
 <node TEXT="fault - &quot;defect in a system or a representation of a system that, if executed or activated, could potentially result in an error&quot;" ID="ID_864571359" CREATED="1772476892127" MODIFIED="1772477165520"/>
 <node TEXT="failure- an undesired effect or event where a system or component does not perform a required function within specified limits. It is the externally visible, observed, or delivered service deviation from expected behavior, often caused by a underlying fault" ID="ID_886523564" CREATED="1772477090408" MODIFIED="1772477206341"/>
 <node TEXT="mistake - an action taken by a human that causes a fault" ID="ID_1481832371" CREATED="1772477208503" MODIFIED="1772477224728"/>
 </node>
-<node TEXT="3. Types of Testing" ID="ID_50577210" CREATED="1720572823007" MODIFIED="1772477442255">
+<node TEXT="3. Types of Testing" ID="ID_50577210" CREATED="1720572823007" MODIFIED="1773863834868">
 <node TEXT="swebok" ID="ID_1876603933" CREATED="1720572832569" MODIFIED="1720572841385"/>
-<node TEXT="sommerville" ID="ID_652520180" CREATED="1720572843160" MODIFIED="1720572848359">
+<node TEXT="sommerville" ID="ID_652520180" CREATED="1720572843160" MODIFIED="1773863834867">
 <node TEXT="Development Testing" ID="ID_1534671895" CREATED="1721062327587" MODIFIED="1721062334248">
 <node TEXT="Unit" ID="ID_972415720" CREATED="1721062728447" MODIFIED="1721062734082"/>
 <node TEXT="Component" ID="ID_1159049850" CREATED="1721062735534" MODIFIED="1721062741484"/>
@@ -895,7 +895,7 @@
 <node TEXT="goal is to be efficient at identifying and removing defects." ID="ID_1945642780" CREATED="1772477552568" MODIFIED="1772484831506"/>
 </node>
 </node>
-<node TEXT="08.0 Software Evolution" FOLDED="true" POSITION="top_or_left" ID="ID_1115346714" CREATED="1703960140577" MODIFIED="1705795577335">
+<node TEXT="08.0 Software Evolution" POSITION="top_or_left" ID="ID_1115346714" CREATED="1703960140577" MODIFIED="1705795577335">
 <node TEXT="1. Introduction" ID="ID_55644239" CREATED="1721659300913" MODIFIED="1761155899662">
 <node TEXT="Maintenance / Evolution is changing software after it has been delivered." ID="ID_1302931771" CREATED="1721659310195" MODIFIED="1721659329021"/>
 <node TEXT="Why does software change?" ID="ID_123019938" CREATED="1721659332757" MODIFIED="1721659347110">
