@@ -866,7 +866,7 @@
 <node TEXT="3 https://medium.com/@anasramzan090/interrupts-in-tm4c123gh6pm-arm-cortex-m-microcontrollers-35fd8520b453" ID="ID_1828135459" CREATED="1774195210694" MODIFIED="1774195223802"/>
 </node>
 <node TEXT="3 Contents" ID="ID_485907442" CREATED="1748787771359" MODIFIED="1774137774595">
-<node TEXT="1 NVIC" ID="ID_1151792677" CREATED="1748040972687" MODIFIED="1774193606251">
+<node TEXT="1 NVIC" FOLDED="true" ID="ID_1151792677" CREATED="1748040972687" MODIFIED="1774193606251">
 <node TEXT="1 block diagram of chip (p71)" ID="ID_967406096" CREATED="1757362894087" MODIFIED="1774194462725"/>
 <node TEXT="2 Nested" ID="ID_1783916319" CREATED="1757362913986" MODIFIED="1774194466534">
 <node TEXT="an interrupt handler can be called during an interrupt handler" ID="ID_416976444" CREATED="1757362942212" MODIFIED="1757362970624"/>
@@ -885,12 +885,19 @@
 <node TEXT="6 asynchronous nature of an interrupt" ID="ID_586668044" CREATED="1774137828420" MODIFIED="1774195325852">
 <hook URI="intPicture.png" SIZE="0.68728524" NAME="ExternalObject"/>
 </node>
-<node TEXT="7 Time history of an interrupt" ID="ID_1234986624" CREATED="1774195326907" MODIFIED="1774195338922"/>
+<node TEXT="7 Time history of an interrupt" ID="ID_1234986624" CREATED="1774195326907" MODIFIED="1774287788071">
+<hook URI="isrstack.png" SIZE="0.7894737" NAME="ExternalObject"/>
+</node>
 <node TEXT="8 optimizations" ID="ID_555327965" CREATED="1774137844178" MODIFIED="1774195344932">
-<node TEXT="tail chaining" ID="ID_316936931" CREATED="1774138258238" MODIFIED="1774138268616"/>
+<node TEXT="tail chaining" ID="ID_316936931" CREATED="1774138258238" MODIFIED="1774138268616">
+<node TEXT="Tail-Chaining. This mechanism speeds up exception servicing. On completion of an exception handler, if there is a pending exception that meets the requirements for exception entry, the stack pop is skipped and control transfers to the new exception handler." ID="ID_401134841" CREATED="1774287931444" MODIFIED="1774287996848"/>
+</node>
+<node TEXT="late arriving" ID="ID_1241929023" CREATED="1774287939484" MODIFIED="1774287971680">
+<node TEXT="Late-Arriving. This mechanism speeds up preemption. If a higher priority exception occurs during state saving for a previous exception, the processor switches to handle the higher priority exception and initiates the vector fetch for that exception. State saving is not affected by late arrival because the state saved is the same for both exceptions. Therefore, the state saving continues uninterrupted. The processor can accept a late arriving exception until the first instruction of the exception handler of the original exception enters the execute stage of the processor." ID="ID_1655650443" CREATED="1774287973016" MODIFIED="1774288018623"/>
 </node>
 </node>
-<node TEXT="2 SysTick" ID="ID_1798047118" CREATED="1748040918299" MODIFIED="1774193610882">
+</node>
+<node TEXT="2 SysTick" FOLDED="true" ID="ID_1798047118" CREATED="1748040918299" MODIFIED="1774193610882">
 <node TEXT="1 HW Registers" ID="ID_1139909171" CREATED="1757363340939" MODIFIED="1757363379481">
 <node TEXT="Part of NVIC" ID="ID_496706084" CREATED="1757363372103" MODIFIED="1757363387558"/>
 <node TEXT="No need to enable the clock" ID="ID_1854822830" CREATED="1757363390244" MODIFIED="1757363396609"/>
@@ -908,7 +915,7 @@
 <node TEXT="Counts Down" ID="ID_320337204" CREATED="1757363598303" MODIFIED="1757363667900"/>
 </node>
 </node>
-<node TEXT="3 Programming Interrupts" ID="ID_1282860086" CREATED="1756848513645" MODIFIED="1774193617082">
+<node TEXT="3 Programming Interrupts" FOLDED="true" ID="ID_1282860086" CREATED="1756848513645" MODIFIED="1774193617082">
 <node TEXT="enable / disable instructions" ID="ID_566020304" CREATED="1756848520681" MODIFIED="1756848527527">
 <node TEXT="CPSID I" ID="ID_1982593549" CREATED="1774193884880" MODIFIED="1774193890835"/>
 <node TEXT="CPSIE I" ID="ID_1588962725" CREATED="1774193891856" MODIFIED="1774193901948"/>
@@ -1144,7 +1151,7 @@
 </node>
 </node>
 </node>
-<node TEXT="4 GPTM" ID="ID_1926501763" CREATED="1748038678402" MODIFIED="1774210060826">
+<node TEXT="4 GPTM" FOLDED="true" ID="ID_1926501763" CREATED="1748038678402" MODIFIED="1774210060826">
 <node TEXT="1 Objectives" ID="ID_1174515153" CREATED="1748787873647" MODIFIED="1748787878721">
 <node TEXT="select the appropriate width timer for a specific function" ID="ID_181445446" CREATED="1774201504605" MODIFIED="1774201527056"/>
 <node TEXT="be able to program a gptm in each of it&apos;s modes" ID="ID_938508560" CREATED="1774210069982" MODIFIED="1774210092134"/>
@@ -1182,7 +1189,7 @@
 <node TEXT="One shot" ID="ID_34268454" CREATED="1742399355230" MODIFIED="1742399358160"/>
 <node TEXT="Periodic" ID="ID_228606208" CREATED="1742399362522" MODIFIED="1742399365471"/>
 <node TEXT="RTC" ID="ID_903477622" CREATED="1742399375149" MODIFIED="1742399377640">
-<node TEXT="embedded II concept, not covered in this course" ID="ID_1232887390" CREATED="1774210151758" MODIFIED="1774210167175"/>
+<node TEXT="embedded 2 concept, not covered in this course" ID="ID_1232887390" CREATED="1774210151758" MODIFIED="1774288103264"/>
 </node>
 <node TEXT="Input Edge Count" ID="ID_407372536" CREATED="1742399381214" MODIFIED="1742399389797"/>
 <node TEXT="Input Edge Time" ID="ID_1382946569" CREATED="1742399418244" MODIFIED="1742399434221"/>
