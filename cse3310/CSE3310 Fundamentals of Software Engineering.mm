@@ -3,7 +3,7 @@
 <bookmarks>
     <bookmark nodeId="ID_1171700979" name="Root" opensAsRoot="true"/>
 </bookmarks>
-<node TEXT="CSE3310 Fundamentals of Software Engineering" FOLDED="false" ID="ID_1171700979" CREATED="1703959867184" MODIFIED="1767120824740" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW"><hook NAME="MapStyle" zoom="1.5">
+<node TEXT="CSE3310 Fundamentals of Software Engineering" FOLDED="false" ID="ID_1171700979" CREATED="1703959867184" MODIFIED="1767120824740" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW"><hook NAME="MapStyle">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" auto_compact_layout="true" show_tags="UNDER_NODES" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -895,7 +895,7 @@
 <node TEXT="goal is to be efficient at identifying and removing defects." ID="ID_1945642780" CREATED="1772477552568" MODIFIED="1772484831506"/>
 </node>
 </node>
-<node TEXT="08.0 Software Evolution" POSITION="top_or_left" ID="ID_1115346714" CREATED="1703960140577" MODIFIED="1705795577335">
+<node TEXT="08.0 Software Evolution" FOLDED="true" POSITION="top_or_left" ID="ID_1115346714" CREATED="1703960140577" MODIFIED="1705795577335">
 <node TEXT="1. Introduction" ID="ID_55644239" CREATED="1721659300913" MODIFIED="1761155899662">
 <node TEXT="Maintenance / Evolution is changing software after it has been delivered." ID="ID_1302931771" CREATED="1721659310195" MODIFIED="1721659329021"/>
 <node TEXT="Why does software change?" ID="ID_123019938" CREATED="1721659332757" MODIFIED="1721659347110">
@@ -993,7 +993,7 @@
 <node TEXT="Quality means &quot;defects&quot; or &quot;ability to change&quot;" ID="ID_141667204" CREATED="1721661725845" MODIFIED="1721661728655"/>
 </node>
 </node>
-<node TEXT="4. Software Maintenance" ID="ID_901781590" CREATED="1721159577278" MODIFIED="1761155928866">
+<node TEXT="4. Software Maintenance" FOLDED="true" ID="ID_901781590" CREATED="1721159577278" MODIFIED="1761155928866">
 <node TEXT="Changes to a system after it is delivered" ID="ID_1341649881" CREATED="1721661788801" MODIFIED="1721661805635">
 <node TEXT="Fix Defects" ID="ID_449396634" CREATED="1721661793307" MODIFIED="1721661814588"/>
 <node TEXT="Add new Requirements" ID="ID_1070043092" CREATED="1721661809243" MODIFIED="1721661823838"/>
@@ -1014,7 +1014,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Re-Factoring" ID="ID_431830890" CREATED="1721662495394" MODIFIED="1721662499244">
+<node TEXT="Re-Factoring" FOLDED="true" ID="ID_431830890" CREATED="1721662495394" MODIFIED="1721662499244">
 <node TEXT="Done to slow down the degradation" ID="ID_1160812940" CREATED="1721662501259" MODIFIED="1721662514103">
 <node TEXT="Improve Structure" ID="ID_853738622" CREATED="1721662524552" MODIFIED="1721662531530"/>
 <node TEXT="Reduce Complexity" ID="ID_589090353" CREATED="1721662563494" MODIFIED="1721662585341"/>
@@ -1033,7 +1033,7 @@
 </node>
 </node>
 </node>
-<node TEXT="09.0 Agile" FOLDED="true" POSITION="bottom_or_right" ID="ID_899582793" CREATED="1703960160810" MODIFIED="1744054420224">
+<node TEXT="09.0 Agile" POSITION="bottom_or_right" ID="ID_899582793" CREATED="1703960160810" MODIFIED="1744054420224">
 <node TEXT="Agile Methods" ID="ID_1428521783" CREATED="1721662759323" MODIFIED="1721662765664">
 <node TEXT="Introduction" ID="ID_316377210" CREATED="1721662871251" MODIFIED="1721662874358">
 <node TEXT="Focus is on development speed" ID="ID_880255529" CREATED="1721662877310" MODIFIED="1721662889127"/>

@@ -1,7 +1,7 @@
 <map version="freeplane 1.12.15">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<bookmarks/>
 <attribute_registry SHOW_ATTRIBUTES="hide"/>
+<bookmarks/>
 <node TEXT="Embedded Systems I" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1768590008244" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_CENTERED"><hook NAME="MapStyle" zoom="2.0">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="false" show_notes_in_map="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" allow_compact_layout="false" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
@@ -866,7 +866,7 @@
 <node TEXT="3 https://medium.com/@anasramzan090/interrupts-in-tm4c123gh6pm-arm-cortex-m-microcontrollers-35fd8520b453" ID="ID_1828135459" CREATED="1774195210694" MODIFIED="1774195223802"/>
 </node>
 <node TEXT="3 Contents" ID="ID_485907442" CREATED="1748787771359" MODIFIED="1774137774595">
-<node TEXT="1 NVIC" FOLDED="true" ID="ID_1151792677" CREATED="1748040972687" MODIFIED="1774193606251">
+<node TEXT="1 NVIC" ID="ID_1151792677" CREATED="1748040972687" MODIFIED="1774193606251">
 <node TEXT="1 block diagram of chip (p71)" ID="ID_967406096" CREATED="1757362894087" MODIFIED="1774194462725"/>
 <node TEXT="2 Nested" ID="ID_1783916319" CREATED="1757362913986" MODIFIED="1774194466534">
 <node TEXT="an interrupt handler can be called during an interrupt handler" ID="ID_416976444" CREATED="1757362942212" MODIFIED="1757362970624"/>
@@ -915,7 +915,7 @@
 <node TEXT="Counts Down" ID="ID_320337204" CREATED="1757363598303" MODIFIED="1757363667900"/>
 </node>
 </node>
-<node TEXT="3 Programming Interrupts" FOLDED="true" ID="ID_1282860086" CREATED="1756848513645" MODIFIED="1774193617082">
+<node TEXT="3 Programming Interrupts" ID="ID_1282860086" CREATED="1756848513645" MODIFIED="1774193617082">
 <node TEXT="enable / disable instructions" ID="ID_566020304" CREATED="1756848520681" MODIFIED="1756848527527">
 <node TEXT="CPSID I" ID="ID_1982593549" CREATED="1774193884880" MODIFIED="1774193890835"/>
 <node TEXT="CPSIE I" ID="ID_1588962725" CREATED="1774193891856" MODIFIED="1774193901948"/>
@@ -1151,7 +1151,7 @@
 </node>
 </node>
 </node>
-<node TEXT="4 GPTM" FOLDED="true" ID="ID_1926501763" CREATED="1748038678402" MODIFIED="1774210060826">
+<node TEXT="4 GPTM" ID="ID_1926501763" CREATED="1748038678402" MODIFIED="1774210060826">
 <node TEXT="1 Objectives" ID="ID_1174515153" CREATED="1748787873647" MODIFIED="1748787878721">
 <node TEXT="select the appropriate width timer for a specific function" ID="ID_181445446" CREATED="1774201504605" MODIFIED="1774201527056"/>
 <node TEXT="be able to program a gptm in each of it&apos;s modes" ID="ID_938508560" CREATED="1774210069982" MODIFIED="1774210092134"/>
