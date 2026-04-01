@@ -1,4 +1,4 @@
-<map version="freeplane 1.12.15">
+<map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <bookmarks>
     <bookmark nodeId="ID_696401721" name="Root" opensAsRoot="true"/>
@@ -958,7 +958,7 @@
 </node>
 </node>
 </node>
-<node TEXT="3 Assessment 3" FOLDED="true" POSITION="top_or_left" ID="ID_563079713" CREATED="1768937113633" MODIFIED="1768937122671">
+<node TEXT="3 Assessment 3 (4/1)" FOLDED="true" POSITION="top_or_left" ID="ID_563079713" CREATED="1768937113633" MODIFIED="1775061807046">
 <edge COLOR="#00007c"/>
 <node TEXT="01 Objectives" ID="ID_1070431862" CREATED="1772408129372" MODIFIED="1772408138210">
 <node TEXT="1. Identify classes needed to solve a problem" ID="ID_60829777" CREATED="1759761287910" MODIFIED="1772408257922"/>
@@ -1070,7 +1070,7 @@
 </node>
 <node TEXT="04 Iterators" ID="ID_1269998882" CREATED="1773619479832" MODIFIED="1773619490500"/>
 </node>
-<node TEXT="4 Assessment 4" POSITION="top_or_left" ID="ID_1322606626" CREATED="1768937147277" MODIFIED="1768937364836">
+<node TEXT="4 Assessment 4 (4/27)" FOLDED="true" POSITION="top_or_left" ID="ID_1322606626" CREATED="1768937147277" MODIFIED="1775061821832">
 <edge COLOR="#007c00"/>
 <node TEXT="01 Objectives" ID="ID_911552073" CREATED="1774461110144" MODIFIED="1774461119154">
 <node TEXT="be able to create a small gui program in C++/fltk" ID="ID_102667645" CREATED="1761146786375" MODIFIED="1761146806747"/>
@@ -1081,7 +1081,7 @@
 <node TEXT="Lospinoso, Ch 15" ID="ID_1116690386" CREATED="1774461217763" MODIFIED="1774461234563"/>
 </node>
 <node TEXT="03 Expressions" ID="ID_508020864" CREATED="1751483710809" MODIFIED="1774461136953">
-<node TEXT="1 Operators" ID="ID_1424864872" CREATED="1759761331671" MODIFIED="1759761458914">
+<node TEXT="1 Operators" FOLDED="true" ID="ID_1424864872" CREATED="1759761331671" MODIFIED="1759761458914">
 <node TEXT="01 logical" ID="ID_464777578" CREATED="1759761460205" MODIFIED="1759763573177">
 <node TEXT="bitwise" ID="ID_1633430771" CREATED="1759761504958" MODIFIED="1759761508876">
 <node TEXT="and,or,xor, complement, shift left, shift right" ID="ID_1908194089" CREATED="1759761532124" MODIFIED="1759761596865"/>
@@ -1209,7 +1209,7 @@
 </node>
 </node>
 </node>
-<node TEXT="04 Statements / Functions" ID="ID_575133128" CREATED="1751483718384" MODIFIED="1774461155348">
+<node TEXT="04 Statements / Functions" FOLDED="true" ID="ID_575133128" CREATED="1751483718384" MODIFIED="1774461155348">
 <node TEXT="02 Lecture" ID="ID_85977516" CREATED="1751485191652" MODIFIED="1751485449240">
 <node TEXT="expressions&#xa;something followed by a &quot;;&quot;" ID="ID_792509918" CREATED="1759953636023" MODIFIED="1759954934850"/>
 <node TEXT="compound statements&#xa;called a block.  What goes between {}" ID="ID_561086770" CREATED="1759954806727" MODIFIED="1759954845428"/>
@@ -1258,22 +1258,184 @@
 </node>
 </node>
 <node TEXT="jump statements" ID="ID_39075279" CREATED="1760502472098" MODIFIED="1760502479033"/>
-<node TEXT="lambdas" ID="ID_1507787337" CREATED="1760989705876" MODIFIED="1774455582751">
+<node TEXT="lambdas" FOLDED="true" ID="ID_1507787337" CREATED="1760989705876" MODIFIED="1774455582751">
 <node TEXT="There are five components to a lambda expression:&#xa; &#xa;1. captures: The member variables of the function object (that is, the partially applied parameters)&#xa;2. parameters: The arguments required to invoke the function object&#xa;3. body: The function object’s code&#xa;4. specifiers: Elements like constexpr, mutable, noexcept, and [[noreturn]]&#xa;5. return type: The type returned by the function object&#xa;&#xa;Lambda expression usage is as follows:&#xa;[captures] (parameters) modifiers -&gt; return-type { body }" ID="ID_1223374833" CREATED="1774455584220" MODIFIED="1774455653691"/>
+<node TEXT="Background &amp; Motivation" FOLDED="true" ID="ID_1438766675" CREATED="1775060204142" MODIFIED="1775060204142">
+<node TEXT="Introduced in C++11" ID="ID_1967500971" CREATED="1775060204142" MODIFIED="1775060204142"/>
+<node TEXT="Anonymous function objects (inline functions)" ID="ID_1899917942" CREATED="1775060204142" MODIFIED="1775060204142"/>
+<node TEXT="Commonly used with STL algorithms" ID="ID_BG3" CREATED="1775060204142" MODIFIED="1775060204142"/>
+</node>
+<node TEXT="Basic Syntax" FOLDED="true" ID="ID_SYN" CREATED="1775060204142" MODIFIED="1775060204142">
+<node TEXT="General Form:&#xa;[capture](parameters) -&gt; return_type {&#xa;    body&#xa;}" ID="ID_SYN1" CREATED="1775060204142" MODIFIED="1775060204142"/>
+<node TEXT="Capture clause: controls access to outer variables" ID="ID_SYN2" CREATED="1775060204142" MODIFIED="1775060204142"/>
+<node TEXT="Return type often inferred automatically" ID="ID_SYN3" CREATED="1775060204142" MODIFIED="1775060204142"/>
+</node>
+<node TEXT="Simple Lambda Example" FOLDED="true" ID="ID_SIMPLE" CREATED="1775060204142" MODIFIED="1775060204142">
+<node TEXT="Example:&#xa;auto add = [](int a, int b) {&#xa;    return a + b;&#xa;};&#xa;&#xa;int result = add(2, 3); // result = 5" ID="ID_SIMPLE1" CREATED="1775060204142" MODIFIED="1775060204142"/>
+</node>
+<node TEXT="Capture Modes" FOLDED="true" ID="ID_CAP" CREATED="1775060204142" MODIFIED="1775060204142">
+<node TEXT="Capture by value:&#xa;int x = 10;&#xa;auto f = [x]() {&#xa;    return x + 1;&#xa;};" ID="ID_CAP1" CREATED="1775060204142" MODIFIED="1775060204142"/>
+<node TEXT="Capture by reference:&#xa;int x = 10;&#xa;auto f = [&amp;x]() {&#xa;    x += 1;&#xa;};" ID="ID_CAP2" CREATED="1775060204142" MODIFIED="1775060204142"/>
+<node TEXT="Mixed capture:&#xa;int x = 1, y = 2;&#xa;auto f = [x, &amp;y]() {&#xa;    return x + y;&#xa;};" ID="ID_CAP3" CREATED="1775060204142" MODIFIED="1775060204142"/>
+</node>
+<node TEXT="Mutable Lambdas" ID="ID_MUT" CREATED="1775060204142" MODIFIED="1775060204142">
+<node TEXT="By default captures by value are const.&#xa;Use mutable to modify them:&#xa;&#xa;int x = 5;&#xa;auto f = [x]() mutable {&#xa;    x += 10;&#xa;    return x;&#xa;};" ID="ID_MUT1" CREATED="1775060204142" MODIFIED="1775060204142"/>
+</node>
+<node TEXT="Lambdas with STL Algorithms" ID="ID_ALG" CREATED="1775060204142" MODIFIED="1775060204142">
+<node TEXT="Example: std::for_each&#xa;std::vector&lt;int&gt; v{1,2,3};&#xa;std::for_each(v.begin(), v.end(), [](int n) {&#xa;    std::cout &lt;&lt; n &lt;&lt; &quot; &quot;;&#xa;});" ID="ID_ALG1" CREATED="1775060204142" MODIFIED="1775060204142"/>
+<node TEXT="Example: std::sort&#xa;std::sort(v.begin(), v.end(), [](int a, int b) {&#xa;    return a &gt; b; // descending order&#xa;});" ID="ID_ALG2" CREATED="1775060204142" MODIFIED="1775060204142"/>
+</node>
+<node TEXT="Advanced Topics" ID="ID_ADV" CREATED="1775060204142" MODIFIED="1775060204142">
+<node TEXT="Generic lambdas (C++14): auto parameters" ID="ID_ADV1" CREATED="1775060204142" MODIFIED="1775060204142"/>
+<node TEXT="Generic lambda example:&#xa;auto print = [](auto x) {&#xa;    std::cout &lt;&lt; x;&#xa;};" ID="ID_ADV2" CREATED="1775060204142" MODIFIED="1775060204142"/>
+<node TEXT="Lambdas as closures (store captured state)" ID="ID_ADV3" CREATED="1775060204142" MODIFIED="1775060204142"/>
+</node>
+<node TEXT="Best Practices" ID="ID_1047835765" CREATED="1775060204142" MODIFIED="1775060204142">
+<node TEXT="Use lambdas for short, local behavior" ID="ID_1760867629" CREATED="1775060204142" MODIFIED="1775060204142"/>
+<node TEXT="Prefer capture by value unless mutation is needed" ID="ID_405637067" CREATED="1775060204142" MODIFIED="1775060204142"/>
+<node TEXT="Avoid overly complex lambda bodies" ID="ID_1034088783" CREATED="1775060204142" MODIFIED="1775060204142"/>
 </node>
 </node>
 </node>
-<node TEXT="05 Smart Pointers" ID="ID_528796219" CREATED="1751483731257" MODIFIED="1774461162575"/>
+</node>
+<node TEXT="05 Smart Pointers" FOLDED="true" ID="ID_528796219" CREATED="1751483731257" MODIFIED="1774461162575">
+<node TEXT="Motivation &amp; Background" FOLDED="true" ID="ID_BG" CREATED="1775059987691" MODIFIED="1775059987691">
+<node TEXT="Manual memory management risks (leaks, dangling pointers)" ID="ID_BG1" CREATED="1775059987691" MODIFIED="1775059987691"/>
+<node TEXT="RAII: constructors acquire, destructors release resources" ID="ID_BG2" CREATED="1775059987691" MODIFIED="1775059987691"/>
+</node>
+<node TEXT="std::unique_ptr" FOLDED="true" ID="ID_UP" CREATED="1775059987691" MODIFIED="1775059987691">
+<node TEXT="Exclusive ownership (not copyable)" ID="ID_UP1" CREATED="1775059987691" MODIFIED="1775059987691"/>
+<node TEXT="Moved but never shared" ID="ID_UP2" CREATED="1775059987691" MODIFIED="1775059987691"/>
+<node TEXT="Example:&#xa;std::unique_ptr&lt;int&gt; p = std::make_unique&lt;int&gt;(42);&#xa;std::cout &lt;&lt; *p &lt;&lt; std::endl;  // 42&#xa;&#xa;// Transfer ownership&#xa;std::unique_ptr&lt;int&gt; q = std::move(p);&#xa;// p is now nullptr" ID="ID_UP3" CREATED="1775059987691" MODIFIED="1775059987691"/>
+</node>
+<node TEXT="std::shared_ptr" FOLDED="true" ID="ID_SP" CREATED="1775059987691" MODIFIED="1775059987691">
+<node TEXT="Shared ownership via reference counting" ID="ID_SP1" CREATED="1775059987691" MODIFIED="1775059987691"/>
+<node TEXT="Deleted when count reaches zero" ID="ID_SP2" CREATED="1775059987691" MODIFIED="1775059987691"/>
+<node TEXT="Example:&#xa;auto p1 = std::make_shared&lt;int&gt;(100);&#xa;auto p2 = p1;  // shared ownership&#xa;&#xa;std::cout &lt;&lt; p1.use_count();  // 2" ID="ID_SP3" CREATED="1775059987691" MODIFIED="1775059987691"/>
+</node>
+<node TEXT="std::weak_ptr" FOLDED="true" ID="ID_WP" CREATED="1775059987691" MODIFIED="1775059987691">
+<node TEXT="Non-owning observer of shared_ptr" ID="ID_WP1" CREATED="1775059987691" MODIFIED="1775059987691"/>
+<node TEXT="Used to break cyclic dependencies" ID="ID_WP2" CREATED="1775059987691" MODIFIED="1775059987691"/>
+<node TEXT="Example:&#xa;std::shared_ptr&lt;int&gt; sp = std::make_shared&lt;int&gt;(50);&#xa;std::weak_ptr&lt;int&gt; wp = sp;&#xa;&#xa;if (auto locked = wp.lock()) {&#xa;    std::cout &lt;&lt; *locked;&#xa;}" ID="ID_WP3" CREATED="1775059987691" MODIFIED="1775059987691"/>
+</node>
+<node TEXT="std::auto_ptr (deprecated)" FOLDED="true" ID="ID_AP" CREATED="1775059987691" MODIFIED="1775059987691">
+<node TEXT="Historical example (DO NOT USE):&#xa;std::auto_ptr&lt;int&gt; p1(new int(10));&#xa;std::auto_ptr&lt;int&gt; p2 = p1; // transfers ownership&#xa;// p1 becomes null" ID="ID_AP1" CREATED="1775059987691" MODIFIED="1775059987691"/>
+</node>
+<node TEXT="Best Practices" FOLDED="true" ID="ID_BP" CREATED="1775059987691" MODIFIED="1775059987691">
+<node TEXT="Prefer unique_ptr whenever possible" ID="ID_BP1" CREATED="1775059987691" MODIFIED="1775059987691"/>
+<node TEXT="Use shared_ptr only for real shared ownership" ID="ID_BP2" CREATED="1775059987691" MODIFIED="1775059987691"/>
+<node TEXT="Use weak_ptr to avoid reference cycles" ID="ID_BP3" CREATED="1775059987691" MODIFIED="1775059987691"/>
+</node>
+</node>
 <node TEXT="06 Utilities" ID="ID_263413799" CREATED="1751483742201" MODIFIED="1774461169389"/>
 <node TEXT="07 Streams" ID="ID_777423090" CREATED="1751483782840" MODIFIED="1774461176152"/>
 <node TEXT="08 FileSystems" ID="ID_1770028949" CREATED="1751483809408" MODIFIED="1774461180677"/>
-<node TEXT="09 GUI Programming" ID="ID_428879427" CREATED="1751483838143" MODIFIED="1774896530204"/>
+<node TEXT="09 GUI Programming" FOLDED="true" ID="ID_428879427" CREATED="1751483838143" MODIFIED="1774896530204">
+<node TEXT="Introduction &amp; Setup" FOLDED="true" ID="ID_INTRO" CREATED="1775060479173" MODIFIED="1775060479173">
+<node TEXT="GTK 4: Modern Linux GUI toolkit (Wayland-first)" ID="ID_INTRO1" CREATED="1775060479173" MODIFIED="1775060479173"/>
+<node TEXT="C++ bindings provided by gtkmm-4.0" ID="ID_INTRO2" CREATED="1775060479173" MODIFIED="1775060479173"/>
+<node TEXT="Development Setup:&#xa;- Install gtkmm-4.0&#xa;- Use pkg-config for compile flags&#xa;&#xa;Example compile:&#xa;g++ main.cpp `pkg-config gtkmm-4.0 --cflags --libs`" ID="ID_INTRO3" CREATED="1775060479173" MODIFIED="1775060479173"/>
 </node>
-<node TEXT="6 Lost and Found" POSITION="top_or_left" ID="ID_1410183154" CREATED="1768937367610" MODIFIED="1768937375486">
+<node TEXT="Application Structure" FOLDED="true" ID="ID_APP" CREATED="1775060479173" MODIFIED="1775060479173">
+<node TEXT="Gtk::Application manages lifecycle" ID="ID_APP1" CREATED="1775060479173" MODIFIED="1775060479173"/>
+<node TEXT="Single entry point using application-&gt;run()" ID="ID_APP2" CREATED="1775060479173" MODIFIED="1775060479173"/>
+<node TEXT="Minimal Application:&#xa;#include &lt;gtkmm.h&gt;&#xa;&#xa;int main(int argc, char* argv[]) {&#xa;    auto app = Gtk::Application::create(&quot;edu.example.gtk4&quot;);&#xa;    return app-&gt;run(argc, argv);&#xa;}" ID="ID_APP3" CREATED="1775060479173" MODIFIED="1775060479173"/>
+</node>
+<node TEXT="Windows" FOLDED="true" ID="ID_WIN" CREATED="1775060479173" MODIFIED="1775060479173">
+<node TEXT="Gtk::Window is a top-level container" ID="ID_WIN1" CREATED="1775060479173" MODIFIED="1775060479173"/>
+<node TEXT="Holds a single child widget" ID="ID_WIN2" CREATED="1775060479173" MODIFIED="1775060479173"/>
+<node TEXT="Window Example:&#xa;class MainWindow : public Gtk::Window {&#xa;public:&#xa;    MainWindow() {&#xa;        set_title(&quot;GTK4 Example&quot;);&#xa;        set_default_size(400, 300);&#xa;    }&#xa;};" ID="ID_WIN3" CREATED="1775060479173" MODIFIED="1775060479173"/>
+</node>
+<node TEXT="Widgets" FOLDED="true" ID="ID_WIDGETS" CREATED="1775060479173" MODIFIED="1775060479173">
+<node TEXT="Basic widgets: Button, Label, Entry" ID="ID_WID1" CREATED="1775060479173" MODIFIED="1775060479173"/>
+<node TEXT="Containers: Box, Grid" ID="ID_WID2" CREATED="1775060479173" MODIFIED="1775060479173"/>
+<node TEXT="Button &amp; Label Example:&#xa;Gtk::Box box(Gtk::Orientation::VERTICAL);&#xa;Gtk::Label label(&quot;Hello GTK 4&quot;);&#xa;Gtk::Button button(&quot;Click Me&quot;);&#xa;&#xa;box.append(label);&#xa;box.append(button);" ID="ID_WID3" CREATED="1775060479173" MODIFIED="1775060479173"/>
+</node>
+<node TEXT="Layout &amp; Containers" ID="ID_LAYOUT" CREATED="1775060479173" MODIFIED="1775060479173">
+<node TEXT="Gtk::Box: linear layout" ID="ID_LAY1" CREATED="1775060479173" MODIFIED="1775060479173"/>
+<node TEXT="Gtk::Grid: row/column layout" ID="ID_LAY2" CREATED="1775060479173" MODIFIED="1775060479173"/>
+<node TEXT="Grid Example:&#xa;Gtk::Grid grid;&#xa;grid.attach(label, 0, 0);&#xa;grid.attach(button, 1, 0);" ID="ID_LAY3" CREATED="1775060479173" MODIFIED="1775060479173"/>
+</node>
+<node TEXT="Event-Driven Programming" FOLDED="true" ID="ID_EVENT" CREATED="1775060479173" MODIFIED="1775060479173">
+<node TEXT="GUI reacts to signals (events)" ID="ID_EVT1" CREATED="1775060479173" MODIFIED="1775060479173"/>
+<node TEXT="Signals connected to callback methods" ID="ID_EVT2" CREATED="1775060479173" MODIFIED="1775060479173"/>
+<node TEXT="Button Click Event:&#xa;button.signal_clicked().connect([&#xa;    this]() {&#xa;        std::cout &lt;&lt; &quot;Button clicked&quot; &lt;&lt; std::endl;&#xa;    }&#xa;);" ID="ID_EVT3" CREATED="1775060479173" MODIFIED="1775060479173"/>
+</node>
+<node TEXT="Common Signals" FOLDED="true" ID="ID_SIG" CREATED="1775060479173" MODIFIED="1775060479173">
+<node TEXT="signal_clicked()" ID="ID_SIG1" CREATED="1775060479173" MODIFIED="1775060479173"/>
+<node TEXT="signal_changed()" ID="ID_SIG2" CREATED="1775060479173" MODIFIED="1775060479173"/>
+<node TEXT="signal_activate()" ID="ID_SIG3" CREATED="1775060479173" MODIFIED="1775060479173"/>
+</node>
+<node TEXT="Best Practices" FOLDED="true" ID="ID_639791290" CREATED="1775060479173" MODIFIED="1775060479173">
+<node TEXT="Use gtkmm instead of raw GTK C API" ID="ID_167539595" CREATED="1775060479173" MODIFIED="1775060479173"/>
+<node TEXT="Prefer composition over inheritance for widgets" ID="ID_1793783936" CREATED="1775060479173" MODIFIED="1775060479173"/>
+<node TEXT="Avoid blocking code in signal handlers" ID="ID_393626407" CREATED="1775060479173" MODIFIED="1775060479173"/>
+</node>
+</node>
+<node TEXT="10 types of programming" FOLDED="true" ID="ID_1998539420" CREATED="1768349862732" MODIFIED="1775061762364">
+<node TEXT="Programming Paradigms in C++ (High-Level View)" ID="ROOT" CREATED="1775061482694" MODIFIED="1775061482694">
+<node TEXT="Teaching Notes" ID="ID_74058681" CREATED="1775061482698" MODIFIED="1775061482698">
+<node TEXT="Expose students to multiple paradigm mindsets early" ID="ID_1985668861" CREATED="1775061482698" MODIFIED="1775061482698"/>
+<node TEXT="Emphasize design trade-offs, not just syntax" ID="ID_963642629" CREATED="1775061482699" MODIFIED="1775061482699"/>
+<node TEXT="Paradigms influence readability, scalability, and maintenance" ID="ID_978201730" CREATED="1775061482699" MODIFIED="1775061482699"/>
+</node>
+</node>
+<node TEXT="Big Picture" ID="ID_590846461" CREATED="1775061482694" MODIFIED="1775061482694">
+<node TEXT="Programming paradigm = way of thinking about programs" ID="ID_1889847694" CREATED="1775061482695" MODIFIED="1775061482695"/>
+<node TEXT="Different paradigms emphasize different abstractions" ID="ID_126411073" CREATED="1775061482695" MODIFIED="1775061482695"/>
+<node TEXT="C++ is a multi-paradigm language" ID="ID_527167858" CREATED="1775061482695" MODIFIED="1775061482695"/>
+</node>
+<node TEXT="Imperative Programming" ID="ID_1988578518" CREATED="1775061482695" MODIFIED="1775061482695">
+<node TEXT="Specify HOW computation is performed" ID="ID_401224007" CREATED="1775061482695" MODIFIED="1775061482695"/>
+<node TEXT="Explicit control flow and state changes" ID="ID_333359087" CREATED="1775061482695" MODIFIED="1775061482695"/>
+<node TEXT="Procedural Programming" FOLDED="true" ID="ID_19584010" CREATED="1775061482695" MODIFIED="1775061482695">
+<node TEXT="Programs organized as procedures/functions" ID="ID_999865029" CREATED="1775061482695" MODIFIED="1775061482695"/>
+<node TEXT="Example: int add(int a, int b) {     return a + b; }  int main() {     add(2, 3); }" ID="ID_617113153" CREATED="1775061482695" MODIFIED="1775061482695"/>
+</node>
+<node TEXT="Object-Oriented Programming" FOLDED="true" ID="ID_1806853520" CREATED="1775061482695" MODIFIED="1775061482695">
+<node TEXT="Programs modeled as interacting objects" ID="ID_921118403" CREATED="1775061482695" MODIFIED="1775061482695"/>
+<node TEXT="Encapsulation, abstraction, inheritance, polymorphism" ID="ID_679573208" CREATED="1775061482695" MODIFIED="1775061482695"/>
+<node TEXT="Example: class Counter {     int value = 0; public:     void increment() { value++; }     int get() const { return value; } };" ID="ID_1166416047" CREATED="1775061482696" MODIFIED="1775061482696"/>
+</node>
+<node TEXT="Parallel Programming" FOLDED="true" ID="ID_500795310" CREATED="1775061482696" MODIFIED="1775061482696">
+<node TEXT="Multiple computations execute concurrently" ID="ID_1057439769" CREATED="1775061482696" MODIFIED="1775061482696"/>
+<node TEXT="Explicit control via threads or tasks" ID="ID_1316279256" CREATED="1775061482696" MODIFIED="1775061482696"/>
+<node TEXT="Example: #include &lt;thread&gt;  void task() {}  int main() {     std::thread t(task);     t.join(); }" ID="ID_1113925948" CREATED="1775061482696" MODIFIED="1775061482696"/>
+</node>
+</node>
+<node TEXT="Declarative Programming" ID="ID_812036834" CREATED="1775061482696" MODIFIED="1775061482696">
+<node TEXT="Specify WHAT result is desired" ID="ID_532037074" CREATED="1775061482696" MODIFIED="1775061482696"/>
+<node TEXT="Runtime decides HOW to execute" ID="ID_80885756" CREATED="1775061482696" MODIFIED="1775061482696"/>
+<node TEXT="Functional Programming" ID="ID_403925352" CREATED="1775061482696" MODIFIED="1775061482696">
+<node TEXT="Computation through expressions and functions" ID="ID_73242273" CREATED="1775061482696" MODIFIED="1775061482696"/>
+<node TEXT="Minimizes mutable state" ID="ID_1202908395" CREATED="1775061482696" MODIFIED="1775061482696"/>
+<node TEXT="Example: #include &lt;vector&gt; #include &lt;numeric&gt;  int main() {     std::vector&lt;int&gt; v{1,2,3};     int sum = std::accumulate(v.begin(), v.end(), 0); }" ID="ID_869465795" CREATED="1775061482696" MODIFIED="1775061482696"/>
+</node>
+<node TEXT="Logical Programming" ID="ID_506627818" CREATED="1775061482696" MODIFIED="1775061482696">
+<node TEXT="Programs expressed as facts and rules" ID="ID_608338342" CREATED="1775061482696" MODIFIED="1775061482696"/>
+<node TEXT="Example (conceptual): IF parent(X,Y) AND parent(Y,Z) THEN grandparent(X,Z) (C++ typically interfaces with logic engines)" ID="ID_403340203" CREATED="1775061482698" MODIFIED="1775061482698"/>
+</node>
+<node TEXT="Reactive Programming" ID="ID_51877320" CREATED="1775061482698" MODIFIED="1775061482698">
+<node TEXT="Programs respond to events or data streams" ID="ID_1584592620" CREATED="1775061482698" MODIFIED="1775061482698"/>
+<node TEXT="Common in GUIs and async systems" ID="ID_377563710" CREATED="1775061482698" MODIFIED="1775061482698"/>
+<node TEXT="Example: auto onEvent = [](int value) {     std::cout &lt;&lt; value; };" ID="ID_1897947289" CREATED="1775061482698" MODIFIED="1775061482698"/>
+</node>
+<node TEXT="Database / Query Programming" ID="ID_973173039" CREATED="1775061482698" MODIFIED="1775061482698">
+<node TEXT="Describe desired data, not retrieval steps" ID="ID_563574421" CREATED="1775061482698" MODIFIED="1775061482698"/>
+<node TEXT="C++ acts as a host language" ID="ID_949904644" CREATED="1775061482698" MODIFIED="1775061482698"/>
+<node TEXT="Example (SQL): SELECT name FROM students WHERE grade &gt; 90;" ID="ID_1742960415" CREATED="1775061482698" MODIFIED="1775061482698"/>
+</node>
+</node>
+<node TEXT="Imperative vs Declarative" ID="ID_1907901254" CREATED="1775061482698" MODIFIED="1775061482698">
+<node TEXT="Imperative: how to compute" ID="ID_150639931" CREATED="1775061482698" MODIFIED="1775061482698"/>
+<node TEXT="Declarative: what to compute" ID="ID_1461439027" CREATED="1775061482698" MODIFIED="1775061482698"/>
+<node TEXT="Modern C++ blends multiple paradigms" ID="ID_1471104453" CREATED="1775061482698" MODIFIED="1775061482698"/>
+</node>
+</node>
+</node>
+<node TEXT="6 Lost and Found" FOLDED="true" POSITION="top_or_left" ID="ID_1410183154" CREATED="1768937367610" MODIFIED="1768937375486">
 <edge COLOR="#7c7c00"/>
-<node TEXT="1 More Things to Add" ID="ID_465443412" CREATED="1768349836968" MODIFIED="1774456779138">
-<node TEXT="types of programming" ID="ID_1998539420" CREATED="1768349862732" MODIFIED="1768349867622"/>
-</node>
+<node TEXT="1 More Things to Add" ID="ID_465443412" CREATED="1768349836968" MODIFIED="1774456779138"/>
 <node TEXT="99 Transient" FOLDED="true" ID="ID_1380988926" CREATED="1770052925405" MODIFIED="1770052934412">
 <node TEXT="2 feb" ID="ID_894911838" CREATED="1770215926196" MODIFIED="1770215933872">
 <node TEXT="1 USB Drives" FOLDED="true" ID="ID_878474476" CREATED="1770052947266" MODIFIED="1770052959809">
