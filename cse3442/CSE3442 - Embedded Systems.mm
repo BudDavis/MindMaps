@@ -1,7 +1,7 @@
-<map version="freeplane 1.12.1">
+<map version="freeplane 1.12.15">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<attribute_registry SHOW_ATTRIBUTES="hide"/>
 <bookmarks/>
+<attribute_registry SHOW_ATTRIBUTES="hide"/>
 <node TEXT="Embedded Systems I" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1768590008244" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_CENTERED"><hook NAME="MapStyle" zoom="2.0">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="false" show_notes_in_map="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" allow_compact_layout="false" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
@@ -1151,7 +1151,7 @@
 </node>
 </node>
 </node>
-<node TEXT="4 GPTM" ID="ID_1926501763" CREATED="1748038678402" MODIFIED="1774210060826">
+<node TEXT="4 GPTM" FOLDED="true" ID="ID_1926501763" CREATED="1748038678402" MODIFIED="1774210060826">
 <node TEXT="1 Objectives" ID="ID_1174515153" CREATED="1748787873647" MODIFIED="1748787878721">
 <node TEXT="select the appropriate width timer for a specific function" ID="ID_181445446" CREATED="1774201504605" MODIFIED="1774201527056"/>
 <node TEXT="be able to program a gptm in each of it&apos;s modes" ID="ID_938508560" CREATED="1774210069982" MODIFIED="1774210092134"/>
@@ -1163,7 +1163,7 @@
 </node>
 <node TEXT="3 Contents" ID="ID_525027230" CREATED="1748787899151" MODIFIED="1774201547066">
 <node TEXT="0.  In this course, we will only deal with the regular timers.  Wide timers are very similar, but they have a lot of restrictions on the order of access to registers, etc.  If you need to use a wide timer, hit the data sheet." ID="ID_1603210142" CREATED="1774203231377" MODIFIED="1774203303469"/>
-<node TEXT="1. tm4c has 5 GPTM&apos;s (General Purpose Timer Modules)" ID="ID_1801247825" CREATED="1742331283384" MODIFIED="1774210115401">
+<node TEXT="1. tm4c has 5 GPTM&apos;s (General Purpose Timer Modules)" FOLDED="true" ID="ID_1801247825" CREATED="1742331283384" MODIFIED="1774210115401">
 <node TEXT="Each has 2 input / output pins" ID="ID_25991900" CREATED="1742331349703" MODIFIED="1774208021770">
 <node TEXT="one for each timer (A/B)" ID="ID_204984533" CREATED="1742332852630" MODIFIED="1774208008891"/>
 </node>
@@ -1180,12 +1180,12 @@
 </node>
 </node>
 </node>
-<node TEXT="2. details" ID="ID_133636152" CREATED="1773678386750" MODIFIED="1774210111105">
+<node TEXT="2. details" FOLDED="true" ID="ID_133636152" CREATED="1773678386750" MODIFIED="1774210111105">
 <node TEXT="" ID="ID_906007646" CREATED="1773678397330" MODIFIED="1773678407090">
 <hook URI="gbtm_block_diagram.png" SIZE="0.51993066" NAME="ExternalObject"/>
 </node>
 </node>
-<node TEXT="3. Modes (programmable)" ID="ID_1117529803" CREATED="1742399252581" MODIFIED="1774207969892">
+<node TEXT="3. Modes (programmable)" FOLDED="true" ID="ID_1117529803" CREATED="1742399252581" MODIFIED="1774207969892">
 <node TEXT="One shot" ID="ID_34268454" CREATED="1742399355230" MODIFIED="1742399358160"/>
 <node TEXT="Periodic" ID="ID_228606208" CREATED="1742399362522" MODIFIED="1742399365471"/>
 <node TEXT="RTC" ID="ID_903477622" CREATED="1742399375149" MODIFIED="1742399377640">
@@ -1195,7 +1195,7 @@
 <node TEXT="Input Edge Time" ID="ID_1382946569" CREATED="1742399418244" MODIFIED="1742399434221"/>
 <node TEXT="PWM Mode" ID="ID_1434697181" CREATED="1742399437593" MODIFIED="1742399442245"/>
 </node>
-<node TEXT="4. example functions from a timer" ID="ID_1708912767" CREATED="1742332877267" MODIFIED="1774208053726">
+<node TEXT="4. example functions from a timer" FOLDED="true" ID="ID_1708912767" CREATED="1742332877267" MODIFIED="1774208053726">
 <node TEXT="fixed time delay" ID="ID_264109994" CREATED="1742332889102" MODIFIED="1742332896314"/>
 <node TEXT="periodic interrupt" ID="ID_1932590133" CREATED="1742332899413" MODIFIED="1742332904350"/>
 <node TEXT="PWM from timer" ID="ID_1588824568" CREATED="1742332926182" MODIFIED="1742332930421"/>
@@ -1205,7 +1205,7 @@
 <node TEXT="Volvano Page 296-299" ID="ID_1487812218" CREATED="1742399769518" MODIFIED="1742399785224"/>
 </node>
 </node>
-<node TEXT="5. switch debouncing" ID="ID_1488240158" CREATED="1774208097087" MODIFIED="1774208107581">
+<node TEXT="5. switch debouncing" FOLDED="true" ID="ID_1488240158" CREATED="1774208097087" MODIFIED="1774208107581">
 <node TEXT="show example code" ID="ID_1328322087" CREATED="1775062028634" MODIFIED="1775062034711"/>
 </node>
 </node>
@@ -1213,7 +1213,30 @@
 </node>
 <node TEXT="04 final " POSITION="top_or_left" ID="ID_405887282" CREATED="1768589725735" MODIFIED="1773787681339">
 <edge COLOR="#0000ff"/>
-<node TEXT="1 SPI" ID="ID_1247027048" CREATED="1770229451104" MODIFIED="1775062057109"/>
+<node TEXT="1 SPI" ID="ID_1247027048" CREATED="1770229451104" MODIFIED="1775062057109">
+<node TEXT="Intro" ID="ID_83451402" CREATED="1775414837473" MODIFIED="1775414843927">
+<node TEXT="synchronous format" ID="ID_27428387" CREATED="1775414966432" MODIFIED="1775414997715"/>
+<node TEXT="serial data, 4 to 16 bits" ID="ID_261842339" CREATED="1775414999679" MODIFIED="1775415028479"/>
+<node TEXT="master / slave" ID="ID_248049550" CREATED="1775415081492" MODIFIED="1775415087788"/>
+<node TEXT="tm4c has 4 of them" ID="ID_1669066332" CREATED="1775415498474" MODIFIED="1775415506585"/>
+<node TEXT="applications" ID="ID_876561282" CREATED="1775415512763" MODIFIED="1775415518238">
+<node TEXT="computer to computer" ID="ID_1874690099" CREATED="1775415518808" MODIFIED="1775415527612"/>
+<node TEXT="interface to sophisticated periphrials" ID="ID_1067538996" CREATED="1775415556927" MODIFIED="1775415572009">
+<node TEXT="D/A Converters" ID="ID_230718258" CREATED="1775415572027" MODIFIED="1775415580446"/>
+<node TEXT="LCD Displays" ID="ID_776056507" CREATED="1775415581664" MODIFIED="1775415590008"/>
+<node TEXT="relatively fast" ID="ID_835834418" CREATED="1775415590900" MODIFIED="1775415598337"/>
+<node TEXT="relatively high bandwidth" ID="ID_223561383" CREATED="1775415599492" MODIFIED="1775415609872"/>
+</node>
+</node>
+</node>
+<node TEXT="Block Diagram" ID="ID_1538567942" CREATED="1775414845431" MODIFIED="1775414851501">
+<node TEXT="" ID="ID_1337876764" CREATED="1775414942424" MODIFIED="1775414953394">
+<hook URI="ssi_block_diagram.png" SIZE="0.57581574" NAME="ExternalObject"/>
+</node>
+<node TEXT="external signals" ID="ID_1815406995" CREATED="1775415100317" MODIFIED="1775416217446"/>
+<node TEXT="formats" ID="ID_1777725663" CREATED="1775416219956" MODIFIED="1775416233356"/>
+</node>
+</node>
 <node TEXT="2 Pulse Width Modulation" FOLDED="true" ID="ID_582282277" CREATED="1748038683372" MODIFIED="1775062054582">
 <node TEXT="1 Objectives" ID="ID_1108656082" CREATED="1748787918864" MODIFIED="1748787923399">
 <node TEXT="be able to program a PWM generator for a given frequency / duty cycle" ID="ID_1098083733" CREATED="1760810218866" MODIFIED="1774208162924"/>
