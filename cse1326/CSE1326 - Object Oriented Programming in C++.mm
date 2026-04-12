@@ -1,4 +1,4 @@
-<map version="freeplane 1.12.1">
+<map version="freeplane 1.12.15">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <bookmarks>
     <bookmark nodeId="ID_696401721" name="Root" opensAsRoot="true"/>
@@ -1070,17 +1070,18 @@
 </node>
 <node TEXT="04 Iterators" ID="ID_1269998882" CREATED="1773619479832" MODIFIED="1773619490500"/>
 </node>
-<node TEXT="4 Assessment 4 (4/27)" FOLDED="true" POSITION="top_or_left" ID="ID_1322606626" CREATED="1768937147277" MODIFIED="1775061821832">
+<node TEXT="4 Assessment 4 (4/27)" POSITION="top_or_left" ID="ID_1322606626" CREATED="1768937147277" MODIFIED="1775061821832">
 <edge COLOR="#007c00"/>
 <node TEXT="01 Objectives" ID="ID_911552073" CREATED="1774461110144" MODIFIED="1774461119154">
-<node TEXT="be able to create a small gui program in C++/fltk" ID="ID_102667645" CREATED="1761146786375" MODIFIED="1761146806747"/>
-<node TEXT="be able to compile and link an fltk program with a makefile" ID="ID_914631641" CREATED="1761146808537" MODIFIED="1761146830112"/>
-<node TEXT="understand the use of the fluid gui builder program" ID="ID_721859626" CREATED="1761146832118" MODIFIED="1761146844614"/>
+<node TEXT="be able to create a small gui program in C++/gtkmm" ID="ID_102667645" CREATED="1761146786375" MODIFIED="1775596899667"/>
+<node TEXT="be able to compile and link a gui program with a makefile" ID="ID_914631641" CREATED="1761146808537" MODIFIED="1775596917252"/>
 </node>
 <node TEXT="02 Readings" ID="ID_273802653" CREATED="1774461120504" MODIFIED="1774461130787">
 <node TEXT="Lospinoso, Ch 15" ID="ID_1116690386" CREATED="1774461217763" MODIFIED="1774461234563"/>
+<node TEXT=" https://gtkmm.gnome.org/en/index.html" ID="ID_337801449" CREATED="1775600820218" MODIFIED="1775600829581"/>
+<node TEXT="https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/" ID="ID_509039210" CREATED="1775600895066" MODIFIED="1775600899021"/>
 </node>
-<node TEXT="03 Expressions" ID="ID_508020864" CREATED="1751483710809" MODIFIED="1774461136953">
+<node TEXT="03 Expressions" FOLDED="true" ID="ID_508020864" CREATED="1751483710809" MODIFIED="1774461136953">
 <node TEXT="1 Operators" FOLDED="true" ID="ID_1424864872" CREATED="1759761331671" MODIFIED="1759761458914">
 <node TEXT="01 logical" ID="ID_464777578" CREATED="1759761460205" MODIFIED="1759763573177">
 <node TEXT="bitwise" ID="ID_1633430771" CREATED="1759761504958" MODIFIED="1759761508876">
@@ -1210,11 +1211,11 @@
 </node>
 </node>
 <node TEXT="04 Statements / Functions" FOLDED="true" ID="ID_575133128" CREATED="1751483718384" MODIFIED="1774461155348">
-<node TEXT="02 Lecture" ID="ID_85977516" CREATED="1751485191652" MODIFIED="1751485449240">
+<node TEXT="02 Lecture" FOLDED="true" ID="ID_85977516" CREATED="1751485191652" MODIFIED="1751485449240">
 <node TEXT="expressions&#xa;something followed by a &quot;;&quot;" ID="ID_792509918" CREATED="1759953636023" MODIFIED="1759954934850"/>
 <node TEXT="compound statements&#xa;called a block.  What goes between {}" ID="ID_561086770" CREATED="1759954806727" MODIFIED="1759954845428"/>
 <node TEXT="statements&#xa;Declaration statements (or just declarations) introduce identifiers, such as functions, templates, and namespaces" ID="ID_1727027956" CREATED="1759954904904" MODIFIED="1759954921001"/>
-<node TEXT="functions" ID="ID_14981878" CREATED="1759954939182" MODIFIED="1759954989653">
+<node TEXT="functions" FOLDED="true" ID="ID_14981878" CREATED="1759954939182" MODIFIED="1759954989653">
 <node TEXT="free functions" ID="ID_1391569693" CREATED="1759954989662" MODIFIED="1759954995472"/>
 <node TEXT="member functions" ID="ID_689368248" CREATED="1759954995938" MODIFIED="1759955000121"/>
 <node TEXT="definition" ID="ID_625374241" CREATED="1759955000842" MODIFIED="1759955003676">
@@ -1235,7 +1236,7 @@
 <node TEXT="creates a structure" ID="ID_1814637696" CREATED="1760501762030" MODIFIED="1760501780990"/>
 <node TEXT="structured_bindings.cpp" ID="ID_1715026220" CREATED="1760501783385" MODIFIED="1760501792540"/>
 </node>
-<node TEXT="attributes" ID="ID_1893596217" CREATED="1760501834567" MODIFIED="1760501838147">
+<node TEXT="attributes" FOLDED="true" ID="ID_1893596217" CREATED="1760501834567" MODIFIED="1760501838147">
 <node TEXT="[[noreturn]]               Indicates that a function doesn’t return.&#xa;[[deprecated(&quot;reason&quot;)]]            Indicates that this expression is deprecated; that is, its use is discouraged. The &quot;reason&quot; is optional and indicates the reason for deprecation.&#xa;[[fallthrough]]    Indicates that a switch case intends to fall through to the next switch case. This avoids compiler errors that will check for switch case fallthrough, because it’s uncommon.&#xa;[[nodiscard]]      Indicates that the following function or type declaration should be used. If code using this element discards the value, the compiler should emit a warning.&#xa;[[maybe_unused]]      Indicates that the following element might be unused and that the compiler shouldn’t warn about it.&#xa;[[carries_dependency]]   Used within the &lt;atomic&gt; header to help the compiler opti-mize certain memory operations. You’re unlikely to encounter this directly." ID="ID_904985384" CREATED="1760501840567" MODIFIED="1760501990118">
 <node TEXT="" ID="ID_934840401" CREATED="1760501957886" MODIFIED="1760501957886"/>
 <node TEXT="" ID="ID_1928592296" CREATED="1760501961097" MODIFIED="1760501961097"/>
@@ -1247,7 +1248,7 @@
 </node>
 <node TEXT="switch statements" ID="ID_1734459685" CREATED="1760502055167" MODIFIED="1760502060611"/>
 </node>
-<node TEXT="iteration statements" ID="ID_1488173050" CREATED="1760502210040" MODIFIED="1760810023326">
+<node TEXT="iteration statements" FOLDED="true" ID="ID_1488173050" CREATED="1760502210040" MODIFIED="1760810023326">
 <node TEXT="while" ID="ID_1214008096" CREATED="1760502256541" MODIFIED="1760502259885"/>
 <node TEXT="do {} while" ID="ID_1475684487" CREATED="1760502260300" MODIFIED="1760502266976"/>
 <node TEXT="for loops" ID="ID_1071151241" CREATED="1760502286366" MODIFIED="1760502291459">
@@ -1260,20 +1261,20 @@
 <node TEXT="jump statements" ID="ID_39075279" CREATED="1760502472098" MODIFIED="1760502479033"/>
 <node TEXT="lambdas" FOLDED="true" ID="ID_1507787337" CREATED="1760989705876" MODIFIED="1774455582751">
 <node TEXT="There are five components to a lambda expression:&#xa; &#xa;1. captures: The member variables of the function object (that is, the partially applied parameters)&#xa;2. parameters: The arguments required to invoke the function object&#xa;3. body: The function object’s code&#xa;4. specifiers: Elements like constexpr, mutable, noexcept, and [[noreturn]]&#xa;5. return type: The type returned by the function object&#xa;&#xa;Lambda expression usage is as follows:&#xa;[captures] (parameters) modifiers -&gt; return-type { body }" ID="ID_1223374833" CREATED="1774455584220" MODIFIED="1774455653691"/>
-<node TEXT="Background &amp; Motivation" FOLDED="true" ID="ID_1438766675" CREATED="1775060204142" MODIFIED="1775060204142">
+<node TEXT="Background &amp; Motivation" ID="ID_1438766675" CREATED="1775060204142" MODIFIED="1775060204142">
 <node TEXT="Introduced in C++11" ID="ID_1967500971" CREATED="1775060204142" MODIFIED="1775060204142"/>
 <node TEXT="Anonymous function objects (inline functions)" ID="ID_1899917942" CREATED="1775060204142" MODIFIED="1775060204142"/>
 <node TEXT="Commonly used with STL algorithms" ID="ID_BG3" CREATED="1775060204142" MODIFIED="1775060204142"/>
 </node>
-<node TEXT="Basic Syntax" FOLDED="true" ID="ID_SYN" CREATED="1775060204142" MODIFIED="1775060204142">
+<node TEXT="Basic Syntax" ID="ID_SYN" CREATED="1775060204142" MODIFIED="1775060204142">
 <node TEXT="General Form:&#xa;[capture](parameters) -&gt; return_type {&#xa;    body&#xa;}" ID="ID_SYN1" CREATED="1775060204142" MODIFIED="1775060204142"/>
 <node TEXT="Capture clause: controls access to outer variables" ID="ID_SYN2" CREATED="1775060204142" MODIFIED="1775060204142"/>
 <node TEXT="Return type often inferred automatically" ID="ID_SYN3" CREATED="1775060204142" MODIFIED="1775060204142"/>
 </node>
-<node TEXT="Simple Lambda Example" FOLDED="true" ID="ID_SIMPLE" CREATED="1775060204142" MODIFIED="1775060204142">
+<node TEXT="Simple Lambda Example" ID="ID_SIMPLE" CREATED="1775060204142" MODIFIED="1775060204142">
 <node TEXT="Example:&#xa;auto add = [](int a, int b) {&#xa;    return a + b;&#xa;};&#xa;&#xa;int result = add(2, 3); // result = 5" ID="ID_SIMPLE1" CREATED="1775060204142" MODIFIED="1775060204142"/>
 </node>
-<node TEXT="Capture Modes" FOLDED="true" ID="ID_CAP" CREATED="1775060204142" MODIFIED="1775060204142">
+<node TEXT="Capture Modes" ID="ID_CAP" CREATED="1775060204142" MODIFIED="1775060204142">
 <node TEXT="Capture by value:&#xa;int x = 10;&#xa;auto f = [x]() {&#xa;    return x + 1;&#xa;};" ID="ID_CAP1" CREATED="1775060204142" MODIFIED="1775060204142"/>
 <node TEXT="Capture by reference:&#xa;int x = 10;&#xa;auto f = [&amp;x]() {&#xa;    x += 1;&#xa;};" ID="ID_CAP2" CREATED="1775060204142" MODIFIED="1775060204142"/>
 <node TEXT="Mixed capture:&#xa;int x = 1, y = 2;&#xa;auto f = [x, &amp;y]() {&#xa;    return x + y;&#xa;};" ID="ID_CAP3" CREATED="1775060204142" MODIFIED="1775060204142"/>
@@ -1299,29 +1300,31 @@
 </node>
 </node>
 <node TEXT="05 Smart Pointers" FOLDED="true" ID="ID_528796219" CREATED="1751483731257" MODIFIED="1774461162575">
-<node TEXT="Motivation &amp; Background" FOLDED="true" ID="ID_BG" CREATED="1775059987691" MODIFIED="1775059987691">
+<node TEXT="Motivation &amp; Background" ID="ID_BG" CREATED="1775059987691" MODIFIED="1775059987691">
 <node TEXT="Manual memory management risks (leaks, dangling pointers)" ID="ID_BG1" CREATED="1775059987691" MODIFIED="1775059987691"/>
 <node TEXT="RAII: constructors acquire, destructors release resources" ID="ID_BG2" CREATED="1775059987691" MODIFIED="1775059987691"/>
 </node>
-<node TEXT="std::unique_ptr" FOLDED="true" ID="ID_UP" CREATED="1775059987691" MODIFIED="1775059987691">
+<node TEXT="std::unique_ptr" ID="ID_UP" CREATED="1775059987691" MODIFIED="1775059987691">
 <node TEXT="Exclusive ownership (not copyable)" ID="ID_UP1" CREATED="1775059987691" MODIFIED="1775059987691"/>
 <node TEXT="Moved but never shared" ID="ID_UP2" CREATED="1775059987691" MODIFIED="1775059987691"/>
 <node TEXT="Example:&#xa;std::unique_ptr&lt;int&gt; p = std::make_unique&lt;int&gt;(42);&#xa;std::cout &lt;&lt; *p &lt;&lt; std::endl;  // 42&#xa;&#xa;// Transfer ownership&#xa;std::unique_ptr&lt;int&gt; q = std::move(p);&#xa;// p is now nullptr" ID="ID_UP3" CREATED="1775059987691" MODIFIED="1775059987691"/>
 </node>
-<node TEXT="std::shared_ptr" FOLDED="true" ID="ID_SP" CREATED="1775059987691" MODIFIED="1775059987691">
+<node TEXT="std::shared_ptr" ID="ID_SP" CREATED="1775059987691" MODIFIED="1775059987691">
 <node TEXT="Shared ownership via reference counting" ID="ID_SP1" CREATED="1775059987691" MODIFIED="1775059987691"/>
 <node TEXT="Deleted when count reaches zero" ID="ID_SP2" CREATED="1775059987691" MODIFIED="1775059987691"/>
 <node TEXT="Example:&#xa;auto p1 = std::make_shared&lt;int&gt;(100);&#xa;auto p2 = p1;  // shared ownership&#xa;&#xa;std::cout &lt;&lt; p1.use_count();  // 2" ID="ID_SP3" CREATED="1775059987691" MODIFIED="1775059987691"/>
+<node TEXT=".reset()" ID="ID_572228722" CREATED="1775498524077" MODIFIED="1775498560797"/>
+<node TEXT=".use_count()" ID="ID_950670062" CREATED="1775498561319" MODIFIED="1775498568393"/>
 </node>
-<node TEXT="std::weak_ptr" FOLDED="true" ID="ID_WP" CREATED="1775059987691" MODIFIED="1775059987691">
+<node TEXT="std::weak_ptr" ID="ID_WP" CREATED="1775059987691" MODIFIED="1775059987691">
 <node TEXT="Non-owning observer of shared_ptr" ID="ID_WP1" CREATED="1775059987691" MODIFIED="1775059987691"/>
 <node TEXT="Used to break cyclic dependencies" ID="ID_WP2" CREATED="1775059987691" MODIFIED="1775059987691"/>
 <node TEXT="Example:&#xa;std::shared_ptr&lt;int&gt; sp = std::make_shared&lt;int&gt;(50);&#xa;std::weak_ptr&lt;int&gt; wp = sp;&#xa;&#xa;if (auto locked = wp.lock()) {&#xa;    std::cout &lt;&lt; *locked;&#xa;}" ID="ID_WP3" CREATED="1775059987691" MODIFIED="1775059987691"/>
 </node>
-<node TEXT="std::auto_ptr (deprecated)" FOLDED="true" ID="ID_AP" CREATED="1775059987691" MODIFIED="1775059987691">
+<node TEXT="std::auto_ptr (deprecated)" ID="ID_AP" CREATED="1775059987691" MODIFIED="1775059987691">
 <node TEXT="Historical example (DO NOT USE):&#xa;std::auto_ptr&lt;int&gt; p1(new int(10));&#xa;std::auto_ptr&lt;int&gt; p2 = p1; // transfers ownership&#xa;// p1 becomes null" ID="ID_AP1" CREATED="1775059987691" MODIFIED="1775059987691"/>
 </node>
-<node TEXT="Best Practices" FOLDED="true" ID="ID_BP" CREATED="1775059987691" MODIFIED="1775059987691">
+<node TEXT="Best Practices" ID="ID_BP" CREATED="1775059987691" MODIFIED="1775059987691">
 <node TEXT="Prefer unique_ptr whenever possible" ID="ID_BP1" CREATED="1775059987691" MODIFIED="1775059987691"/>
 <node TEXT="Use shared_ptr only for real shared ownership" ID="ID_BP2" CREATED="1775059987691" MODIFIED="1775059987691"/>
 <node TEXT="Use weak_ptr to avoid reference cycles" ID="ID_BP3" CREATED="1775059987691" MODIFIED="1775059987691"/>
@@ -1330,46 +1333,71 @@
 <node TEXT="06 Utilities" ID="ID_263413799" CREATED="1751483742201" MODIFIED="1774461169389"/>
 <node TEXT="07 Streams" ID="ID_777423090" CREATED="1751483782840" MODIFIED="1774461176152"/>
 <node TEXT="08 FileSystems" ID="ID_1770028949" CREATED="1751483809408" MODIFIED="1774461180677"/>
-<node TEXT="09 GUI Programming" FOLDED="true" ID="ID_428879427" CREATED="1751483838143" MODIFIED="1774896530204">
-<node TEXT="Introduction &amp; Setup" FOLDED="true" ID="ID_INTRO" CREATED="1775060479173" MODIFIED="1775060479173">
-<node TEXT="GTK 4: Modern Linux GUI toolkit (Wayland-first)" ID="ID_INTRO1" CREATED="1775060479173" MODIFIED="1775060479173"/>
-<node TEXT="C++ bindings provided by gtkmm-4.0" ID="ID_INTRO2" CREATED="1775060479173" MODIFIED="1775060479173"/>
-<node TEXT="Development Setup:&#xa;- Install gtkmm-4.0&#xa;- Use pkg-config for compile flags&#xa;&#xa;Example compile:&#xa;g++ main.cpp `pkg-config gtkmm-4.0 --cflags --libs`" ID="ID_INTRO3" CREATED="1775060479173" MODIFIED="1775060479173"/>
+<node TEXT="09 GUI Programming" ID="ID_428879427" CREATED="1751483838143" MODIFIED="1774896530204">
+<node TEXT="1 Introduction &amp; Setup" ID="ID_INTRO" CREATED="1775060479173" MODIFIED="1775666931176">
+<node TEXT="1 GTK 4: Modern Linux GUI toolkit" ID="ID_INTRO1" CREATED="1775060479173" MODIFIED="1775671377391">
+<node TEXT="xwindows is yesterday" ID="ID_1082223678" CREATED="1775671378505" MODIFIED="1775671399455"/>
+<node TEXT="wayland is today" ID="ID_1154046983" CREATED="1775671401149" MODIFIED="1775671408048"/>
 </node>
-<node TEXT="Application Structure" FOLDED="true" ID="ID_APP" CREATED="1775060479173" MODIFIED="1775060479173">
+<node TEXT="2 C++ bindings provided by gtkmm-4.0" ID="ID_INTRO2" CREATED="1775060479173" MODIFIED="1775600054726"/>
+<node TEXT="3 install on debian" ID="ID_185693242" CREATED="1775600026742" MODIFIED="1775600061151">
+<node TEXT="sudo apt install libgtkmm-4.0-dev build-essential pkg-config" ID="ID_695831171" CREATED="1775600030644" MODIFIED="1775600030644"/>
+</node>
+<node TEXT="4 Development Setup:&#xa;- Install gtkmm-4.0&#xa;- Use pkg-config for compile flags&#xa;&#xa;Example compile:&#xa;g++ main.cpp `pkg-config gtkmm-4.0 --cflags --libs`" ID="ID_INTRO3" CREATED="1775060479173" MODIFIED="1775600065909">
+<node TEXT="add this to the makefile..." ID="ID_1038451990" CREATED="1775600092702" MODIFIED="1775600109674">
+<node TEXT="what are backquotes??" ID="ID_1195267743" CREATED="1775666160259" MODIFIED="1775666169184"/>
+<node TEXT="show pkgconfig in use" ID="ID_764809048" CREATED="1775671346289" MODIFIED="1775671363875"/>
+</node>
+</node>
+<node TEXT="try it out" ID="ID_260926963" CREATED="1775600081262" MODIFIED="1775600087551">
+<node TEXT="minimal_gtk.cpp" FOLDED="true" ID="ID_628398244" CREATED="1775665968071" MODIFIED="1775665981505">
+<node TEXT="" ID="ID_302940268" CREATED="1775666058595" MODIFIED="1775666066950">
+<hook URI="minimal.png" SIZE="0.6103764" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="2 Application Structure" ID="ID_APP" CREATED="1775060479173" MODIFIED="1775666935998">
+<node TEXT="1 event driven" ID="ID_1811576780" CREATED="1775600128842" MODIFIED="1775600141959">
 <node TEXT="Gtk::Application manages lifecycle" ID="ID_APP1" CREATED="1775060479173" MODIFIED="1775060479173"/>
 <node TEXT="Single entry point using application-&gt;run()" ID="ID_APP2" CREATED="1775060479173" MODIFIED="1775060479173"/>
-<node TEXT="Minimal Application:&#xa;#include &lt;gtkmm.h&gt;&#xa;&#xa;int main(int argc, char* argv[]) {&#xa;    auto app = Gtk::Application::create(&quot;edu.example.gtk4&quot;);&#xa;    return app-&gt;run(argc, argv);&#xa;}" ID="ID_APP3" CREATED="1775060479173" MODIFIED="1775060479173"/>
 </node>
-<node TEXT="Windows" FOLDED="true" ID="ID_WIN" CREATED="1775060479173" MODIFIED="1775060479173">
+<node TEXT="2 strings" ID="ID_170044893" CREATED="1775666310257" MODIFIED="1775666316515">
+<node TEXT="Glib::ustring instead of std::string" ID="ID_1336030301" CREATED="1775666317593" MODIFIED="1775666329301"/>
+</node>
+</node>
+<node TEXT="3 HelloWorld.cpp" ID="ID_1354387950" CREATED="1775666978507" MODIFIED="1775666989965">
+<node TEXT="introduces a widget and a callback" ID="ID_930931185" CREATED="1775667014189" MODIFIED="1775667026472"/>
+<node TEXT="can we replace the callback with a lambda?" ID="ID_587859792" CREATED="1775667027585" MODIFIED="1775667038898"/>
+<node TEXT="https://gnome.pages.gitlab.gnome.org/gtkmm/classGtk_1_1Widget.html" ID="ID_1233420654" CREATED="1775667483927" MODIFIED="1775667487899">
+<node TEXT="try some other types of widgets" ID="ID_935625923" CREATED="1775671295368" MODIFIED="1775671309021"/>
+<node TEXT="look in the source tree" ID="ID_1743711541" CREATED="1775671313717" MODIFIED="1775671321526"/>
+</node>
+</node>
+<node TEXT="4 Windows" ID="ID_WIN" CREATED="1775060479173" MODIFIED="1775666940727">
 <node TEXT="Gtk::Window is a top-level container" ID="ID_WIN1" CREATED="1775060479173" MODIFIED="1775060479173"/>
 <node TEXT="Holds a single child widget" ID="ID_WIN2" CREATED="1775060479173" MODIFIED="1775060479173"/>
 <node TEXT="Window Example:&#xa;class MainWindow : public Gtk::Window {&#xa;public:&#xa;    MainWindow() {&#xa;        set_title(&quot;GTK4 Example&quot;);&#xa;        set_default_size(400, 300);&#xa;    }&#xa;};" ID="ID_WIN3" CREATED="1775060479173" MODIFIED="1775060479173"/>
 </node>
-<node TEXT="Widgets" FOLDED="true" ID="ID_WIDGETS" CREATED="1775060479173" MODIFIED="1775060479173">
+<node TEXT="5 Widgets" ID="ID_WIDGETS" CREATED="1775060479173" MODIFIED="1775666945712">
 <node TEXT="Basic widgets: Button, Label, Entry" ID="ID_WID1" CREATED="1775060479173" MODIFIED="1775060479173"/>
 <node TEXT="Containers: Box, Grid" ID="ID_WID2" CREATED="1775060479173" MODIFIED="1775060479173"/>
 <node TEXT="Button &amp; Label Example:&#xa;Gtk::Box box(Gtk::Orientation::VERTICAL);&#xa;Gtk::Label label(&quot;Hello GTK 4&quot;);&#xa;Gtk::Button button(&quot;Click Me&quot;);&#xa;&#xa;box.append(label);&#xa;box.append(button);" ID="ID_WID3" CREATED="1775060479173" MODIFIED="1775060479173"/>
 </node>
-<node TEXT="Layout &amp; Containers" ID="ID_LAYOUT" CREATED="1775060479173" MODIFIED="1775060479173">
+<node TEXT="6 Layout &amp; Containers" ID="ID_LAYOUT" CREATED="1775060479173" MODIFIED="1775666953434">
 <node TEXT="Gtk::Box: linear layout" ID="ID_LAY1" CREATED="1775060479173" MODIFIED="1775060479173"/>
 <node TEXT="Gtk::Grid: row/column layout" ID="ID_LAY2" CREATED="1775060479173" MODIFIED="1775060479173"/>
 <node TEXT="Grid Example:&#xa;Gtk::Grid grid;&#xa;grid.attach(label, 0, 0);&#xa;grid.attach(button, 1, 0);" ID="ID_LAY3" CREATED="1775060479173" MODIFIED="1775060479173"/>
 </node>
-<node TEXT="Event-Driven Programming" FOLDED="true" ID="ID_EVENT" CREATED="1775060479173" MODIFIED="1775060479173">
+<node TEXT="7 Event-Driven Programming" ID="ID_EVENT" CREATED="1775060479173" MODIFIED="1775666965780">
 <node TEXT="GUI reacts to signals (events)" ID="ID_EVT1" CREATED="1775060479173" MODIFIED="1775060479173"/>
 <node TEXT="Signals connected to callback methods" ID="ID_EVT2" CREATED="1775060479173" MODIFIED="1775060479173"/>
 <node TEXT="Button Click Event:&#xa;button.signal_clicked().connect([&#xa;    this]() {&#xa;        std::cout &lt;&lt; &quot;Button clicked&quot; &lt;&lt; std::endl;&#xa;    }&#xa;);" ID="ID_EVT3" CREATED="1775060479173" MODIFIED="1775060479173"/>
 </node>
-<node TEXT="Common Signals" FOLDED="true" ID="ID_SIG" CREATED="1775060479173" MODIFIED="1775060479173">
+<node TEXT="8 Common Signals" ID="ID_SIG" CREATED="1775060479173" MODIFIED="1775666971587">
 <node TEXT="signal_clicked()" ID="ID_SIG1" CREATED="1775060479173" MODIFIED="1775060479173"/>
 <node TEXT="signal_changed()" ID="ID_SIG2" CREATED="1775060479173" MODIFIED="1775060479173"/>
 <node TEXT="signal_activate()" ID="ID_SIG3" CREATED="1775060479173" MODIFIED="1775060479173"/>
-</node>
-<node TEXT="Best Practices" FOLDED="true" ID="ID_639791290" CREATED="1775060479173" MODIFIED="1775060479173">
-<node TEXT="Use gtkmm instead of raw GTK C API" ID="ID_167539595" CREATED="1775060479173" MODIFIED="1775060479173"/>
-<node TEXT="Prefer composition over inheritance for widgets" ID="ID_1793783936" CREATED="1775060479173" MODIFIED="1775060479173"/>
-<node TEXT="Avoid blocking code in signal handlers" ID="ID_393626407" CREATED="1775060479173" MODIFIED="1775060479173"/>
 </node>
 </node>
 <node TEXT="10 types of programming" FOLDED="true" ID="ID_1998539420" CREATED="1768349862732" MODIFIED="1775061762364">
