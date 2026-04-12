@@ -3,7 +3,7 @@
 <bookmarks>
     <bookmark nodeId="ID_1171700979" name="Root" opensAsRoot="true"/>
 </bookmarks>
-<node TEXT="CSE3310 Fundamentals of Software Engineering" FOLDED="false" ID="ID_1171700979" CREATED="1703959867184" MODIFIED="1767120824740" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW"><hook NAME="MapStyle">
+<node TEXT="CSE3310 Fundamentals of Software Engineering" FOLDED="false" ID="ID_1171700979" CREATED="1703959867184" MODIFIED="1767120824740" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW"><hook NAME="MapStyle" zoom="1.5">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" auto_compact_layout="true" show_tags="UNDER_NODES" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -1244,7 +1244,7 @@
 </node>
 </node>
 </node>
-<node TEXT="11.0 Project Planning" FOLDED="true" POSITION="bottom_or_right" ID="ID_778281146" CREATED="1703960186839" MODIFIED="1703960944734">
+<node TEXT="11.0 Project Planning" POSITION="bottom_or_right" ID="ID_778281146" CREATED="1703960186839" MODIFIED="1703960944734">
 <node TEXT="Software Pricing" ID="ID_1928238314" CREATED="1722444795862" MODIFIED="1722444926005">
 <node TEXT="Contractual Terms" ID="ID_299289663" CREATED="1722445865061" MODIFIED="1722445896330">
 <node TEXT="Firm Fixed Price" ID="ID_407380182" CREATED="1763495462422" MODIFIED="1763495475249"/>
