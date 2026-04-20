@@ -1,4 +1,4 @@
-<map version="freeplane 1.12.15">
+<map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <bookmarks>
     <bookmark nodeId="ID_1171700979" name="Root" opensAsRoot="true"/>
@@ -783,7 +783,7 @@
 </node>
 <node TEXT="06.0 Design and Implementation" POSITION="top_or_left" ID="ID_7229223" CREATED="1703960109127" MODIFIED="1705795585940"/>
 <node TEXT="07.0 Software Testing" FOLDED="true" POSITION="bottom_or_right" ID="ID_1745259993" CREATED="1703960127362" MODIFIED="1705795550799">
-<node TEXT="1. Definitions (sommerville)" ID="ID_1647273780" CREATED="1720572805829" MODIFIED="1772477422717">
+<node TEXT="1. Definitions (sommerville)" FOLDED="true" ID="ID_1647273780" CREATED="1720572805829" MODIFIED="1772477422717">
 <node TEXT="Testing" FOLDED="true" ID="ID_1414981698" CREATED="1721062076223" MODIFIED="1721062152781">
 <node TEXT="Software testing consists of the dynamic verification that a program provides expected behaviors on a finite set of test cases, suitably selected from the usually infinite execution domain. In the above definition, italicized words correspond to key issues in describing the Software Testing knowledge area (KA):" ID="ID_1304314201" CREATED="1721062154328" MODIFIED="1721062157768">
 <node TEXT="Dynamic: This term means that testing always implies executing the program on selected inputs. To be precise, the input value alone is not always sufficient to specify a test, since a complex, nondeterministic system might react to the same input with different behaviors, depending on the system state. In this KA, however, the term “input” will be maintained, with the implied convention that its meaning also includes a specified input state in those cases for which it is important. Static techniques are different from and complementary to dynamic testing. Static techniques are covered in the Software Quality KA. It is worth noting that terminology is not uniform among different communities and some use the term “testing” also in reference to static techniques." ID="ID_367043458" CREATED="1721062160248" MODIFIED="1721062179484"/>
@@ -847,7 +847,7 @@
 <node TEXT="failure- an undesired effect or event where a system or component does not perform a required function within specified limits. It is the externally visible, observed, or delivered service deviation from expected behavior, often caused by a underlying fault" ID="ID_886523564" CREATED="1772477090408" MODIFIED="1772477206341"/>
 <node TEXT="mistake - an action taken by a human that causes a fault" ID="ID_1481832371" CREATED="1772477208503" MODIFIED="1772477224728"/>
 </node>
-<node TEXT="3. Types of Testing" ID="ID_50577210" CREATED="1720572823007" MODIFIED="1773863834868">
+<node TEXT="3. Types of Testing" FOLDED="true" ID="ID_50577210" CREATED="1720572823007" MODIFIED="1773863834868">
 <node TEXT="swebok" ID="ID_1876603933" CREATED="1720572832569" MODIFIED="1720572841385"/>
 <node TEXT="sommerville" ID="ID_652520180" CREATED="1720572843160" MODIFIED="1773863834867">
 <node TEXT="Development Testing" ID="ID_1534671895" CREATED="1721062327587" MODIFIED="1721062334248">
@@ -1180,7 +1180,7 @@
 </node>
 </node>
 </node>
-<node TEXT="10.0 Project Management" POSITION="top_or_left" ID="ID_1186688199" CREATED="1703960169049" MODIFIED="1703960935026">
+<node TEXT="10.0 Project Management" FOLDED="true" POSITION="top_or_left" ID="ID_1186688199" CREATED="1703960169049" MODIFIED="1703960935026">
 <node TEXT="1 Introduction" ID="ID_131093331" CREATED="1722269972119" MODIFIED="1775505142393">
 <node TEXT="Project Goals" ID="ID_1906010044" CREATED="1722269992112" MODIFIED="1722270004438">
 <node TEXT="Deliver Software on Schedule" ID="ID_1163536961" CREATED="1722270012892" MODIFIED="1722270023114"/>
@@ -1244,7 +1244,7 @@
 </node>
 </node>
 </node>
-<node TEXT="11.0 Project Planning" POSITION="bottom_or_right" ID="ID_778281146" CREATED="1703960186839" MODIFIED="1703960944734">
+<node TEXT="11.0 Project Planning" FOLDED="true" POSITION="bottom_or_right" ID="ID_778281146" CREATED="1703960186839" MODIFIED="1703960944734">
 <node TEXT="Software Pricing" ID="ID_1928238314" CREATED="1722444795862" MODIFIED="1722444926005">
 <node TEXT="Contractual Terms" ID="ID_299289663" CREATED="1722445865061" MODIFIED="1722445896330">
 <node TEXT="Firm Fixed Price" ID="ID_407380182" CREATED="1763495462422" MODIFIED="1763495475249"/>

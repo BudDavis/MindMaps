@@ -1,7 +1,7 @@
-<map version="freeplane 1.12.15">
+<map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<attribute_registry SHOW_ATTRIBUTES="hide"/>
 <bookmarks/>
+<attribute_registry SHOW_ATTRIBUTES="hide"/>
 <node TEXT="Embedded Systems I" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1768590008244" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_CENTERED"><hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="false" show_notes_in_map="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" allow_compact_layout="false" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
@@ -1346,11 +1346,88 @@
 </node>
 <node TEXT="3 Analog" FOLDED="true" ID="ID_1112028314" CREATED="1748038692798" MODIFIED="1774209456199">
 <node TEXT="1 Objectives" ID="ID_1546586376" CREATED="1748787988133" MODIFIED="1748787993423"/>
-<node TEXT="2 Lab" ID="ID_1083290799" CREATED="1748787995315" MODIFIED="1748787997576"/>
-<node TEXT="3 Readings" ID="ID_440151811" CREATED="1748787999447" MODIFIED="1748788002908"/>
-<node TEXT="4 Contents" ID="ID_1650778380" CREATED="1748788004654" MODIFIED="1748788008095">
-<node TEXT="1 DAC" ID="ID_524230133" CREATED="1748041043672" MODIFIED="1774209594641"/>
-<node TEXT="2 ADC" ID="ID_761888663" CREATED="1748041027565" MODIFIED="1774209591178">
+<node TEXT="3 Readings" ID="ID_440151811" CREATED="1748787999447" MODIFIED="1748788002908">
+<node TEXT="Volvano, 403-417" ID="ID_878802148" CREATED="1776693880460" MODIFIED="1776693909356"/>
+</node>
+<node TEXT="4 Contents" FOLDED="true" ID="ID_1650778380" CREATED="1748788004654" MODIFIED="1748788008095">
+<node TEXT="1 DAC" ID="ID_524230133" CREATED="1748041043672" MODIFIED="1774209594641">
+<node TEXT="A DAC converts an abstract finite-precision number (usually a fixed-point binary number) into a physical quantity (e.g., a voltage or a pressure). In particular, DACs are often used to convert finite-precision time series data to a continually varying physical signal. (from wikipedia)" ID="ID_583945864" CREATED="1776693441330" MODIFIED="1776693454920">
+<node TEXT="" ID="ID_1777974111" CREATED="1776693523961" MODIFIED="1776693536021">
+<hook URI="Sampled.signal.svg" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="performance characteristics" ID="ID_875179068" CREATED="1776693659327" MODIFIED="1776693671412">
+<node TEXT="Resolution&#xa;The number of possible output levels the DAC is designed to reproduce. This is usually stated as the number of bits it uses, which is the binary logarithm of the number of levels. For instance, a 1-bit DAC is designed to reproduce 2 (21) levels while an 8-bit DAC is designed for 256 (28) levels. Resolution is related to the effective number of bits, which is a measurement of the actual resolution attained by the DAC" ID="ID_1988935528" CREATED="1776693671972" MODIFIED="1776693693388"/>
+<node TEXT="Maximum sampling rate&#xa;The maximum speed at which the DACs circuitry can operate and still produce correct output. The Nyquist–Shannon sampling theorem defines a relationship between this and the bandwidth of the sampled signal." ID="ID_1440931308" CREATED="1776693695703" MODIFIED="1776693711874"/>
+<node TEXT="Monotonicity&#xa;The ability of a DAC&apos;s analog output to move only in the direction that the digital input moves (i.e., if the input increases, the output doesn&apos;t dip before asserting the correct output.)" ID="ID_979188632" CREATED="1776693713891" MODIFIED="1776693750247"/>
+<node TEXT="Total harmonic distortion and noise (THD+N)&#xa;A measurement of the distortion and noise introduced to the signal by the DAC. It is expressed as a percentage of the total power of unwanted harmonic distortion and noise that accompanies the desired signal." ID="ID_1258726711" CREATED="1776693751407" MODIFIED="1776693770832"/>
+<node TEXT="Dynamic range&#xa;A measurement of the difference between the largest and smallest signals the DAC can reproduce, expressed in decibels. This is usually related to resolution and noise floor." ID="ID_1624094013" CREATED="1776693772121" MODIFIED="1776693802700"/>
+</node>
+<node TEXT="definitions (Volvano)" ID="ID_1671556477" CREATED="1776693949028" MODIFIED="1776693961741">
+<node TEXT="Range is maximum minus minimum" ID="ID_1106397962" CREATED="1776693962878" MODIFIED="1776693986369"/>
+<node TEXT="Precision is the number of values possible" ID="ID_1391708210" CREATED="1776694000585" MODIFIED="1776694088323"/>
+<node TEXT="Resolution is the smallest change in value that is significant" ID="ID_1867605163" CREATED="1776694047810" MODIFIED="1776694083529"/>
+<node TEXT="Aliasing is when the digital signal appears to have a different frequency than the original analog signal." ID="ID_1199139732" CREATED="1776694164001" MODIFIED="1776694212184"/>
+</node>
+<node TEXT="types" ID="ID_1534655643" CREATED="1776694294734" MODIFIED="1776694300409">
+<node TEXT="binary weighted DAC" ID="ID_35458310" CREATED="1776695133167" MODIFIED="1776695149136">
+<node TEXT="binary weighted DAC A binary-weighted DAC (Digital-to-Analog Converter) converts digital signals into an analog voltage by summing currents through resistors, where each resistor value corresponds directly to the binary weight of the input bit . It uses an op-amp summing amplifier for fast conversion but is limited to low resolution due to difficulties in fabricating precise, wide-ranging resistor values." ID="ID_661540314" CREATED="1776694301692" MODIFIED="1776695186745">
+<hook URI="model_binary_weighted_dac_arch.png" SIZE="0.9983361" NAME="ExternalObject"/>
+</node>
+<node TEXT="possible without opamp (volvano p 406" ID="ID_575045550" CREATED="1776695668588" MODIFIED="1776695696998"/>
+<node TEXT="pros" ID="ID_1524257982" CREATED="1776697027026" MODIFIED="1776697031919">
+<node TEXT="Simple Construction: Utilizes a straightforward design with only one resistor and one switch per bit.&#xa;High Speed: Known for low propagation delay and fast conversion times, making it suitable for high-frequency applications.&#xa;Low Component Count: Requires fewer components than other types, such as R-2R ladders, at very low bit counts." ID="ID_1281815587" CREATED="1776697075444" MODIFIED="1776697089728"/>
+</node>
+<node TEXT="cons" ID="ID_1347006658" CREATED="1776697033268" MODIFIED="1776697037955">
+<node TEXT="Resistor Range/Precision: Demands a massive range of high-precision resistor values , making accurate manufacturing difficult.&#xa;Poor Scalability: Highly impractical for high-resolution (high-bit) applications due to the extreme resistor accuracy needed.&#xa;Temperature Instability: Maintaining accurate resistance ratios across a wide temperature range is challenging, leading to instability.&#xa;Higher Power: Can have higher power consumption at higher resolutions.&#xa; " ID="ID_306856999" CREATED="1776697108159" MODIFIED="1776697156865"/>
+</node>
+</node>
+<node TEXT="r2r ladder" ID="ID_548840171" CREATED="1776695868740" MODIFIED="1776697164546">
+<node TEXT="An R-2R ladder network is a common, cost-effective digital-to-analog converter (DAC) that transforms parallel digital data into an analog voltage using only two resistor values  and. It is favored for high-resolution applications because it avoids the need for a wide range of precision resistors, making manufacturing and matching easier" ID="ID_447663242" CREATED="1776695878948" MODIFIED="1776697021468">
+<hook URI="solution-r-2r-ladder-l.jpg" SIZE="0.5859375" NAME="ExternalObject"/>
+</node>
+<node TEXT="possible without op amps" ID="ID_238188247" CREATED="1776696156105" MODIFIED="1776696165305"/>
+<node TEXT="pros" ID="ID_863447398" CREATED="1776697163131" MODIFIED="1776697168474">
+<node TEXT="high speed" ID="ID_1053361727" CREATED="1776697175796" MODIFIED="1776697226187"/>
+<node TEXT="only needs 2 resistor values" ID="ID_130568829" CREATED="1776697226608" MODIFIED="1776697235809"/>
+</node>
+<node TEXT="cons" ID="ID_253762093" CREATED="1776697170021" MODIFIED="1776697174454">
+<node TEXT="as bits increase, the accuracy and precision of each resistor matters (they must be the same)" ID="ID_1829122829" CREATED="1776697254037" MODIFIED="1776697283343"/>
+</node>
+</node>
+<node TEXT="pwm with filtering" ID="ID_455279128" CREATED="1776696189324" MODIFIED="1776696202793">
+<node TEXT="" ID="ID_1003763619" CREATED="1776696363262" MODIFIED="1776696380787">
+<hook URI="pwmdacfromti.png" SIZE="0.85106385" NAME="ExternalObject"/>
+</node>
+<node TEXT="" ID="ID_1458373389" CREATED="1776696483479" MODIFIED="1776696499315">
+<hook URI="lowpassfilterfromti.png" SIZE="0.85106385" NAME="ExternalObject"/>
+</node>
+<node TEXT="pros" ID="ID_298129137" CREATED="1776697358411" MODIFIED="1776697363231">
+<node TEXT="simple" ID="ID_770250083" CREATED="1776697369440" MODIFIED="1776697373802"/>
+</node>
+<node TEXT="cons" ID="ID_1814675470" CREATED="1776697364652" MODIFIED="1776697369058">
+<node TEXT="poor accuracy" ID="ID_1785440693" CREATED="1776697375340" MODIFIED="1776697382083"/>
+<node TEXT="limited resolution" ID="ID_1407396452" CREATED="1776697391786" MODIFIED="1776697400840"/>
+<node TEXT="&quot;noisy&quot;" ID="ID_1693337396" CREATED="1776697401320" MODIFIED="1776697406860"/>
+</node>
+</node>
+<node TEXT="others (in an IC)" ID="ID_1571215409" CREATED="1776696878704" MODIFIED="1776696887385">
+<node TEXT="Delta-Sigma  DAC: The most common modern type for high-resolution audio. It uses oversampling and noise shaping to achieve high precision, utilizing an integrator, comparator, and 1-bit DAC." ID="ID_1605567605" CREATED="1776696888078" MODIFIED="1776696898230"/>
+<node TEXT="go over datasheet for MCP4822" ID="ID_1498677736" CREATED="1776696916177" MODIFIED="1776696970466"/>
+<node TEXT="go over characteristics" ID="ID_1743180196" CREATED="1776696971652" MODIFIED="1776696981501"/>
+<node TEXT="go over programming" ID="ID_1409869383" CREATED="1776696983652" MODIFIED="1776696993981"/>
+<node TEXT="pros" ID="ID_915509246" CREATED="1776697409987" MODIFIED="1776697413839">
+<node TEXT="small" ID="ID_917319478" CREATED="1776697438564" MODIFIED="1776697451101"/>
+<node TEXT="minimal parts count" ID="ID_541455518" CREATED="1776697452620" MODIFIED="1776697490358"/>
+</node>
+<node TEXT="cons" ID="ID_563618002" CREATED="1776697416570" MODIFIED="1776697420767">
+<node TEXT="can be slow" ID="ID_828877708" CREATED="1776697421642" MODIFIED="1776697430481"/>
+<node TEXT="cost" ID="ID_1709579518" CREATED="1776697432847" MODIFIED="1776697437781"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="2 ADC" FOLDED="true" ID="ID_761888663" CREATED="1748041027565" MODIFIED="1774209591178">
 <node TEXT="theory" ID="ID_1434318575" CREATED="1748041411738" MODIFIED="1748041435744"/>
 <node TEXT="input conditioning circuitry" ID="ID_722794147" CREATED="1748041419483" MODIFIED="1748041428687"/>
 <node TEXT="programming" ID="ID_1264870952" CREATED="1748041438807" MODIFIED="1748041443780"/>
@@ -1360,7 +1437,7 @@
 </node>
 </node>
 </node>
-<node TEXT="05 lost and found" FOLDED="true" POSITION="top_or_left" ID="ID_761662230" CREATED="1768588625998" MODIFIED="1768589954322">
+<node TEXT="05 lost and found" POSITION="top_or_left" ID="ID_761662230" CREATED="1768588625998" MODIFIED="1768589954322">
 <edge COLOR="#007c7c"/>
 <node TEXT="architecture and pipelines" ID="ID_1441467318" CREATED="1768936549169" MODIFIED="1768936559885"/>
 <node TEXT="99 Transient [to be deleted after this semester is completed]" ID="ID_472507813" CREATED="1770519249683" MODIFIED="1773433736100">
@@ -1399,48 +1476,48 @@
 <node TEXT="gptm. showed periodic task" ID="ID_210093778" CREATED="1773433750047" MODIFIED="1774208579946"/>
 <node TEXT="assignment 2 / lab 7" ID="ID_1244500439" CREATED="1773433820814" MODIFIED="1773433857222"/>
 </node>
-<node TEXT="23 March (m)" ID="ID_1763804228" CREATED="1773433440136" MODIFIED="1774208546813">
+<node TEXT="23 March (m)" FOLDED="true" ID="ID_1763804228" CREATED="1773433440136" MODIFIED="1774208546813">
 <node TEXT=" deeper on interrupts" ID="ID_1827581826" CREATED="1774208494062" MODIFIED="1774208708137"/>
 <node TEXT="start gptm, show examples in class of preselector , count up / count down" ID="ID_239613126" CREATED="1774208709427" MODIFIED="1774208960353"/>
 <node TEXT="go over all gptm modes" ID="ID_68392605" CREATED="1774208962185" MODIFIED="1774208971737"/>
 </node>
-<node TEXT="25 March (w)" ID="ID_1505780979" CREATED="1773433471427" MODIFIED="1774208550614">
+<node TEXT="25 March (w)" FOLDED="true" ID="ID_1505780979" CREATED="1773433471427" MODIFIED="1774208550614">
 <node TEXT=" switch debouncing" ID="ID_1353471382" CREATED="1774208504050" MODIFIED="1774208989645"/>
 <node TEXT="finish gptm examples" ID="ID_1903963153" CREATED="1774208994770" MODIFIED="1774209005998"/>
 </node>
-<node TEXT="30 March (m)" ID="ID_972169209" CREATED="1774208513179" MODIFIED="1774208616773">
+<node TEXT="30 March (m)" FOLDED="true" ID="ID_972169209" CREATED="1774208513179" MODIFIED="1774208616773">
 <node TEXT="pwm" ID="ID_1392958384" CREATED="1774209009121" MODIFIED="1774209054876"/>
 </node>
-<node TEXT="01 Apr (w)" ID="ID_1892639352" CREATED="1774208619159" MODIFIED="1774208634120">
+<node TEXT="01 Apr (w)" FOLDED="true" ID="ID_1892639352" CREATED="1774208619159" MODIFIED="1774208634120">
 <node TEXT="gptm pwm" ID="ID_1039007001" CREATED="1774209021514" MODIFIED="1774209091570">
 <node TEXT="go over the two registers and look at the code." ID="ID_1657811418" CREATED="1775061934561" MODIFIED="1775061952269"/>
 </node>
 <node TEXT="switch debouncing example" ID="ID_1917076387" CREATED="1775062078145" MODIFIED="1775062087724"/>
 </node>
-<node TEXT="06 Apr (m)" ID="ID_209748027" CREATED="1774208635754" MODIFIED="1774208652060">
+<node TEXT="06 Apr (m)" FOLDED="true" ID="ID_209748027" CREATED="1774208635754" MODIFIED="1774208652060">
 <node TEXT="exam review" ID="ID_360196082" CREATED="1774209099741" MODIFIED="1774209107794"/>
 <node TEXT="project discussion" ID="ID_1343865353" CREATED="1774209346003" MODIFIED="1774209353194"/>
 </node>
-<node TEXT="08 Apr (w)" ID="ID_87244495" CREATED="1774208656987" MODIFIED="1774209161658">
+<node TEXT="08 Apr (w)" FOLDED="true" ID="ID_87244495" CREATED="1774208656987" MODIFIED="1774209161658">
 <node TEXT="Exam 2" ID="ID_1247431161" CREATED="1774208665192" MODIFIED="1774208671348"/>
 </node>
-<node TEXT="13 Apr (m)" ID="ID_1031867480" CREATED="1774209141449" MODIFIED="1774209294834">
+<node TEXT="13 Apr (m)" FOLDED="true" ID="ID_1031867480" CREATED="1774209141449" MODIFIED="1774209294834">
 <node TEXT="SPI" ID="ID_1223712465" CREATED="1774209300206" MODIFIED="1774209304299"/>
 <node TEXT="project discussion" ID="ID_1183754592" CREATED="1774209354435" MODIFIED="1774209360955"/>
 </node>
-<node TEXT="15 Apr (w)" ID="ID_1255058562" CREATED="1774209165294" MODIFIED="1774209175420">
+<node TEXT="15 Apr (w)" FOLDED="true" ID="ID_1255058562" CREATED="1774209165294" MODIFIED="1774209175420">
 <node TEXT="SPI" ID="ID_1649540971" CREATED="1774209305319" MODIFIED="1774209309293"/>
 </node>
 <node TEXT="20 Apr (m)" ID="ID_285868924" CREATED="1774209177230" MODIFIED="1774209187381">
 <node TEXT="PWM" ID="ID_1090531802" CREATED="1774209310350" MODIFIED="1775061919410"/>
+<node TEXT="Digital to Analog" ID="ID_879078229" CREATED="1774209316920" MODIFIED="1776698452103"/>
 </node>
 <node TEXT="22 Apr (w)" ID="ID_1246186729" CREATED="1774209188782" MODIFIED="1774209196350">
-<node TEXT="Analog" ID="ID_1298544100" CREATED="1774209316920" MODIFIED="1774209321982"/>
+<node TEXT="revisit pwm" ID="ID_1117193077" CREATED="1776693317001" MODIFIED="1776693328522"/>
+<node TEXT="revisit spi" ID="ID_1224489040" CREATED="1776693330317" MODIFIED="1776693337541"/>
+<node TEXT="analog to digital" ID="ID_346084818" CREATED="1776698415902" MODIFIED="1776698433771"/>
 </node>
 <node TEXT="27 Apr (m)" ID="ID_238632429" CREATED="1774209209603" MODIFIED="1774209242973">
-<node TEXT="Analog" ID="ID_1204402279" CREATED="1774209324856" MODIFIED="1774209329904"/>
-</node>
-<node TEXT="29 Apr (w)" ID="ID_9812539" CREATED="1774209217874" MODIFIED="1774209247102">
 <node TEXT="project defense" ID="ID_906964318" CREATED="1774209270571" MODIFIED="1774209277088"/>
 <node TEXT="review for final" ID="ID_987061430" CREATED="1774209278275" MODIFIED="1774209284586"/>
 </node>

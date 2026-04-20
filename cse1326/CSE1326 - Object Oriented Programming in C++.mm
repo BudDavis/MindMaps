@@ -1,4 +1,4 @@
-<map version="freeplane 1.12.15">
+<map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <bookmarks>
     <bookmark nodeId="ID_696401721" name="Root" opensAsRoot="true"/>
@@ -1461,7 +1461,7 @@
 </node>
 </node>
 </node>
-<node TEXT="6 Lost and Found" FOLDED="true" POSITION="top_or_left" ID="ID_1410183154" CREATED="1768937367610" MODIFIED="1768937375486">
+<node TEXT="6 Lost and Found" POSITION="top_or_left" ID="ID_1410183154" CREATED="1768937367610" MODIFIED="1768937375486">
 <edge COLOR="#7c7c00"/>
 <node TEXT="1 More Things to Add" ID="ID_465443412" CREATED="1768349836968" MODIFIED="1774456779138"/>
 <node TEXT="99 Transient" FOLDED="true" ID="ID_1380988926" CREATED="1770052925405" MODIFIED="1770052934412">
