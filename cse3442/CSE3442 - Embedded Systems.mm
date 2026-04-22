@@ -1,4 +1,4 @@
-<map version="freeplane 1.12.1">
+<map version="freeplane 1.12.15">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <bookmarks/>
 <attribute_registry SHOW_ATTRIBUTES="hide"/>
@@ -1270,7 +1270,7 @@
 </node>
 </node>
 </node>
-<node TEXT="2 SPI" FOLDED="true" ID="ID_1247027048" CREATED="1770229451104" MODIFIED="1776016468577">
+<node TEXT="2 SPI" ID="ID_1247027048" CREATED="1770229451104" MODIFIED="1776016468577">
 <node TEXT="1 Intro" FOLDED="true" ID="ID_83451402" CREATED="1775414837473" MODIFIED="1776018176539">
 <node TEXT="synchronous format" FOLDED="true" ID="ID_27428387" CREATED="1775414966432" MODIFIED="1775414997715">
 <node TEXT="sends and receives at the same time" ID="ID_1358991597" CREATED="1776016757511" MODIFIED="1776016774081"/>
@@ -1291,7 +1291,7 @@
 </node>
 </node>
 </node>
-<node TEXT="2 Block Diagram" FOLDED="true" ID="ID_1538567942" CREATED="1775414845431" MODIFIED="1776018182100">
+<node TEXT="2 Block Diagram" ID="ID_1538567942" CREATED="1775414845431" MODIFIED="1776018182100">
 <node TEXT="" ID="ID_1337876764" CREATED="1775414942424" MODIFIED="1775414953394">
 <hook URI="ssi_block_diagram.png" SIZE="0.57581574" NAME="ExternalObject"/>
 </node>
@@ -1320,11 +1320,11 @@
 </node>
 <node TEXT="" ID="ID_698316064" CREATED="1776018052642" MODIFIED="1776018052642"/>
 </node>
-<node TEXT="3 connections" FOLDED="true" ID="ID_845942497" CREATED="1776018067881" MODIFIED="1776018185913">
+<node TEXT="3 connections" ID="ID_845942497" CREATED="1776018067881" MODIFIED="1776018185913">
 <node TEXT="master and 1 slave" ID="ID_1015522720" CREATED="1776018075962" MODIFIED="1776275312836">
 <hook URI="SPI_8-bit_circular_transfer.svg" SIZE="1.0" NAME="ExternalObject"/>
 </node>
-<node TEXT="master and N slaves" FOLDED="true" ID="ID_1398251983" CREATED="1776018086744" MODIFIED="1776018094782">
+<node TEXT="master and N slaves" ID="ID_1398251983" CREATED="1776018086744" MODIFIED="1776018094782">
 <node TEXT="parallel . use CS (SSIF or GPIO pin) to select" ID="ID_1020294634" CREATED="1776018096351" MODIFIED="1776275464989">
 <hook URI="SPI_three_slaves.svg" SIZE="1.0" NAME="ExternalObject"/>
 </node>
@@ -1335,7 +1335,7 @@
 </node>
 <node TEXT="read and write on the same clock at the same time" ID="ID_1866458512" CREATED="1776209741662" MODIFIED="1776209760246"/>
 </node>
-<node TEXT="4 programming" FOLDED="true" ID="ID_369636826" CREATED="1776018493361" MODIFIED="1776018501625">
+<node TEXT="4 programming" ID="ID_369636826" CREATED="1776018493361" MODIFIED="1776018501625">
 <node TEXT="dac connection" ID="ID_1563872629" CREATED="1776273341515" MODIFIED="1776273471512">
 <hook URI="dacConnections.png" SIZE="1.0" NAME="ExternalObject"/>
 </node>
@@ -1344,12 +1344,12 @@
 </node>
 </node>
 </node>
-<node TEXT="3 Analog" FOLDED="true" ID="ID_1112028314" CREATED="1748038692798" MODIFIED="1774209456199">
+<node TEXT="3 Analog" ID="ID_1112028314" CREATED="1748038692798" MODIFIED="1774209456199">
 <node TEXT="1 Objectives" ID="ID_1546586376" CREATED="1748787988133" MODIFIED="1748787993423"/>
 <node TEXT="3 Readings" ID="ID_440151811" CREATED="1748787999447" MODIFIED="1748788002908">
 <node TEXT="Volvano, 403-417" ID="ID_878802148" CREATED="1776693880460" MODIFIED="1776693909356"/>
 </node>
-<node TEXT="4 Contents" FOLDED="true" ID="ID_1650778380" CREATED="1748788004654" MODIFIED="1748788008095">
+<node TEXT="4 Contents" ID="ID_1650778380" CREATED="1748788004654" MODIFIED="1748788008095">
 <node TEXT="1 DAC" ID="ID_524230133" CREATED="1748041043672" MODIFIED="1774209594641">
 <node TEXT="A DAC converts an abstract finite-precision number (usually a fixed-point binary number) into a physical quantity (e.g., a voltage or a pressure). In particular, DACs are often used to convert finite-precision time series data to a continually varying physical signal. (from wikipedia)" ID="ID_583945864" CREATED="1776693441330" MODIFIED="1776693454920">
 <node TEXT="" ID="ID_1777974111" CREATED="1776693523961" MODIFIED="1776693536021">
