@@ -75,87 +75,163 @@
 <font SIZE="16"/>
 <node TEXT="01 Introduction" POSITION="bottom_or_right" ID="ID_884531780" CREATED="1768589914053" MODIFIED="1778676785654">
 <edge COLOR="#00ff00"/>
-<node TEXT="00 Course Info" FOLDED="true" ID="ID_316523266" CREATED="1748718453241" MODIFIED="1778676802140">
-<node TEXT="2 Exams 15% each" ID="ID_314243961" CREATED="1748718487847" MODIFIED="1748718758351">
-<node TEXT="Exam 1 covers 1st third" ID="ID_980504252" CREATED="1748719007765" MODIFIED="1749152996006"/>
-<node TEXT="Exam 2 covers 2nd third" ID="ID_1805386411" CREATED="1748719020869" MODIFIED="1749152984925"/>
+<node TEXT="00 Course Info" ID="ID_316523266" CREATED="1748718453241" MODIFIED="1778676802140">
+<node TEXT="1. Grades" ID="ID_1671792145" CREATED="1778719116660" MODIFIED="1778722191974">
+<node TEXT="1. Project 25%" ID="ID_1066697939" CREATED="1748718504799" MODIFIED="1778719505413">
+<node TEXT="simple circuit design" ID="ID_1117019969" CREATED="1766166177996" MODIFIED="1778720005847"/>
+<node TEXT="at least one interrupt" ID="ID_1357068445" CREATED="1766166192376" MODIFIED="1778720009320"/>
+<node TEXT="soldering" ID="ID_290202545" CREATED="1766166210354" MODIFIED="1766166213866"/>
+<node TEXT="requires 3 seperate deliverables; design, fabrication, final product" ID="ID_1576920350" CREATED="1778719716620" MODIFIED="1778719757744"/>
 </node>
-<node TEXT="Final Exam 20%" FOLDED="true" ID="ID_523396472" CREATED="1748718663851" MODIFIED="1750465337833" HGAP_QUANTITY="30.5 pt">
-<node TEXT="Comprehensive" ID="ID_1942298115" CREATED="1748719037372" MODIFIED="1748719041921"/>
-<node TEXT="Focus on last 1/3 of semester" ID="ID_195191691" CREATED="1748719044392" MODIFIED="1748719052173"/>
-</node>
-<node TEXT="Hands On Final 10%" ID="ID_477599381" CREATED="1748718540403" MODIFIED="1748718749415">
+<node TEXT="2. Hands On Final 10%" ID="ID_477599381" CREATED="1748718540403" MODIFIED="1778719520762">
 <node TEXT="Completed last 2 weeks of class / Finals week" ID="ID_928169170" CREATED="1748719082595" MODIFIED="1748787556235"/>
 </node>
-<node TEXT="Policy" ID="ID_970176045" CREATED="1739144943347" MODIFIED="1749152542706">
+<node TEXT="3. Midterm Exam 25%" ID="ID_1119633648" CREATED="1778719515192" MODIFIED="1778719652475"/>
+<node TEXT="4. Final Exam 30%" ID="ID_376987591" CREATED="1778719522768" MODIFIED="1778719671007"/>
+<node TEXT="5. Homework 10%" ID="ID_1804354504" CREATED="1778719675831" MODIFIED="1778719781175">
+<node TEXT="assignments will be determined as the semester unfolds" ID="ID_817832254" CREATED="1778719787673" MODIFIED="1778719813130"/>
+<node TEXT="code will be scrutinized" ID="ID_399873971" CREATED="1778719814534" MODIFIED="1778719827812"/>
+<node TEXT="number of assignment To Be Determined" ID="ID_985267087" CREATED="1778719829062" MODIFIED="1778719841021"/>
+</node>
+<node TEXT="6. Labs are P/F" ID="ID_1952564029" CREATED="1778719556197" MODIFIED="1778719704800">
+<node TEXT="you must complete all the labs to pass this class" ID="ID_503035567" CREATED="1778719850966" MODIFIED="1778719867793"/>
+<node TEXT="i am serious." ID="ID_156929332" CREATED="1778719869123" MODIFIED="1778719880121"/>
+<node TEXT="lab time is very important" ID="ID_119125919" CREATED="1778719886231" MODIFIED="1778719896014">
+<node TEXT="ask for help, if you need it" ID="ID_961025847" CREATED="1778719897063" MODIFIED="1778719906288"/>
+<node TEXT="don&apos;t provide help to other students unless they ask for it.  figuring things out is what you learn in lab, and some struggle is required." ID="ID_607260289" CREATED="1778719908004" MODIFIED="1778719943517"/>
+<node TEXT="in depth knowledge of what you did in lab will be tested during the exam(s). " ID="ID_969055722" CREATED="1778719945444" MODIFIED="1778719970807"/>
+<node TEXT="2 makeup days provided" ID="ID_188098044" CREATED="1778719972549" MODIFIED="1778719984663"/>
+</node>
+</node>
+<node TEXT="7.  Course Grades" ID="ID_913230916" CREATED="1778720096607" MODIFIED="1778720105230">
+<node TEXT="70% is the lowest C" ID="ID_1144619877" CREATED="1778720105864" MODIFIED="1778720119306"/>
+<node TEXT="90% is the lowest A, may go a few points lower if there are not enough A&apos;s.  (most semesters 8  A&apos;s out of 40 or 20%.)" ID="ID_1339813862" CREATED="1778720125752" MODIFIED="1778720267294"/>
+<node TEXT="80% is the lowest B. (most semesters, there are plenty of these)" ID="ID_746669104" CREATED="1778720150561" MODIFIED="1778771029380"/>
+<node TEXT="normal rounding rules apply; 69.5 is a 70" ID="ID_1265195065" CREATED="1778720162148" MODIFIED="1778720183421"/>
+</node>
+</node>
+<node TEXT="2. Policies" ID="ID_970176045" CREATED="1739144943347" MODIFIED="1778772589377">
 <node TEXT="Late:  10% per day" ID="ID_972869490" CREATED="1739144960790" MODIFIED="1739144968668">
 <node TEXT="Figured out by Canvas" ID="ID_1854944870" CREATED="1739146148435" MODIFIED="1739146153785"/>
 <node TEXT="For University approved absences I will move your due date in canvas. Other absences will have a late penalty." ID="ID_1739592869" CREATED="1739146157200" MODIFIED="1749152251331"/>
 </node>
 <node TEXT="If you don&apos;t finish.." ID="ID_1964452564" CREATED="1739144970908" MODIFIED="1739144977019">
-<node TEXT="Your grade will be partial based upon what you do. Finish half the lab, your grade is capped at 50% ..." ID="ID_1211083960" CREATED="1739144980498" MODIFIED="1749152866659"/>
+<node TEXT="Your grade will be partial based upon what you do. Finish half the work, your grade is capped at 50% ..." ID="ID_1211083960" CREATED="1739144980498" MODIFIED="1778719104504"/>
 <node TEXT="Due date can be shifted if a significant portion of the class is struggling to complete it on schedule" ID="ID_788573050" CREATED="1749152266649" MODIFIED="1749152297160"/>
 </node>
 <node TEXT="What is turned into canvas is what is graded. No exceptions." ID="ID_270323932" CREATED="1739146097890" MODIFIED="1749130542842"/>
-<node TEXT="Strive for a professional work product.  C code should be clean, concise, and uniformly indented (the IDE will do this for you)" ID="ID_493707429" CREATED="1739146216797" MODIFIED="1749152542701">
+<node TEXT="Strive for a professional work product.  C code should be clean, concise, and uniformly formatted (the IDE will do this for you).  Readability over cleverness." ID="ID_493707429" CREATED="1739146216797" MODIFIED="1778771002055">
 <node TEXT="Coding Standard" ID="ID_1626115545" CREATED="1749152693648" MODIFIED="1749152701222">
 <node TEXT="code indented as CCS does it" ID="ID_270677684" CREATED="1749152702746" MODIFIED="1749152713585"/>
 <node TEXT="macros are always UPPER CASE" ID="ID_565539864" CREATED="1749152716789" MODIFIED="1749152725544"/>
 <node TEXT="use hex when appropriate" ID="ID_649518272" CREATED="1749152736480" MODIFIED="1749152749956">
 <node TEXT="although in many situations a macros is more appropriate" ID="ID_723677977" CREATED="1766166309570" MODIFIED="1766166334587"/>
+<node TEXT="if a macro is available in tm4c123gh6pm.h, then hex is not appropriate" ID="ID_1970964815" CREATED="1778770916391" MODIFIED="1778770945402"/>
 </node>
 <node TEXT="use decimal when appropriate" ID="ID_438813845" CREATED="1749152752815" MODIFIED="1749152759981"/>
 <node TEXT="octal is rarely appropriate" ID="ID_1325460890" CREATED="1749152766446" MODIFIED="1749152776687"/>
 <node TEXT="other than &quot;no path to statement&quot;, warnings are not acceptable" ID="ID_1829169452" CREATED="1749152798543" MODIFIED="1749152818263"/>
 <node TEXT="functions are a valuable form of abstraction" ID="ID_223943130" CREATED="1766166260531" MODIFIED="1766166280662"/>
 <node TEXT="files are a valuable form of abstraction" ID="ID_99924001" CREATED="1766166282654" MODIFIED="1766166299524"/>
+<node TEXT="&quot;copilot told me to do it this way&quot;.  Fine.  Don&apos;t do it that way in my class." ID="ID_1806599970" CREATED="1778720651118" MODIFIED="1778720676733"/>
+<node TEXT="don&apos;t call functions from an ISR, without a good reason.  very good reason (why?  a function call is slow....)" ID="ID_676141795" CREATED="1778770879200" MODIFIED="1778770967859"/>
+</node>
+<node TEXT="canvas requirements" ID="ID_567409872" CREATED="1778719388737" MODIFIED="1778719398754">
+<node TEXT="1. turn in a tarfile" ID="ID_652217873" CREATED="1778719401130" MODIFIED="1778720626250">
+<node TEXT="not a zip file" ID="ID_1275919043" CREATED="1778720497199" MODIFIED="1778720503972"/>
+<node TEXT="not a gzipped tar file" ID="ID_1002638057" CREATED="1778720505539" MODIFIED="1778720519236"/>
+<node TEXT="not an xv file" ID="ID_1803048274" CREATED="1778720520404" MODIFIED="1778720528516"/>
+<node TEXT="not something that only Apple people can read" ID="ID_1335460963" CREATED="1778720529608" MODIFIED="1778720544386"/>
+</node>
+<node TEXT="2. also turn in each file you edited / wrote.  clock.h does not need to be turned in.  thisismycode.c does need to be turned in." ID="ID_1574169273" CREATED="1778719415538" MODIFIED="1778720631669"/>
+<node TEXT="3.  the tar file you turned in will be used to run and execute your code (not done all the time).  make sure everything is included." ID="ID_448828654" CREATED="1778720577485" MODIFIED="1778770844062"/>
 </node>
 </node>
-<node TEXT="All code will be fed through MOSS." FOLDED="true" ID="ID_136407571" CREATED="1739146255925" MODIFIED="1739146265186">
+<node TEXT="All code will be fed through MOSS." ID="ID_136407571" CREATED="1739146255925" MODIFIED="1739146265186">
 <node TEXT="Students &apos;working together&apos; or sharing code will be identified and turned into Student Conduct" ID="ID_344892438" CREATED="1749130482350" MODIFIED="1749130524890"/>
 </node>
-<node TEXT="Students must provide paper copies of portions of the data sheet for the exam.  (not craziness) It is your responsibility to find the parts that you will need, and to copy them." ID="ID_1412297594" CREATED="1739292033244" MODIFIED="1748789302400" HGAP_QUANTITY="16.25 pt" VSHIFT_QUANTITY="-21 pt"/>
-<node TEXT="Issues with grading?" FOLDED="true" ID="ID_147989353" CREATED="1749152549025" MODIFIED="1749153157773">
+<node TEXT="Students must provide paper copies of portions of the data sheet (and tm4c123gh6pm.h) for the exam.  (not craziness) It is your responsibility to find the parts that you will need, and to copy them." ID="ID_1412297594" CREATED="1739292033244" MODIFIED="1778719359241" HGAP_QUANTITY="16.25 pt" VSHIFT_QUANTITY="-21 pt">
+<node TEXT="no, i do not have any investments in the paper industry" ID="ID_1754179110" CREATED="1778771303537" MODIFIED="1778771323106"/>
+<node TEXT="it is possible that we can use a computer lab for the tests, which would allow having the entire documents available.  and searchable.  maybe." ID="ID_1656662431" CREATED="1778771325311" MODIFIED="1778771378275"/>
+</node>
+<node TEXT="Issues with grading?" ID="ID_147989353" CREATED="1749152549025" MODIFIED="1749153157773">
 <node TEXT="Process must be started no more than 48 hours after the grades have been released OR when the test is gone over in class." ID="ID_1465796352" CREATED="1749152559446" MODIFIED="1749152604337"/>
 <node TEXT="Document your issues with an e-mail.  Include specifics and why you think an error has been made." ID="ID_1739836601" CREATED="1749152607329" MODIFIED="1749153157771"/>
+<node TEXT="if you are unhappy with your final grade, google for &quot;UTA College of Engineering Grade Grievance&quot;. (Note: I will not be part of the committee)" ID="ID_1913057405" CREATED="1778719244654" MODIFIED="1778719314585"/>
+<node TEXT="I will discuss your grade.  Not those of your classmates." ID="ID_1785362637" CREATED="1778719320124" MODIFIED="1778720357270"/>
 </node>
+<node TEXT="generative AI" ID="ID_1554623058" CREATED="1778770647344" MODIFIED="1778770659771">
+<node TEXT="not allowed for anything in this course" ID="ID_951640869" CREATED="1778770660776" MODIFIED="1778770675920"/>
+<node TEXT="be prepared if you use an LLM for &apos;studying&apos;; if the instructor disagrees with the LLM, the instructor wins." ID="ID_791833062" CREATED="1778770677296" MODIFIED="1778770718707"/>
 </node>
-<node TEXT="Project 25%" FOLDED="true" ID="ID_1066697939" CREATED="1748718504799" MODIFIED="1748718537364">
-<node TEXT="Will require simple circuit design" ID="ID_1117019969" CREATED="1766166177996" MODIFIED="1766166190459"/>
-<node TEXT="At least one interrupt" ID="ID_1357068445" CREATED="1766166192376" MODIFIED="1766166203558"/>
-<node TEXT="soldering" ID="ID_290202545" CREATED="1766166210354" MODIFIED="1766166213866"/>
+<node TEXT="work is graded ONCE.  no &quot;turn it in until you like the grade&quot;" ID="ID_1988724906" CREATED="1778719602137" MODIFIED="1778771250233"/>
 </node>
-<node TEXT="Things I Do Not Understand" ID="ID_1487736289" CREATED="1749083662592" MODIFIED="1749083673684">
-<node TEXT="Auto button on oscilloscopes" ID="ID_1757093416" CREATED="1749083675263" MODIFIED="1749083685682"/>
-<node TEXT="Extra Credit" ID="ID_694453701" CREATED="1749083687338" MODIFIED="1749083691746"/>
-<node TEXT="Echo 360" ID="ID_1273754450" CREATED="1749083698728" MODIFIED="1749083702823"/>
+<node TEXT="3. Time Management" ID="ID_335193774" CREATED="1749130632510" MODIFIED="1778719197076">
+<node TEXT="1. This is a 4 credit hour class" ID="ID_596334109" CREATED="1749130643429" MODIFIED="1778720420244"/>
+<node TEXT="2. Significant out of class time is expected" ID="ID_1868893467" CREATED="1749130665943" MODIFIED="1778720425761"/>
+<node TEXT="3. Attendance is required for labs. (by definition)" ID="ID_1915567311" CREATED="1749152887923" MODIFIED="1778720437994"/>
+<node TEXT="4. Attendance is required for lecture, but not verified" ID="ID_713313422" CREATED="1749152908715" MODIFIED="1778720873489">
+<font BOLD="true"/>
 </node>
-<node TEXT="Time Management" ID="ID_335193774" CREATED="1749130632510" MODIFIED="1749130640739">
-<node TEXT="This is a 4 credit hour class" ID="ID_596334109" CREATED="1749130643429" MODIFIED="1749130649699"/>
-<node TEXT="You should be ready for lab before you show up" ID="ID_890915249" CREATED="1749130653654" MODIFIED="1749130663171"/>
-<node TEXT="Significant out of class time is expected" ID="ID_1868893467" CREATED="1749130665943" MODIFIED="1749130679942"/>
-<node TEXT="Attendance is required for labs. (by definition)" ID="ID_1915567311" CREATED="1749152887923" MODIFIED="1749152907701"/>
-<node TEXT="Attendance is required for lecture, but not verified" ID="ID_713313422" CREATED="1749152908715" MODIFIED="1749152920957"/>
+<node TEXT="5. You should be ready for lab before you show up" ID="ID_890915249" CREATED="1749130653654" MODIFIED="1778720447169"/>
+<node TEXT="6. You should show up for lab on time" ID="ID_625269191" CREATED="1778720366937" MODIFIED="1778720451444"/>
+<node TEXT="7. If the instructor has an open lab on Saturday or Sunday, show up on time.  And leave on time." ID="ID_1822401282" CREATED="1778720382093" MODIFIED="1778720454783"/>
+<node TEXT="8.  Every topic has some assigned reading.  None of them take very long (&lt;30 minutes).  Come to class prepared." ID="ID_599223246" CREATED="1778720909120" MODIFIED="1778720942142"/>
 </node>
-<node TEXT="Warning" ID="ID_1553622457" CREATED="1749152060340" MODIFIED="1749152063434">
+<node TEXT="4. Warning" ID="ID_1553622457" CREATED="1749152060340" MODIFIED="1778719201196">
 <node TEXT="This course moves fast." ID="ID_1839637502" CREATED="1749152066512" MODIFIED="1749152080098"/>
 <node TEXT="Everything builds on prior work" ID="ID_431551380" CREATED="1749152081238" MODIFIED="1749152094364"/>
 <node TEXT="Do not fall behind" ID="ID_647876718" CREATED="1749152096095" MODIFIED="1749152102903"/>
-<node TEXT="Last month of the course, 55% of the course grade is turned in.  Be ready for this!" ID="ID_713048842" CREATED="1749153040956" MODIFIED="1749153137023"/>
+<node TEXT="Last month of the course, 65% of the course grade is turned in.  Be ready for this!" ID="ID_713048842" CREATED="1749153040956" MODIFIED="1778720068262"/>
+<node TEXT="DFW is about 25%" ID="ID_476050439" CREATED="1778719037007" MODIFIED="1778719051275"/>
+<node TEXT="The first exam destroys most students grades (average in the 50&apos;s is &apos;normal&apos;).  Take this class seriously from the first day." ID="ID_790021761" CREATED="1778720704995" MODIFIED="1778720756645"/>
+</node>
+<node TEXT="5. Lab Rules" ID="ID_470184699" CREATED="1778722208573" MODIFIED="1778722216150">
+<node TEXT="put parts and equipment up when you are done with them" ID="ID_998066938" CREATED="1778722234034" MODIFIED="1778722253878"/>
+<node TEXT="use the X10 probes on the scopes" ID="ID_1274098537" CREATED="1778722255123" MODIFIED="1778722268903"/>
+<node TEXT="throw away broken components" ID="ID_1268680423" CREATED="1778722270015" MODIFIED="1778722280861"/>
+<node TEXT="tell the lab TA when we are out (or close) of parts" ID="ID_724151667" CREATED="1778722281963" MODIFIED="1778722299081"/>
+<node TEXT="situational awareness" ID="ID_1458676268" CREATED="1778722302660" MODIFIED="1778722313218">
+<node TEXT="components are hot.  maybe you plugged something in wrong?" ID="ID_1789455729" CREATED="1778722314088" MODIFIED="1778722342916"/>
+<node TEXT="eval board resets or LED goes dark.  your circuit is pulling too much current" ID="ID_337485654" CREATED="1778722344268" MODIFIED="1778722374107"/>
+<node TEXT="use the university provided computers" ID="ID_23827753" CREATED="1778722376141" MODIFIED="1778722388395">
+<node TEXT="they blow up, not your problem" ID="ID_1558365043" CREATED="1778722389197" MODIFIED="1778722407068"/>
+<node TEXT="you blow up your laptop, that is your problem" ID="ID_1727775147" CREATED="1778722408306" MODIFIED="1778722421916"/>
+<node TEXT="they are linux, so by definition they are cool" ID="ID_690922666" CREATED="1778722422946" MODIFIED="1778722436190"/>
+</node>
+<node TEXT="don&apos;t guess, use a scope.  look at the signals." ID="ID_234404290" CREATED="1778722463831" MODIFIED="1778722485789"/>
+</node>
+<node TEXT="my tm4c eval board is broken..." ID="ID_1997382832" CREATED="1778722488563" MODIFIED="1778772659208">
+<node TEXT="maybe not, there is a procedure to re-load the firmware on the diagnostic processor." ID="ID_722796824" CREATED="1778722500492" MODIFIED="1778722530356">
+<node TEXT="usually caused by using pins that are &apos;special&apos;" ID="ID_620649970" CREATED="1778722530912" MODIFIED="1778722550719"/>
+</node>
+<node TEXT="see the instructor.  there is a box full of boards of unknown provenance you can borrow." ID="ID_1091342326" CREATED="1778722553988" MODIFIED="1778722585985"/>
+<node TEXT="may i suggest mouser or digikey for a quick delivery?" ID="ID_472866927" CREATED="1778722587297" MODIFIED="1778722606337"/>
+</node>
+<node TEXT="Use 12.8.1 version of the IDE" ID="ID_1440845058" CREATED="1778722683599" MODIFIED="1778722697361">
+<node TEXT="version 20+ do not make a project from scratch for the tm4c123gh6pm eval board." ID="ID_1084343633" CREATED="1778722697900" MODIFIED="1778722750997"/>
 </node>
 </node>
-<node TEXT="01 Programming" ID="ID_826684588" CREATED="1748038641602" MODIFIED="1768589825400">
-<node TEXT="Objectives" FOLDED="true" ID="ID_1523678332" CREATED="1748289028482" MODIFIED="1778676861248">
-<node TEXT="1 Understand the basics of C programming; pointers, addresses, scope, linkage." ID="ID_1764064600" CREATED="1748557068163" MODIFIED="1748557102031"/>
+<node TEXT="6.  Things I Do Not Understand" ID="ID_1487736289" CREATED="1749083662592" MODIFIED="1778722226274">
+<node TEXT="Auto button on oscilloscopes" ID="ID_1757093416" CREATED="1749083675263" MODIFIED="1749083685682"/>
+<node TEXT="Extra Credit" ID="ID_694453701" CREATED="1749083687338" MODIFIED="1749083691746"/>
+<node TEXT="Echo 360" ID="ID_1273754450" CREATED="1749083698728" MODIFIED="1749083702823"/>
+<node TEXT="python (it is a toy, not a programming language)" ID="ID_1436955835" CREATED="1778720763048" MODIFIED="1778720783443"/>
+<node TEXT="why anyone has a windows / mac laptop when Linux is available..." ID="ID_1807278279" CREATED="1778721528596" MODIFIED="1778721552440"/>
+</node>
+</node>
+<node TEXT="01 Programming" FOLDED="true" ID="ID_826684588" CREATED="1748038641602" MODIFIED="1768589825400">
+<node TEXT="1. Objectives" ID="ID_1523678332" CREATED="1748289028482" MODIFIED="1778721052858">
+<node TEXT="1 Understand the basics of C programming; pointers, addresses, scope, linkage. (should have seen these in CSE1320)" ID="ID_1764064600" CREATED="1748557068163" MODIFIED="1778720976065"/>
 <node TEXT="2 Create a new program using CCS, compile and execute it on the tm4c123gxl." ID="ID_1653186865" CREATED="1748557105408" MODIFIED="1748557181585"/>
 <node TEXT="3 Write a program for the tm4c123gxl that uses a software delay function." ID="ID_114668159" CREATED="1748557148964" MODIFIED="1748557177525"/>
 <node TEXT="4 Use the CCS debugger to execute a program.  Execution controls and examine memory." ID="ID_1191983785" CREATED="1748557261730" MODIFIED="1748557317136"/>
 <node TEXT="5 Identify top level functional blocks of the tm4c123pm6." ID="ID_397518126" CREATED="1748557199954" MODIFIED="1748714051003"/>
-<node TEXT="6 Be able to set the system clock to a desired frequency" ID="ID_1976428864" CREATED="1748718887625" MODIFIED="1748718918252"/>
-<node TEXT="7 Understand the concept of &apos;enabling clocks&apos; for each block on the tm4c" ID="ID_794342184" CREATED="1748718922108" MODIFIED="1748718949168"/>
-<node TEXT="8 Understand &apos;volatile&apos; keyword" ID="ID_963991764" CREATED="1748790009454" MODIFIED="1748971000393"/>
+<node TEXT="6 Be able to set the system clock to a desired frequency (99% of the time, 40 MHZ)" ID="ID_1976428864" CREATED="1748718887625" MODIFIED="1778721008962"/>
+<node TEXT="7 Understand the concept of &apos;enabling clocks&apos; for each block on the tm4c.  Be able to express this understanding in C code." ID="ID_794342184" CREATED="1748718922108" MODIFIED="1778721032410"/>
+<node TEXT="8 Understand &apos;volatile&apos; keyword. Know when to use it in programs, and what the cost is." ID="ID_963991764" CREATED="1748790009454" MODIFIED="1778721515314"/>
 </node>
-<node TEXT="Readings" FOLDED="true" ID="ID_1748369068" CREATED="1748556207026" MODIFIED="1778676865587">
+<node TEXT="2. Readings" ID="ID_1748369068" CREATED="1748556207026" MODIFIED="1778721056230">
 <node TEXT="spms376e.pdf (data sheet)" FOLDED="true" ID="ID_1320023849" CREATED="1749420952578" MODIFIED="1768406292142">
 <node TEXT="1 Architectural Overview" ID="ID_1004629006" CREATED="1749420978557" MODIFIED="1749432935823"/>
 <node TEXT="5.2.5 Clock Control" ID="ID_169756226" CREATED="1749432372611" MODIFIED="1749432397637"/>
@@ -163,16 +239,16 @@
 <node TEXT="spmu296.pdf (launchpad)" FOLDED="true" ID="ID_1073806259" CREATED="1749431996294" MODIFIED="1768406305835">
 <node TEXT="Entire Document" ID="ID_1134822699" CREATED="1749432042697" MODIFIED="1749432049897"/>
 </node>
-<node TEXT="Valvano" FOLDED="true" ID="ID_790256914" CREATED="1749508156890" MODIFIED="1749508192850">
+<node TEXT="Valvano" ID="ID_790256914" CREATED="1749508156890" MODIFIED="1749508192850">
 <node TEXT="p119-146, 3 thru 3.4,2" ID="ID_999585154" CREATED="1749508194639" MODIFIED="1768673587500">
 <node TEXT="notice his code indenting is atrocious. Use CCS to format your code" ID="ID_1675304908" CREATED="1768673589629" MODIFIED="1768673611358"/>
 </node>
 </node>
 </node>
-<node TEXT="Contents" FOLDED="true" ID="ID_459893785" CREATED="1748289048135" MODIFIED="1778676869281">
+<node TEXT="3. Contents" ID="ID_459893785" CREATED="1748289048135" MODIFIED="1778721061554">
 <node TEXT="1 Using CCS" FOLDED="true" ID="ID_562560687" CREATED="1748040803149" MODIFIED="1749156933666">
 <node TEXT="1 Use CCS to create a new project" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_943542100" CREATED="1749236450582" MODIFIED="1749236477403"/>
-<node TEXT="2 Required elements of a program" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" ID="ID_1836930859" CREATED="1748718385301" MODIFIED="1749236468048">
+<node TEXT="2 Required elements of a program" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1836930859" CREATED="1748718385301" MODIFIED="1749236468048">
 <node TEXT="main()" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_762246020" CREATED="1749235659204" MODIFIED="1749236403402">
 <node TEXT="headers" ID="ID_858449210" CREATED="1749236157109" MODIFIED="1749236161388">
 <node TEXT="stdint.h" ID="ID_1688560691" CREATED="1749236379164" MODIFIED="1749418411969" LINK="stdint.h"/>
@@ -223,19 +299,19 @@
 </node>
 <node TEXT="3 C programming" FOLDED="true" ID="ID_359886156" CREATED="1734577836296" MODIFIED="1749156938750">
 <node TEXT="1 The C Programming Language" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" ID="ID_947284179" CREATED="1736908346813" MODIFIED="1749418560561">
-<node TEXT="variables" LOCALIZED_STYLE_REF="styles.subsubtopic" FOLDED="true" ID="ID_281465109" CREATED="1736908371939" MODIFIED="1749156108132">
+<node TEXT="variables" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_281465109" CREATED="1736908371939" MODIFIED="1749156108132">
 <node TEXT="Stack" ID="ID_1839459741" CREATED="1736908388365" MODIFIED="1736908391810"/>
 <node TEXT="Heap" ID="ID_591867061" CREATED="1736908394708" MODIFIED="1736908397506"/>
 <node TEXT="Initialization" ID="ID_1362804618" CREATED="1736908402113" MODIFIED="1736908411245"/>
 </node>
-<node TEXT="function calls" LOCALIZED_STYLE_REF="styles.subsubtopic" FOLDED="true" ID="ID_813279355" CREATED="1736908419624" MODIFIED="1749156117230">
+<node TEXT="function calls" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_813279355" CREATED="1736908419624" MODIFIED="1749156117230">
 <node TEXT="Call by value" ID="ID_1578519738" CREATED="1736908433601" MODIFIED="1736908452008"/>
 <node TEXT="Stack" ID="ID_626084252" CREATED="1736909561047" MODIFIED="1736909565784">
 <node TEXT="Grows Down (lower address)" ID="ID_270600370" CREATED="1736909567673" MODIFIED="1736909583793"/>
 </node>
 <node TEXT="Code has to be stored somewhere" ID="ID_1461880921" CREATED="1736958400542" MODIFIED="1736958412340"/>
 </node>
-<node TEXT="visibility" LOCALIZED_STYLE_REF="styles.subsubtopic" FOLDED="true" ID="ID_1399218191" CREATED="1736908803455" MODIFIED="1749156125455">
+<node TEXT="visibility" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_1399218191" CREATED="1736908803455" MODIFIED="1749156125455">
 <node TEXT="static keyword" ID="ID_1085751401" CREATED="1736908816382" MODIFIED="1736908821550"/>
 <node TEXT="block scope" ID="ID_908764775" CREATED="1736908826655" MODIFIED="1736908829999"/>
 <node TEXT="extern keyword" ID="ID_568218737" CREATED="1736909235896" MODIFIED="1736909242170"/>
@@ -246,11 +322,11 @@
 </node>
 <node TEXT="defaults" ID="ID_1004977047" CREATED="1736958688499" MODIFIED="1736958695406"/>
 </node>
-<node TEXT="C Pre Processor" LOCALIZED_STYLE_REF="styles.subsubtopic" FOLDED="true" ID="ID_1508794688" CREATED="1736908954162" MODIFIED="1749156133280">
+<node TEXT="C Pre Processor" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_1508794688" CREATED="1736908954162" MODIFIED="1749156133280">
 <node TEXT="textual substitution" ID="ID_729647919" CREATED="1736909596227" MODIFIED="1736909602307"/>
 <node TEXT="#pragma once" ID="ID_681826944" CREATED="1736909609527" MODIFIED="1736909615538"/>
 </node>
-<node TEXT="C library" LOCALIZED_STYLE_REF="styles.subsubtopic" FOLDED="true" ID="ID_338603704" CREATED="1736908980654" MODIFIED="1749156143161">
+<node TEXT="C library" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_338603704" CREATED="1736908980654" MODIFIED="1749156143161">
 <node TEXT="main()" ID="ID_1239725089" CREATED="1736909630192" MODIFIED="1736909634823"/>
 <node TEXT="I/O" ID="ID_1813933446" CREATED="1736909641095" MODIFIED="1736909643867"/>
 <node TEXT="Strings" ID="ID_1823358431" CREATED="1736909646036" MODIFIED="1736909650588"/>
@@ -260,7 +336,7 @@
 <node TEXT="Bit Operations" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_1361663709" CREATED="1749155907299" MODIFIED="1749156163413"/>
 <node TEXT="Pointers" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_1977313834" CREATED="1749155920067" MODIFIED="1749156173142"/>
 </node>
-<node TEXT="2 Build Process" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" ID="ID_1028166104" CREATED="1736908862757" MODIFIED="1749418563865">
+<node TEXT="2 Build Process" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1028166104" CREATED="1736908862757" MODIFIED="1749418563865">
 <node TEXT="1. Source code" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_1554836337" CREATED="1736908932287" MODIFIED="1749157064227">
 <node TEXT=".c" ID="ID_102866779" CREATED="1736908937063" MODIFIED="1736959041699">
 <node TEXT="Definitions" ID="ID_1553097643" CREATED="1736959043278" MODIFIED="1736959050290"/>
@@ -302,11 +378,7 @@
 <node TEXT="Dynamic" ID="ID_1575223293" CREATED="1736909407414" MODIFIED="1736909410406"/>
 </node>
 </node>
-<node TEXT="3 Dig deeper in a C program" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" ID="ID_1353787287" CREATED="1736907808542" MODIFIED="1749418579628">
-<node TEXT="volatile int i;&#xa;volatile int stop=0;&#xa;main()&#xa;{  &#xa;    while(!stop)&#xa;    {&#xa;       i++;&#xa;    }&#xa;    return 0;&#xa;}&#xa;// what can you assume about the system this code is used in?&#xa;// is it considered good style? will it work? (meaning compile and execute)" ID="ID_947290273" CREATED="1736960309084" MODIFIED="1736960313865"/>
-<node TEXT="// one file&#xa;static int i;&#xa;int j;&#xa;void increment(int *i)&#xa;{&#xa;    (*i)++;&#xa;    j++;&#xa;}&#xa;// another file&#xa;#include &lt;stdio.h&gt;&#xa;#include &lt;stdlib.h&gt;&#xa;static int i;&#xa;int j;&#xa;int main(int argc,char* argv[])&#xa;{&#xa;    int *k;&#xa;    j = 1;&#xa;    i = 0;&#xa;    k=malloc(sizeof(int));&#xa;    increment(k);&#xa;    increment(&amp;i);&#xa;    increment(&amp;j);&#xa;    printf(&quot;%d %d %d\n&quot;,i,j,*k);&#xa;    free(k);&#xa;    return 0;&#xa;}&#xa;// discuss namespaces and visibility&#xa;// this code really does nothing of import....&#xa;// what is the difference between main() and the above declaration wrt time and space." ID="ID_199581373" CREATED="1736960322026" MODIFIED="1736960808308"/>
-</node>
-<node TEXT="4 embedded" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" ID="ID_1987464867" CREATED="1736908197129" MODIFIED="1749418576122">
+<node TEXT="3 embedded" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1987464867" CREATED="1736908197129" MODIFIED="1778721436265">
 <node TEXT="Vendor Toolchain" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_276780732" CREATED="1736908267345" MODIFIED="1749236590446">
 <node TEXT="Ussually a couple of years old" ID="ID_1541320909" CREATED="1736959173505" MODIFIED="1736959182322">
 <node TEXT="Known behavior/ No Surprises" ID="ID_1867829215" CREATED="1736959218374" MODIFIED="1736959237714"/>
@@ -333,7 +405,7 @@
 </node>
 </node>
 </node>
-<node TEXT="5 Big Picture" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" ID="ID_1396112355" CREATED="1736960855333" MODIFIED="1749418583066">
+<node TEXT="4 Big Picture" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1396112355" CREATED="1736960855333" MODIFIED="1778721438870">
 <node TEXT="Working on an embedded target is difficult" ID="ID_1821495094" CREATED="1736960872738" MODIFIED="1736960882485">
 <node TEXT="test equipment essential for debugging" ID="ID_402413233" CREATED="1737400559975" MODIFIED="1737400569326">
 <node TEXT="getting information out of the system is the bottleneck" ID="ID_1667013094" CREATED="1737400574413" MODIFIED="1737400585250"/>
@@ -350,11 +422,9 @@
 </node>
 </node>
 <node TEXT="Testing and Debugging much simpler on machine with an OS." ID="ID_636287654" CREATED="1736960908418" MODIFIED="1736960924795"/>
-<node TEXT="This is why RPI is so popular for small projects.  It is not cost effective from a BOM perspective, but it makes for &apos;easier&apos; (not better) software." ID="ID_1028041344" CREATED="1736960936140" MODIFIED="1736960970988"/>
+<node TEXT="This is why RPI is so popular for small projects.  It is not cost effective from a BOM perspective, but it makes for &apos;easier&apos; (not better) software." ID="ID_1028041344" CREATED="1736960936140" MODIFIED="1736960970988">
+<node TEXT="BOM == Bill Of Materials" ID="ID_1249806286" CREATED="1778721456951" MODIFIED="1778721466607"/>
 </node>
-<node TEXT="Example Code" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" ID="ID_1875114814" CREATED="1737400241253" MODIFIED="1749156087242">
-<node TEXT="  1 #include &lt;stdio.h&gt;&#xa;  2 // By Convention, MACROS are UPPER CASE&#xa;  3 #define PRINT_HELLO(A) printf(&quot;%s\n&quot;,A);&#xa;  4 #define SEARCH_FOR_EQ(A,B) \&#xa;  5 ({ \&#xa;  6     int t=-1; \&#xa;  7     for (unsigned i=0;i&lt;sizeof(A);i++) \&#xa;  8     { \&#xa;  9         if (B==A[i]) \&#xa; 10             t=i; \&#xa; 11     } \&#xa; 12     t; \&#xa; 13 }) \&#xa; 14&#xa; 15 int main(int argc, char *argv[])&#xa; 16 {&#xa; 17     int a[]={5,4,3,2,1};&#xa; 18     PRINT_HELLO(&quot;macro example&quot;);&#xa; 19     printf(&quot;%d\n&quot;,SEARCH_FOR_EQ(a,2));&#xa; 20     SEARCH_FOR_EQ(a,1);&#xa; 21     return 0;&#xa; 22 }" ID="ID_1866892376" CREATED="1737400453336" MODIFIED="1737400536512"/>
-<node TEXT="  1 #include &lt;stdio.h&gt;&#xa;  2 #include &lt;stdlib.h&gt;&#xa;  3 int A;&#xa;  4 void func()&#xa;  5 {&#xa;  6     int i;&#xa;  7     printf(&quot;the address of i is %p\n&quot;,&amp;i);&#xa;  8     printf(&quot;the address of A is %p\n&quot;,&amp;A);&#xa;  9 }&#xa; 10 int main(int argc, char *argv[])&#xa; 11 {&#xa; 12     char* a = malloc(100);&#xa; 13     char b[100];&#xa; 14     printf(&quot;the address of main is %p and func is %p\n&quot;,main,func);&#xa; 15     func();&#xa; 16     printf(&quot;the address of a is %p\n&quot;,a);&#xa; 17     printf(&quot;the address of b is %p\n&quot;,b);&#xa; 18     return 0;&#xa; 19 }" ID="ID_1288946480" CREATED="1737401206030" MODIFIED="1737401220692"/>
 </node>
 </node>
 <node TEXT="4 tm4C123GXL" FOLDED="true" ID="ID_446456208" CREATED="1748040450936" MODIFIED="1749238176173">
@@ -418,11 +488,41 @@
 </node>
 </node>
 </node>
+<node TEXT="4. Questions" ID="ID_1316104985" CREATED="1778680335113" MODIFIED="1778721066187"/>
 </node>
-<node TEXT="02 Embedded Systems" ID="ID_1208820755" CREATED="1778676814751" MODIFIED="1778676825648">
-<node TEXT="Objectives" ID="ID_669031304" CREATED="1778676827041" MODIFIED="1778676835043"/>
-<node TEXT="Readings" ID="ID_458337181" CREATED="1778676836258" MODIFIED="1778676841726"/>
-<node TEXT="Content" ID="ID_402696996" CREATED="1778676842875" MODIFIED="1778676852566"/>
+<node TEXT="02 Embedded Systems" FOLDED="true" ID="ID_1208820755" CREATED="1778676814751" MODIFIED="1778676825648">
+<node TEXT="1. Objectives" ID="ID_669031304" CREATED="1778676827041" MODIFIED="1778680211838">
+<node TEXT="be able to define an embedded system" ID="ID_1046015368" CREATED="1778679594672" MODIFIED="1778679620542"/>
+<node TEXT="describe what is included in a microcontroller" ID="ID_610517666" CREATED="1778679802803" MODIFIED="1778679827246"/>
+</node>
+<node TEXT="2. Readings" ID="ID_458337181" CREATED="1778676836258" MODIFIED="1778680216428"/>
+<node TEXT="3. Content" ID="ID_402696996" CREATED="1778676842875" MODIFIED="1778680220928">
+<node TEXT="an embedded system" ID="ID_1410651015" CREATED="1778679504311" MODIFIED="1778679514546">
+<node TEXT="1.   NEED BOOK EXAMPLE HERE" ID="ID_1917520966" CREATED="1778680290405" MODIFIED="1778680300125"/>
+<node TEXT="2. contains hardware and software" ID="ID_1875112049" CREATED="1778679515135" MODIFIED="1778680307004"/>
+<node TEXT="3. does not look like a computer, but is one" ID="ID_1790213449" CREATED="1778679526947" MODIFIED="1778680311666"/>
+<node TEXT="4. usually a resource constrained environment" ID="ID_810789554" CREATED="1778679545024" MODIFIED="1778680317400">
+<node TEXT="usually microcontroller based, but not always" ID="ID_1752599870" CREATED="1778679706515" MODIFIED="1778679730355"/>
+<node TEXT="(relatively) small amounts of memory and CPU" ID="ID_118272965" CREATED="1778679733668" MODIFIED="1778679749940"/>
+<node TEXT="cost of end item tightly controlled" ID="ID_1157781596" CREATED="1778679759185" MODIFIED="1778679775391"/>
+</node>
+</node>
+<node TEXT="microcontroller contains memory, cpu, and I/O on one chip" ID="ID_1229537795" CREATED="1778679579947" MODIFIED="1778679705393">
+<node TEXT="need a clock, power, minimal control logic (power on)" ID="ID_1993832269" CREATED="1778679834333" MODIFIED="1778679874193"/>
+<node TEXT="STM 32 about $5" ID="ID_473167477" CREATED="1778679877190" MODIFIED="1778680039562"/>
+<node TEXT="ESP32 about $10 (includes wifi and blue tooth)" ID="ID_1273057142" CREATED="1778680041556" MODIFIED="1778680113654"/>
+<node TEXT="tm4c around $15" ID="ID_791255025" CREATED="1778680177801" MODIFIED="1778680191089">
+<node TEXT="old design" ID="ID_92885513" CREATED="1778721203001" MODIFIED="1778721208477"/>
+<node TEXT="high quality" ID="ID_1882873888" CREATED="1778721209566" MODIFIED="1778721216118"/>
+<node TEXT="excellent documentation" ID="ID_548752725" CREATED="1778721217858" MODIFIED="1778721227422"/>
+</node>
+</node>
+</node>
+<node TEXT="4. Questions" ID="ID_1912889868" CREATED="1778680199126" MODIFIED="1778680225189">
+<node TEXT="is the RPI an embedded system?" ID="ID_310727538" CREATED="1778680226324" MODIFIED="1778680285174"/>
+<node TEXT="is the RPI a microcontroller?" ID="ID_557418973" CREATED="1778680238407" MODIFIED="1778680257641"/>
+<node TEXT="is an Xbox an embedded system?" ID="ID_1160868248" CREATED="1778680259472" MODIFIED="1778680280409"/>
+</node>
 </node>
 </node>
 <node TEXT="02 Memory Map" FOLDED="true" POSITION="top_or_left" ID="ID_1621675299" CREATED="1748038649339" MODIFIED="1778623123046">
@@ -435,7 +535,7 @@
 <node TEXT="4 Using the system memory map, calculate the bitbanded address for a given bit on a peripheral." ID="ID_1036745770" CREATED="1748718123687" MODIFIED="1749600168051"/>
 <node TEXT="7 Understand Read/Modify/Update and the problems that may occur" ID="ID_765261796" CREATED="1749441217942" MODIFIED="1749441264940"/>
 </node>
-<node TEXT="3 Readings" ID="ID_1920110396" CREATED="1748560773935" MODIFIED="1768936795407" CHILD_NODES_LAYOUT="TOPTOBOTTOM_BOTHSIDES_FLOW">
+<node TEXT="2 Readings" ID="ID_1920110396" CREATED="1748560773935" MODIFIED="1778721645264" CHILD_NODES_LAYOUT="TOPTOBOTTOM_BOTHSIDES_FLOW">
 <node TEXT="spms376e.pdf" ID="ID_950137455" CREATED="1749420952578" MODIFIED="1749493610172">
 <node TEXT="Section 2.4 Memory Model" ID="ID_408619696" CREATED="1749508847807" MODIFIED="1749508854242"/>
 </node>
@@ -443,8 +543,8 @@
 <node TEXT="2.1.2 Memory (p68)" ID="ID_622770013" CREATED="1749509079507" MODIFIED="1755941960020"/>
 </node>
 </node>
-<node TEXT="4 Contents" ID="ID_1505435801" CREATED="1748554868001" MODIFIED="1756255190614">
-<node TEXT="1 Memory Map" ID="ID_135894633" CREATED="1748040567138" MODIFIED="1748554910759">
+<node TEXT="3 Contents" ID="ID_1505435801" CREATED="1748554868001" MODIFIED="1778721647890">
+<node TEXT="1 Memory Map" FOLDED="true" ID="ID_135894633" CREATED="1748040567138" MODIFIED="1748554910759">
 <node TEXT="1 Memory Map" LOCALIZED_STYLE_REF="styles.subsubtopic" FOLDED="true" ID="ID_223566472" CREATED="1748040646480" MODIFIED="1755944360709">
 <node TEXT="1 (p92) 1" ID="ID_1022192542" CREATED="1755943880106" MODIFIED="1768408217263">
 <hook URI="memory_map1.png" SIZE="0.88235295" NAME="ExternalObject"/>
@@ -528,17 +628,18 @@
 <node TEXT="most generally used for individual GPIO pins..." ID="ID_1932743620" CREATED="1768676009286" MODIFIED="1768676026549"/>
 </node>
 </node>
-<node TEXT="3 Peripherals" ID="ID_23763601" CREATED="1749493262171" MODIFIED="1755942894962">
+<node TEXT="3 Peripherals" ID="ID_23763601" CREATED="1749493262171" MODIFIED="1778721671799">
 <node TEXT="memory mapped" ID="ID_1756739458" CREATED="1755942853829" MODIFIED="1756255882772"/>
-<node TEXT="bitbanding peripherals" ID="ID_73534298" CREATED="1755943468284" MODIFIED="1755943720376"/>
+<node TEXT="bitbanding peripherals" ID="ID_73534298" CREATED="1755943468284" MODIFIED="1778721671798"/>
 </node>
 </node>
+<node TEXT="4 Questions" ID="ID_466043063" CREATED="1778721622934" MODIFIED="1778721640622"/>
 </node>
-<node TEXT="03 GPIO" POSITION="top_or_left" ID="ID_298152031" CREATED="1748038653956" MODIFIED="1778623128605">
+<node TEXT="03 GPIO" FOLDED="true" POSITION="top_or_left" ID="ID_298152031" CREATED="1748038653956" MODIFIED="1778722808024">
 <edge COLOR="#00ffff"/>
 <node TEXT="1 Objectives" FOLDED="true" ID="ID_1716081651" CREATED="1748555992877" MODIFIED="1748555997493">
 <node TEXT="01 Program GPIO" ID="ID_511406462" CREATED="1749083880372" MODIFIED="1749083893520"/>
-<node TEXT="02 Program PINMUX" ID="ID_1697712955" CREATED="1749083895272" MODIFIED="1749083910459"/>
+<node TEXT="02 Know what &quot;pinmux&quot; is and where it is implemented on the block diagram." ID="ID_1697712955" CREATED="1749083895272" MODIFIED="1778721750470"/>
 <node TEXT="03 Interface LED&apos;s directly to GPIO" ID="ID_61445033" CREATED="1749083919362" MODIFIED="1749083956609"/>
 <node TEXT="04 Interface LED&apos;s to GPIO with an NPN or PNP transistor" ID="ID_1725074459" CREATED="1749083959426" MODIFIED="1749083978705"/>
 <node ID="ID_714357857" CREATED="1749151989205" MODIFIED="1749151989205"><richcontent TYPE="NODE">
@@ -558,23 +659,26 @@
 <node TEXT="07 Interface to mechanical switches using external pull up / pull down resistors" ID="ID_968737944" CREATED="1749084035761" MODIFIED="1749084058391"/>
 <node TEXT="08 Level Shifter" ID="ID_1218381303" CREATED="1756257103512" MODIFIED="1756257112351"/>
 <node TEXT="09 Issues with +5 and 3.3 volt logic interfacing" ID="ID_1482045136" CREATED="1757363733784" MODIFIED="1757363746485"/>
+<node TEXT="10 Understand and be able to use GPUI with the APB or AHB" ID="ID_1294704848" CREATED="1778721751629" MODIFIED="1778721773867"/>
+<node TEXT="11  Understand and be able to read / write the GPIO in the TM4C using the different &apos;gpiodata&apos; registers to select specific bits." ID="ID_1209758823" CREATED="1778721783797" MODIFIED="1778721830258"/>
+<node TEXT="12.  Understand the similarities and the differences between using a specific &apos;gpiodata&apos; register and using bitbanding." ID="ID_908169575" CREATED="1778721832342" MODIFIED="1778721866959"/>
 </node>
-<node TEXT="3 Readings" FOLDED="true" ID="ID_293433486" CREATED="1748717106542" MODIFIED="1768874408223">
+<node TEXT="3 Readings" ID="ID_293433486" CREATED="1748717106542" MODIFIED="1778722808022">
 <node TEXT="spms376e.pdf ( p649 through p691)" ID="ID_1212070010" CREATED="1749420952578" MODIFIED="1768874408221"/>
 </node>
-<node TEXT="4 Contents" ID="ID_1050794369" CREATED="1748556007028" MODIFIED="1748717116054">
-<node TEXT="Introduction to GPIO" FOLDED="true" ID="ID_1808533250" CREATED="1748040586589" MODIFIED="1748040594635">
+<node TEXT="4 Contents" FOLDED="true" ID="ID_1050794369" CREATED="1748556007028" MODIFIED="1748717116054">
+<node TEXT="Introduction to GPIO" ID="ID_1808533250" CREATED="1748040586589" MODIFIED="1748040594635">
 <node TEXT="1 Block Diagram of GPIO Blocks (p652)" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1727662303" CREATED="1749084219391" MODIFIED="1768872061358">
 <hook URI="gpioBlockDiagram.png" SIZE="0.5708849" NAME="ExternalObject"/>
 </node>
-<node TEXT="2 APB and AHB" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" ID="ID_1240186113" CREATED="1768872115162" MODIFIED="1768872205348">
+<node TEXT="2 APB and AHB" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1240186113" CREATED="1768872115162" MODIFIED="1768872205348">
 <node TEXT="Advanced Periphrial  Bus and Advanced High Performance Bus" ID="ID_1287129068" CREATED="1768872436712" MODIFIED="1768872555178"/>
 <node TEXT="Controlled by (p258)" ID="ID_1219627922" CREATED="1768872465108" MODIFIED="1768872755975">
 <hook URI="hbctl.png" SIZE="0.6060606" NAME="ExternalObject"/>
 </node>
 <node TEXT="Each GPIO Block has 2 addresses, one for APB and one for AHB" ID="ID_1734553924" CREATED="1768872765275" MODIFIED="1768872810599"/>
 </node>
-<node TEXT="3 Overview" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" ID="ID_111020002" CREATED="1768872910484" MODIFIED="1768872933204">
+<node TEXT="3 Overview" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_111020002" CREATED="1768872910484" MODIFIED="1768872933204">
 <node TEXT="1.  Either read or write a 1 or a 0 ..... Both are through the GPIO_DATA_R" ID="ID_1995682744" CREATED="1768873197953" MODIFIED="1768873288120"/>
 <node TEXT="2. Minimum to get started" ID="ID_312121670" CREATED="1768873117632" MODIFIED="1768873224607">
 <node TEXT="GPIO_DEN_R  -- Digital Enable" ID="ID_674339159" CREATED="1768873130111" MODIFIED="1768873142640"/>
@@ -586,14 +690,14 @@
 <hook URI="gpioExample.png" SIZE="0.6060606" NAME="ExternalObject"/>
 </node>
 </node>
-<node TEXT="4 PinMux" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" ID="ID_537557762" CREATED="1748041090383" MODIFIED="1768872942436">
+<node TEXT="4 PinMux" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_537557762" CREATED="1748041090383" MODIFIED="1768872942436">
 <node TEXT="p1351 Table of options" ID="ID_1930919087" CREATED="1756847241237" MODIFIED="1756847666067"/>
 <node TEXT="GPIOPCTL (p688) also (p650)" ID="ID_996088786" CREATED="1756847434440" MODIFIED="1756847676333"/>
 <node TEXT="GPIOAFSEL(p671)" ID="ID_1922491231" CREATED="1756847472904" MODIFIED="1756847508650"/>
 <node TEXT="GPIOAMSEL (p687) (not really needed for digital signals)" ID="ID_1856102363" CREATED="1756847480150" MODIFIED="1756847599909"/>
 </node>
-<node TEXT="5 GPIO Programming (ch10) (p649)" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_628029338" CREATED="1748041100810" MODIFIED="1768872949996">
-<node TEXT="" FOLDED="true" ID="ID_1378846846" CREATED="1756847616230" MODIFIED="1756847616230">
+<node TEXT="5 GPIO Programming (ch10) (p649)" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" ID="ID_628029338" CREATED="1748041100810" MODIFIED="1768872949996">
+<node TEXT="" ID="ID_1378846846" CREATED="1756847616230" MODIFIED="1756847616230">
 <node TEXT="To configure the GPIO pins of a particular port, follow these steps:" ID="ID_747168122" CREATED="1756847737845" MODIFIED="1756847737845"/>
 <node TEXT="1. Enable the clock to the port by setting the appropriate bits in the RCGCGPIO register (see page 340)" ID="ID_151492337" CREATED="1756847737847" MODIFIED="1756847817209"/>
 <node TEXT="2. Set the direction of the GPIO port pins by programming the GPIODIR register. A write of a 1indicates output and a write of 0 indicates input." ID="ID_1365301697" CREATED="1756847737852" MODIFIED="1756847844118"/>
@@ -617,6 +721,10 @@
 </node>
 <node TEXT="5 examples" ID="ID_675641279" CREATED="1768874054600" MODIFIED="1768874062475"/>
 </node>
+<node TEXT="7. Magic Pins" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_78569216" CREATED="1778721913184" MODIFIED="1778721965595">
+<node TEXT="show table from data sheet" ID="ID_581921131" CREATED="1778721971205" MODIFIED="1778721982391"/>
+<node TEXT="show unlocking example" ID="ID_1449399414" CREATED="1778721983297" MODIFIED="1778721990819"/>
+</node>
 </node>
 <node TEXT="Interfacing to GPIO" FOLDED="true" ID="ID_398120066" CREATED="1756846467833" MODIFIED="1756846473385">
 <node TEXT="input" ID="ID_427827411" CREATED="1756846481270" MODIFIED="1756846485036">
@@ -629,12 +737,17 @@
 </node>
 </node>
 <node TEXT="output" ID="ID_1600181852" CREATED="1756846485518" MODIFIED="1756846488734">
-<node TEXT="LED&apos;s directly" ID="ID_1415793608" CREATED="1756848305853" MODIFIED="1756848322565">
+<node TEXT="leds" ID="ID_1415793608" CREATED="1756848305853" MODIFIED="1778722031382">
 <node TEXT="current limited" ID="ID_1659698522" CREATED="1756848406360" MODIFIED="1756848411239"/>
+<node TEXT="need to show an example with DR2R register." ID="ID_1496383586" CREATED="1778722033574" MODIFIED="1778722053161"/>
 </node>
 <node TEXT="transistors" ID="ID_153633148" CREATED="1756848324848" MODIFIED="1756848332877">
-<node TEXT="PNP" ID="ID_830854921" CREATED="1756848333919" MODIFIED="1756848341350"/>
-<node TEXT="NPN" ID="ID_239423619" CREATED="1756848342718" MODIFIED="1756848346207"/>
+<node TEXT="PNP" ID="ID_830854921" CREATED="1756848333919" MODIFIED="1756848341350">
+<node TEXT="need to add picture" ID="ID_1433019187" CREATED="1778722058578" MODIFIED="1778722066407"/>
+</node>
+<node TEXT="NPN" ID="ID_239423619" CREATED="1756848342718" MODIFIED="1756848346207">
+<node TEXT="need t add picture" ID="ID_1935480194" CREATED="1778722067587" MODIFIED="1778722075329"/>
+</node>
 </node>
 </node>
 <node TEXT="voltage" ID="ID_299604833" CREATED="1756848446076" MODIFIED="1756848451629">
@@ -643,8 +756,7 @@
 <node TEXT="Level Shifter" ID="ID_464464399" CREATED="1756848476692" MODIFIED="1756848482298"/>
 </node>
 </node>
-<node TEXT="code" ID="ID_1217041004" CREATED="1768874361726" MODIFIED="1768874368974"/>
-<node TEXT="switch debouncing" ID="ID_657301317" CREATED="1778676933412" MODIFIED="1778676940489">
+<node TEXT="switch debouncing" FOLDED="true" ID="ID_657301317" CREATED="1778676933412" MODIFIED="1778676940489">
 <node TEXT="using a capacitor" ID="ID_84978313" CREATED="1778676940499" MODIFIED="1778676948518"/>
 <node TEXT="polling wait" ID="ID_1081232691" CREATED="1778676950335" MODIFIED="1778676966942">
 <node TEXT="" ID="ID_310839013" CREATED="1778676966951" MODIFIED="1778676966951"/>
@@ -1485,7 +1597,7 @@
 </node>
 </node>
 </node>
-<node TEXT="15 lost and found" FOLDED="true" POSITION="top_or_left" ID="ID_761662230" CREATED="1768588625998" MODIFIED="1778623207008">
+<node TEXT="13 lost and found" FOLDED="true" POSITION="top_or_left" ID="ID_761662230" CREATED="1768588625998" MODIFIED="1778722142094">
 <edge COLOR="#007c7c"/>
 <node TEXT="architecture and pipelines" ID="ID_1441467318" CREATED="1768936549169" MODIFIED="1768936559885"/>
 <node TEXT="Systems Engineering Techniques" ID="ID_1931894593" CREATED="1748041667268" MODIFIED="1748719199590">

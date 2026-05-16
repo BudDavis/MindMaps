@@ -1,9 +1,9 @@
-<map version="freeplane 1.12.1">
+<map version="freeplane 1.12.15">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <bookmarks>
     <bookmark nodeId="ID_696401721" name="Root" opensAsRoot="true"/>
 </bookmarks>
-<node TEXT="Object Oriented Programming in C++" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1768937198505" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW"><hook NAME="MapStyle" zoom="2.0">
+<node TEXT="object oriented programming in C++" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1778732068245" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW"><hook NAME="MapStyle" zoom="2.0">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="false" show_notes_in_map="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" fit_to_viewport="false" show_icons="ABOVE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -74,10 +74,11 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="33" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="38" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<node TEXT="1 Assessment 1 (2/11)" FOLDED="true" POSITION="top_or_left" ID="ID_1356519250" CREATED="1768937034448" MODIFIED="1770052943751">
-<edge COLOR="#00ffff"/>
+<node TEXT="last semester" POSITION="top_or_left" ID="ID_592032538" CREATED="1778732025166" MODIFIED="1778732033115">
+<edge COLOR="#ff0000"/>
+<node TEXT="1 Assessment 1 (2/11)" FOLDED="true" ID="ID_1356519250" CREATED="1768937034448" MODIFIED="1778732045334">
 <node TEXT="01 Objectives" FOLDED="true" ID="ID_1796171457" CREATED="1769200384402" MODIFIED="1769539093908">
 <node TEXT="01 Understand the compilation process and the type of errors emitted from each stage." ID="ID_725997858" CREATED="1751484514630" MODIFIED="1751484549807"/>
 <node TEXT="02 Create and compile a simple C++ program from the command line (bash)" ID="ID_1911251631" CREATED="1751483886543" MODIFIED="1765571071507"/>
@@ -687,8 +688,7 @@
 </node>
 </node>
 </node>
-<node TEXT="2 Assessment 2 (3/3)" FOLDED="true" POSITION="top_or_left" ID="ID_567336706" CREATED="1768937082101" MODIFIED="1772574615435">
-<edge COLOR="#7c0000"/>
+<node TEXT="2 Assessment 2 (3/3)" FOLDED="true" ID="ID_567336706" CREATED="1768937082101" MODIFIED="1778732045346">
 <node TEXT="01 objectives" FOLDED="true" ID="ID_514074899" CREATED="1771260563531" MODIFIED="1771260582990">
 <node TEXT="01 catch an exception" ID="ID_1207965602" CREATED="1758487549016" MODIFIED="1771260783317"/>
 <node TEXT="02 write a copy constructor that does a shallow copy" ID="ID_273763319" CREATED="1758487554084" MODIFIED="1771260786720"/>
@@ -958,8 +958,7 @@
 </node>
 </node>
 </node>
-<node TEXT="3 Assessment 3 (4/1)" FOLDED="true" POSITION="top_or_left" ID="ID_563079713" CREATED="1768937113633" MODIFIED="1775061807046">
-<edge COLOR="#00007c"/>
+<node TEXT="3 Assessment 3 (4/1)" FOLDED="true" ID="ID_563079713" CREATED="1768937113633" MODIFIED="1778732045352">
 <node TEXT="01 Objectives" ID="ID_1070431862" CREATED="1772408129372" MODIFIED="1772408138210">
 <node TEXT="1. Identify classes needed to solve a problem" ID="ID_60829777" CREATED="1759761287910" MODIFIED="1772408257922"/>
 <node TEXT="2. Develop a development / integration approach" ID="ID_359404609" CREATED="1759761304702" MODIFIED="1772408262676"/>
@@ -1070,8 +1069,7 @@
 </node>
 <node TEXT="04 Iterators" ID="ID_1269998882" CREATED="1773619479832" MODIFIED="1773619490500"/>
 </node>
-<node TEXT="4 Assessment 4 (4/27)" POSITION="top_or_left" ID="ID_1322606626" CREATED="1768937147277" MODIFIED="1775061821832">
-<edge COLOR="#007c00"/>
+<node TEXT="4 Assessment 4 (4/27)" FOLDED="true" ID="ID_1322606626" CREATED="1768937147277" MODIFIED="1778732045372">
 <node TEXT="01 Objectives" ID="ID_911552073" CREATED="1774461110144" MODIFIED="1774461119154">
 <node TEXT="be able to create a small gui program in C++/gtkmm" ID="ID_102667645" CREATED="1761146786375" MODIFIED="1775596899667"/>
 <node TEXT="be able to compile and link a gui program with a makefile" ID="ID_914631641" CREATED="1761146808537" MODIFIED="1775596917252"/>
@@ -1461,8 +1459,7 @@
 </node>
 </node>
 </node>
-<node TEXT="6 Lost and Found" POSITION="top_or_left" ID="ID_1410183154" CREATED="1768937367610" MODIFIED="1768937375486">
-<edge COLOR="#7c7c00"/>
+<node TEXT="6 Lost and Found" FOLDED="true" ID="ID_1410183154" CREATED="1768937367610" MODIFIED="1778732045398">
 <node TEXT="1 More Things to Add" ID="ID_465443412" CREATED="1768349836968" MODIFIED="1774456779138"/>
 <node TEXT="99 Transient" FOLDED="true" ID="ID_1380988926" CREATED="1770052925405" MODIFIED="1770052934412">
 <node TEXT="2 feb" ID="ID_894911838" CREATED="1770215926196" MODIFIED="1770215933872">
@@ -1637,6 +1634,19 @@
 <node TEXT="18 Performance and Memory" ID="ID_1451733946" CREATED="1751483798512" MODIFIED="1768937411715"/>
 <node TEXT="17 More on UML" ID="ID_278593014" CREATED="1751483788944" MODIFIED="1768937422609"/>
 </node>
+</node>
+</node>
+<node TEXT="1. course objectives" POSITION="top_or_left" ID="ID_1544903801" CREATED="1778732053871" MODIFIED="1778732135666">
+<edge COLOR="#0000ff"/>
+</node>
+<node TEXT="2. assessments" POSITION="top_or_left" ID="ID_358960456" CREATED="1778732092512" MODIFIED="1778732140462">
+<edge COLOR="#00ff00"/>
+</node>
+<node TEXT="3. schedule" POSITION="top_or_left" ID="ID_1759077619" CREATED="1778732103040" MODIFIED="1778732144668">
+<edge COLOR="#ff00ff"/>
+</node>
+<node TEXT="4. sources" POSITION="top_or_left" ID="ID_484179613" CREATED="1778732123212" MODIFIED="1778732148864">
+<edge COLOR="#00ffff"/>
 </node>
 </node>
 </map>
