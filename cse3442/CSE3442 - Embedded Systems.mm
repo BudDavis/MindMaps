@@ -1,7 +1,7 @@
 <map version="freeplane 1.12.15">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<bookmarks/>
 <attribute_registry SHOW_ATTRIBUTES="hide"/>
+<bookmarks/>
 <node TEXT="Embedded Systems I" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1768590008244" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_CENTERED"><hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="false" show_notes_in_map="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" allow_compact_layout="false" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
@@ -73,30 +73,29 @@
 <hook NAME="AutomaticEdgeColor" COUNTER="69" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font SIZE="16"/>
-<node TEXT="01 Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_884531780" CREATED="1768589914053" MODIFIED="1778676785654">
+<node TEXT="01 Introduction" POSITION="bottom_or_right" ID="ID_884531780" CREATED="1768589914053" MODIFIED="1778676785654">
 <edge COLOR="#00ff00"/>
 <node TEXT="00 Course Info" ID="ID_316523266" CREATED="1748718453241" MODIFIED="1778676802140">
 <node TEXT="1. Grades" ID="ID_1671792145" CREATED="1778719116660" MODIFIED="1778722191974">
-<node TEXT="1. Project 25%" ID="ID_1066697939" CREATED="1748718504799" MODIFIED="1778719505413">
+<node TEXT="1. Project 20%" ID="ID_1066697939" CREATED="1748718504799" MODIFIED="1784914811268">
 <node TEXT="simple circuit design" ID="ID_1117019969" CREATED="1766166177996" MODIFIED="1778720005847"/>
 <node TEXT="at least one interrupt" ID="ID_1357068445" CREATED="1766166192376" MODIFIED="1778720009320"/>
 <node TEXT="soldering" ID="ID_290202545" CREATED="1766166210354" MODIFIED="1766166213866"/>
-<node TEXT="requires 3 seperate deliverables; design, fabrication, final product" ID="ID_1576920350" CREATED="1778719716620" MODIFIED="1778719757744"/>
 <node TEXT="INDIVIDUAL WORK.  This is not a team assignment" ID="ID_1028365932" CREATED="1779289257101" MODIFIED="1779289272384"/>
+<node TEXT="writing of C code" ID="ID_1131552974" CREATED="1784914711912" MODIFIED="1784914729673"/>
 </node>
-<node TEXT="2. Hands On Final 10%" ID="ID_477599381" CREATED="1748718540403" MODIFIED="1778719520762">
-<node TEXT="Completed last 2 weeks of class / Finals week" ID="ID_928169170" CREATED="1748719082595" MODIFIED="1748787556235"/>
+<node TEXT="2. Hands On Final 20%" ID="ID_477599381" CREATED="1748718540403" MODIFIED="1784914855380">
+<node TEXT="Completed last 2 weeks of class / Finals week. Times other than lecture or lab." ID="ID_928169170" CREATED="1748719082595" MODIFIED="1784993355591"/>
 <node TEXT="Must demonstrate basic competence in microcontroller programming, building / debugging simple circuits" ID="ID_1628797318" CREATED="1779289277554" MODIFIED="1779289315037"/>
 </node>
-<node TEXT="3. Midterm Exam 25%" ID="ID_1119633648" CREATED="1778719515192" MODIFIED="1778719652475"/>
+<node TEXT="3. Midterm Exam 30%" ID="ID_1119633648" CREATED="1778719515192" MODIFIED="1784914835154"/>
 <node TEXT="4. Final Exam 30%" ID="ID_376987591" CREATED="1778719522768" MODIFIED="1778719671007"/>
-<node TEXT="5. Homework 10%" ID="ID_1804354504" CREATED="1778719675831" MODIFIED="1778719781175">
-<node TEXT="assignments will be determined as the semester unfolds" ID="ID_817832254" CREATED="1778719787673" MODIFIED="1778719813130"/>
-<node TEXT="code will be scrutinized" ID="ID_399873971" CREATED="1778719814534" MODIFIED="1778719827812"/>
-<node TEXT="number of assignment To Be Determined" ID="ID_985267087" CREATED="1778719829062" MODIFIED="1778719841021"/>
+<node TEXT="5. Labs are P/F" ID="ID_1952564029" CREATED="1778719556197" MODIFIED="1784914528635">
+<node TEXT="you must complete all the labs to pass this class. Complete means demonstrate to the TA." ID="ID_503035567" CREATED="1778719850966" MODIFIED="1779289231984">
+<node TEXT="you can only demonstrate 1 lab a week" ID="ID_815282239" CREATED="1784915188843" MODIFIED="1784915212157"/>
+<node TEXT="do not fall behind" ID="ID_495185259" CREATED="1784915214141" MODIFIED="1784915228589"/>
+<node TEXT="last day to demonstrate a lab is your last scheduled lab session." ID="ID_797928343" CREATED="1784915246266" MODIFIED="1784915269902"/>
 </node>
-<node TEXT="6. Labs are P/F" ID="ID_1952564029" CREATED="1778719556197" MODIFIED="1778719704800">
-<node TEXT="you must complete all the labs to pass this class. Complete means demonstrate to the TA." ID="ID_503035567" CREATED="1778719850966" MODIFIED="1779289231984"/>
 <node TEXT="i am serious." ID="ID_156929332" CREATED="1778719869123" MODIFIED="1778719880121"/>
 <node TEXT="lab time is very important" ID="ID_119125919" CREATED="1778719886231" MODIFIED="1778719896014">
 <node TEXT="ask for help, if you need it" ID="ID_961025847" CREATED="1778719897063" MODIFIED="1778719906288"/>
@@ -105,7 +104,7 @@
 <node TEXT=" (at least) 2 makeup days provided" ID="ID_188098044" CREATED="1778719972549" MODIFIED="1779289220788"/>
 </node>
 </node>
-<node TEXT="7.  Course Grades" ID="ID_913230916" CREATED="1778720096607" MODIFIED="1778720105230">
+<node TEXT="6.  Course Grades" ID="ID_913230916" CREATED="1778720096607" MODIFIED="1784915074027">
 <node TEXT="70% is the lowest C" ID="ID_1144619877" CREATED="1778720105864" MODIFIED="1778720119306"/>
 <node TEXT="90% is the lowest A, may go a few points lower if there are not enough A&apos;s.  (most semesters 8  A&apos;s out of 40 or 20%.)" ID="ID_1339813862" CREATED="1778720125752" MODIFIED="1778720267294"/>
 <node TEXT="80% is the lowest B. (most semesters, there are plenty of these)" ID="ID_746669104" CREATED="1778720150561" MODIFIED="1778771029380"/>
@@ -122,7 +121,7 @@
 <node TEXT="Due date can be shifted if a significant portion of the class is struggling to complete it on schedule" ID="ID_788573050" CREATED="1749152266649" MODIFIED="1749152297160"/>
 </node>
 <node TEXT="What is turned into canvas is what is graded. No exceptions." ID="ID_270323932" CREATED="1739146097890" MODIFIED="1749130542842"/>
-<node TEXT="Strive for a professional work product.  C code should be clean, concise, and uniformly formatted (the IDE will do this for you).  Readability over cleverness." ID="ID_493707429" CREATED="1739146216797" MODIFIED="1779289472150">
+<node TEXT="Strive for a professional work product.  C code should be clean, concise, and uniformly formatted (the IDE will do this for you).  Readability over cleverness." FOLDED="true" ID="ID_493707429" CREATED="1739146216797" MODIFIED="1779289472150">
 <font BOLD="true"/>
 <node TEXT="Coding Standard" ID="ID_1626115545" CREATED="1749152693648" MODIFIED="1749152701222">
 <node TEXT="code indented as CCS does it" ID="ID_270677684" CREATED="1749152702746" MODIFIED="1749152713585"/>
@@ -154,10 +153,7 @@
 <node TEXT="All code will be fed through MOSS." ID="ID_136407571" CREATED="1739146255925" MODIFIED="1739146265186">
 <node TEXT="Students &apos;working together&apos; or sharing code will be identified and turned into Student Conduct" ID="ID_344892438" CREATED="1749130482350" MODIFIED="1749130524890"/>
 </node>
-<node TEXT="Students must provide paper copies of portions of the data sheet (and tm4c123gh6pm.h) for the exam.  (not craziness) It is your responsibility to find the parts that you will need, and to copy them." ID="ID_1412297594" CREATED="1739292033244" MODIFIED="1778719359241" HGAP_QUANTITY="16.25 pt" VSHIFT_QUANTITY="-21 pt">
-<node TEXT="no, i do not have any investments in the paper industry" ID="ID_1754179110" CREATED="1778771303537" MODIFIED="1778771323106"/>
-<node TEXT="it is possible that we can use a computer lab for the tests, which would allow having the entire documents available.  and searchable.  maybe." ID="ID_1656662431" CREATED="1778771325311" MODIFIED="1778771378275"/>
-</node>
+<node TEXT="Students must provide paper copies of portions of the data sheet (and tm4c123gh6pm.h) for the exam.  (not craziness) It is your responsibility to find the parts that you will need, and to copy them." ID="ID_1412297594" CREATED="1739292033244" MODIFIED="1778719359241" HGAP_QUANTITY="16.25 pt" VSHIFT_QUANTITY="-21 pt"/>
 <node TEXT="Issues with grading?" ID="ID_147989353" CREATED="1749152549025" MODIFIED="1749153157773">
 <node TEXT="Process must be started no more than 48 hours after the grades have been released OR when the test is gone over in class." ID="ID_1465796352" CREATED="1749152559446" MODIFIED="1749152604337"/>
 <node TEXT="Document your issues with an e-mail.  Include specifics and why you think an error has been made." ID="ID_1739836601" CREATED="1749152607329" MODIFIED="1749153157771"/>
@@ -194,7 +190,7 @@
 <node TEXT="put parts and equipment up when you are done with them" ID="ID_998066938" CREATED="1778722234034" MODIFIED="1778722253878"/>
 <node TEXT="use the X10 probes on the scopes" ID="ID_1274098537" CREATED="1778722255123" MODIFIED="1778722268903"/>
 <node TEXT="throw away broken components" ID="ID_1268680423" CREATED="1778722270015" MODIFIED="1778722280861"/>
-<node TEXT="tell the lab TA when we are out (or close) of parts" ID="ID_724151667" CREATED="1778722281963" MODIFIED="1778722299081"/>
+<node TEXT="tell the lab TA when we are out of parts" ID="ID_724151667" CREATED="1778722281963" MODIFIED="1784993430993"/>
 <node TEXT="situational awareness" ID="ID_1458676268" CREATED="1778722302660" MODIFIED="1778722313218">
 <node TEXT="components are hot.  maybe you plugged something in wrong?" ID="ID_1789455729" CREATED="1778722314088" MODIFIED="1778722342916"/>
 <node TEXT="eval board resets or LED goes dark?  your circuit is pulling too much current" ID="ID_337485654" CREATED="1778722344268" MODIFIED="1779289546773"/>
@@ -215,13 +211,6 @@
 <node TEXT="Use 12.8.1 version of the IDE" ID="ID_1440845058" CREATED="1778722683599" MODIFIED="1778722697361">
 <node TEXT="version 20+ do not make a project from scratch for the tm4c123gh6pm eval board." ID="ID_1084343633" CREATED="1778722697900" MODIFIED="1778722750997"/>
 </node>
-</node>
-<node TEXT="6.  Things I Do Not Understand" ID="ID_1487736289" CREATED="1749083662592" MODIFIED="1778722226274">
-<node TEXT="Auto button on oscilloscopes" ID="ID_1757093416" CREATED="1749083675263" MODIFIED="1749083685682"/>
-<node TEXT="Extra Credit" ID="ID_694453701" CREATED="1749083687338" MODIFIED="1749083691746"/>
-<node TEXT="Echo 360" ID="ID_1273754450" CREATED="1749083698728" MODIFIED="1749083702823"/>
-<node TEXT="python (it is a toy, not a programming language)" ID="ID_1436955835" CREATED="1778720763048" MODIFIED="1778720783443"/>
-<node TEXT="why anyone has a windows / mac laptop when Linux is available..." ID="ID_1807278279" CREATED="1778721528596" MODIFIED="1778721552440"/>
 </node>
 </node>
 <node TEXT="01 Programming" FOLDED="true" ID="ID_826684588" CREATED="1748038641602" MODIFIED="1768589825400">
@@ -454,7 +443,7 @@
 </node>
 </node>
 </node>
-<node TEXT="4 tm4C123GXL" FOLDED="true" ID="ID_446456208" CREATED="1748040450936" MODIFIED="1749238176173">
+<node TEXT="4 tm4C123GXL" ID="ID_446456208" CREATED="1748040450936" MODIFIED="1749238176173">
 <node TEXT="Schematic" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1003357533" CREATED="1749420711287" MODIFIED="1749435761949" LINK="spmu296.pdf%23--page-label=20"/>
 <node TEXT="picture" ID="ID_1989600783" CREATED="1768406582547" MODIFIED="1768406657970"><richcontent TYPE="DETAILS" HIDDEN="true">
 <html>
@@ -483,7 +472,7 @@
 </node>
 </node>
 </node>
-<node TEXT="5 System Clock / Block Enables" FOLDED="true" ID="ID_1103869197" CREATED="1748040834136" MODIFIED="1749083806317">
+<node TEXT="5 System Clock / Block Enables" ID="ID_1103869197" CREATED="1748040834136" MODIFIED="1749083806317">
 <node TEXT="1 Block Diagram (p48)" FOLDED="true" ID="ID_1419644123" CREATED="1749439750130" MODIFIED="1768407448209" LINK="spms376e.pdf%23page-label=222">
 <hook URI="block_diagram.png" SIZE="1.052901" NAME="ExternalObject"/>
 <node TEXT="CPU (p71)" ID="ID_671626364" CREATED="1756132376932" MODIFIED="1756132400638">
@@ -562,7 +551,7 @@
 <node TEXT="4 Using the system memory map, calculate the bitbanded address for a given bit on a peripheral." ID="ID_1036745770" CREATED="1748718123687" MODIFIED="1749600168051"/>
 <node TEXT="7 Understand Read/Modify/Update and the problems that may occur" ID="ID_765261796" CREATED="1749441217942" MODIFIED="1749441264940"/>
 </node>
-<node TEXT="2 Readings" FOLDED="true" ID="ID_1920110396" CREATED="1748560773935" MODIFIED="1778721645264" CHILD_NODES_LAYOUT="TOPTOBOTTOM_BOTHSIDES_FLOW">
+<node TEXT="2 Readings" ID="ID_1920110396" CREATED="1748560773935" MODIFIED="1778721645264" CHILD_NODES_LAYOUT="TOPTOBOTTOM_BOTHSIDES_FLOW">
 <node TEXT="spms376e.pdf" ID="ID_950137455" CREATED="1749420952578" MODIFIED="1749493610172">
 <node TEXT="Section 2.4 Memory Model" ID="ID_408619696" CREATED="1749508847807" MODIFIED="1749508854242"/>
 </node>
@@ -572,7 +561,7 @@
 </node>
 <node TEXT="3 Contents" FOLDED="true" ID="ID_1505435801" CREATED="1748554868001" MODIFIED="1778721647890">
 <node TEXT="1 Memory Map" ID="ID_135894633" CREATED="1748040567138" MODIFIED="1748554910759">
-<node TEXT="1 Memory Map" LOCALIZED_STYLE_REF="styles.subsubtopic" FOLDED="true" ID="ID_223566472" CREATED="1748040646480" MODIFIED="1755944360709">
+<node TEXT="1 the address space" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_223566472" CREATED="1748040646480" MODIFIED="1784993736680">
 <node TEXT="1 (p92) 1" ID="ID_1022192542" CREATED="1755943880106" MODIFIED="1768408217263">
 <hook URI="memory_map1.png" SIZE="0.88235295" NAME="ExternalObject"/>
 </node>
@@ -664,7 +653,7 @@
 </node>
 <node TEXT="03 GPIO" FOLDED="true" POSITION="top_or_left" ID="ID_298152031" CREATED="1748038653956" MODIFIED="1778722808024">
 <edge COLOR="#00ffff"/>
-<node TEXT="1 Objectives" ID="ID_1716081651" CREATED="1748555992877" MODIFIED="1748555997493">
+<node TEXT="1 Objectives" FOLDED="true" ID="ID_1716081651" CREATED="1748555992877" MODIFIED="1748555997493">
 <node TEXT="01 Program GPIO" ID="ID_511406462" CREATED="1749083880372" MODIFIED="1749083893520"/>
 <node TEXT="02 Know what &quot;pinmux&quot; is and where it is implemented on the block diagram." ID="ID_1697712955" CREATED="1749083895272" MODIFIED="1778721750470"/>
 <node TEXT="03 Interface LED&apos;s directly to GPIO" ID="ID_61445033" CREATED="1749083919362" MODIFIED="1749083956609"/>
@@ -690,11 +679,11 @@
 <node TEXT="11  Understand and be able to read / write the GPIO in the TM4C using the different &apos;gpiodata&apos; registers to select specific bits." ID="ID_1209758823" CREATED="1778721783797" MODIFIED="1778721830258"/>
 <node TEXT="12.  Understand the similarities and the differences between using a specific &apos;gpiodata&apos; register and using bitbanding." ID="ID_908169575" CREATED="1778721832342" MODIFIED="1778721866959"/>
 </node>
-<node TEXT="3 Readings" ID="ID_293433486" CREATED="1748717106542" MODIFIED="1778722808022">
+<node TEXT="3 Readings" FOLDED="true" ID="ID_293433486" CREATED="1748717106542" MODIFIED="1778722808022">
 <node TEXT="spms376e.pdf ( p649 through p691)" ID="ID_1212070010" CREATED="1749420952578" MODIFIED="1768874408221"/>
 </node>
-<node TEXT="4 Contents" FOLDED="true" ID="ID_1050794369" CREATED="1748556007028" MODIFIED="1748717116054">
-<node TEXT="Introduction to GPIO" ID="ID_1808533250" CREATED="1748040586589" MODIFIED="1748040594635">
+<node TEXT="4 Contents" ID="ID_1050794369" CREATED="1748556007028" MODIFIED="1748717116054">
+<node TEXT="Introduction to GPIO" FOLDED="true" ID="ID_1808533250" CREATED="1748040586589" MODIFIED="1748040594635">
 <node TEXT="1 Block Diagram of GPIO Blocks (p652)" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1727662303" CREATED="1749084219391" MODIFIED="1768872061358">
 <hook URI="gpioBlockDiagram.png" SIZE="0.5708849" NAME="ExternalObject"/>
 </node>
@@ -734,7 +723,7 @@
 <node TEXT="6. To enable GPIO pins as digital I/Os, set the appropriate DEN bit in the GPIODEN register. To enable GPIO pins to their analog function (if available), set the GPIOAMSEL bit in the GPIOAMSEL register." ID="ID_37147467" CREATED="1756847737872" MODIFIED="1756848097333"/>
 </node>
 </node>
-<node TEXT="6 GPIO_DATA_R (it&apos;s complicated)" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" ID="ID_1028608060" CREATED="1768872247568" MODIFIED="1768872956925">
+<node TEXT="6 GPIO_DATA_R (it&apos;s complicated)" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1028608060" CREATED="1768872247568" MODIFIED="1768872956925">
 <node TEXT="1 Multiple Addresses for gpio_data_r" ID="ID_965134396" CREATED="1768873968483" MODIFIED="1768874002102"/>
 <node TEXT="2 advantages" ID="ID_930518168" CREATED="1768874007363" MODIFIED="1768874015650">
 <node TEXT="no need to read / modify / write" ID="ID_1201027792" CREATED="1768874017118" MODIFIED="1768874035687"/>
@@ -794,7 +783,7 @@
 </node>
 <node TEXT="04 SysTick" FOLDED="true" POSITION="top_or_left" ID="ID_178369916" CREATED="1768601601285" MODIFIED="1778623135328">
 <edge COLOR="#7c0000"/>
-<node TEXT="1 Objectives" FOLDED="true" ID="ID_1842723382" CREATED="1768673195939" MODIFIED="1768673202070">
+<node TEXT="1 Objectives" ID="ID_1842723382" CREATED="1768673195939" MODIFIED="1768673202070">
 <node TEXT="Use the SysTick Timer to measure a time interval" ID="ID_196959475" CREATED="1750465739382" MODIFIED="1768676293830"/>
 <node TEXT="Use SysTick to run an ISR periodically" ID="ID_1541886104" CREATED="1768756789027" MODIFIED="1768756809932"/>
 </node>
@@ -802,7 +791,7 @@
 <node TEXT="spms376e.pdf (data sheet) 3.1.1 (p123) (p128 for bit defines)" ID="ID_981801695" CREATED="1768676312927" MODIFIED="1768756772288"/>
 <node TEXT="volvano 2.6 (p110)" ID="ID_1055002435" CREATED="1768676771451" MODIFIED="1768676799349"/>
 </node>
-<node TEXT="3 Contents" ID="ID_385054819" CREATED="1768673216845" MODIFIED="1768673223742">
+<node TEXT="3 Contents" FOLDED="true" ID="ID_385054819" CREATED="1768673216845" MODIFIED="1768673223742">
 <node TEXT="1 systick is a timer" FOLDED="true" ID="ID_1775434536" CREATED="1768676874583" MODIFIED="1768676975505">
 <node TEXT="ST_CURRENT counts down to 0" ID="ID_66676183" CREATED="1768676890950" MODIFIED="1768757677372"/>
 <node TEXT="when ST_CURRENT it hits 0, then goes to the ST_RELOAD value" ID="ID_1242169302" CREATED="1768676901450" MODIFIED="1768757696932"/>
@@ -1638,7 +1627,6 @@
 <node TEXT="scope and jumper wire" ID="ID_1148858426" CREATED="1777571822331" MODIFIED="1777571830643"/>
 <node TEXT="software debugger" ID="ID_1547941260" CREATED="1777571831708" MODIFIED="1777571840664"/>
 </node>
-<node TEXT="move interrupts earlier in the semester" ID="ID_1400483890" CREATED="1777571775416" MODIFIED="1777571807533"/>
 <node TEXT="spi lab" ID="ID_528186640" CREATED="1777571808439" MODIFIED="1777571814354"/>
 <node TEXT="analog lab" ID="ID_362421101" CREATED="1777571815233" MODIFIED="1777571821117"/>
 <node TEXT="forbidden pins" ID="ID_1724310296" CREATED="1778609296801" MODIFIED="1778609311021">
