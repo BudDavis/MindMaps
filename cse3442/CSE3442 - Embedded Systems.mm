@@ -1,7 +1,7 @@
 <map version="freeplane 1.12.15">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<attribute_registry SHOW_ATTRIBUTES="hide"/>
 <bookmarks/>
+<attribute_registry SHOW_ATTRIBUTES="hide"/>
 <node TEXT="Embedded Systems I" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1768590008244" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_CENTERED"><hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="false" show_notes_in_map="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" allow_compact_layout="false" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
@@ -73,10 +73,10 @@
 <hook NAME="AutomaticEdgeColor" COUNTER="69" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font SIZE="16"/>
-<node TEXT="01 Introduction" POSITION="bottom_or_right" ID="ID_884531780" CREATED="1768589914053" MODIFIED="1778676785654">
+<node TEXT="01 Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_884531780" CREATED="1768589914053" MODIFIED="1778676785654">
 <edge COLOR="#00ff00"/>
 <node TEXT="00 Course Info" ID="ID_316523266" CREATED="1748718453241" MODIFIED="1778676802140">
-<node TEXT="1. Grades" ID="ID_1671792145" CREATED="1778719116660" MODIFIED="1778722191974">
+<node TEXT="1. Grades" FOLDED="true" ID="ID_1671792145" CREATED="1778719116660" MODIFIED="1778722191974">
 <node TEXT="1. Project 20%" ID="ID_1066697939" CREATED="1748718504799" MODIFIED="1784914811268">
 <node TEXT="simple circuit design" ID="ID_1117019969" CREATED="1766166177996" MODIFIED="1778720005847"/>
 <node TEXT="at least one interrupt" ID="ID_1357068445" CREATED="1766166192376" MODIFIED="1778720009320"/>
@@ -111,7 +111,7 @@
 <node TEXT="normal rounding rules apply; 69.5 is a 70" ID="ID_1265195065" CREATED="1778720162148" MODIFIED="1778720183421"/>
 </node>
 </node>
-<node TEXT="2. Policies" ID="ID_970176045" CREATED="1739144943347" MODIFIED="1778772589377">
+<node TEXT="2. Policies" FOLDED="true" ID="ID_970176045" CREATED="1739144943347" MODIFIED="1778772589377">
 <node TEXT="Late:  10% per day" ID="ID_972869490" CREATED="1739144960790" MODIFIED="1739144968668">
 <node TEXT="Figured out by Canvas" ID="ID_1854944870" CREATED="1739146148435" MODIFIED="1739146153785"/>
 <node TEXT="For University approved absences I will move your due date in canvas. Other absences will have a late penalty." ID="ID_1739592869" CREATED="1739146157200" MODIFIED="1749152251331"/>
@@ -121,7 +121,7 @@
 <node TEXT="Due date can be shifted if a significant portion of the class is struggling to complete it on schedule" ID="ID_788573050" CREATED="1749152266649" MODIFIED="1749152297160"/>
 </node>
 <node TEXT="What is turned into canvas is what is graded. No exceptions." ID="ID_270323932" CREATED="1739146097890" MODIFIED="1749130542842"/>
-<node TEXT="Strive for a professional work product.  C code should be clean, concise, and uniformly formatted (the IDE will do this for you).  Readability over cleverness." FOLDED="true" ID="ID_493707429" CREATED="1739146216797" MODIFIED="1779289472150">
+<node TEXT="Good Looking code is good code." ID="ID_493707429" CREATED="1739146216797" MODIFIED="1785172358904">
 <font BOLD="true"/>
 <node TEXT="Coding Standard" ID="ID_1626115545" CREATED="1749152693648" MODIFIED="1749152701222">
 <node TEXT="code indented as CCS does it" ID="ID_270677684" CREATED="1749152702746" MODIFIED="1749152713585"/>
@@ -166,27 +166,30 @@
 </node>
 <node TEXT="work is graded ONCE.  no &quot;turn it in until you like the grade&quot;" ID="ID_1988724906" CREATED="1778719602137" MODIFIED="1778771250233"/>
 </node>
-<node TEXT="3. Time Management" ID="ID_335193774" CREATED="1749130632510" MODIFIED="1778719197076">
-<node TEXT="1. This is a 4 credit hour class" ID="ID_596334109" CREATED="1749130643429" MODIFIED="1778720420244"/>
-<node TEXT="2. Significant out of class time is expected" ID="ID_1868893467" CREATED="1749130665943" MODIFIED="1778720425761"/>
-<node TEXT="3. Attendance is required for labs. (by definition)" ID="ID_1915567311" CREATED="1749152887923" MODIFIED="1778720437994"/>
-<node TEXT="4. Attendance is required for lecture, but not verified" ID="ID_713313422" CREATED="1749152908715" MODIFIED="1778720873489">
+<node TEXT="3. Time Management" FOLDED="true" ID="ID_335193774" CREATED="1749130632510" MODIFIED="1778719197076">
+<node TEXT="This is a 4 credit hour class" ID="ID_596334109" CREATED="1749130643429" MODIFIED="1785257282763"/>
+<node TEXT="Significant out of class time is expected" ID="ID_1868893467" CREATED="1749130665943" MODIFIED="1785257289201"/>
+<node TEXT="Attendance is required for labs. (by definition)" ID="ID_1915567311" CREATED="1749152887923" MODIFIED="1785257296082"/>
+<node TEXT="Attendance is required for lecture, but not verified" ID="ID_713313422" CREATED="1749152908715" MODIFIED="1785257303978">
 <font BOLD="true"/>
 </node>
-<node TEXT="5. You should be ready for lab before you show up" ID="ID_890915249" CREATED="1749130653654" MODIFIED="1778720447169"/>
-<node TEXT="6. You should show up for lab on time" ID="ID_625269191" CREATED="1778720366937" MODIFIED="1778720451444"/>
-<node TEXT="7. If the instructor has an open lab on Saturday or Sunday, show up on time.  And leave on time." ID="ID_1822401282" CREATED="1778720382093" MODIFIED="1778720454783"/>
-<node TEXT="8.  Every topic has some assigned reading.  None of them take very long (&lt;30 minutes).  Come to class prepared." ID="ID_599223246" CREATED="1778720909120" MODIFIED="1778720942142"/>
+<node TEXT="You should be ready for lab before you show up" ID="ID_890915249" CREATED="1749130653654" MODIFIED="1785257310124"/>
+<node TEXT="You should show up for lab on time" ID="ID_625269191" CREATED="1778720366937" MODIFIED="1785257314308"/>
+<node TEXT="If the instructor has an open lab on Saturday or Sunday, show up on time.  And leave on time." ID="ID_1822401282" CREATED="1778720382093" MODIFIED="1785257319187"/>
+<node TEXT="Every topic has some assigned reading.  None of them take very long (&lt;30 minutes).  Come to class prepared." ID="ID_599223246" CREATED="1778720909120" MODIFIED="1785257324418"/>
 </node>
-<node TEXT="4. Warning" ID="ID_1553622457" CREATED="1749152060340" MODIFIED="1778719201196">
+<node TEXT="4. Warning" FOLDED="true" ID="ID_1553622457" CREATED="1749152060340" MODIFIED="1778719201196">
 <node TEXT="This course moves fast." ID="ID_1839637502" CREATED="1749152066512" MODIFIED="1749152080098"/>
 <node TEXT="Everything builds on prior work" ID="ID_431551380" CREATED="1749152081238" MODIFIED="1749152094364"/>
 <node TEXT="Do not fall behind" ID="ID_647876718" CREATED="1749152096095" MODIFIED="1749152102903"/>
 <node TEXT="Last month of the course, 65% of the course grade is turned in.  Be ready for this!" ID="ID_713048842" CREATED="1749153040956" MODIFIED="1778720068262"/>
-<node TEXT="DFW is about 25%" ID="ID_476050439" CREATED="1778719037007" MODIFIED="1778719051275"/>
+<node TEXT="DFW is about 25%" FOLDED="true" ID="ID_476050439" CREATED="1778719037007" MODIFIED="1778719051275">
+<node TEXT="turning in a previous semesters work is plagarism..." ID="ID_1106159067" CREATED="1785257338853" MODIFIED="1785257359166"/>
+<node TEXT="no extra credit" ID="ID_1304791159" CREATED="1785257362056" MODIFIED="1785257369847"/>
+</node>
 <node TEXT="The first exam destroys most students grades (average in the 50&apos;s is &apos;normal&apos;).  Take this class seriously from the first day." ID="ID_790021761" CREATED="1778720704995" MODIFIED="1778720756645"/>
 </node>
-<node TEXT="5. Lab Rules" ID="ID_470184699" CREATED="1778722208573" MODIFIED="1778722216150">
+<node TEXT="5. Lab Rules" FOLDED="true" ID="ID_470184699" CREATED="1778722208573" MODIFIED="1778722216150">
 <node TEXT="put parts and equipment up when you are done with them" ID="ID_998066938" CREATED="1778722234034" MODIFIED="1778722253878"/>
 <node TEXT="use the X10 probes on the scopes" ID="ID_1274098537" CREATED="1778722255123" MODIFIED="1778722268903"/>
 <node TEXT="throw away broken components" ID="ID_1268680423" CREATED="1778722270015" MODIFIED="1778722280861"/>
@@ -208,13 +211,14 @@
 <node TEXT="see the instructor.  there is a box full of boards of unknown provenance you can borrow." ID="ID_1091342326" CREATED="1778722553988" MODIFIED="1778722585985"/>
 <node TEXT="may i suggest mouser or digikey for a quick delivery?" ID="ID_472866927" CREATED="1778722587297" MODIFIED="1778722606337"/>
 </node>
-<node TEXT="Use 12.8.1 version of the IDE" ID="ID_1440845058" CREATED="1778722683599" MODIFIED="1778722697361">
+<node TEXT="Use 12.8.1 version of the IDE" ID="ID_1440845058" CREATED="1778722683599" MODIFIED="1785257532770">
+<font BOLD="true"/>
 <node TEXT="version 20+ do not make a project from scratch for the tm4c123gh6pm eval board." ID="ID_1084343633" CREATED="1778722697900" MODIFIED="1778722750997"/>
 </node>
 </node>
 </node>
-<node TEXT="01 Programming" FOLDED="true" ID="ID_826684588" CREATED="1748038641602" MODIFIED="1768589825400">
-<node TEXT="1. Objectives" ID="ID_1523678332" CREATED="1748289028482" MODIFIED="1778721052858">
+<node TEXT="01 Programming" ID="ID_826684588" CREATED="1748038641602" MODIFIED="1768589825400">
+<node TEXT="1. Objectives" FOLDED="true" ID="ID_1523678332" CREATED="1748289028482" MODIFIED="1778721052858">
 <node TEXT="1 Understand the basics of C programming; pointers, addresses, scope, linkage. (should have seen these in CSE1320)" ID="ID_1764064600" CREATED="1748557068163" MODIFIED="1778720976065"/>
 <node TEXT="2 Create a new program using CCS, compile and execute it on the tm4c123gxl." ID="ID_1653186865" CREATED="1748557105408" MODIFIED="1748557181585"/>
 <node TEXT="3 Write a program for the tm4c123gxl that uses a software delay function." ID="ID_114668159" CREATED="1748557148964" MODIFIED="1748557177525"/>
@@ -224,7 +228,7 @@
 <node TEXT="7 Understand the concept of &apos;enabling clocks&apos; for each block on the tm4c.  Be able to express this understanding in C code." ID="ID_794342184" CREATED="1748718922108" MODIFIED="1778721032410"/>
 <node TEXT="8 Understand &apos;volatile&apos; keyword. Know when to use it in programs, and what the cost is." ID="ID_963991764" CREATED="1748790009454" MODIFIED="1778721515314"/>
 </node>
-<node TEXT="2. Readings" ID="ID_1748369068" CREATED="1748556207026" MODIFIED="1778721056230">
+<node TEXT="2. Readings" FOLDED="true" ID="ID_1748369068" CREATED="1748556207026" MODIFIED="1778721056230">
 <node TEXT="spms376e.pdf (data sheet)" FOLDED="true" ID="ID_1320023849" CREATED="1749420952578" MODIFIED="1768406292142">
 <node TEXT="1 Architectural Overview" ID="ID_1004629006" CREATED="1749420978557" MODIFIED="1749432935823"/>
 <node TEXT="5.2.5 Clock Control" ID="ID_169756226" CREATED="1749432372611" MODIFIED="1749432397637"/>
@@ -237,8 +241,9 @@
 <node TEXT="notice his code indenting is atrocious. Use CCS to format your code" ID="ID_1675304908" CREATED="1768673589629" MODIFIED="1768673611358"/>
 </node>
 </node>
+<node TEXT="https://github.com/yonur/embedded/blob/master/%5BJonathan_Valvano%5D_Embedded_Systems_Real-Time_Int(BookZZ.org).pdf" ID="ID_163733832" CREATED="1785170300083" MODIFIED="1785170304766"/>
 </node>
-<node TEXT="3. Contents" ID="ID_459893785" CREATED="1748289048135" MODIFIED="1778721061554">
+<node TEXT="3. Contents" FOLDED="true" ID="ID_459893785" CREATED="1748289048135" MODIFIED="1778721061554">
 <node TEXT="1 Using CCS" ID="ID_562560687" CREATED="1748040803149" MODIFIED="1749156933666">
 <node TEXT="1 Use CCS to create a new project" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_943542100" CREATED="1749236450582" MODIFIED="1749236477403"/>
 <node TEXT="2 Required elements of a program" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1836930859" CREATED="1748718385301" MODIFIED="1749236468048">
@@ -544,7 +549,7 @@
 <node TEXT="02 Memory Map" FOLDED="true" POSITION="top_or_left" ID="ID_1621675299" CREATED="1748038649339" MODIFIED="1778623123046">
 <font SIZE="16"/>
 <edge COLOR="#ff00ff"/>
-<node TEXT="1 Objectives" FOLDED="true" ID="ID_1860897960" CREATED="1748554851857" MODIFIED="1749441213653">
+<node TEXT="1 Objectives" ID="ID_1860897960" CREATED="1748554851857" MODIFIED="1749441213653">
 <node TEXT="1 Be able to identify the different partitions of the Memory Map" ID="ID_117854209" CREATED="1748717959153" MODIFIED="1748718002128"/>
 <node TEXT="2 Describe &apos;bit banding&apos;.  Understand the problem(s) that it solves." ID="ID_214239978" CREATED="1748718005172" MODIFIED="1748718070288"/>
 <node TEXT="3 Using the system memory map, calculate the bitbanded address for a given bit in memory" ID="ID_355624814" CREATED="1748718074019" MODIFIED="1748718191176"/>
@@ -1547,7 +1552,7 @@
 </node>
 </node>
 </node>
-<node TEXT="2 ADC" ID="ID_761888663" CREATED="1748041027565" MODIFIED="1774209591178">
+<node TEXT="2 ADC" FOLDED="true" ID="ID_761888663" CREATED="1748041027565" MODIFIED="1774209591178">
 <node TEXT="1. types" ID="ID_1434318575" CREATED="1748041411738" MODIFIED="1776872994200">
 <node TEXT="successive approximation  (By White Flye - Own work, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=37953205)" ID="ID_1052951803" CREATED="1776872995859" MODIFIED="1776873691266">
 <hook URI="SA_ADC_block_diagram.png" SIZE="0.55658627" NAME="ExternalObject"/>
@@ -1588,7 +1593,7 @@
 </node>
 </node>
 </node>
-<node TEXT="3 Filtering" FOLDED="true" ID="ID_1869160960" CREATED="1774209566945" MODIFIED="1774209598653">
+<node TEXT="3 Filtering" ID="ID_1869160960" CREATED="1774209566945" MODIFIED="1774209598653">
 <node TEXT="IIR" ID="ID_1485705203" CREATED="1776875817535" MODIFIED="1776875880455">
 <hook URI="IIR.png" SIZE="0.65789473" NAME="ExternalObject"/>
 <node TEXT="infinite" ID="ID_1340731623" CREATED="1776875919660" MODIFIED="1776875926560"/>
