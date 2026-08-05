@@ -75,7 +75,7 @@
 <font SIZE="16"/>
 <node TEXT="01 Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_884531780" CREATED="1768589914053" MODIFIED="1778676785654">
 <edge COLOR="#00ff00"/>
-<node TEXT="00 Course Info" ID="ID_316523266" CREATED="1748718453241" MODIFIED="1778676802140">
+<node TEXT="00 Course Info" FOLDED="true" ID="ID_316523266" CREATED="1748718453241" MODIFIED="1778676802140">
 <node TEXT="1. Grades" FOLDED="true" ID="ID_1671792145" CREATED="1778719116660" MODIFIED="1778722191974">
 <node TEXT="1. Project 20%" ID="ID_1066697939" CREATED="1748718504799" MODIFIED="1784914811268">
 <node TEXT="simple circuit design" ID="ID_1117019969" CREATED="1766166177996" MODIFIED="1778720005847"/>
@@ -217,7 +217,7 @@
 </node>
 </node>
 </node>
-<node TEXT="01 Programming" ID="ID_826684588" CREATED="1748038641602" MODIFIED="1768589825400">
+<node TEXT="01 Programming" FOLDED="true" ID="ID_826684588" CREATED="1748038641602" MODIFIED="1768589825400">
 <node TEXT="1. Objectives" FOLDED="true" ID="ID_1523678332" CREATED="1748289028482" MODIFIED="1778721052858">
 <node TEXT="1 Understand the basics of C programming; pointers, addresses, scope, linkage. (should have seen these in CSE1320)" ID="ID_1764064600" CREATED="1748557068163" MODIFIED="1778720976065"/>
 <node TEXT="2 Create a new program using CCS, compile and execute it on the tm4c123gxl." ID="ID_1653186865" CREATED="1748557105408" MODIFIED="1748557181585"/>
@@ -229,11 +229,11 @@
 <node TEXT="8 Understand &apos;volatile&apos; keyword. Know when to use it in programs, and what the cost is." ID="ID_963991764" CREATED="1748790009454" MODIFIED="1778721515314"/>
 </node>
 <node TEXT="2. Readings" FOLDED="true" ID="ID_1748369068" CREATED="1748556207026" MODIFIED="1778721056230">
-<node TEXT="spms376e.pdf (data sheet)" FOLDED="true" ID="ID_1320023849" CREATED="1749420952578" MODIFIED="1768406292142">
+<node TEXT="spms376e.pdf (data sheet)" ID="ID_1320023849" CREATED="1749420952578" MODIFIED="1768406292142">
 <node TEXT="1 Architectural Overview" ID="ID_1004629006" CREATED="1749420978557" MODIFIED="1749432935823"/>
 <node TEXT="5.2.5 Clock Control" ID="ID_169756226" CREATED="1749432372611" MODIFIED="1749432397637"/>
 </node>
-<node TEXT="spmu296.pdf (launchpad)" FOLDED="true" ID="ID_1073806259" CREATED="1749431996294" MODIFIED="1768406305835">
+<node TEXT="spmu296.pdf (launchpad)" ID="ID_1073806259" CREATED="1749431996294" MODIFIED="1768406305835">
 <node TEXT="Entire Document" ID="ID_1134822699" CREATED="1749432042697" MODIFIED="1749432049897"/>
 </node>
 <node TEXT="Valvano" ID="ID_790256914" CREATED="1749508156890" MODIFIED="1749508192850">
@@ -515,28 +515,35 @@
 <node TEXT="1. Objectives" ID="ID_669031304" CREATED="1778676827041" MODIFIED="1778680211838">
 <node TEXT="be able to define an embedded system" ID="ID_1046015368" CREATED="1778679594672" MODIFIED="1778679620542"/>
 <node TEXT="describe what is included in a microcontroller" ID="ID_610517666" CREATED="1778679802803" MODIFIED="1778679827246"/>
+<node TEXT="differentiate between Harvard and Von Neuman architectures" ID="ID_1972766308" CREATED="1785897434902" MODIFIED="1785897467112"/>
 </node>
 <node TEXT="2. Readings" ID="ID_458337181" CREATED="1778676836258" MODIFIED="1778680216428"/>
 <node TEXT="3. Content" ID="ID_402696996" CREATED="1778676842875" MODIFIED="1778680220928">
 <node TEXT="an embedded system" ID="ID_1410651015" CREATED="1778679504311" MODIFIED="1778679514546">
-<node TEXT="1.   definition/ An embedded system is a specialized computer system designed to perform one or a few dedicated functions, usually within a larger device or machine.&#xa;Unlike general-purpose computers (like laptops or desktops), embedded systems are purpose-built and typically operate under real-time constraints with limited resources." ID="ID_1917520966" CREATED="1778680290405" MODIFIED="1779289108521"/>
-<node TEXT="2. contains hardware and software" ID="ID_1875112049" CREATED="1778679515135" MODIFIED="1778680307004"/>
-<node TEXT="3. does not look like a computer, but is one" ID="ID_1790213449" CREATED="1778679526947" MODIFIED="1778680311666"/>
-<node TEXT="4. usually a resource constrained environment" ID="ID_810789554" CREATED="1778679545024" MODIFIED="1778680317400">
+<node TEXT="definition/ An embedded system is a specialized computer system designed to perform one or a few dedicated functions, usually within a larger device or machine.&#xa;Unlike general-purpose computers (like laptops or desktops), embedded systems are purpose-built and typically operate under real-time constraints with limited resources." ID="ID_1917520966" CREATED="1778680290405" MODIFIED="1785897259277"/>
+<node TEXT="contains hardware and software" ID="ID_1875112049" CREATED="1778679515135" MODIFIED="1785897264566"/>
+<node TEXT="does not look like a computer, but is one" ID="ID_1790213449" CREATED="1778679526947" MODIFIED="1785897269754"/>
+<node TEXT="usually a resource constrained environment" ID="ID_810789554" CREATED="1778679545024" MODIFIED="1785897276635">
 <node TEXT="usually microcontroller based, but not always" ID="ID_1752599870" CREATED="1778679706515" MODIFIED="1778679730355"/>
 <node TEXT="(relatively) small amounts of memory and CPU" ID="ID_118272965" CREATED="1778679733668" MODIFIED="1778679749940"/>
 <node TEXT="cost of end item tightly controlled" ID="ID_1157781596" CREATED="1778679759185" MODIFIED="1778679775391"/>
 </node>
 </node>
-<node TEXT="microcontroller contains memory, cpu, and I/O on one chip" ID="ID_1229537795" CREATED="1778679579947" MODIFIED="1778679705393">
-<node TEXT="need a clock, power, minimal control logic (power on)" ID="ID_1993832269" CREATED="1778679834333" MODIFIED="1778679874193"/>
-<node TEXT="STM 32 about $5" ID="ID_473167477" CREATED="1778679877190" MODIFIED="1778680039562"/>
-<node TEXT="ESP32 about $10 (includes wifi and blue tooth)" ID="ID_1273057142" CREATED="1778680041556" MODIFIED="1778680113654"/>
-<node TEXT="tm4c around $15" ID="ID_791255025" CREATED="1778680177801" MODIFIED="1778680191089">
+<node TEXT="microcontroller" ID="ID_1229537795" CREATED="1778679579947" MODIFIED="1785897157115">
+<node TEXT="contains memory, cpu, and I/O on one chip" ID="ID_417754263" CREATED="1785897008661" MODIFIED="1785897224690"/>
+<node TEXT="needs a clock, power, minimal control logic (power on)" ID="ID_1993832269" CREATED="1778679834333" MODIFIED="1785897230445"/>
+<node TEXT="ESP32 about $10 (includes wifi and blue tooth)" ID="ID_1273057142" CREATED="1778680041556" MODIFIED="1785897236038"/>
+<node TEXT="STM 32 about $5" ID="ID_473167477" CREATED="1778679877190" MODIFIED="1785897240782"/>
+<node TEXT="tm4c around $15" ID="ID_791255025" CREATED="1778680177801" MODIFIED="1785897244945">
 <node TEXT="old design" ID="ID_92885513" CREATED="1778721203001" MODIFIED="1778721208477"/>
 <node TEXT="high quality" ID="ID_1882873888" CREATED="1778721209566" MODIFIED="1778721216118"/>
 <node TEXT="excellent documentation" ID="ID_548752725" CREATED="1778721217858" MODIFIED="1778721227422"/>
+<node TEXT="automotive uses" ID="ID_254505007" CREATED="1785897197205" MODIFIED="1785897207248"/>
 </node>
+</node>
+<node TEXT="architectutures" ID="ID_1737937372" CREATED="1785897475587" MODIFIED="1785897483051">
+<node TEXT="Harvard" ID="ID_1666712059" CREATED="1785897484598" MODIFIED="1785897493921"/>
+<node TEXT="Von Neumann" ID="ID_1472975505" CREATED="1785897495069" MODIFIED="1785897508575"/>
 </node>
 </node>
 <node TEXT="4. Questions" ID="ID_1912889868" CREATED="1778680199126" MODIFIED="1778680225189">
@@ -549,14 +556,14 @@
 <node TEXT="02 Memory Map" FOLDED="true" POSITION="top_or_left" ID="ID_1621675299" CREATED="1748038649339" MODIFIED="1778623123046">
 <font SIZE="16"/>
 <edge COLOR="#ff00ff"/>
-<node TEXT="1 Objectives" ID="ID_1860897960" CREATED="1748554851857" MODIFIED="1749441213653">
-<node TEXT="1 Be able to identify the different partitions of the Memory Map" ID="ID_117854209" CREATED="1748717959153" MODIFIED="1748718002128"/>
+<node TEXT="1 Objectives" FOLDED="true" ID="ID_1860897960" CREATED="1748554851857" MODIFIED="1749441213653">
+<node TEXT="1 Be able to identify the different partitions of the Memory Map of the tm4c" ID="ID_117854209" CREATED="1748717959153" MODIFIED="1785897543094"/>
 <node TEXT="2 Describe &apos;bit banding&apos;.  Understand the problem(s) that it solves." ID="ID_214239978" CREATED="1748718005172" MODIFIED="1748718070288"/>
 <node TEXT="3 Using the system memory map, calculate the bitbanded address for a given bit in memory" ID="ID_355624814" CREATED="1748718074019" MODIFIED="1748718191176"/>
 <node TEXT="4 Using the system memory map, calculate the bitbanded address for a given bit on a peripheral." ID="ID_1036745770" CREATED="1748718123687" MODIFIED="1749600168051"/>
 <node TEXT="7 Understand Read/Modify/Update and the problems that may occur" ID="ID_765261796" CREATED="1749441217942" MODIFIED="1749441264940"/>
 </node>
-<node TEXT="2 Readings" ID="ID_1920110396" CREATED="1748560773935" MODIFIED="1778721645264" CHILD_NODES_LAYOUT="TOPTOBOTTOM_BOTHSIDES_FLOW">
+<node TEXT="2 Readings" FOLDED="true" ID="ID_1920110396" CREATED="1748560773935" MODIFIED="1778721645264" CHILD_NODES_LAYOUT="TOPTOBOTTOM_BOTHSIDES_FLOW">
 <node TEXT="spms376e.pdf" ID="ID_950137455" CREATED="1749420952578" MODIFIED="1749493610172">
 <node TEXT="Section 2.4 Memory Model" ID="ID_408619696" CREATED="1749508847807" MODIFIED="1749508854242"/>
 </node>
@@ -658,7 +665,7 @@
 </node>
 <node TEXT="03 GPIO" FOLDED="true" POSITION="top_or_left" ID="ID_298152031" CREATED="1748038653956" MODIFIED="1778722808024">
 <edge COLOR="#00ffff"/>
-<node TEXT="1 Objectives" FOLDED="true" ID="ID_1716081651" CREATED="1748555992877" MODIFIED="1748555997493">
+<node TEXT="1 Objectives" ID="ID_1716081651" CREATED="1748555992877" MODIFIED="1748555997493">
 <node TEXT="01 Program GPIO" ID="ID_511406462" CREATED="1749083880372" MODIFIED="1749083893520"/>
 <node TEXT="02 Know what &quot;pinmux&quot; is and where it is implemented on the block diagram." ID="ID_1697712955" CREATED="1749083895272" MODIFIED="1778721750470"/>
 <node TEXT="03 Interface LED&apos;s directly to GPIO" ID="ID_61445033" CREATED="1749083919362" MODIFIED="1749083956609"/>
@@ -684,11 +691,11 @@
 <node TEXT="11  Understand and be able to read / write the GPIO in the TM4C using the different &apos;gpiodata&apos; registers to select specific bits." ID="ID_1209758823" CREATED="1778721783797" MODIFIED="1778721830258"/>
 <node TEXT="12.  Understand the similarities and the differences between using a specific &apos;gpiodata&apos; register and using bitbanding." ID="ID_908169575" CREATED="1778721832342" MODIFIED="1778721866959"/>
 </node>
-<node TEXT="3 Readings" FOLDED="true" ID="ID_293433486" CREATED="1748717106542" MODIFIED="1778722808022">
+<node TEXT="3 Readings" ID="ID_293433486" CREATED="1748717106542" MODIFIED="1778722808022">
 <node TEXT="spms376e.pdf ( p649 through p691)" ID="ID_1212070010" CREATED="1749420952578" MODIFIED="1768874408221"/>
 </node>
 <node TEXT="4 Contents" ID="ID_1050794369" CREATED="1748556007028" MODIFIED="1748717116054">
-<node TEXT="Introduction to GPIO" FOLDED="true" ID="ID_1808533250" CREATED="1748040586589" MODIFIED="1748040594635">
+<node TEXT="Introduction to GPIO" ID="ID_1808533250" CREATED="1748040586589" MODIFIED="1748040594635">
 <node TEXT="1 Block Diagram of GPIO Blocks (p652)" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1727662303" CREATED="1749084219391" MODIFIED="1768872061358">
 <hook URI="gpioBlockDiagram.png" SIZE="0.5708849" NAME="ExternalObject"/>
 </node>
@@ -747,7 +754,7 @@
 <node TEXT="show unlocking example" ID="ID_1449399414" CREATED="1778721983297" MODIFIED="1778721990819"/>
 </node>
 </node>
-<node TEXT="Interfacing to GPIO" FOLDED="true" ID="ID_398120066" CREATED="1756846467833" MODIFIED="1756846473385">
+<node TEXT="Interfacing to GPIO" ID="ID_398120066" CREATED="1756846467833" MODIFIED="1756846473385">
 <node TEXT="input" ID="ID_427827411" CREATED="1756846481270" MODIFIED="1756846485036">
 <node TEXT="Digital circuitry" ID="ID_1448803194" CREATED="1756848286004" MODIFIED="1756848296175"/>
 <node TEXT="Open Drain" ID="ID_1986757067" CREATED="1756848416361" MODIFIED="1756848421051"/>
@@ -1172,7 +1179,7 @@
 <node TEXT="long running processing in the main()" ID="ID_1007645093" CREATED="1772574964396" MODIFIED="1772574980835"/>
 <node TEXT="don&apos;t recreate an Operating System unless you have to" ID="ID_1396697339" CREATED="1772574982308" MODIFIED="1772574999501"/>
 </node>
-<node TEXT="3 communicating between ISR and main (concepts also apply in communicating between ISR&apos;s." ID="ID_1574465024" CREATED="1772575004896" MODIFIED="1774193738950">
+<node TEXT="3 communicating between ISR and main (concepts also apply in communicating between ISR&apos;s." FOLDED="true" ID="ID_1574465024" CREATED="1772575004896" MODIFIED="1774193738950">
 <node TEXT="1. demonstrate the problem (SysTick2)" FOLDED="true" ID="ID_1915220110" CREATED="1772575151969" MODIFIED="1772651089748">
 <node TEXT="main loop" ID="ID_1879220054" CREATED="1772580117866" MODIFIED="1772580130443">
 <hook URI="mainLoop1.png" SIZE="0.82191783" NAME="ExternalObject"/>
@@ -1215,7 +1222,7 @@
 <node TEXT="atomic means not interruptable" ID="ID_1635213438" CREATED="1772651090776" MODIFIED="1772651109500"/>
 </node>
 </node>
-<node TEXT="4 using a fifo" ID="ID_909307716" CREATED="1772575563907" MODIFIED="1774193745662">
+<node TEXT="4 using a fifo" FOLDED="true" ID="ID_909307716" CREATED="1772575563907" MODIFIED="1774193745662">
 <node TEXT="1 creation" FOLDED="true" ID="ID_1294031413" CREATED="1773787409380" MODIFIED="1773787417625">
 <node TEXT="" ID="ID_924565737" CREATED="1773675854422" MODIFIED="1773787434124">
 <hook URI="fifo1.png" SIZE="1.0" NAME="ExternalObject"/>
@@ -1256,7 +1263,7 @@
 <node TEXT="" ID="ID_1066220645" CREATED="1772580731182" MODIFIED="1772580731182"/>
 </node>
 </node>
-<node TEXT="6 things to know" ID="ID_1286074098" CREATED="1773432862781" MODIFIED="1774193755624">
+<node TEXT="6 things to know" FOLDED="true" ID="ID_1286074098" CREATED="1773432862781" MODIFIED="1774193755624">
 <node TEXT="how long to transmit a char at a given baud rate" ID="ID_390731804" CREATED="1773432871422" MODIFIED="1773432886626"/>
 <node TEXT="how many usecs to fill up the fifo at a given baud rate" ID="ID_748179919" CREATED="1773432887841" MODIFIED="1773432904909"/>
 </node>
@@ -1268,7 +1275,11 @@
 <node TEXT="Validation" ID="ID_1146266879" CREATED="1748041768891" MODIFIED="1748041774151"/>
 <node TEXT="Documenting a Design" ID="ID_240293511" CREATED="1748041779557" MODIFIED="1748041790744"/>
 </node>
+<node TEXT="8 pipelining in the tm4c" ID="ID_1896192688" CREATED="1785897648959" MODIFIED="1785897661822">
+<node TEXT="in depth look at the wait routine" ID="ID_1310221023" CREATED="1785897663938" MODIFIED="1785897675435"/>
 </node>
+</node>
+<node TEXT="4 questions" ID="ID_1932530224" CREATED="1785897768337" MODIFIED="1785897776310"/>
 </node>
 <node TEXT="09 GPTM" FOLDED="true" POSITION="top_or_left" ID="ID_1926501763" CREATED="1748038678402" MODIFIED="1778623160461">
 <edge COLOR="#7c7c00"/>
@@ -1281,9 +1292,9 @@
 <node TEXT="Valvano  p287-p305" ID="ID_107581468" CREATED="1742329502776" MODIFIED="1742329551985"/>
 <node TEXT="https://www.romn.io/2021/01/ti-arm-tiva-tm4c123g-general-purpose.html" ID="ID_91766648" CREATED="1742330334116" MODIFIED="1742330336680"/>
 </node>
-<node TEXT="3 Contents" ID="ID_525027230" CREATED="1748787899151" MODIFIED="1774201547066">
-<node TEXT="0.  In this course, we will only deal with the regular timers.  Wide timers are very similar, but they have a lot of restrictions on the order of access to registers, etc.  If you need to use a wide timer, hit the data sheet." ID="ID_1603210142" CREATED="1774203231377" MODIFIED="1774203303469"/>
-<node TEXT="1. tm4c has 5 GPTM&apos;s (General Purpose Timer Modules)" FOLDED="true" ID="ID_1801247825" CREATED="1742331283384" MODIFIED="1774210115401">
+<node TEXT="3 Contents" FOLDED="true" ID="ID_525027230" CREATED="1748787899151" MODIFIED="1774201547066">
+<node TEXT="In this course, we will only deal with the regular timers.  Wide timers are very similar, but they have a lot of restrictions on the order of access to registers, etc.  If you need to use a wide timer, hit the data sheet." ID="ID_1603210142" CREATED="1774203231377" MODIFIED="1785897700492"/>
+<node TEXT="tm4c has 5 GPTM&apos;s (General Purpose Timer Modules)" FOLDED="true" ID="ID_1801247825" CREATED="1742331283384" MODIFIED="1785897705180">
 <node TEXT="Each has 2 input / output pins" ID="ID_25991900" CREATED="1742331349703" MODIFIED="1774208021770">
 <node TEXT="one for each timer (A/B)" ID="ID_204984533" CREATED="1742332852630" MODIFIED="1774208008891"/>
 </node>
@@ -1300,12 +1311,12 @@
 </node>
 </node>
 </node>
-<node TEXT="2. details" FOLDED="true" ID="ID_133636152" CREATED="1773678386750" MODIFIED="1774210111105">
+<node TEXT="details" FOLDED="true" ID="ID_133636152" CREATED="1773678386750" MODIFIED="1785897708694">
 <node TEXT="" ID="ID_906007646" CREATED="1773678397330" MODIFIED="1773678407090">
 <hook URI="gbtm_block_diagram.png" SIZE="0.51993066" NAME="ExternalObject"/>
 </node>
 </node>
-<node TEXT="3. Modes (programmable)" FOLDED="true" ID="ID_1117529803" CREATED="1742399252581" MODIFIED="1774207969892">
+<node TEXT="Modes (programmable)" FOLDED="true" ID="ID_1117529803" CREATED="1742399252581" MODIFIED="1785897713159">
 <node TEXT="One shot" ID="ID_34268454" CREATED="1742399355230" MODIFIED="1742399358160"/>
 <node TEXT="Periodic" ID="ID_228606208" CREATED="1742399362522" MODIFIED="1742399365471"/>
 <node TEXT="RTC" ID="ID_903477622" CREATED="1742399375149" MODIFIED="1742399377640">
@@ -1315,7 +1326,7 @@
 <node TEXT="Input Edge Time" ID="ID_1382946569" CREATED="1742399418244" MODIFIED="1742399434221"/>
 <node TEXT="PWM Mode" ID="ID_1434697181" CREATED="1742399437593" MODIFIED="1742399442245"/>
 </node>
-<node TEXT="4. example functions from a timer" ID="ID_1708912767" CREATED="1742332877267" MODIFIED="1774208053726">
+<node TEXT="example functions from a timer" ID="ID_1708912767" CREATED="1742332877267" MODIFIED="1785897717956">
 <node TEXT="fixed time delay" ID="ID_264109994" CREATED="1742332889102" MODIFIED="1742332896314"/>
 <node TEXT="periodic interrupt" ID="ID_1932590133" CREATED="1742332899413" MODIFIED="1742332904350"/>
 <node TEXT="PWM from timer" ID="ID_1588824568" CREATED="1742332926182" MODIFIED="1742332930421"/>
@@ -1325,19 +1336,19 @@
 <node TEXT="Volvano Page 296-299" ID="ID_1487812218" CREATED="1742399769518" MODIFIED="1742399785224"/>
 </node>
 </node>
-<node TEXT="5. switch debouncing" FOLDED="true" ID="ID_1488240158" CREATED="1774208097087" MODIFIED="1774208107581">
+<node TEXT="switch debouncing" FOLDED="true" ID="ID_1488240158" CREATED="1774208097087" MODIFIED="1785897721216">
 <node TEXT="show example code" ID="ID_1328322087" CREATED="1775062028634" MODIFIED="1775062034711"/>
 </node>
 </node>
 </node>
 <node TEXT="10 Pulse Width Modulation" FOLDED="true" POSITION="top_or_left" ID="ID_582282277" CREATED="1748038683372" MODIFIED="1778623166366">
 <edge COLOR="#ff0000"/>
-<node TEXT="1 Objectives" FOLDED="true" ID="ID_1108656082" CREATED="1748787918864" MODIFIED="1748787923399">
+<node TEXT="1 Objectives" ID="ID_1108656082" CREATED="1748787918864" MODIFIED="1748787923399">
 <node TEXT="be able to program a PWM generator for a given frequency / duty cycle" ID="ID_1098083733" CREATED="1760810218866" MODIFIED="1774208162924"/>
 <node TEXT="understand using pwm for motor control" ID="ID_1447531260" CREATED="1760810249206" MODIFIED="1760810258035"/>
 <node TEXT="be able to generate a (relatively good) sine wave with a pwm and a filter" ID="ID_535944685" CREATED="1760810259571" MODIFIED="1760810285791"/>
 </node>
-<node TEXT="2 Readings" FOLDED="true" ID="ID_1469051734" CREATED="1748787929952" MODIFIED="1774208172909">
+<node TEXT="2 Readings" ID="ID_1469051734" CREATED="1748787929952" MODIFIED="1774208172909">
 <node TEXT="data sheet p1230-1240" ID="ID_6866113" CREATED="1760810127110" MODIFIED="1760810165383"/>
 <node TEXT="volvano p318 - p325" ID="ID_1926206422" CREATED="1760810168523" MODIFIED="1760810210109"/>
 <node TEXT="volvano p414-p415" ID="ID_440892234" CREATED="1760810414938" MODIFIED="1760810424880"/>
@@ -1623,19 +1634,6 @@
 </node>
 </node>
 </node>
-</node>
-</node>
-<node TEXT="13 lost and found" FOLDED="true" POSITION="top_or_left" ID="ID_761662230" CREATED="1768588625998" MODIFIED="1778722142094">
-<edge COLOR="#007c7c"/>
-<node TEXT="architecture and pipelines" ID="ID_1441467318" CREATED="1768936549169" MODIFIED="1768936559885"/>
-<node TEXT="debugging skills" ID="ID_370469051" CREATED="1777571767236" MODIFIED="1777571774094">
-<node TEXT="scope and jumper wire" ID="ID_1148858426" CREATED="1777571822331" MODIFIED="1777571830643"/>
-<node TEXT="software debugger" ID="ID_1547941260" CREATED="1777571831708" MODIFIED="1777571840664"/>
-</node>
-<node TEXT="spi lab" ID="ID_528186640" CREATED="1777571808439" MODIFIED="1777571814354"/>
-<node TEXT="analog lab" ID="ID_362421101" CREATED="1777571815233" MODIFIED="1777571821117"/>
-<node TEXT="forbidden pins" ID="ID_1724310296" CREATED="1778609296801" MODIFIED="1778609311021">
-<node TEXT="lock register" ID="ID_501501897" CREATED="1778609312428" MODIFIED="1778609318330"/>
 </node>
 </node>
 </node>
