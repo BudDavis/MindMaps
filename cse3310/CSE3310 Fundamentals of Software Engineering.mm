@@ -1,4 +1,4 @@
-<map version="freeplane 1.12.1">
+<map version="freeplane 1.12.15">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <bookmarks>
     <bookmark nodeId="ID_1171700979" name="Root" opensAsRoot="true"/>
@@ -196,13 +196,13 @@
 </node>
 </node>
 </node>
-<node TEXT="Accreditation" ID="ID_1859926475" CREATED="1704041459752" MODIFIED="1704041512368">
+<node TEXT="Accreditation" FOLDED="true" ID="ID_1859926475" CREATED="1704041459752" MODIFIED="1787600249519">
 <node TEXT="2. What is CS? &quot;Computer Science is the study of computers and computational systems. Unlike electrical and computer engineers, computer scientists deal mostly with software and software systems; this includes their theory, design, development, and application.  &quot;" ID="ID_371496823" CREATED="1703965949961" MODIFIED="1736704615209">
 <node TEXT="Focus of CS education is to prepare you to be a computer scientist.  (Or teach CS)" ID="ID_1020772427" CREATED="1736704805876" MODIFIED="1736704841869"/>
 <node TEXT="Foundation for Scientific Programming" ID="ID_319027268" CREATED="1736704846302" MODIFIED="1736704860869"/>
 <node TEXT="Theory Based, not web programming" ID="ID_1518301815" CREATED="1766165254322" MODIFIED="1766165449988"/>
 </node>
-<node TEXT="Accreditation is a review process to determine if educational programs meet defined standards of quality. Once achieved, accreditation is not permanent—it is renewed periodically to ensure that the quality of the educational program is maintained." ID="ID_1501059187" CREATED="1704041525704" MODIFIED="1704041528580"/>
+<node TEXT="Accreditation is a review process to determine if educational programs meet defined standards of quality. Once achieved, accreditation is not permanent—it is renewed periodically to ensure that the quality of the educational program is maintained." ID="ID_1501059187" CREATED="1704041525704" MODIFIED="1787600249510"/>
 <node TEXT="EAC of ABET" ID="ID_1012952031" CREATED="1704041534457" MODIFIED="1704041544341"/>
 </node>
 <node TEXT="Curriculum Guidelines" ID="ID_1087310453" CREATED="1704041551584" MODIFIED="1704041583150">
@@ -256,11 +256,11 @@
 <node TEXT="Software Engineering and Licensing" ID="ID_666248753" CREATED="1766165693590" MODIFIED="1766165705414"/>
 </node>
 </node>
-<node TEXT="02.0 Software Process" FOLDED="true" POSITION="top_or_left" ID="ID_554114201" CREATED="1703960050539" MODIFIED="1767120815356" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW">
+<node TEXT="02.0 Software Process" POSITION="top_or_left" ID="ID_554114201" CREATED="1703960050539" MODIFIED="1767120815356" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW">
 <node TEXT="Sommerville Reading" ID="ID_1899427298" CREATED="1703983228910" MODIFIED="1737583874748">
 <node TEXT="Software Process Models (MACRO PROCESS)" ID="ID_1752038062" CREATED="1705780007317" MODIFIED="1754530110400">
 <node TEXT="Plan Based" ID="ID_1438272402" CREATED="1767120521744" MODIFIED="1767120528468">
-<node TEXT="1. Waterfall" FOLDED="true" ID="ID_1755555716" CREATED="1705794534846" MODIFIED="1767120580876">
+<node TEXT="1. Waterfall" ID="ID_1755555716" CREATED="1705794534846" MODIFIED="1767120580876">
 <node TEXT="1. waterfall diagram" ID="ID_370741791" CREATED="1767120430513" MODIFIED="1767120750460">
 <hook URI="Waterfall_model.png" SIZE="1.0" NAME="ExternalObject"/>
 </node>
@@ -338,10 +338,10 @@
 </node>
 </node>
 </node>
-<node TEXT="SWEBOK Reading" ID="ID_817181727" CREATED="1703983241766" MODIFIED="1703983249083">
+<node TEXT="SWEBOK Reading" FOLDED="true" ID="ID_817181727" CREATED="1703983241766" MODIFIED="1787600336877">
 <node TEXT="Individual software processes have no tempo-&#xa;ral ordering among them. The temporal relation-&#xa;ships among software processes are provided by&#xa;a software life cycle model: either an SDLC or&#xa;SPLC." ID="ID_1601633922" CREATED="1705888085896" MODIFIED="1705888091318"/>
 <node TEXT="Linear SDLC models are sometimes referred&#xa;to as predictive software development life cycle&#xa;models, while iterative and agile SDLCs are&#xa;referred to as adaptive software development&#xa;life cycle models. It should be noted that vari-&#xa;ous maintenance activities during an SPLC can&#xa;be conducted using different SDLC models, as&#xa;appropriate to the maintenance activities." ID="ID_346615959" CREATED="1705888157572" MODIFIED="1705888162603"/>
-<node TEXT="A distinguishing feature of the various soft-&#xa;ware development life cycle models is the way in&#xa;which software requirements are managed. Lin-&#xa;ear development models typically develop a com-&#xa;plete set of software requirements, to the extent&#xa;possible, during project initiation and planning.&#xa;The software requirements are then rigorously&#xa;controlled. Changes to the software requirements&#xa;are based on change requests that are processed&#xa;by a change control board (see Requesting,&#xa;Evaluating and Approving Software Changes in&#xa;the Change Control Board in the Software Con-&#xa;figuration Management KA). An incremental&#xa;model produces successive increments of work-&#xa;ing, deliverable software based on partitioning&#xa;of the software requirements to be implemented&#xa;in each of the increments. The software require-&#xa;ments may be rigorously controlled, as in a linear&#xa;model, or there may be some flexibility in revising&#xa;the software requirements as the software product&#xa;evolves." ID="ID_1764888633" CREATED="1705888216370" MODIFIED="1705888220293"/>
+<node TEXT="A distinguishing feature of the various soft-&#xa;ware development life cycle models is the way in&#xa;which software requirements are managed. Lin-&#xa;ear development models typically develop a com-&#xa;plete set of software requirements, to the extent&#xa;possible, during project initiation and planning.&#xa;The software requirements are then rigorously&#xa;controlled. Changes to the software requirements&#xa;are based on change requests that are processed&#xa;by a change control board (see Requesting,&#xa;Evaluating and Approving Software Changes in&#xa;the Change Control Board in the Software Con-&#xa;figuration Management KA). An incremental&#xa;model produces successive increments of work-&#xa;ing, deliverable software based on partitioning&#xa;of the software requirements to be implemented&#xa;in each of the increments. The software require-&#xa;ments may be rigorously controlled, as in a linear&#xa;model, or there may be some flexibility in revising&#xa;the software requirements as the software product&#xa;evolves." ID="ID_1764888633" CREATED="1705888216370" MODIFIED="1787600336868"/>
 <node TEXT="The efficiency of a software process, activity,&#xa;or task is the ratio of resources actually consumed&#xa;to resources expected or desired to be consumed" ID="ID_818244345" CREATED="1705888383289" MODIFIED="1705888389255"/>
 <node TEXT="Effectiveness is the ratio of actual output to&#xa;expected output produced by a software process,&#xa;activity, or task;" ID="ID_708221979" CREATED="1705888394993" MODIFIED="1705888415086"/>
 </node>
