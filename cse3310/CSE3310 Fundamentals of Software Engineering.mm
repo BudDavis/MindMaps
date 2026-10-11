@@ -4,7 +4,7 @@
     <bookmark nodeId="ID_1171700979" name="Root" opensAsRoot="true"/>
 </bookmarks>
 <node TEXT="CSE3310 Fundamentals of Software Engineering" FOLDED="false" ID="ID_1171700979" CREATED="1703959867184" MODIFIED="1767120824740" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW"><hook NAME="MapStyle" zoom="1.5">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" auto_compact_layout="true" show_tags="UNDER_NODES" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" auto_compact_layout="true" show_tags="UNDER_NODES" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false" show_notes_in_map="true"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -256,8 +256,8 @@
 <node TEXT="Software Engineering and Licensing" ID="ID_666248753" CREATED="1766165693590" MODIFIED="1766165705414"/>
 </node>
 </node>
-<node TEXT="02.0 Software Process" POSITION="top_or_left" ID="ID_554114201" CREATED="1703960050539" MODIFIED="1767120815356" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW">
-<node TEXT="Sommerville Reading" ID="ID_1899427298" CREATED="1703983228910" MODIFIED="1737583874748">
+<node TEXT="02.0 Software Process" FOLDED="true" POSITION="top_or_left" ID="ID_554114201" CREATED="1703960050539" MODIFIED="1767120815356" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW">
+<node TEXT="Sommerville Reading" FOLDED="true" ID="ID_1899427298" CREATED="1703983228910" MODIFIED="1737583874748">
 <node TEXT="Software Process Models (MACRO PROCESS)" ID="ID_1752038062" CREATED="1705780007317" MODIFIED="1754530110400">
 <node TEXT="Plan Based" ID="ID_1438272402" CREATED="1767120521744" MODIFIED="1767120528468">
 <node TEXT="1. Waterfall" ID="ID_1755555716" CREATED="1705794534846" MODIFIED="1767120580876">
@@ -310,7 +310,7 @@
 <node TEXT="Measure / Analyze / Change" ID="ID_1948680122" CREATED="1705855475130" MODIFIED="1705855494016"/>
 <node TEXT="Capability Maturity Model&#xa;(1) Initial&#xa;(2) Managed&#xa;(3) Defined&#xa;(4) Quantitative&#xa;(5) Optimised" ID="ID_75230231" CREATED="1705855499536" MODIFIED="1705855572551"/>
 </node>
-<node TEXT="Coping With Change" ID="ID_1631984438" CREATED="1705795284931" MODIFIED="1737583874740" HGAP_QUANTITY="-19.75 pt" VSHIFT_QUANTITY="142.5 pt">
+<node TEXT="Coping With Change" FOLDED="true" ID="ID_1631984438" CREATED="1705795284931" MODIFIED="1737583874740" HGAP_QUANTITY="-19.75 pt" VSHIFT_QUANTITY="142.5 pt">
 <node TEXT="Cause of Change" ID="ID_116587077" CREATED="1705780100169" MODIFIED="1705795360896">
 <node TEXT="Business" ID="ID_1243135127" CREATED="1705795127951" MODIFIED="1705795142731"/>
 <node TEXT="Technology" ID="ID_1677457354" CREATED="1705795149634" MODIFIED="1705795154006"/>
@@ -680,7 +680,7 @@
 <node TEXT="&quot;architecture in the large&quot;  systems that are distributed and solve big problems with many computers" ID="ID_1630474339" CREATED="1771438269393" MODIFIED="1771438320568"/>
 </node>
 </node>
-<node TEXT="2. Design Decisions" ID="ID_1659096117" CREATED="1719846607222" MODIFIED="1754530727273">
+<node TEXT="2. Design Decisions" FOLDED="true" ID="ID_1659096117" CREATED="1719846607222" MODIFIED="1754530727273">
 <node TEXT="Architecture is where non functional requirements are realized" FOLDED="true" ID="ID_286458410" CREATED="1720025298009" MODIFIED="1771437230427">
 <font BOLD="true"/>
 <node TEXT="understand non functional requirements and develop a strategy" FOLDED="true" ID="ID_677365708" CREATED="1771437243632" MODIFIED="1771437265621">
@@ -737,7 +737,7 @@
 </node>
 </node>
 </node>
-<node TEXT="4. Architectural Patterns" ID="ID_1252960972" CREATED="1720023249487" MODIFIED="1754530741571">
+<node TEXT="4. Architectural Patterns" FOLDED="true" ID="ID_1252960972" CREATED="1720023249487" MODIFIED="1754530741571">
 <node TEXT="1. Layered" ID="ID_945579877" CREATED="1720023272275" MODIFIED="1771439408903">
 <hook URI="layered.png" SIZE="0.7407407" NAME="ExternalObject"/>
 </node>
@@ -848,8 +848,829 @@
 <node TEXT="mistake - an action taken by a human that causes a fault" ID="ID_1481832371" CREATED="1772477208503" MODIFIED="1772477224728"/>
 </node>
 <node TEXT="3. Types of Testing" FOLDED="true" ID="ID_50577210" CREATED="1720572823007" MODIFIED="1773863834868">
-<node TEXT="swebok" ID="ID_1876603933" CREATED="1720572832569" MODIFIED="1720572841385"/>
-<node TEXT="sommerville" ID="ID_652520180" CREATED="1720572843160" MODIFIED="1773863834867">
+<node TEXT="swebok" ID="ID_1876603933" CREATED="1720572832569" MODIFIED="1720572841385">
+<node TEXT="Level" FOLDED="true" ID="ID_31670054" CREATED="1791731137688" MODIFIED="1791731247134">
+<node ID="ID_1066173274" CREATED="1791731376396" MODIFIED="1791731376396"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <strong>Unit Testing</strong>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1448913376" CREATED="1791731376397" MODIFIED="1791731376397"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <strong>Integration Testing</strong>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_731422607" CREATED="1791731376405" MODIFIED="1791731376405"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <strong>System Testing</strong>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1892782521" CREATED="1791731376412" MODIFIED="1791731376412"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <strong>Acceptance Testing</strong>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Objective" FOLDED="true" ID="ID_365490982" CREATED="1791731248187" MODIFIED="1791731317963">
+<node ID="ID_769778752" CREATED="1791731303600" MODIFIED="1791731303600"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <strong>Conformance Testing</strong>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Conformance testing checks whether software conforms to a specified technical specification, standard, protocol, or defined behavior." ID="ID_637411351" CREATED="1791736262284" MODIFIED="1791736267099"/>
+</node>
+<node ID="ID_184690182" CREATED="1791731303601" MODIFIED="1791731303601"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <strong>Compliance Testing</strong>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compliance testing checks whether software satisfies applicable rules, regulations, policies, contractual requirements, or mandated standards." ID="ID_299813348" CREATED="1791736293432" MODIFIED="1791736298685"/>
+<node TEXT="Conformance: Did we build it according to the specified technical rules?&#xa;Compliance: Does what we built satisfy the applicable required rules or obligations?" ID="ID_726046741" CREATED="1791736299287" MODIFIED="1791736318618"/>
+</node>
+<node ID="ID_1079919345" CREATED="1791731303608" MODIFIED="1791731303608"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <strong>Installation Testing</strong>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1556732678" CREATED="1791731303615" MODIFIED="1791731303615"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <strong>Alpha and Beta Testing</strong>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1507449391" CREATED="1791731303622" MODIFIED="1791731303622"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <strong>Regression Testing</strong>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_551274828" CREATED="1791731303629" MODIFIED="1791731303629"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <strong>Prioritization Testing</strong>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1229330380" CREATED="1791731303635" MODIFIED="1791731303635"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <strong>Non-functional Testing</strong>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_470458655" CREATED="1791731303643" MODIFIED="1791731303643"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <strong>Security Testing</strong>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_470636804" CREATED="1791731303650" MODIFIED="1791731303650"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <strong>Privacy Testing</strong>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1662863157" CREATED="1791731303658" MODIFIED="1791731303658"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <strong>Interface and API Testing</strong>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1811952046" CREATED="1791731303667" MODIFIED="1791731303667"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <strong>Configuration Testing</strong>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_149099377" CREATED="1791731303675" MODIFIED="1791731303675"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <strong>Usability and Human-Computer Interaction Testing</strong>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Technique" FOLDED="true" ID="ID_736697585" CREATED="1791731256378" MODIFIED="1791731274545">
+<node FOLDED="true" ID="ID_1669758845" CREATED="1791731552305" MODIFIED="1791731572019"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td style="vertical-align: top">
+          <div style="font-family: Segoe UI; font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px">
+            <div data-line-index="2" class="___1sql8mq f1rh9g5y f11qrl6u f19n0e5 fibxuh5 f4fkekg">
+              Specification-Based
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_1614906314" CREATED="1791731552323" MODIFIED="1791735467791"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td style="vertical-align: top">
+          <div style="font-family: Segoe UI; font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px">
+            <div data-line-index="3" class="___1sql8mq f1rh9g5y f11qrl6u f19n0e5 fibxuh5 f4fkekg">
+              Equivalence Partitioning
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Divide the possible inputs into groups that are expected to behave the same way, then test representative values from each group." ID="ID_1940423497" CREATED="1791735469277" MODIFIED="1791735475620"/>
+</node>
+<node ID="ID_1477734793" CREATED="1791731552339" MODIFIED="1791731612814"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td style="vertical-align: top">
+          <div style="font-family: Segoe UI; font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px">
+            <div data-line-index="4" class="___1sql8mq f1rh9g5y f11qrl6u f19n0e5 fibxuh5 f4fkekg">
+              Boundary-Value Analysis
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Concentrate testing around the boundaries between valid and invalid input regions because errors commonly occur there." ID="ID_731122392" CREATED="1791735477062" MODIFIED="1791735501031"/>
+</node>
+<node ID="ID_310302303" CREATED="1791731552358" MODIFIED="1791731628335"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td style="vertical-align: top">
+          <div style="font-family: Segoe UI; font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px">
+            <div data-line-index="5" class="___1sql8mq f1rh9g5y f11qrl6u f19n0e5 fibxuh5 f4fkekg">
+              Syntax Testing
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Create tests based on the grammar or syntax rules governing an input." ID="ID_1417608210" CREATED="1791735502275" MODIFIED="1791735518854"/>
+</node>
+<node POSITION="bottom_or_right" ID="ID_1501354563" CREATED="1791731552376" MODIFIED="1791735253740"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td style="vertical-align: top">
+          <div style="font-family: Segoe UI; font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px">
+            <div data-line-index="6" class="___1sql8mq f1rh9g5y f11qrl6u f19n0e5 fibxuh5 f4fkekg">
+              Combinatorial Test Techniques
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Choose tests that systematically cover combinations of several input parameters without necessarily testing every possible combination." ID="ID_108022624" CREATED="1791735520035" MODIFIED="1791735542917"/>
+</node>
+<node POSITION="bottom_or_right" ID="ID_997722951" CREATED="1791731552392" MODIFIED="1791735260572"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td style="vertical-align: top">
+          <div style="font-family: Segoe UI; font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px">
+            <div data-line-index="7" class="___1sql8mq f1rh9g5y f11qrl6u f19n0e5 fibxuh5 f4fkekg">
+              Decision Table
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Represent combinations of conditions and the actions the system should take. Each meaningful column or rule can become a test." ID="ID_355358261" CREATED="1791735543511" MODIFIED="1791735564007"/>
+</node>
+<node POSITION="bottom_or_right" ID="ID_1893637181" CREATED="1791731552411" MODIFIED="1791735267669"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td style="vertical-align: top">
+          <div style="font-family: Segoe UI; font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px">
+            <div data-line-index="8" class="___1sql8mq f1rh9g5y f11qrl6u f19n0e5 fibxuh5 f4fkekg">
+              Cause-Effect Graphing
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Model relationships between input conditions (causes) and resulting outputs/actions (effects). Tests are derived from those logical relationships." ID="ID_577430057" CREATED="1791735564974" MODIFIED="1791735586757"/>
+</node>
+<node POSITION="bottom_or_right" ID="ID_1336706669" CREATED="1791731552428" MODIFIED="1791735274670"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td style="vertical-align: top">
+          <div style="font-family: Segoe UI; font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px">
+            <div data-line-index="9" class="___1sql8mq f1rh9g5y f11qrl6u f19n0e5 fibxuh5 f4fkekg">
+              State Transition Testing
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Model the software as a collection of states and test the events that cause transitions between states." ID="ID_777839686" CREATED="1791735588491" MODIFIED="1791735602916"/>
+</node>
+<node POSITION="bottom_or_right" ID="ID_1172194284" CREATED="1791731552446" MODIFIED="1791735282431"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td style="vertical-align: top">
+          <div style="font-family: Segoe UI; font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px">
+            <div data-line-index="10" class="___1sql8mq f1rh9g5y f11qrl6u f19n0e5 fibxuh5 f4fkekg">
+              Scenario-Based Testing
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Construct realistic sequences of activities representing how the system will actually be used." ID="ID_995575857" CREATED="1791735603824" MODIFIED="1791735622085"/>
+</node>
+<node POSITION="bottom_or_right" ID="ID_72367575" CREATED="1791731552465" MODIFIED="1791735289246"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td style="vertical-align: top">
+          <div style="font-family: Segoe UI; font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px">
+            <div data-line-index="11" class="___1sql8mq f1rh9g5y f11qrl6u f19n0e5 fibxuh5 f4fkekg">
+              Random Testing
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Generate or select test inputs randomly according to some defined input domain or distribution." ID="ID_1805450570" CREATED="1791735623135" MODIFIED="1791735638296"/>
+</node>
+<node POSITION="bottom_or_right" ID="ID_1347349712" CREATED="1791731552483" MODIFIED="1791735297920"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td style="vertical-align: top">
+          <div style="font-family: Segoe UI; font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px">
+            <div data-line-index="12" class="___1sql8mq f1rh9g5y f11qrl6u f19n0e5 fibxuh5 f4fkekg">
+              Evidence-Based
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+<node TEXT="use available empirical evidence to help determine what deserves testing." ID="ID_856897664" CREATED="1791735640315" MODIFIED="1791735659135"/>
+</node>
+<node POSITION="bottom_or_right" ID="ID_272356325" CREATED="1791731552498" MODIFIED="1791735675070"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td style="vertical-align: top">
+          <div style="font-family: Segoe UI; font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px">
+            <div data-line-index="13" class="___1sql8mq f1rh9g5y f11qrl6u f19n0e5 fibxuh5 f4fkekg">
+              Forcing Exception
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Construct conditions specifically intended to exercise exceptional or error-handling behavior." ID="ID_1361236071" CREATED="1791735659695" MODIFIED="1791735678324"/>
+</node>
+</node>
+<node ID="ID_727270324" CREATED="1791731552531" MODIFIED="1791735371663"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td style="vertical-align: top">
+          <div style="font-family: Segoe UI; font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px">
+            <div data-line-index="15" class="___1sql8mq f1rh9g5y f11qrl6u f19n0e5 fibxuh5 f4fkekg">
+              Structure-Based
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+<node POSITION="bottom_or_right" ID="ID_690729754" CREATED="1791731552547" MODIFIED="1791735312657"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td style="vertical-align: top">
+          <div style="font-family: Segoe UI; font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px">
+            <div data-line-index="16" class="___1sql8mq f1rh9g5y f11qrl6u f19n0e5 fibxuh5 f4fkekg">
+              Control Flow Testing
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Design tests based on possible paths through the program&apos;s control structures." ID="ID_1715041579" CREATED="1791735728036" MODIFIED="1791735731360"/>
+<node TEXT="discuss code coverage metrics and the value or lack thereof" ID="ID_1958663746" CREATED="1791735752071" MODIFIED="1791735774541"/>
+<node TEXT="gprof" ID="ID_325719443" CREATED="1791735774997" MODIFIED="1791735780144"/>
+</node>
+<node POSITION="bottom_or_right" ID="ID_451910899" CREATED="1791731552566" MODIFIED="1791735318945"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td style="vertical-align: top">
+          <div style="font-family: Segoe UI; font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px">
+            <div data-line-index="17" class="___1sql8mq f1rh9g5y f11qrl6u f19n0e5 fibxuh5 f4fkekg">
+              &#xa0;Data Flow Testing
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Design tests around the lifecycle of variables, especially where values are defined, modified, and used." ID="ID_1656296861" CREATED="1791735732292" MODIFIED="1791735750179"/>
+</node>
+</node>
+<node ID="ID_1712890935" CREATED="1791731552621" MODIFIED="1791735869431"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td style="vertical-align: top">
+          <div style="font-family: Segoe UI; font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px">
+            <div data-line-index="19" class="___1sql8mq f1rh9g5y f11qrl6u f19n0e5 fibxuh5 f4fkekg">
+              Experience-Based
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+<node POSITION="bottom_or_right" ID="ID_732336753" CREATED="1791731552639" MODIFIED="1791735846348"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td style="vertical-align: top">
+          <div style="font-family: Segoe UI; font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px">
+            <div data-line-index="20" class="___1sql8mq f1rh9g5y f11qrl6u f19n0e5 fibxuh5 f4fkekg">
+              Error Guessing
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Use a tester&apos;s previous experience to anticipate likely mistakes and construct tests targeting them." ID="ID_1293785789" CREATED="1791735800847" MODIFIED="1791735809354"/>
+</node>
+<node POSITION="bottom_or_right" ID="ID_1787566479" CREATED="1791731552663" MODIFIED="1791735853942"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td style="vertical-align: top">
+          <div style="font-family: Segoe UI; font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px">
+            <div data-line-index="21" class="___1sql8mq f1rh9g5y f11qrl6u f19n0e5 fibxuh5 f4fkekg">
+              Exploratory Testing
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Testing, learning about the software, and designing subsequent tests happen together rather than following only a completely predetermined script." ID="ID_995698383" CREATED="1791735830619" MODIFIED="1791735835477"/>
+</node>
+</node>
+<node ID="ID_1707773638" CREATED="1791731552699" MODIFIED="1791735876511"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td style="vertical-align: top">
+          <div style="font-family: Segoe UI; font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px">
+            <div data-line-index="23" class="___1sql8mq f1rh9g5y f11qrl6u f19n0e5 fibxuh5 f4fkekg">
+              Fault-Based and Mutation Techniques
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Design tests specifically to expose particular kinds of faults believed likely to exist." ID="ID_1746209952" CREATED="1791735923449" MODIFIED="1791735973526"/>
+<node TEXT="Mutation testing deliberately introduces small changes, called mutants, into a program and checks whether the test suite detects them." FOLDED="true" ID="ID_1501711017" CREATED="1791735975050" MODIFIED="1791736007649">
+<node TEXT="this tests check the test suite, not the program source code for defects" ID="ID_1754123836" CREATED="1791736007662" MODIFIED="1791736032478"/>
+<node TEXT="also known as defect seeding" ID="ID_804105065" CREATED="1791736035607" MODIFIED="1791736047496"/>
+</node>
+</node>
+<node ID="ID_1047340852" CREATED="1791731552732" MODIFIED="1791735154775"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td style="vertical-align: top">
+          <div style="font-family: Segoe UI; font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px">
+            <div data-line-index="25" class="___1sql8mq f1rh9g5y f11qrl6u f19n0e5 fibxuh5 f4fkekg">
+              Usage-Based
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+<node POSITION="bottom_or_right" ID="ID_300739543" CREATED="1791731552748" MODIFIED="1791735863456"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td style="vertical-align: top">
+          <div style="font-family: Segoe UI; font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px">
+            <div data-line-index="26" class="___1sql8mq f1rh9g5y f11qrl6u f19n0e5 fibxuh5 f4fkekg">
+              Operational Profile
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Base testing on how frequently operations or inputs occur during real use." ID="ID_1375880812" CREATED="1791736050011" MODIFIED="1791736068366"/>
+</node>
+<node POSITION="bottom_or_right" ID="ID_1243298625" CREATED="1791731552765" MODIFIED="1791735887931"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td style="vertical-align: top">
+          <div style="font-family: Segoe UI; font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px">
+            <div data-line-index="27" class="___1sql8mq f1rh9g5y f11qrl6u f19n0e5 fibxuh5 f4fkekg">
+              User Observation Heuristics
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Use observations of how real users interact with the system to help identify valuable tests." ID="ID_577820550" CREATED="1791736068851" MODIFIED="1791736088242"/>
+</node>
+</node>
+<node ID="ID_1352652351" CREATED="1791731552806" MODIFIED="1791735127290"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td style="vertical-align: top">
+          <div style="font-family: Segoe UI; font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px">
+            <div data-line-index="29" class="___1sql8mq f1rh9g5y f11qrl6u f19n0e5 fibxuh5 f4fkekg">
+              &#xa0;Based on the Nature of the Application
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+<node TEXT="characteristics of the particular application influence which kinds of testing are especially important." ID="ID_800750935" CREATED="1791736088814" MODIFIED="1791736117920"/>
+</node>
+<node ID="ID_884199189" CREATED="1791731552847" MODIFIED="1791735118817"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td style="vertical-align: top">
+          <div style="font-family: Segoe UI; font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px">
+            <div data-line-index="31" class="___1sql8mq f1rh9g5y f11qrl6u f19n0e5 fibxuh5 f4fkekg">
+              Based on Derived Knowledge
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+<node TEXT="testing can make use of knowledge derived from artifacts and information beyond simply executing the specification literally." ID="ID_467373338" CREATED="1791736132395" MODIFIED="1791736167364"/>
+<node TEXT="if you know requirements A and B both use module C, then it may require extra testing for module C" ID="ID_1608056734" CREATED="1791736167958" MODIFIED="1791736202491"/>
+</node>
+</node>
+</node>
+<node TEXT="sommerville" FOLDED="true" ID="ID_652520180" CREATED="1720572843160" MODIFIED="1773863834867">
 <node TEXT="Development Testing" ID="ID_1534671895" CREATED="1721062327587" MODIFIED="1721062334248">
 <node TEXT="Unit" ID="ID_972415720" CREATED="1721062728447" MODIFIED="1721062734082"/>
 <node TEXT="Component" ID="ID_1159049850" CREATED="1721062735534" MODIFIED="1721062741484"/>
@@ -879,6 +1700,9 @@
 </node>
 <node TEXT="Static Analysis" ID="ID_1842608411" CREATED="1721062691170" MODIFIED="1721062698499">
 <node TEXT="gcc -Wall on steroids" ID="ID_1224642825" CREATED="1721063302711" MODIFIED="1721063318689"/>
+<node TEXT="&quot;coverity&quot; is the main vendor" ID="ID_1494871649" CREATED="1791731402048" MODIFIED="1791731412123"/>
+<node TEXT="&quot;clang&quot; is the main open source vendor" ID="ID_876254302" CREATED="1791731413080" MODIFIED="1791731426476"/>
+<node TEXT="removing false positives is biggest downside" ID="ID_270216126" CREATED="1791731427796" MODIFIED="1791731444023"/>
 </node>
 </node>
 </node>
@@ -891,8 +1715,28 @@
 <node TEXT="Write the Test before you write the code" ID="ID_1336835395" CREATED="1721063338931" MODIFIED="1721063350254"/>
 </node>
 <node TEXT="5.  Practical Testing Techniques" FOLDED="true" ID="ID_566119348" CREATED="1772477520604" MODIFIED="1772484831510">
-<node TEXT="select types of testing that match what you are developing" ID="ID_1538520529" CREATED="1772477536353" MODIFIED="1772477551828"/>
+<node TEXT="select types of testing that match what you are developing" ID="ID_1538520529" CREATED="1772477536353" MODIFIED="1772477551828">
+<node TEXT="Testing for a game is different than bank software" ID="ID_1913456430" CREATED="1791730682003" MODIFIED="1791730709312"/>
+<node TEXT="Usage Based Software Testing" ID="ID_1448048492" CREATED="1791730712135" MODIFIED="1791730723032">
+<node TEXT="Focus on testing the code that will be used the most" ID="ID_1087943339" CREATED="1791730723883" MODIFIED="1791730739489"/>
+<node TEXT="Drives efficiency and cost effectiveness" ID="ID_516023030" CREATED="1791730741187" MODIFIED="1791730764341"/>
+<node TEXT="How about code paths that are important but used rarely?" ID="ID_1458466320" CREATED="1791730765615" MODIFIED="1791730791016"/>
+</node>
+</node>
 <node TEXT="goal is to be efficient at identifying and removing defects." ID="ID_1945642780" CREATED="1772477552568" MODIFIED="1772484831506"/>
+<node TEXT="Measuring effectiveness of testing" ID="ID_848829621" CREATED="1791730582019" MODIFIED="1791730594269">
+<node TEXT="defects found" ID="ID_1468388409" CREATED="1791730598315" MODIFIED="1791730605241"/>
+<node TEXT="defects found per hour" ID="ID_1760580865" CREATED="1791730606731" MODIFIED="1791730613507"/>
+<node TEXT="defects found per ksloc" ID="ID_1473756589" CREATED="1791730614402" MODIFIED="1791730624380"/>
+<node TEXT="tracking where and when defects are identified" ID="ID_815938952" CREATED="1791730627255" MODIFIED="1791730642247">
+<node TEXT="a defect that is created in Phase A and not found later is called an &quot;escape&quot;" ID="ID_416925511" CREATED="1791730845872" MODIFIED="1791730869013"/>
+<node TEXT="identifying an correcting defects when they are created is most cost effective.  both labor and schedule." ID="ID_1902323949" CREATED="1791730871205" MODIFIED="1791730907875"/>
+</node>
+<node TEXT="root cause of defects" ID="ID_331007098" CREATED="1791730802460" MODIFIED="1791730812564">
+<node TEXT="expensive to trace back to the source" ID="ID_1719448179" CREATED="1791730813253" MODIFIED="1791730822873"/>
+<node TEXT="valuable to improve development process" ID="ID_316170480" CREATED="1791730824448" MODIFIED="1791730841370"/>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="08.0 Software Evolution" FOLDED="true" POSITION="top_or_left" ID="ID_1115346714" CREATED="1703960140577" MODIFIED="1705795577335">
