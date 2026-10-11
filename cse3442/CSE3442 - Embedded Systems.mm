@@ -1,9 +1,9 @@
 <map version="freeplane 1.12.15">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<attribute_registry SHOW_ATTRIBUTES="hide"/>
 <bookmarks/>
-<node TEXT="Embedded Systems I" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1768590008244" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_CENTERED"><hook NAME="MapStyle" zoom="2.0">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="false" show_notes_in_map="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" allow_compact_layout="false" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
+<attribute_registry SHOW_ATTRIBUTES="hide"/>
+<node TEXT="Embedded Systems I" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1791742512084" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_CENTERED" NodeVisibilityConfiguration="SHOW_HIDDEN_NODES"><hook NAME="MapStyle" zoom="2.0">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="false" auto_compact_layout="false" show_notes_in_map="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" allow_compact_layout="false" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -1057,7 +1057,7 @@
 </node>
 </node>
 </node>
-<node TEXT="07 UART" POSITION="top_or_left" ID="ID_764395375" CREATED="1748038659162" MODIFIED="1778623150671">
+<node TEXT="07 UART" FOLDED="true" POSITION="top_or_left" ID="ID_764395375" CREATED="1748038659162" MODIFIED="1778623150671">
 <edge COLOR="#7c007c"/>
 <node TEXT="1 Objectives" FOLDED="true" ID="ID_1344670637" CREATED="1748717212629" MODIFIED="1748717216923">
 <node TEXT="1 Understand the data path for UART in the TM4C" ID="ID_305526434" CREATED="1758487032245" MODIFIED="1758487057716"/>
@@ -1119,7 +1119,7 @@
 </node>
 </node>
 </node>
-<node TEXT="2. UART" ID="ID_71939556" CREATED="1748041078526" MODIFIED="1771873200241">
+<node TEXT="2. UART" FOLDED="true" ID="ID_71939556" CREATED="1748041078526" MODIFIED="1771873200241">
 <node TEXT="1 polling interface" ID="ID_7414468" CREATED="1748041556209" MODIFIED="1757888195137">
 <node TEXT="advantages to polling" ID="ID_1791455037" CREATED="1789575561872" MODIFIED="1789575570758">
 <node TEXT="simple to write" ID="ID_942454592" CREATED="1789575731825" MODIFIED="1789576084355"/>
@@ -1340,27 +1340,27 @@
 </node>
 <node TEXT="09 GPTM" FOLDED="true" POSITION="top_or_left" ID="ID_1926501763" CREATED="1748038678402" MODIFIED="1778623160461">
 <edge COLOR="#7c7c00"/>
-<node TEXT="1 Objectives" ID="ID_1174515153" CREATED="1748787873647" MODIFIED="1748787878721">
+<node TEXT="1 Objectives" FOLDED="true" ID="ID_1174515153" CREATED="1748787873647" MODIFIED="1748787878721">
 <node TEXT="select the appropriate width timer for a specific function" ID="ID_181445446" CREATED="1774201504605" MODIFIED="1774201527056"/>
 <node TEXT="be able to program a gptm in each of it&apos;s modes" ID="ID_938508560" CREATED="1774210069982" MODIFIED="1774210092134"/>
 </node>
-<node TEXT="2 Readings" ID="ID_1507865381" CREATED="1748787892440" MODIFIED="1774201541393">
+<node TEXT="2 Readings" FOLDED="true" ID="ID_1507865381" CREATED="1748787892440" MODIFIED="1774201541393">
 <node TEXT="spms376e.pdf p703-p773" ID="ID_39678500" CREATED="1774201463379" MODIFIED="1774201495876"/>
 <node TEXT="Valvano  p287-p305" ID="ID_107581468" CREATED="1742329502776" MODIFIED="1742329551985"/>
 <node TEXT="https://www.romn.io/2021/01/ti-arm-tiva-tm4c123g-general-purpose.html" ID="ID_91766648" CREATED="1742330334116" MODIFIED="1742330336680"/>
 </node>
 <node TEXT="3 Contents" FOLDED="true" ID="ID_525027230" CREATED="1748787899151" MODIFIED="1774201547066">
 <node TEXT="In this course, we will only deal with the regular timers.  Wide timers are very similar, but they have a lot of restrictions on the order of access to registers, etc.  If you need to use a wide timer, hit the data sheet." ID="ID_1603210142" CREATED="1774203231377" MODIFIED="1785897700492"/>
-<node TEXT="tm4c has 5 GPTM&apos;s (General Purpose Timer Modules)" FOLDED="true" ID="ID_1801247825" CREATED="1742331283384" MODIFIED="1785897705180">
+<node TEXT="tm4c has 6 GPTM&apos;s (General Purpose Timer Modules)" FOLDED="true" ID="ID_1801247825" CREATED="1742331283384" MODIFIED="1791741320119">
 <node TEXT="Each has 2 input / output pins" ID="ID_25991900" CREATED="1742331349703" MODIFIED="1774208021770">
 <node TEXT="one for each timer (A/B)" ID="ID_204984533" CREATED="1742332852630" MODIFIED="1774208008891"/>
 </node>
-<node TEXT="2 16 bit timers (extendable to 24 bits)" ID="ID_1116344909" CREATED="1742331396755" MODIFIED="1742331409239">
+<node TEXT="Each has 2, 16 bit timers (extendable to 24 bits)" ID="ID_1116344909" CREATED="1742331396755" MODIFIED="1791742425684">
 <node TEXT="Timer A" ID="ID_1257920181" CREATED="1742332745081" MODIFIED="1742332748901"/>
 <node TEXT="Timer B" ID="ID_1241701499" CREATED="1742332752628" MODIFIED="1742332758596"/>
 <node TEXT="A and B can be combined to make a 32 bit timer (extended to 48 bits)" ID="ID_1446350280" CREATED="1742332767656" MODIFIED="1742332789208"/>
 </node>
-<node TEXT="2 output comparators" ID="ID_1809487743" CREATED="1742331510399" MODIFIED="1742331561325">
+<node TEXT="Each has 2 output comparators" ID="ID_1809487743" CREATED="1742331510399" MODIFIED="1791742431489">
 <node TEXT="trigger an ADC conversion" ID="ID_1369837030" CREATED="1742331574031" MODIFIED="1742331585419"/>
 <node TEXT="trigger an interrupt" ID="ID_1144509925" CREATED="1742331587629" MODIFIED="1742331594820">
 <node TEXT="periodic" ID="ID_720483059" CREATED="1742332814633" MODIFIED="1742332817550"/>
@@ -1372,8 +1372,33 @@
 <node TEXT="" ID="ID_906007646" CREATED="1773678397330" MODIFIED="1773678407090">
 <hook URI="gbtm_block_diagram.png" SIZE="0.51993066" NAME="ExternalObject"/>
 </node>
+<node TEXT="CCP = Capture, Compare, PWM" ID="ID_190443198" CREATED="1791741261533" MODIFIED="1791741570134">
+<node TEXT="external access to pins" ID="ID_1446851840" CREATED="1791741415900" MODIFIED="1791741432188"/>
+<node TEXT="Table 11-1, p706" ID="ID_1073764974" CREATED="1791741464760" MODIFIED="1791741474329"/>
+<node TEXT="GPIO_PORTx_AFSEL_R and GPIO_PORTx_PCTL_R" ID="ID_1386057902" CREATED="1791741518465" MODIFIED="1791741558115"/>
 </node>
-<node TEXT="Modes (programmable)" FOLDED="true" ID="ID_1117529803" CREATED="1742399252581" MODIFIED="1785897713159">
+<node TEXT="operation" ID="ID_1323676885" CREATED="1791741666633" MODIFIED="1791741678355">
+<node TEXT="" ID="ID_1961110408" CREATED="1791741679789" MODIFIED="1791741692472">
+<hook URI="PrescalarTable.png" SIZE="0.54151624" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="prescalar" ID="ID_803695018" CREATED="1791741868723" MODIFIED="1791741883531">
+<node TEXT="extra bits" ID="ID_1346789103" CREATED="1791741890998" MODIFIED="1791741901815">
+<node TEXT="in count down, like a divisor" ID="ID_665861121" CREATED="1791741902949" MODIFIED="1791741917093"/>
+<node TEXT="in count up, they are an extension of bits to the left" ID="ID_1544169382" CREATED="1791741917745" MODIFIED="1791741932116"/>
+</node>
+<node TEXT="" ID="ID_316809114" CREATED="1791741947615" MODIFIED="1791741947615"/>
+</node>
+<node TEXT="interrupts" ID="ID_83845920" CREATED="1791741952392" MODIFIED="1791741958357">
+<node TEXT="from the comparator (see block diagram)" ID="ID_614973648" CREATED="1791741959376" MODIFIED="1791741998340"/>
+<node TEXT="goes to the RIS_R register" ID="ID_387650560" CREATED="1791742000444" MODIFIED="1791742015758"/>
+<node TEXT="from there, it is just like gpio interrupts" ID="ID_1390600728" CREATED="1791742017327" MODIFIED="1791742031783"/>
+</node>
+<node TEXT="range" ID="ID_680358962" CREATED="1791742037735" MODIFIED="1791742053122">
+<node TEXT="calculate in class for 16, 24, and 32 bit configurations" ID="ID_1993750228" CREATED="1791742054116" MODIFIED="1791742073133"/>
+</node>
+</node>
+<node TEXT="Modes (programmable) Section 11.4 page 722" FOLDED="true" ID="ID_1117529803" CREATED="1742399252581" MODIFIED="1791742368273">
 <node TEXT="One shot" ID="ID_34268454" CREATED="1742399355230" MODIFIED="1742399358160"/>
 <node TEXT="Periodic" ID="ID_228606208" CREATED="1742399362522" MODIFIED="1742399365471"/>
 <node TEXT="RTC" ID="ID_903477622" CREATED="1742399375149" MODIFIED="1742399377640">
@@ -1383,7 +1408,7 @@
 <node TEXT="Input Edge Time" ID="ID_1382946569" CREATED="1742399418244" MODIFIED="1742399434221"/>
 <node TEXT="PWM Mode" ID="ID_1434697181" CREATED="1742399437593" MODIFIED="1742399442245"/>
 </node>
-<node TEXT="example functions from a timer" ID="ID_1708912767" CREATED="1742332877267" MODIFIED="1785897717956">
+<node TEXT="example functions from a timer" FOLDED="true" ID="ID_1708912767" CREATED="1742332877267" MODIFIED="1785897717956">
 <node TEXT="fixed time delay" ID="ID_264109994" CREATED="1742332889102" MODIFIED="1742332896314"/>
 <node TEXT="periodic interrupt" ID="ID_1932590133" CREATED="1742332899413" MODIFIED="1742332904350"/>
 <node TEXT="PWM from timer" ID="ID_1588824568" CREATED="1742332926182" MODIFIED="1742332930421"/>
@@ -1393,7 +1418,7 @@
 <node TEXT="Volvano Page 296-299" ID="ID_1487812218" CREATED="1742399769518" MODIFIED="1742399785224"/>
 </node>
 </node>
-<node TEXT="switch debouncing" FOLDED="true" ID="ID_1488240158" CREATED="1774208097087" MODIFIED="1785897721216">
+<node TEXT="switch debouncing" ID="ID_1488240158" CREATED="1774208097087" MODIFIED="1785897721216">
 <node TEXT="show example code" ID="ID_1328322087" CREATED="1775062028634" MODIFIED="1775062034711"/>
 </node>
 </node>
