@@ -4,7 +4,7 @@
     <bookmark nodeId="ID_1171700979" name="Root" opensAsRoot="true"/>
 </bookmarks>
 <node TEXT="CSE3310 Fundamentals of Software Engineering" FOLDED="false" ID="ID_1171700979" CREATED="1703959867184" MODIFIED="1767120824740" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW"><hook NAME="MapStyle" zoom="1.5">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" auto_compact_layout="true" show_tags="UNDER_NODES" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false" show_notes_in_map="true"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" auto_compact_layout="true" show_notes_in_map="true" show_tags="UNDER_NODES" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -783,9 +783,9 @@
 </node>
 <node TEXT="06.0 Design and Implementation" POSITION="top_or_left" ID="ID_7229223" CREATED="1703960109127" MODIFIED="1705795585940"/>
 <node TEXT="07.0 Software Testing" FOLDED="true" POSITION="bottom_or_right" ID="ID_1745259993" CREATED="1703960127362" MODIFIED="1705795550799">
-<node TEXT="1. Definitions (sommerville)" FOLDED="true" ID="ID_1647273780" CREATED="1720572805829" MODIFIED="1772477422717">
-<node TEXT="Testing" FOLDED="true" ID="ID_1414981698" CREATED="1721062076223" MODIFIED="1721062152781">
-<node TEXT="Software testing consists of the dynamic verification that a program provides expected behaviors on a finite set of test cases, suitably selected from the usually infinite execution domain. In the above definition, italicized words correspond to key issues in describing the Software Testing knowledge area (KA):" ID="ID_1304314201" CREATED="1721062154328" MODIFIED="1721062157768">
+<node TEXT="1. Definitions (sommerville)" ID="ID_1647273780" CREATED="1720572805829" MODIFIED="1772477422717">
+<node TEXT="Testing" ID="ID_1414981698" CREATED="1721062076223" MODIFIED="1721062152781">
+<node TEXT="Software testing consists of the dynamic verification that a program provides expected behaviors on a finite set of test cases, suitably selected from the usually infinite execution domain. In the above definition, italicized words correspond to key issues in describing the Software Testing knowledge area (KA):" ID="ID_1304314201" CREATED="1721062154328" MODIFIED="1791835895802">
 <node TEXT="Dynamic: This term means that testing always implies executing the program on selected inputs. To be precise, the input value alone is not always sufficient to specify a test, since a complex, nondeterministic system might react to the same input with different behaviors, depending on the system state. In this KA, however, the term “input” will be maintained, with the implied convention that its meaning also includes a specified input state in those cases for which it is important. Static techniques are different from and complementary to dynamic testing. Static techniques are covered in the Software Quality KA. It is worth noting that terminology is not uniform among different communities and some use the term “testing” also in reference to static techniques." ID="ID_367043458" CREATED="1721062160248" MODIFIED="1721062179484"/>
 <node TEXT="" ID="ID_1733253905" CREATED="1721062182029" MODIFIED="1721062182029">
 <node ID="ID_279957699" CREATED="1721062195176" MODIFIED="1721062195176"><richcontent TYPE="NODE">
@@ -802,7 +802,7 @@
 </node>
 </node>
 <node TEXT="Selected: The many proposed test techniques differ essentially in how the test set is selected, and software engineers must be aware that different selection criteria may yield vastly different degrees of effectiveness. How to identify the most suitable selection criterion under given conditions is a complex problem; in practice, risk analysis techniques and software engineering expertise are applied." ID="ID_125369912" CREATED="1721062203979" MODIFIED="1721062218500"/>
-<node TEXT="Expected: It must be possible, although not always easy, to decide whether the observed outcomes of program testing are acceptable or not; otherwise, the testing effort is useless. The observed behavior may be checked against user needs (commonly referred to as testing for validation), against a specification (testing for verification), or, perhaps, against the anticipated behavior from implicit requirements or expectations (see Acceptance Tests in the Software Requirements KA)." ID="ID_552391593" CREATED="1721062222218" MODIFIED="1721062249324"/>
+<node TEXT="Expected: It must be possible, although not always easy, to decide whether the observed outcomes of program testing are acceptable or not; otherwise, the testing effort is useless. The observed behavior may be checked against user needs (commonly referred to as testing for validation), against a specification (testing for verification), or, perhaps, against the anticipated behavior from implicit requirements or expectations (see Acceptance Tests in the Software Requirements KA)." ID="ID_552391593" CREATED="1721062222218" MODIFIED="1791835895797" HGAP_QUANTITY="379.99999 pt" VSHIFT_QUANTITY="150.75 pt"/>
 </node>
 <node TEXT="Two Types of Testing" ID="ID_504702725" CREATED="1721062369996" MODIFIED="1721062378314">
 <node TEXT="Demonstrate Compliance with Requirements" ID="ID_1169415258" CREATED="1721062379851" MODIFIED="1721062392621">
@@ -811,19 +811,19 @@
 <node TEXT="Identify Defects" ID="ID_474527618" CREATED="1721062396095" MODIFIED="1721062406304"/>
 </node>
 </node>
-<node TEXT="Validation" FOLDED="true" ID="ID_988269404" CREATED="1721062250444" MODIFIED="1721062255442">
+<node TEXT="Validation" ID="ID_988269404" CREATED="1721062250444" MODIFIED="1721062255442">
 <node TEXT="are we making the right product?" ID="ID_17880005" CREATED="1771955568769" MODIFIED="1771955586033"/>
 </node>
-<node TEXT="Verification" FOLDED="true" ID="ID_993638336" CREATED="1721062259587" MODIFIED="1721062264623">
+<node TEXT="Verification" ID="ID_993638336" CREATED="1721062259587" MODIFIED="1721062264623">
 <node TEXT="are we making the product right?" ID="ID_1956852860" CREATED="1771955586574" MODIFIED="1771955598881"/>
 </node>
 <node TEXT="Oracle" FOLDED="true" ID="ID_1909817428" CREATED="1721062268098" MODIFIED="1721062271350">
 <node TEXT="An oracle is any human or mechanical agent that decides whether a program behaved correctly in a given test and accordingly results in a verdict of “pass” or “fail.” There exist many different kinds of oracles; for example, unambiguous requirements specifications, behavioral models, and code annotations. Automation of mechanized oracles can be difficult and expensive." ID="ID_1625023851" CREATED="1721062922640" MODIFIED="1721062925771"/>
 </node>
-<node TEXT="White Box" FOLDED="true" ID="ID_858542367" CREATED="1721062413454" MODIFIED="1721062418281">
+<node TEXT="White Box" ID="ID_858542367" CREATED="1721062413454" MODIFIED="1721062418281">
 <node TEXT="testing done taking into account the internal structure of the system / software" ID="ID_1947607797" CREATED="1771955602471" MODIFIED="1771955624194"/>
 </node>
-<node TEXT="Black Box" FOLDED="true" ID="ID_322266871" CREATED="1721062420132" MODIFIED="1721062425787">
+<node TEXT="Black Box" ID="ID_322266871" CREATED="1721062420132" MODIFIED="1721062425787">
 <node TEXT="testing done based upon specifications only" ID="ID_481740122" CREATED="1771955625934" MODIFIED="1771955643471"/>
 </node>
 <node TEXT="&quot;Testing can only show the presence of errors, not their absence&quot;  Edsgar Dijkstra" FOLDED="true" ID="ID_420145085" CREATED="1721062439147" MODIFIED="1721062483561">
@@ -847,9 +847,9 @@
 <node TEXT="failure- an undesired effect or event where a system or component does not perform a required function within specified limits. It is the externally visible, observed, or delivered service deviation from expected behavior, often caused by a underlying fault" ID="ID_886523564" CREATED="1772477090408" MODIFIED="1772477206341"/>
 <node TEXT="mistake - an action taken by a human that causes a fault" ID="ID_1481832371" CREATED="1772477208503" MODIFIED="1772477224728"/>
 </node>
-<node TEXT="3. Types of Testing" FOLDED="true" ID="ID_50577210" CREATED="1720572823007" MODIFIED="1773863834868">
+<node TEXT="3. Types of Testing" ID="ID_50577210" CREATED="1720572823007" MODIFIED="1773863834868">
 <node TEXT="swebok" ID="ID_1876603933" CREATED="1720572832569" MODIFIED="1720572841385">
-<node TEXT="Level" FOLDED="true" ID="ID_31670054" CREATED="1791731137688" MODIFIED="1791731247134">
+<node TEXT="Level" ID="ID_31670054" CREATED="1791731137688" MODIFIED="1791731247134">
 <node ID="ID_1066173274" CREATED="1791731376396" MODIFIED="1791731376396"><richcontent TYPE="NODE">
 
 <html>
@@ -915,7 +915,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Objective" FOLDED="true" ID="ID_365490982" CREATED="1791731248187" MODIFIED="1791731317963">
+<node TEXT="Objective" ID="ID_365490982" CREATED="1791731248187" MODIFIED="1791731317963">
 <node ID="ID_769778752" CREATED="1791731303600" MODIFIED="1791731303600"><richcontent TYPE="NODE">
 
 <html>
@@ -1112,8 +1112,8 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Technique" FOLDED="true" ID="ID_736697585" CREATED="1791731256378" MODIFIED="1791731274545">
-<node FOLDED="true" ID="ID_1669758845" CREATED="1791731552305" MODIFIED="1791731572019"><richcontent TYPE="NODE">
+<node TEXT="Technique" ID="ID_736697585" CREATED="1791731256378" MODIFIED="1791731274545">
+<node ID="ID_1669758845" CREATED="1791731552305" MODIFIED="1791731572019"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -1548,7 +1548,7 @@
 </html>
 </richcontent>
 <node TEXT="Design tests specifically to expose particular kinds of faults believed likely to exist." ID="ID_1746209952" CREATED="1791735923449" MODIFIED="1791735973526"/>
-<node TEXT="Mutation testing deliberately introduces small changes, called mutants, into a program and checks whether the test suite detects them." FOLDED="true" ID="ID_1501711017" CREATED="1791735975050" MODIFIED="1791736007649">
+<node TEXT="Mutation testing deliberately introduces small changes, called mutants, into a program and checks whether the test suite detects them." ID="ID_1501711017" CREATED="1791735975050" MODIFIED="1791736007649">
 <node TEXT="this tests check the test suite, not the program source code for defects" ID="ID_1754123836" CREATED="1791736007662" MODIFIED="1791736032478"/>
 <node TEXT="also known as defect seeding" ID="ID_804105065" CREATED="1791736035607" MODIFIED="1791736047496"/>
 </node>
@@ -1670,7 +1670,7 @@
 </node>
 </node>
 </node>
-<node TEXT="sommerville" FOLDED="true" ID="ID_652520180" CREATED="1720572843160" MODIFIED="1773863834867">
+<node TEXT="sommerville" ID="ID_652520180" CREATED="1720572843160" MODIFIED="1773863834867">
 <node TEXT="Development Testing" ID="ID_1534671895" CREATED="1721062327587" MODIFIED="1721062334248">
 <node TEXT="Unit" ID="ID_972415720" CREATED="1721062728447" MODIFIED="1721062734082"/>
 <node TEXT="Component" ID="ID_1159049850" CREATED="1721062735534" MODIFIED="1721062741484"/>
@@ -1706,15 +1706,15 @@
 </node>
 </node>
 </node>
-<node TEXT="4. Test Driven Development (TDD)" FOLDED="true" ID="ID_1965418179" CREATED="1720572873049" MODIFIED="1772477447807">
-<hook URI="tdd.png" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="4. Test Driven Development (TDD)" ID="ID_1965418179" CREATED="1720572873049" MODIFIED="1772477447807">
+<hook URI="tdd.png" SIZE="1.4661654" NAME="ExternalObject"/>
 <node TEXT="Code Coverage" ID="ID_1885294541" CREATED="1721063051431" MODIFIED="1721063065951"/>
 <node TEXT="Regression" ID="ID_1024837956" CREATED="1721063068928" MODIFIED="1721063078651"/>
 <node TEXT="Simplified Debugging" ID="ID_1196831275" CREATED="1721063081717" MODIFIED="1721063087946"/>
 <node TEXT="System Documentation" ID="ID_1008565905" CREATED="1721063090811" MODIFIED="1721063097943"/>
 <node TEXT="Write the Test before you write the code" ID="ID_1336835395" CREATED="1721063338931" MODIFIED="1721063350254"/>
 </node>
-<node TEXT="5.  Practical Testing Techniques" FOLDED="true" ID="ID_566119348" CREATED="1772477520604" MODIFIED="1772484831510">
+<node TEXT="5.  Practical Testing Techniques" ID="ID_566119348" CREATED="1772477520604" MODIFIED="1772484831510">
 <node TEXT="select types of testing that match what you are developing" ID="ID_1538520529" CREATED="1772477536353" MODIFIED="1772477551828">
 <node TEXT="Testing for a game is different than bank software" ID="ID_1913456430" CREATED="1791730682003" MODIFIED="1791730709312"/>
 <node TEXT="Usage Based Software Testing" ID="ID_1448048492" CREATED="1791730712135" MODIFIED="1791730723032">
@@ -1739,7 +1739,7 @@
 </node>
 </node>
 </node>
-<node TEXT="08.0 Software Evolution" FOLDED="true" POSITION="top_or_left" ID="ID_1115346714" CREATED="1703960140577" MODIFIED="1705795577335">
+<node TEXT="08.0 Software Evolution" POSITION="top_or_left" ID="ID_1115346714" CREATED="1703960140577" MODIFIED="1705795577335">
 <node TEXT="1. Introduction" ID="ID_55644239" CREATED="1721659300913" MODIFIED="1761155899662">
 <node TEXT="Maintenance / Evolution is changing software after it has been delivered." ID="ID_1302931771" CREATED="1721659310195" MODIFIED="1721659329021"/>
 <node TEXT="Why does software change?" ID="ID_123019938" CREATED="1721659332757" MODIFIED="1721659347110">
