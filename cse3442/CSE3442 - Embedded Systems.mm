@@ -1338,7 +1338,7 @@
 </node>
 <node TEXT="4 questions" ID="ID_1932530224" CREATED="1785897768337" MODIFIED="1785897776310"/>
 </node>
-<node TEXT="09 GPTM" FOLDED="true" POSITION="top_or_left" ID="ID_1926501763" CREATED="1748038678402" MODIFIED="1778623160461">
+<node TEXT="09 GPTM" POSITION="top_or_left" ID="ID_1926501763" CREATED="1748038678402" MODIFIED="1778623160461">
 <edge COLOR="#7c7c00"/>
 <node TEXT="1 Objectives" ID="ID_1174515153" CREATED="1748787873647" MODIFIED="1748787878721">
 <node TEXT="select the appropriate width timer for a specific function" ID="ID_181445446" CREATED="1774201504605" MODIFIED="1774201527056"/>
@@ -1349,7 +1349,7 @@
 <node TEXT="Valvano  p287-p305" ID="ID_107581468" CREATED="1742329502776" MODIFIED="1742329551985"/>
 <node TEXT="https://www.romn.io/2021/01/ti-arm-tiva-tm4c123g-general-purpose.html" ID="ID_91766648" CREATED="1742330334116" MODIFIED="1742330336680"/>
 </node>
-<node TEXT="3 Contents" FOLDED="true" ID="ID_525027230" CREATED="1748787899151" MODIFIED="1774201547066">
+<node TEXT="3 Contents" ID="ID_525027230" CREATED="1748787899151" MODIFIED="1774201547066">
 <node TEXT="In this course, we will only deal with the regular timers.  Wide timers are very similar, but they have a lot of restrictions on the order of access to registers, etc.  If you need to use a wide timer, hit the data sheet." ID="ID_1603210142" CREATED="1774203231377" MODIFIED="1785897700492"/>
 <node TEXT="tm4c has 6 GPTM&apos;s (General Purpose Timer Modules)" ID="ID_1801247825" CREATED="1742331283384" MODIFIED="1791741320119">
 <node TEXT="Each has 2 input / output pins" ID="ID_25991900" CREATED="1742331349703" MODIFIED="1774208021770">
