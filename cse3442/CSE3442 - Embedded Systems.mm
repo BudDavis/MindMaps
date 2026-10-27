@@ -1,7 +1,7 @@
 <map version="freeplane 1.12.15">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<attribute_registry SHOW_ATTRIBUTES="hide"/>
 <bookmarks/>
+<attribute_registry SHOW_ATTRIBUTES="hide"/>
 <node TEXT="Embedded Systems I" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1791742512084" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_CENTERED" NodeVisibilityConfiguration="SHOW_HIDDEN_NODES"><hook NAME="MapStyle" zoom="2.0">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="false" auto_compact_layout="false" show_notes_in_map="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" allow_compact_layout="false" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
@@ -1431,7 +1431,7 @@
 </node>
 </node>
 </node>
-<node TEXT="10 Pulse Width Modulation" FOLDED="true" POSITION="top_or_left" ID="ID_582282277" CREATED="1748038683372" MODIFIED="1778623166366">
+<node TEXT="10 Pulse Width Modulation" POSITION="top_or_left" ID="ID_582282277" CREATED="1748038683372" MODIFIED="1778623166366">
 <edge COLOR="#ff0000"/>
 <node TEXT="1 Objectives" ID="ID_1108656082" CREATED="1748787918864" MODIFIED="1748787923399">
 <node TEXT="be able to program a PWM generator for a given frequency / duty cycle" ID="ID_1098083733" CREATED="1760810218866" MODIFIED="1774208162924"/>
@@ -1482,10 +1482,24 @@
 <node TEXT="4. cmpa" ID="ID_861381726" CREATED="1760910997999" MODIFIED="1761246737531"/>
 <node TEXT="5. cmpb" ID="ID_165219817" CREATED="1760911004823" MODIFIED="1761246741147"/>
 <node TEXT="6. control" ID="ID_1776864629" CREATED="1760911323853" MODIFIED="1761246750476"/>
-<node TEXT="pwm.c is an example" ID="ID_506460632" CREATED="1760911145236" MODIFIED="1761246760937"/>
+<node TEXT="pwm.c is an example" ID="ID_506460632" CREATED="1760911145236" MODIFIED="1761246760937">
+<node TEXT="" ID="ID_1899000607" CREATED="1793133889794" MODIFIED="1793133936113">
+<hook URI="pwm2.png" SIZE="0.45489007" NAME="ExternalObject"/>
+</node>
+<node TEXT="2" OBJECT="java.lang.Long|2" ID="ID_1557511137" CREATED="1793133873321" MODIFIED="1793133915853">
+<hook URI="pwm1.png" SIZE="0.45489007" NAME="ExternalObject"/>
+</node>
+</node>
 </node>
 <node TEXT="motor control" ID="ID_425848708" CREATED="1760911165703" MODIFIED="1760911170378">
-<node TEXT="H Bridge" ID="ID_1704155757" CREATED="1793049913221" MODIFIED="1793049919366"/>
+<node TEXT="H Bridge" FOLDED="true" ID="ID_1704155757" CREATED="1793049913221" MODIFIED="1793132776766">
+<hook URI="hbridge.png" SIZE="0.55710304" NAME="ExternalObject"/>
+<node TEXT="" ID="ID_1213263153" CREATED="1793133538893" MODIFIED="1793133552867">
+<hook URI="hbridge2.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="control the H bridge to change direction of the motor" ID="ID_1082171571" CREATED="1793133575595" MODIFIED="1793133592968"/>
+<node TEXT="control the duty cycle of the pwm signal for motor speed" ID="ID_1275865691" CREATED="1793133594771" MODIFIED="1793133614575"/>
 </node>
 <node TEXT="sine wave (volvano p414)" ID="ID_394449830" CREATED="1760911172813" MODIFIED="1760911210191"/>
 </node>
